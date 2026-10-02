@@ -9,7 +9,7 @@
 @font-face{font-family:Cairo;src:url(Cairo.ttf);font-weight:200 900}
 :root{--g1:#06352b;--g2:#0b5a46;--gold:#e3b95a;--gold2:#f6e3a6;--cream:#fbf5e3;--ink:#0a2a22}
 *{box-sizing:border-box;margin:0;padding:0}
-body{width:1080px;height:1912px;font-family:Cairo,sans-serif;background:var(--g1);position:relative;overflow:hidden;color:var(--cream)}
+body{width:1080px;height:2070px;font-family:Cairo,sans-serif;background:var(--g1);position:relative;overflow:hidden;color:var(--cream)}
 .bg{position:absolute;inset:0;background:
  radial-gradient(circle at 50% 0%,#12795e 0,transparent 55%),
  radial-gradient(circle at 50% 100%,#0d6a52 0,transparent 50%),var(--g1)}
@@ -40,17 +40,21 @@ h1{font-family:Amiri;font-weight:700;font-size:138px;line-height:1.1;color:var(-
 .col h3{font-size:34px;font-weight:900;margin:2px 0 6px}
 .col p{font-family:Amiri;font-weight:700;font-size:31px;line-height:1.5}
 .col .ic{font-size:50px}
-.foot{margin-top:34px;padding-bottom:30px;font-family:Amiri;font-size:30px;color:var(--gold2);text-align:center;line-height:1.6}
+.foot{margin-top:30px;padding-bottom:0;font-family:Amiri;font-size:30px;color:var(--gold2);text-align:center;line-height:1.6}
 .foot small{display:block;font-family:Cairo;font-size:18px;color:#9fcfbd;margin-top:6px}
+.name{margin-top:auto;padding-bottom:34px;text-align:center}
+.name .ln{width:380px;height:2px;margin:0 auto 12px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.name b{font-family:Amiri;font-weight:700;font-size:50px;color:var(--gold);text-shadow:0 3px 12px rgba(0,0,0,.4)}
+.name span{display:block;font-size:20px;color:#9fcfbd;margin-top:-4px}
 </style>
 </head>
 <body>
 <div class="bg"></div>
-<svg class="pattern" width="1080" height="1912"><defs>
+<svg class="pattern" width="1080" height="2070"><defs>
 <pattern id="p" width="90" height="90" patternUnits="userSpaceOnUse">
 <path d="M45 4 L56 34 L86 45 L56 56 L45 86 L34 56 L4 45 L34 34Z" fill="none" stroke="#e3b95a" stroke-width="2"/>
 <circle cx="45" cy="45" r="9" fill="none" stroke="#e3b95a" stroke-width="1.5"/></pattern></defs>
-<rect width="1080" height="1912" fill="url(#p)"/></svg>
+<rect width="1080" height="2070" fill="url(#p)"/></svg>
 <div class="frame"></div>
 
 <div class="wrap">
@@ -104,6 +108,7 @@ h1{font-family:Amiri;font-weight:700;font-size:138px;line-height:1.1;color:var(-
 
  <div class="foot">صِلْ مَنْ قَطَعك · وأَعْطِ مَنْ حَرَمك · واعْفُ عمَّن ظَلَمك
   <small>ابدأ اليوم بمكالمة أو زيارة أو رسالة طيبة لأحد أقاربك</small></div>
+ <div class="name"><div class="ln"></div><b>د. الفاضل بلال</b><span>استشاري القلب وإيكو القلب</span></div>
 </div>
 </body>
 </html>
