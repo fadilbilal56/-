@@ -119,7 +119,7 @@ def main():
     # group pages keep their own footer stamp; skip stamping group pages in merged by stamping all (footer area reserved)
     total = build_pdf(pw, parts, f'{OUTB}/الإنفوجرافيك_الشامل_المدمج.pdf', lambda i, n_: f'صفحة {ar(i+1)} من {ar(n_)}', outline, f'{TITLE} - {SUB} - إنفوجرافيك')
     for g in sorted(G):
-        build_pdf(pw, [files[g]], f'{OUTB}/إنفوجرافيك_المجموعات/إنفوجرافيك_المجموعة_{g:02d}.pdf', lambda i, n_, g=g: f'المجموعة {ar(g)} · {TITLE}', None, f'إنفوجرافيك المجموعة {g}', skip_first=False)
+        build_pdf(pw, [files[g]], f'{OUTB}/إنفوجرافيك_المجموعات/{TITLE} - {SUB} - إنفوجرافيك المجموعة {g:02d}.pdf', lambda i, n_, g=g: f'المجموعة {ar(g)} · {TITLE}', None, f'{TITLE} - {SUB} - إنفوجرافيك المجموعة {g}', skip_first=False)
     pw.stop(); print('B done', total)
 
 if __name__ == '__main__': main()

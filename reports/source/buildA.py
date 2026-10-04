@@ -124,7 +124,7 @@ def main():
     outline = [('الغلاف', 0), ('الفهرس', 1), ('الملخص والتحليل', 2)] + [(f'تقرير المجموعة {ar(g)}', start[g] - 1) for g in sorted(G)]
     total = build_pdf(pw, parts, f'{OUTA}/التقرير_الشامل_المدمج_التحليلي.pdf', lambda i, n_: f'صفحة {ar(i+1)} من {ar(n_)}', outline, f'{TITLE} - {SUB} - النسخة التحليلية')
     for g in sorted(G):
-        build_pdf(pw, [files[g]], f'{OUTA}/تقارير_المجموعات/تقرير_المجموعة_{g:02d}.pdf', lambda i, n_, g=g: f'المجموعة {ar(g)} · صفحة {ar(i+1)} من {ar(n_)}', None, f'تقرير المجموعة {g}', skip_first=False)
+        build_pdf(pw, [files[g]], f'{OUTA}/تقارير_المجموعات/{TITLE} - {SUB} - تقرير المجموعة {g:02d}.pdf', lambda i, n_, g=g: f'المجموعة {ar(g)} · صفحة {ar(i+1)} من {ar(n_)}', None, f'{TITLE} - {SUB} - تقرير المجموعة {g}', skip_first=False)
     pw.stop(); print('A done', total)
 
 if __name__ == '__main__': main()
