@@ -2,9 +2,9 @@ from theme import *
 from buildA import waterfall, kpi
 from playwright.sync_api import sync_playwright
 
-OUTB = '/home/user/-/reports/النسخة_الثانية_إنفوجرافيك'
+OUTB = '/home/user/-/reports/نسخة_الأزرق_والأبيض/النسخة_الثانية_إنفوجرافيك' if BLUE else '/home/user/-/reports/النسخة_الثانية_إنفوجرافيك'
 os.makedirs(OUTB + '/إنفوجرافيك_المجموعات', exist_ok=True)
-TMP = f'{W}/work/tmpB'; os.makedirs(TMP, exist_ok=True)
+TMP = f'{W}/work/tmpB' + ('_blue' if BLUE else ''); os.makedirs(TMP, exist_ok=True)
 TINT = {'مسدد كاملاً': '#e6f8ef', 'مسدد جزئياً': '#fff1dc', 'لم يسدد': '#fde9ea', 'شاغر': '#f3f5f4'}
 
 def blob(val, label, c1, c2, size=52):
@@ -120,6 +120,6 @@ def main():
     total = build_pdf(pw, parts, f'{OUTB}/الإنفوجرافيك_الشامل_المدمج.pdf', lambda i, n_: f'صفحة {ar(i+1)} من {ar(n_)}', outline, f'{TITLE} - {SUB} - إنفوجرافيك')
     for g in sorted(G):
         build_pdf(pw, [files[g]], f'{OUTB}/إنفوجرافيك_المجموعات/{TITLE} - {SUB} - إنفوجرافيك المجموعة {g:02d}.pdf', lambda i, n_, g=g: f'المجموعة {ar(g)} · {TITLE}', None, f'{TITLE} - {SUB} - إنفوجرافيك المجموعة {g}', skip_first=False)
-    pw.stop(); print('B done', total)
+    pw.stop(); print('B done', total); report_unmapped()
 
 if __name__ == '__main__': main()

@@ -1,9 +1,9 @@
 from theme import *
 from playwright.sync_api import sync_playwright
 
-OUTA = '/home/user/-/reports/النسخة_الأولى_التحليلية_الملونة'
+OUTA = '/home/user/-/reports/نسخة_الأزرق_والأبيض/النسخة_الأولى_التحليلية' if BLUE else '/home/user/-/reports/النسخة_الأولى_التحليلية_الملونة'
 os.makedirs(OUTA + '/تقارير_المجموعات', exist_ok=True)
-TMP = f'{W}/work/tmpA'; os.makedirs(TMP, exist_ok=True)
+TMP = f'{W}/work/tmpA' + ('_blue' if BLUE else ''); os.makedirs(TMP, exist_ok=True)
 
 def kpi(label, val, sub, c1, c2):
     return f'<div style="border-radius:4mm;padding:4mm;color:#fff;background:linear-gradient(135deg,{c1},{c2});position:relative;overflow:hidden"><div style="font-size:9.5pt;font-weight:700;opacity:.95">{label}</div><div class="disp num" style="font-size:25pt;line-height:1.15;text-align:right">{val}</div><div style="font-size:8.5pt;opacity:.92">{sub}</div></div>'
@@ -125,6 +125,6 @@ def main():
     total = build_pdf(pw, parts, f'{OUTA}/التقرير_الشامل_المدمج_التحليلي.pdf', lambda i, n_: f'صفحة {ar(i+1)} من {ar(n_)}', outline, f'{TITLE} - {SUB} - النسخة التحليلية')
     for g in sorted(G):
         build_pdf(pw, [files[g]], f'{OUTA}/تقارير_المجموعات/{TITLE} - {SUB} - تقرير المجموعة {g:02d}.pdf', lambda i, n_, g=g: f'المجموعة {ar(g)} · صفحة {ar(i+1)} من {ar(n_)}', None, f'{TITLE} - {SUB} - تقرير المجموعة {g}', skip_first=False)
-    pw.stop(); print('A done', total)
+    pw.stop(); print('A done', total); report_unmapped()
 
 if __name__ == '__main__': main()

@@ -1,13 +1,44 @@
 import math, os, html
 from build import G, TOT, f, fp, ar, DUE, TODAY, TITLE, SUB, FONTS, CHROME, W, stamp, render as _render
 from build import doc as plain_doc
-render = _render
+import re as _re
+HEXMAP = {
+ # greens/teal/nile -> blues
+ '#0f7b4f':'#0d47a1','#3fb57a':'#4a90e2','#0a6c8f':'#0b3d91','#27a9c9':'#5aa9ee','#0b5d3b':'#0b3d91','#16a06a':'#4a90e2','#0e7490':'#1565c0','#2aa6c4':'#5aa9ee',
+ # warm -> light blue / white
+ '#f4a300':'#8ec5f5','#ff7a1a':'#3b82d6','#b4532a':'#1e4fa0','#6a3d9a':'#1e4fa0','#c8962b':'#8ec5f5','#e0457b':'#3b82d6','#d98a5a':'#5aa9ee','#9aa5a0':'#6c8fbf','#c9d3ce':'#cfe0f5',
+ '#c4313a':'#1e4fa0','#f0646b':'#4f8fdc','#b8710a':'#1e5aa8','#e08a00':'#3b82d6',
+ # statuses
+ '#12b76a':'#0a2f6b','#f79009':'#2d72d2','#e5484d':'#7fa8e0','#cfd8d3':'#e3eaf3',
+ '#e6f8ef':'#e8efff','#fff1dc':'#e8f2ff','#fde9ea':'#f0f6fd','#f3f5f4':'#f4f7fb','#c4ccc8':'#c9d6e8',
+ # backgrounds / neutrals
+ '#fffdf8':'#ffffff','#fff3d6':'#eaf3fd','#fff8e6':'#eaf3fd','#fbf6ea':'#f3f8fe','#f3ead6':'#e6eef9','#efe5d0':'#e6eef9','#f1e8d4':'#e6eef9','#f0e8d6':'#e3ebf6','#f1e6cf':'#e3ebf6','#e8f0ec':'#e6eef9','#e3ece7':'#e3ebf6',
+ '#6b6252':'#5b6b80','#e5eee9':'#e6eef9','#dfe8e3':'#d8e4f3','#f4f9f6':'#f3f8fe','#f7fbf9':'#f3f8fe','#5b6b64':'#5b6b80','#9aa5a0 ':'#6c8fbf',
+ # scene
+ '#2b5fa8':'#1b4f9c','#ff9a3c':'#9ecbf7','#ffd36b':'#e3f1ff','#fff6c8':'#ffffff','#ffd05a':'#f4faff','#c98543':'#a8c8ec','#8f5a2a':'#6f9bd0','#e8b176':'#ffffff','#dba064':'#f0f6fd','#e1a566':'#ffffff',
+ '#6b3e1d':'#1d5fa8','#fff3c4':'#dcecff','#7a4b22':'#2d5a8c','#a1672d':'#1d4e89','#5b3418':'#1b3f73','#fff8e6':'#eaf3fd','#ffe3a3':'#cfe4fb','#9b8359':'#7f9dc4','#b8a27a':'#9db8d9','#d9c9a3':'#c5d8ee',
+ '#7cb518':'#4a90e2','#a8d44a':'#7fb2ee','#f0a000':'#3b82d6','#bfe8f5':'#e3f1ff','#fff2cf':'#f4faff','#b3801a':'#1e4fa0','#a8302a':'#1e4fa0','#cfe9f2':'#dcecff','#073f58':'#0a2f6b','#ffe9a8':'#dcecff','#fde4':'#fff',
+ '#9aa5a0':'#6c8fbf',
+}
+HEXMAP.update({'#e0a000':'#3b82d6','#efe6d0':'#e6eef9'})
+SEEN = set()
+def remap(h):
+    if not BLUE: return h
+    h = h.replace('تحليلية ملونة', 'تحليلية بالأزرق والأبيض')
+    def rep(m):
+        k = m.group(0).lower(); SEEN.add(k)
+        return HEXMAP.get(k, k)
+    return _re.sub(r'#[0-9a-fA-F]{6}\b', rep, h)
+def render(pw, html_str, path, footer_fn=None): return _render(pw, remap(html_str), path)
 from pypdf import PdfReader, PdfWriter
 
 NILE, NILE2, PALM, PALM2 = '#0a6c8f', '#27a9c9', '#0f7b4f', '#3fb57a'
 SUN, SUN2, CLAY, PLUM, INK = '#f4a300', '#ff7a1a', '#b4532a', '#6a3d9a', '#1f2a37'
 ST = {'مسدد كاملاً': '#12b76a', 'مسدد جزئياً': '#f79009', 'لم يسدد': '#e5484d', 'شاغر': '#cfd8d3'}
-def gcol(g, l=40): return f'hsl({(g*37+150)%360},62%,{l}%)'
+BLUE = os.environ.get('THEME') == 'blue'
+def gcol(g, l=40):
+    if BLUE: return f'hsl(214,{60+g%3*8}%,{max(22,min(l+ (g%5)*4-6,62))}%)'
+    return f'hsl({(g*37+150)%360},62%,{l}%)'
 
 FONT_CSS = ''.join(f"@font-face{{font-family:'{n}';font-weight:{w};src:url(file://{FONTS}/{fn})}}" for n, w, fn in [
     ('Cairo', 400, 'Cairo-400.ttf'), ('Cairo', 700, 'Cairo-700.ttf'), ('Cairo', 900, 'Cairo-900.ttf'),
@@ -171,3 +202,7 @@ def build_pdf(pw, parts, out, label_fn, outline=None, title='', skip_first=True)
     if title: w2.add_metadata({'/Title': title})
     w2.write(out); os.remove(raw); os.remove(out + '.ov.pdf')
     return n_
+
+def report_unmapped():
+    miss = sorted(k for k in SEEN if k not in HEXMAP)
+    print('unmapped hex:', miss)
