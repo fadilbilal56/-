@@ -55,9 +55,9 @@ def group_info(x):
     rank = 1 + sum(1 for y in G.values() if y['paid'] > x['paid'])
     cnt = {'مسدد كاملاً': x['full'], 'مسدد جزئياً': x['part'], 'لم يسدد': x['none'], 'شاغر': x['vacant']}
     rem_part = sum(m['rem'] for m in x['mem'] if m['st'] == 'مسدد جزئياً')
-    if x['named'] == 0: msg = 'لا أسماء مدرجة في هذه المجموعة بعد — ابدأوا بتسجيل الأعضاء ثم السداد.'
+    if x['named'] == 0: msg = 'ملف هذه المجموعة فارغ — ابدأوا بتسجيل الأعضاء ثم السداد.'
     elif x['paid'] == 0: msg = f'لا دفعات حتى الآن · {ar(x["named"])} عضواً مسجلاً بانتظار السداد — لنبدأ معاً.'
-    elif x['part']: msg = f'إكمال {ar(x["part"])} من المسددين جزئياً (<b>{f(rem_part)}</b>) يرفع النسبة بأسرع طريق.'
+    elif x['part']: msg = f'إكمال {ar(x["part"])} من المسددين جزئياً (<b>{f(rem_part)} ريال</b>) يرفع النسبة بأسرع طريق.'
     else: msg = f'بارك الله في السابقين — بقي {ar(x["none"])} عضواً لإكمال المجموعة.'
     chips = ''.join(f'<div style="display:flex;align-items:center;gap:2mm;background:{TINT[k]};border:1.3px solid {ST[k]};border-radius:6mm;padding:.6mm 3.5mm"><i style="width:3.4mm;height:3.4mm;border-radius:50%;background:{ST[k]}"></i><span class="mess" style="font-size:10pt">{k}</span><b class="disp" style="font-size:13pt;margin-right:1mm">{ar(v)}</b></div>' for k, v in cnt.items())
     cards = ''.join(card(m) for m in x['mem'])
@@ -70,7 +70,7 @@ def group_info(x):
 <div style="display:grid;grid-template-columns:50mm 1fr;gap:4mm;align-items:center;margin-top:4mm">
 <div style="text-align:center">{donut(x["pct"],132,c2,c1,"من المستهدف","dg"+str(g))}</div>
 <div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm">
-{kpi("المحصّل", f(x["paid"]), f"من {f(x['target'])}", PALM, PALM2)}{kpi("المتبقي", f(x["rem"]), "يشمل الشواغر", "#c4313a", "#f0646b")}{kpi("المسجلون", f'{ar(x["named"])}/٢٤', f"{ar(x['vacant'])} شاغر", NILE, NILE2)}{kpi("الترتيب", f'{ar(rank)}/٢٠', "حسب المحصّل", "#b8710a", SUN)}</div>
+{kpi("المحصّل (ريال)", f(x["paid"]), f"من {f(x['target'])} ريال", PALM, PALM2)}{kpi("المتبقي (ريال)", f(x["rem"]), "يشمل الشواغر", "#c4313a", "#f0646b")}{kpi("المسجلون", f'{ar(x["named"])}/٢٤', f"{ar(x['vacant'])} شاغر", NILE, NILE2)}{kpi("الترتيب", f'{ar(rank)}/٢٠', "حسب المحصّل", "#b8710a", SUN)}</div>
 <div style="display:flex;flex-wrap:wrap;gap:2mm;margin-top:3mm">{chips}</div></div></div>
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin-top:4mm">{cards}</div>
 <div style="position:absolute;left:10mm;right:10mm;bottom:12mm;border-radius:5mm;background:linear-gradient(90deg,{SUN},{SUN2});color:#fff;padding:2.2mm 6mm;font-weight:700;font-size:10.5pt;text-align:center">{msg}</div>
@@ -80,16 +80,16 @@ def front():
     ranked = sorted(G.values(), key=lambda y: (-y['paid'], y['g'])); zero = [g for g in sorted(G) if G[g]['paid'] == 0]
     cnt = {k: v for k, v in zip(ST, [TOT['full'], TOT['part'], TOT['none'], TOT['vacant']])}
     P1 = f'''<section class="page">{band("الأرقام الكبرى","قرية اللعوتة في ٣ أرقام","أرقام", PALM, NILE)}
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:6mm">{blob(f(TOT["paid"]),"المحصّل",PALM,PALM2,50)}{blob(f(TOT["rem"]),"المتبقي","#c4313a","#f0646b",50)}{blob(ar(TOT["named"]),"عضواً مسجلاً",NILE,NILE2,50)}</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:6mm">{blob(f(TOT["paid"]),"المحصّل بالريال",PALM,PALM2,50)}{blob(f(TOT["rem"]),"المتبقي بالريال","#c4313a","#f0646b",50)}{blob(ar(TOT["named"]),"عضواً مسجلاً",NILE,NILE2,50)}</div>
 <h2 class="sec"><i></i><span class="gradg">لو كان الهدف ١٠٠ مربع</span></h2>
-<div class="card" style="display:flex;align-items:center;justify-content:space-around;gap:6mm">{waffle100(TOT["pct"])}<div style="text-align:center"><div class="disp grad" style="font-size:58pt;line-height:1">{TOT["pct"]:.1f}%</div><div class="mess" style="font-size:13pt">تحقّق من المستهدف الكلي</div><div class="small">{f(TOT["paid"])} من {f(TOT["target"])}</div></div></div>
+<div class="card" style="display:flex;align-items:center;justify-content:space-around;gap:6mm">{waffle100(TOT["pct"])}<div style="text-align:center"><div class="disp grad" style="font-size:58pt;line-height:1">{TOT["pct"]:.1f}%</div><div class="mess" style="font-size:13pt">تحقّق من المستهدف الكلي</div><div class="small">{f(TOT["paid"])} من {f(TOT["target"])} ريال</div></div></div>
 <h2 class="sec"><i></i><span class="gradg">من هم الـ {ar(TOT["named"])} عضواً؟</span></h2>
 <div class="card" style="text-align:center">{waffle_members()}<div style="display:flex;justify-content:space-around;margin-top:3mm">{"".join(f'<div style="display:flex;align-items:center;gap:2mm"><i style="width:4mm;height:4mm;border-radius:50%;background:{ST[k]};display:inline-block"></i><span class="mess" style="font-size:11pt">{k}</span><b class="disp" style="font-size:17pt">{ar(cnt[k])}</b></div>' for k in list(ST)[:3])}</div></div>{foot()}</section>'''
     P2 = f'''<section class="page">{band("حديقة النخيل","كل نخلة = مجموعة · كلما علت وخضرّت زاد التحصيل","نخيل", "#0f7b4f", "#e0a000")}
 <div style="margin-top:6mm">{garden()}</div>
 <div style="display:flex;gap:6mm;justify-content:center;margin-top:4mm;font-size:9.5pt">{"".join(f'<span style="display:inline-flex;align-items:center;gap:1.5mm"><i style="width:3.4mm;height:3.4mm;border-radius:50%;background:{c};display:inline-block"></i>{t}</span>' for c,t in [(PALM2,"٣٠٪ فأكثر"),("#7cb518","١٥–٣٠٪"),("#f0a000","أقل من ١٥٪"),("#b8a27a","لا دفعات")])}</div>{foot()}</section>'''
     wf, R1, R2, R3 = waterfall()
-    pod = ''.join(f'<div style="border-radius:4mm;color:#fff;padding:4mm;text-align:center;background:linear-gradient(160deg,{c1},{c2});min-height:{h}mm"><div class="disp" style="font-size:30pt;line-height:1">{ar(i+1)}</div><div class="mess" style="font-size:14pt">المجموعة {ar(y["g"])}</div><div class="disp num" style="font-size:19pt">{f(y["paid"])}</div><div style="font-size:9pt">{fp(y["pct"])}</div></div>' for i, (y, c1, c2, h) in enumerate(zip(ranked[:3], [SUN, "#9aa5a0", "#b4532a"], [SUN2, "#c9d3ce", "#d98a5a"], [40, 34, 30])))
+    pod = ''.join(f'<div style="border-radius:4mm;color:#fff;padding:4mm;text-align:center;background:linear-gradient(160deg,{c1},{c2});min-height:{h}mm"><div class="disp" style="font-size:30pt;line-height:1">{ar(i+1)}</div><div class="mess" style="font-size:14pt">المجموعة {ar(y["g"])}</div><div class="disp num" style="font-size:19pt">{f(y["paid"])}</div><div style="font-size:8pt">ريال</div><div style="font-size:9pt">{fp(y["pct"])}</div></div>' for i, (y, c1, c2, h) in enumerate(zip(ranked[:3], [SUN, "#9aa5a0", "#b4532a"], [SUN2, "#c9d3ce", "#d98a5a"], [40, 34, 30])))
     P3 = f'''<section class="page">{band("المتصدرون ومسار التحصيل","من الأعلى تحصيلاً إلى خريطة الطريق نحو المستهدف","منصة", NILE, PLUM)}
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;align-items:end;margin-top:7mm">{pod}</div>
 <h2 class="sec"><i></i><span class="gradg">مجموعات تنتظر الانطلاق</span></h2>
@@ -99,11 +99,11 @@ def front():
 <div class="card" style="margin-top:6mm">{heatmap(cell=14)}<div style="margin-top:3mm">{legend(cnt)}</div></div>
 <h2 class="sec"><i></i><span class="gradg">كيف نقرأ الخريطة؟</span></h2>
 <div class="card"><ul style="padding-right:5mm"><li>كل صف مجموعة، وكل مربع في الصف عضو (أو خانة شاغرة بلا اسم).</li><li>اللون الأخضر = اشتراك مكتمل ({ar(TOT["full"])})، والبرتقالي = جزئي ({ar(TOT["part"])})، والأحمر = لم يسدد ({ar(TOT["none"])})، والرمادي = شاغر ({ar(TOT["vacant"])}).</li><li>الصفوف الحمراء بالكامل (المجموعات ٤ و٦ و٧ و٨ و٩ و١٢ و١٥ و١٧ و١٨ و١٩) هي أولى بالمتابعة.</li></ul></div>{foot()}</section>'''
-    recs = [('١', 'حملة تحصيل', 'مجموعات بلا دفعات: مسؤول لكل مجموعة ومتابعة أسبوعية.', '#e5484d'), ('٢', 'إكمال الجزئي', f'٧٠ عضواً سدّدوا جزءاً؛ إكمالهم يضيف {f(R1)} بأقل جهد.', SUN2), ('٣', 'سدّ الشواغر', 'استكمال أسماء ١٨٢ خانة شاغرة (المجموعة ١٤ بلا أسماء) أو إعادة التوزيع.', NILE), ('٤', 'توثيق السندات', 'سند لكل دفعة مربوط بالكشف لضمان دقة الإجماليات.', PALM)]
+    recs = [('١', 'حملة تحصيل', 'مجموعات بلا دفعات: مسؤول لكل مجموعة ومتابعة أسبوعية.', '#e5484d'), ('٢', 'إكمال الجزئي', f'٧٠ عضواً سدّدوا جزءاً؛ إكمالهم يضيف {f(R1)} بأقل جهد.', SUN2), ('٣', 'سدّ الشواغر', 'استكمال أسماء ١٨٢ خانة شاغرة (ملف المجموعة ١٤ فارغ) أو إعادة التوزيع.', NILE), ('٤', 'توثيق السندات', 'سند لكل دفعة مربوط بالكشف لضمان دقة الإجماليات.', PALM)]
     rc = ''.join(f'<div class="card" style="display:flex;gap:4mm;align-items:center;border-right:2mm solid {c}"><div class="disp" style="width:15mm;height:15mm;border-radius:50%;background:{c};color:#fff;font-size:22pt;display:flex;align-items:center;justify-content:center;flex:none;line-height:1">{n_}</div><div><div class="disp" style="font-size:17pt;color:{c}">{t}</div><div style="font-size:10.5pt">{d}</div></div></div>' for n_, t, d, c in recs)
     P5 = f'''<section class="page">{band("توصيات اللجنة","أربع خطوات لرفع التحصيل","توصيات", SUN2, PLUM)}
 <div style="display:grid;gap:4mm;margin-top:7mm">{rc}</div>
-<div style="margin-top:6mm;padding:4mm 5mm;background:#fff3d6;border-radius:4mm;font-size:9.5pt;line-height:1.7"><b class="mess">ملاحظات حول البيانات:</b> وصل ٢٠ ملفاً من ٣١ (المجموعات ١–٢٠) وهي PDF مطبوعة من Excel؛ الأرقام مستخرجة ومتحقق منها (المجموع = الدفعات، المتبقي = ٣٦٠ − المسدد)، والأسماء قُرئت بصرياً. قيمة الاشتراك {f(DUE)} لكل عضو، والمبالغ بعملة الملفات الأصلية.</div>
+<div style="margin-top:6mm;padding:4mm 5mm;background:#fff3d6;border-radius:4mm;font-size:9.5pt;line-height:1.7"><b class="mess">ملاحظات حول البيانات:</b> وصل ٢٠ ملفاً من ٣١ (المجموعات ١–٢٠) وهي PDF مطبوعة من Excel؛ الأرقام مستخرجة ومتحقق منها (المجموع = الدفعات، المتبقي = ٣٦٠ − المسدد)، والأسماء قُرئت بصرياً. قيمة الاشتراك {f(DUE)} لكل عضو، وجميع المبالغ بالريال السعودي.</div>
 <div style="position:absolute;left:0;right:0;bottom:0;height:62mm">{scene(794,230,uid="e")}</div></section>'''
     return [P1, P2, P3, P4, P5]
 

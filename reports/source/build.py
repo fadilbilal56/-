@@ -153,7 +153,7 @@ def group_pages(x):
 <div class="card"><div style="font-weight:700;margin-bottom:2.5mm">حالة السداد لخانات المجموعة (٢٤)</div>{stack(vals,labs,col)}<div style="margin-top:3mm">{leg}</div>
 <div class="small" style="margin-top:3mm">نسبة التحصيل من مستحقات المسجلين بالأسماء: <b>{fp(x["pct_named"]) if x["named"] else "—"}</b></div></div></div>
 <h2>التحليل المالي</h2><div class="card"><ul class="l">{lst}</ul></div>
-<h2>معلومات الاشتراك</h2><div class="note">قيمة الاشتراك لكل عضو <b>{f(DUE)}</b> وفق ملفات السداد (تُسدَّد على دفعات حتى أربع دفعات). جميع المبالغ بنفس عملة الملفات الأصلية.</div>
+<h2>معلومات الاشتراك</h2><div class="note">قيمة الاشتراك لكل عضو <b>{f(DUE)} ريال سعودي</b>. جميع المبالغ بالريال السعودي.</div>
 {foot()}</section>'''
     rows = ''
     for m in x['mem']:
