@@ -102,10 +102,10 @@ figure.full figcaption { width: 150mm; }
 .cover .sub { position: absolute; left: 22mm; top: 150mm; width: 118mm; font: italic 400 15pt/21pt "Serif"; color: #D8CFBE; }
 .cover .list { position: absolute; left: 22mm; top: 176mm; width: 120mm; font: 400 8.4pt/14pt "Inter", sans-serif; color: #B9B1A2; }
 .cover .list span { display: block; border-top: .4pt solid #3A4553; padding: 3pt 0; }
-.cover .author { position: absolute; left: 22mm; bottom: 26mm; font: 400 8.4pt/13pt "Inter", sans-serif; color: #B9B1A2; }
+.cover .author { position: absolute; left: 22mm; bottom: 22mm; width: 110mm; hyphens: none; font: 400 8.4pt/13pt "Inter", sans-serif; color: #B9B1A2; }
 .cover .author b { display: block; font: 700 13pt/17pt "Serif"; color: #F2EDE3; }
-.cover svg { position: absolute; left: 0; top: 212mm; width: 210mm; opacity: .85; }
-.cover .ed { position: absolute; right: 18mm; bottom: 26mm; font: 400 7pt "Inter"; color: #7F8794; letter-spacing: .1em; }
+.cover svg { position: absolute; left: 0; top: 210mm; width: 210mm; opacity: .85; }
+.cover .ed { position: absolute; right: 18mm; bottom: 22mm; font: 400 7pt "Inter"; color: #7F8794; letter-spacing: .1em; }
 
 .cap { font: 600 6.4pt/8pt 'Inter', sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); padding: 4pt 0 5pt; break-after: avoid; width: 118mm; }
 .cap.wide { width: 172mm; }

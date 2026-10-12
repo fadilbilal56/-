@@ -28,7 +28,7 @@ Use a launch discount (30% for 7 days) and a founders' price that rises as you a
 
 ## 4. Where to sell
 - **Own page + Stripe/Payhip/Gumroad**: fastest start, instant delivery, you own the customer list.
-- **Salla or Zid** (Saudi): SAR pricing, mada/Apple Pay, local trust. Good for Gulf buyers.
+- **A second storefront for reach**: list the same files on one more established marketplace so buyers can find you by search, not only by your own links.
 - **Telegram / WhatsApp Business channel** for echo fellows: free MCQ of the week, link to buy.
 - **Direct institutional sales**: email programme directors and echo lab heads with the Educator tier.
 - **Society and course partnerships**: offer to bundle with a workshop, journal club or board-review course.
@@ -57,4 +57,4 @@ Use a launch discount (30% for 7 days) and a founders' price that rises as you a
 - Keep an update log; send buyers each new version (builds loyalty and reviews).
 
 ## 9. Next products (roadmap)
-Stress echo and DSE pocket guide, prosthetic valve evaluation, cardiomyopathy phenotyping (HCM, amyloid), CRT/LAAO imaging, echo case library (50 cases), Arabic audio edition if you later want a regional audience.
+Stress echo and DSE pocket guide, prosthetic valve evaluation, cardiomyopathy phenotyping (HCM, amyloid), CRT/LAAO imaging, echo case library (50 cases).

@@ -15,8 +15,8 @@ A digital product for echocardiography fellows and consultants: a reference book
 | `SALES_PLAN.md` | Pricing, channels, launch plan |
 
 ## Before you publish
-1. Put your name and title in `build/v2/brand.py`, then run `build/v2/build_all.sh`. Regenerate the sample PDF afterwards (see below).
-2. Edit `CONFIG` at the bottom of `landing/index.html`: author, email, prices, and your checkout links (Gumroad, Payhip, Salla). Until a link is set, the buy buttons show a notice instead of a dead link.
+1. Your name and affiliation are set in `build/v2/brand.py`. If you change them, run `build/v2/refresh_assets.sh`, which rebuilds the products, the free sample, the covers, and the zip.
+2. Edit `CONFIG` at the bottom of `landing/index.html`: your contact email, prices, and your checkout links (for example Gumroad, Payhip or Lemon Squeezy). Until a link is set, the buy buttons show a notice instead of a dead link.
 3. Verify the thresholds and classes of recommendation against the full ESC/EACTS 2025 and ASE 2025 texts. The 2025 documents could not be opened in full while this was built, so classes of recommendation for the 2025 edition are flagged in the text rather than asserted.
 
 ## Design system
