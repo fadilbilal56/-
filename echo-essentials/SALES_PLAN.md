@@ -3,13 +3,14 @@
 ## 1. What you have
 | File | Format | Role in the funnel |
 |---|---|---|
-| `1_Echo_Essentials_eBook.pdf` | 15 pages | Core product |
-| `2_Echo_Essentials_Teaching_Slides.pptx` | 19 slides + speaker notes | Teaching licence for programme directors and educators |
-| `3_Echo_Essentials_Cards_and_MCQs.pdf` | 10 pages | Revision kit and lead magnet |
-| `packaging/` | PNG covers + bundle mockup | Store listing and social images |
+| `1_Echo_Essentials_eBook.pdf` | 21 pages | Core product |
+| `2_Echo_Essentials_Teaching_Slides.pptx` | 24 slides + speaker notes | Teaching licence for programme directors and educators |
+| `3_Echo_Essentials_Cards_and_MCQs.pdf` | 9 pages | Revision kit and lead magnet |
+| `packaging/` | JPG covers + bundle mockup | Store listing and social images |
+| `landing/index.html` | Responsive sales page + free sample PDF | Where buyers land; the free sample is the email lead magnet |
 
 ## 2. Before you sell (do these first)
-1. Replace `Dr. [Your Name]` in `build/theme.py` and `build/deck.py`, then re-run `python3 build/ebook.py`, `deck.py`, `bundle.py`.
+1. Replace `Dr. [Your Name]` in `build/v2/brand.py`, run `build/v2/build_all.sh`, and set author, email, prices and checkout links in `CONFIG` inside `landing/index.html` (see README).
 2. **Verify every threshold against the full guideline texts** (especially 2025 ESC/EACTS class of recommendation wording and the ASE 2025 diastology algorithm). The text was written from the published criteria, but full guideline text could not be opened while building. Do a final read as the named author: your reputation is the product.
 3. Add a medical-education disclaimer on the sales page (already inside the files). Do not reproduce copyrighted figures from guidelines; make your own images or request permission.
 4. Add 3-5 of your own anonymised echo clips or still images (no patient identifiers, with consent/policy compliance). Images from real cases will lift perceived value more than any design.

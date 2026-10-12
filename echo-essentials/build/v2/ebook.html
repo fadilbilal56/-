@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Echo Essentials</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.toc .p a { text-decoration: none; color: var(--soft); }
+.toc .p a::after { content: target-counter(attr(href url), page); }
+a { color: inherit; }
+</style></head><body>
+
+<!-- ===================== COVER ===================== -->
+<section class="cover">
+  <div class="top">ADULT ECHOCARDIOGRAPHY &nbsp;/&nbsp; A REFERENCE FOR FELLOWS AND CONSULTANTS</div>
+  <div class="rule"></div>
+  <h1>Echo<br>Essentials</h1>
+  <div class="sub">What the guidelines say, why they say it, and where readers go wrong.</div>
+  {{ECG}}
+  <div class="list">
+    <span>Chamber quantification and LV function</span>
+    <span>Left atrial pressure, diastology and HFpEF</span>
+    <span>The right heart and pulmonary hypertension</span>
+    <span>Aortic stenosis, including both low-flow states</span>
+    <span>Regurgitant lesions and mitral stenosis</span>
+  </div>
+  <div class="author"><b>{{AUTHOR}}</b>{{CREDENTIALS}}</div>
+  <div class="ed">EDITION 1 &nbsp;/&nbsp; OCTOBER 2026</div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="break" style="padding-top:22mm">
+  <h3 style="margin-top:0">About this book</h3>
+  <h2 style="font-size:22pt;line-height:26pt;margin-top:4pt">Read it at the reporting station, not on the shelf.</h2>
+  <p>Echocardiography guidelines are long, and the numbers you need are scattered across several of them. This book gathers those numbers in one place and keeps the reasoning attached to each one. Every chapter follows the same order: the criteria, the logic behind them, and the mistakes that catch out experienced readers.</p>
+  <p>It is written for cardiology fellows preparing for a lab rotation or an exam, and for consultants who want a quick, honest check before signing a report.</p>
+
+  <aside class="aside"><span class="tag">Sources</span><p>ASE/EACVI chamber quantification (2015), valvular stenosis and regurgitation (2017), ASE diastolic function and HFpEF update (2025), ASE adult reporting standards (2025), 2025 ESC/EACTS valvular guidelines, ACC/AHA 2020.</p></aside>
+  <h2>How the book handles disagreement</h2>
+  <p>European and American documents agree on most thresholds and differ on a few. Where they differ, both values are printed and labelled. Where a number comes from one document only, the source is named in the table note.</p>
+  <aside class="aside err"><span class="tag">Please verify</span><p>Classes of recommendation change between guideline editions. Before quoting one in a report or an exam, check it against the full current text.</p></aside>
+  <p>Intervention thresholds in particular are moving. The early-intervention trials in asymptomatic aortic stenosis have already pushed practice ahead of older editions, so treat the decision tables here as a map of the landscape, and the guideline itself as the final authority.</p>
+
+  <h2>Abbreviations used throughout</h2>
+  <table>
+    <tr><td>AVA, AVAi</td><td>Aortic valve area, indexed to body surface area</td></tr>
+    <tr><td>Vmax, MG</td><td>Peak aortic jet velocity, mean transvalvular gradient</td></tr>
+    <tr><td>DVI</td><td>Dimensionless velocity index, VTI<sub>LVOT</sub> / VTI<sub>AV</sub></td></tr>
+    <tr><td>SVi</td><td>Stroke volume index, mL/m&sup2;</td></tr>
+    <tr><td>LFLG</td><td>Low-flow, low-gradient aortic stenosis</td></tr>
+    <tr><td>DSE</td><td>Dobutamine stress echocardiography</td></tr>
+    <tr><td>EROA, RVol, RF</td><td>Effective regurgitant orifice area, regurgitant volume, regurgitant fraction</td></tr>
+    <tr><td>LAP, LAVI</td><td>Left atrial pressure, left atrial volume index</td></tr>
+  </table>
+</section>
+
+<!-- ===================== CONTENTS ===================== -->
+<section class="break" style="padding-top:22mm">
+  <h3 style="margin-top:0">Contents</h3>
+  <div class="toc">
+    <div class="row"><span class="n">01</span><span class="t">Measuring the left ventricle<small>Volumes, EF, mass, geometry and strain</small></span><span class="p"><a href="#c1"></a></span></div>
+    <div class="row"><span class="n">02</span><span class="t">Left atrial pressure and diastology<small>The ASE 2025 approach</small></span><span class="p"><a href="#c2"></a></span></div>
+    <div class="row"><span class="n">03</span><span class="t">The right heart<small>RV function and the probability of pulmonary hypertension</small></span><span class="p"><a href="#c3"></a></span></div>
+    <div class="row"><span class="n">04</span><span class="t">Aortic stenosis<small>Grading, critical AS, both low-flow states, and decisions</small></span><span class="p"><a href="#c4"></a></span></div>
+    <div class="row"><span class="n">05</span><span class="t">Aortic regurgitation</span><span class="p"><a href="#c5"></a></span></div>
+    <div class="row"><span class="n">06</span><span class="t">Mitral stenosis</span><span class="p"><a href="#c6"></a></span></div>
+    <div class="row"><span class="n">07</span><span class="t">Mitral regurgitation<small>Primary and secondary</small></span><span class="p"><a href="#c7"></a></span></div>
+    <div class="row"><span class="n">08</span><span class="t">Tricuspid regurgitation<small>Five grades</small></span><span class="p"><a href="#c8"></a></span></div>
+    <div class="row"><span class="n">09</span><span class="t">The report<small>Structure, conclusion and a sign-off check</small></span><span class="p"><a href="#c9"></a></span></div>
+    <div class="row"><span class="n">10</span><span class="t">References and licence</span><span class="p"><a href="#c10"></a></span></div>
+  </div>
+</section>
+
+<!-- ===================== 01 LV ===================== -->
+<section class="opener" id="c1">
+  <div class="num">01</div>
+  <h1>Measuring the left ventricle</h1>
+  <p class="standfirst">Measure it the same way every time, and the numbers become comparable across readers and across years.</p>
+  <hr>
+  <aside class="aside"><span class="tag">Technique</span><p>Contrast is not a luxury. If two or more contiguous segments are poorly seen, use it, and say so in the report.</p></aside>
+  <p>Volumes and ejection fraction come from the biplane method of discs (Simpson). Use apical four- and two-chamber views, trace the endocardium at end-diastole and end-systole, and keep the long axis uncut: a foreshortened apex underestimates volume and can hide an aneurysm.</p>
+  <p>Linear dimensions still matter for valve disease thresholds, particularly LV end-systolic diameter in regurgitant lesions. Measure them in the parasternal long axis, perpendicular to the LV long axis, at the tips of the mitral leaflets for end-diastole.</p>
+  <p>Index volumes, mass and left atrial size to body surface area. An unindexed LA volume in a small woman is a different number from the same volume in a large man.</p>
+</section>
+
+<h2>Reference limits</h2>
+<table class="wide">
+  <caption>Normal ranges, ASE/EACVI 2015</caption>
+  <tr><th>Parameter</th><th>Men</th><th>Women</th><th>How to read it</th></tr>
+  <tr><td>LVEF, biplane</td><td>52 to 72%</td><td>54 to 74%</td><td>Mildly abnormal 41 to 51 (men) and 41 to 53 (women); moderate 30 to 40; severe below 30</td></tr>
+  <tr><td>LV end-diastolic diameter</td><td>42 to 58 mm</td><td>38 to 52 mm</td><td>Linear, 2D-guided</td></tr>
+  <tr><td>LV end-systolic diameter</td><td>25 to 40 mm</td><td>22 to 35 mm</td><td>Key threshold in AR and MR</td></tr>
+  <tr><td>LV mass index (2D)</td><td>50 to 102 g/m&sup2;</td><td>44 to 88 g/m&sup2;</td><td>Linear method gives 49 to 115 and 43 to 95</td></tr>
+  <tr><td>Relative wall thickness</td><td colspan="2">0.42 or less</td><td>Above 0.42 means concentric geometry</td></tr>
+  <tr><td>LA volume index</td><td colspan="2">16 to 34 mL/m&sup2;</td><td>Mild 35 to 41, moderate 42 to 48, severe above 48</td></tr>
+  <tr><td>Global longitudinal strain</td><td colspan="2">About &minus;18 to &minus;22%</td><td>Vendor dependent. Less negative than &minus;16% is abnormal in most settings</td></tr>
+</table>
+
+<h2>Geometry in one picture</h2>
+<aside class="aside"><span class="tag">Why it matters</span><p>Concentric hypertrophy in the elderly should prompt a question about amyloid, hypertension, and aortic stenosis. It is rarely only one of them.</p></aside>
+<p>Combine LV mass and relative wall thickness before you label hypertrophy. The same mass can reflect pressure overload or volume overload, and the distinction changes the differential diagnosis.</p>
+<figure class="main">{{GEOMETRY}}<figcaption><b>Fig. 1.1</b> LV geometry from mass index and relative wall thickness.</figcaption></figure>
+
+<h2>Where strain earns its place</h2>
+<p>Global longitudinal strain detects dysfunction before the ejection fraction falls. Three settings justify the extra minute: cardio-oncology, where a relative fall of more than 15% from baseline is clinically meaningful; suspected cardiac amyloidosis, where apical sparing is a recognisable pattern; and aortic stenosis with a preserved ejection fraction.</p>
+<aside class="aside err"><span class="tag">Where it goes wrong</span><p>Comparing strain values across vendors, or from poorly tracked segments. Use one platform for serial studies and report which.</p></aside>
+<p>Report the vendor and software version beside the value, keep the frame rate high enough to track the whole cycle, and reject segments that the software has clearly mistracked.</p>
+
+<!-- ===================== 02 DIASTOLOGY ===================== -->
+<section class="opener" id="c2">
+  <div class="num">02</div>
+  <h1>Left atrial pressure and diastology</h1>
+  <p class="standfirst">Estimate the pressure first. The grade is a label; the pressure is what changes management.</p>
+  <hr>
+  <aside class="aside"><span class="tag">Algorithm</span><p>Use the flow chart in the ASE 2025 document for the stepwise logic. The table opposite lists its building blocks.</p></aside>
+  <p>The 2025 ASE update restructures the approach. It asks whether left atrial pressure is normal or raised, then grades diastolic dysfunction, and it adds explicit guidance for diagnosing heart failure with preserved ejection fraction (HFpEF). The same parameters appear as before, but their context determines how much weight each deserves.</p>
+  <p>Before you apply any threshold, look at the patient: rhythm, mitral valve disease, annular calcification, prosthetic valves, bundle branch block and pacing all change how these measurements behave.</p>
+</section>
+
+<table>
+  <caption>Parameters suggesting raised left atrial pressure</caption>
+  <tr><th>Parameter</th><th>Abnormal</th></tr>
+  <tr><td>Septal e&prime;</td><td>Below 7 cm/s</td></tr>
+  <tr><td>Lateral e&prime;</td><td>Below 10 cm/s</td></tr>
+  <tr><td>Average E/e&prime;</td><td>Above 14 (septal above 15, lateral above 13)</td></tr>
+  <tr><td>TR peak velocity</td><td>Above 2.8 m/s</td></tr>
+  <tr><td>LA volume index</td><td>Above 34 mL/m&sup2;</td></tr>
+  <tr><td>Mitral E/A</td><td>2 or more suggests raised LAP; 0.8 or less with E at or below 50 cm/s suggests normal LAP</td></tr>
+  <tr><td>Pulmonary vein S/D, Ar duration</td><td>S/D below 1; Ar minus A duration above 30 ms (supportive)</td></tr>
+</table>
+<p class="src">Core variables as used in the ASE/EACVI 2016 recommendations and carried into the 2025 update. Confirm the flow chart logic in the 2025 text.</p>
+
+<h2>Grading, once the pressure is known</h2>
+<ul>
+  <li><b>Grade I:</b> impaired relaxation with normal left atrial pressure.</li>
+  <li><b>Grade II:</b> pseudonormal filling with raised pressure.</li>
+  <li><b>Grade III:</b> restrictive filling with markedly raised pressure.</li>
+</ul>
+<aside class="aside"><span class="tag">Atrial fibrillation</span><p>Septal E/e&prime; of 11 or more, deceleration time of 160 ms or less, IVRT of 65 ms or less, and TR above 2.8 m/s all point to raised pressure.</p></aside>
+<p>A Valsalva manoeuvre helps unmask pseudonormal filling: a fall in E/A of 0.5 or more suggests that the baseline pattern was pseudonormal rather than normal.</p>
+<aside class="aside err"><span class="tag">Where it goes wrong</span><p>Applying E/e&prime; in moderate to severe mitral annular calcification, mitral stenosis, a mitral prosthesis, or severe primary MR. Rely on other markers there.</p></aside>
+<p>A useful question for a fellow at the station: is the left atrial pressure raised, and how do you know? An answer built on three agreeing parameters is better than a grade pasted from one.</p>
+
+<!-- ===================== 03 RIGHT HEART ===================== -->
+<section class="opener" id="c3">
+  <div class="num">03</div>
+  <h1>The right heart</h1>
+  <p class="standfirst">The right ventricle is an unforgiving window into the patient, and it is under-reported.</p>
+  <hr>
+  <p>No single measurement describes right ventricular function well. Combine at least two: a longitudinal measure such as TAPSE or S&prime;, and a global one such as fractional area change or free-wall strain. Disagreement between them is itself informative.</p>
+</section>
+
+<table class="wide">
+  <caption>RV parameters, ASE/EACVI 2015</caption>
+  <tr><th>Parameter</th><th>Abnormal when</th><th>Comment</th></tr>
+  <tr><td>TAPSE</td><td>Below 17 mm</td><td>Longitudinal function of the basal free wall; angle dependent</td></tr>
+  <tr><td>RV S&prime; (tissue Doppler)</td><td>Below 9.5 cm/s</td><td>Basal free wall</td></tr>
+  <tr><td>Fractional area change</td><td>Below 35%</td><td>Needs a complete endocardial trace including the trabeculations</td></tr>
+  <tr><td>Free-wall longitudinal strain</td><td>Less negative than about &minus;20%</td><td>Excludes the septum</td></tr>
+  <tr><td>RV basal diameter</td><td>Above 41 mm</td><td>RV-focused apical four-chamber view</td></tr>
+  <tr><td>Right atrial area</td><td>Above 18 cm&sup2;</td><td>End-systole</td></tr>
+  <tr><td>Myocardial performance index (TDI)</td><td>Above 0.54</td><td>Unreliable when right atrial pressure is high</td></tr>
+</table>
+
+<h2>Estimating pulmonary pressure</h2>
+<aside class="aside"><span class="tag">Right atrial pressure</span><p>3 mmHg: IVC 21 mm or less and collapses more than 50%. 15 mmHg: IVC above 21 mm and collapses less than 50%. 8 mmHg: anything between.</p></aside>
+<p>Systolic pulmonary artery pressure is estimated as 4 &times; (TR peak velocity)&sup2; plus estimated right atrial pressure. The velocity carries most of the weight, so a clean continuous-wave envelope matters more than any other step.</p>
+<p>The 2022 ESC/ERS guideline moves away from a single pressure cut-off and instead expresses the echocardiographic probability of pulmonary hypertension, using the TR velocity and a second group of signs.</p>
+<table>
+  <caption>Echocardiographic probability of PH, ESC/ERS 2022</caption>
+  <tr><th>TR peak velocity</th><th>Other PH signs</th><th>Probability</th></tr>
+  <tr><td>2.8 m/s or less, or not measurable</td><td>None</td><td>Low</td></tr>
+  <tr><td>2.8 m/s or less</td><td>Present</td><td>Intermediate</td></tr>
+  <tr><td>2.9 to 3.4 m/s</td><td>None</td><td>Intermediate</td></tr>
+  <tr><td>2.9 to 3.4 m/s</td><td>Present</td><td class="hl">High</td></tr>
+  <tr><td>Above 3.4 m/s</td><td>Not required</td><td class="hl">High</td></tr>
+</table>
+<p>Other PH signs fall into three groups: ventricles (RV to LV basal ratio above 1.0, septal flattening with an eccentricity index above 1.1), pulmonary artery (RVOT acceleration time below 105 ms or mid-systolic notching, early diastolic pulmonary regurgitant velocity above 2.2 m/s, PA diameter above 25 mm), and venae cavae with right atrium (IVC above 21 mm with reduced collapse, right atrial area above 18 cm&sup2;).</p>
+<aside class="aside"><span class="tag">Coupling</span><p>A TAPSE to PASP ratio below 0.55 mm/mmHg indicates RV to pulmonary arterial uncoupling and a worse prognosis.</p></aside>
+<aside class="aside err"><span class="tag">Where it goes wrong</span><p>Reporting a pressure from a faint, incomplete TR envelope. A weak signal gives a falsely low velocity. Enhance it with agitated saline and state that you did.</p></aside>
+
+<!-- ===================== 04 AORTIC STENOSIS ===================== -->
+<section class="opener" id="c4">
+  <div class="num">04</div>
+  <h1>Aortic stenosis</h1>
+  <p class="standfirst">Grade it, define it, and never miss the low-flow patient.</p>
+  <hr>
+  <aside class="aside"><span class="tag">Four numbers</span><p>Gradient, area, flow, ejection fraction. If these four do not tell one coherent story, one of the measurements is wrong.</p></aside>
+  <p>Aortic stenosis is the valve lesion where echocardiography most directly decides treatment, and also the one where small technical errors change the category. This chapter follows the order in which you work: acquire, grade, resolve discordance, then decide.</p>
+</section>
+
+<h2>4.1 Acquire three measurements, then add flow</h2>
+<aside class="aside"><span class="tag">Rule</span><p>Poor alignment always underestimates velocity. It never overestimates it.</p></aside>
+<ul>
+  <li><b>Peak velocity.</b> Continuous-wave Doppler from several windows (apical, right parasternal, suprasternal) with a dedicated non-imaging probe. Report the highest clean signal and name the window.</li>
+  <li><b>Mean gradient.</b> Trace the same continuous-wave envelope. Do not mix gradients from different beats.</li>
+  <li><b>Valve area by continuity.</b> The LVOT diameter is squared in the calculation, so a 1 mm error shifts the area by roughly 0.2 cm&sup2;. Measure just below the valve in mid-systole.</li>
+  <li><b>Dimensionless velocity index.</b> The ratio of LVOT to aortic VTI. It removes the LVOT diameter, and a value of 0.25 or below supports severe stenosis.</li>
+  <li><b>Stroke volume index.</b> LVOT area times LVOT VTI divided by body surface area. A value below 35 mL/m&sup2; defines low flow.</li>
+</ul>
+<figure class="full">{{CONTINUITY}}<figcaption><b>Fig. 4.1</b> The continuity equation. Flow below the valve (pulsed-wave, LVOT) equals flow through the valve (continuous-wave), so the unknown area can be calculated.</figcaption></figure>
+
+<h2>4.2 Grade severity</h2>
+<p>Severe aortic stenosis is defined by a peak velocity of 4.0 m/s or more or a mean gradient of 40 mmHg or more, with a valve area of 1.0 cm&sup2; or less (indexed area 0.6 cm&sup2;/m&sup2; or less). The ladder below places the other categories on the same axis.</p>
+<figure class="full">{{LADDER}}<figcaption><b>Fig. 4.2</b> Severity ladder on the velocity axis. Severe: ESC/EACTS 2025, ASE/EACVI 2017 and ACC/AHA 2020 agree. Mild and moderate bands follow ACC/AHA 2020 staging.</figcaption></figure>
+
+<div class="define"><span class="tag">Critical aortic stenosis</span>
+<p><b>In adults</b>, critical (or very severe) stenosis means a peak velocity of 5.0 m/s or more and / or a mean gradient of 60 mmHg or more, usually with a valve area below 0.6 cm&sup2;. ACC/AHA 2020 uses the term very severe. ESC/EACTS treats a velocity above 5.0 m/s as a high-risk marker that supports early intervention even without symptoms.</p>
+<p><b>Be precise in the report.</b> No society defines the word critical by one universal number. Give the measured values rather than the label alone.</p>
+<p><b>In neonates</b>, critical aortic stenosis is a different entity: a duct-dependent systemic circulation presenting in the first days of life. Adult cut-offs do not apply.</p>
+<p><b>Mind the flow.</b> A very high gradient needs adequate flow. A patient can have a critically narrow valve and a modest gradient when stroke volume is low.</p></div>
+
+<h2>4.3 When the numbers disagree</h2>
+<p>About one third of patients with a valve area of 1.0 cm&sup2; or less have a mean gradient below 40 mmHg. Do not average the two categories. Ask about flow first, then about the ejection fraction.</p>
+<figure class="full">{{DISCORD}}<figcaption><b>Fig. 4.3</b> A flow-gradient map of aortic stenosis. The shaded lower-left area is where the two low-flow states live. Both require confirmation, because both can be moderate stenosis in disguise.</figcaption></figure>
+<figure class="full">{{ALGORITHM}}<figcaption><b>Fig. 4.4</b> Working algorithm for discordant grading, with CT calcium thresholds. Stages follow ACC/AHA 2020. Calcium cut-offs follow ESC/EACTS (sex-specific).</figcaption></figure>
+
+<h2>4.4 The two types of low-flow, low-gradient stenosis</h2>
+<p>Both types share the same three numbers (valve area 1.0 cm&sup2; or less, mean gradient below 40 mmHg, stroke volume index below 35 mL/m&sup2;). They separate on the ejection fraction, and the diagnostic pathway differs.</p>
+<table class="wide">
+  <caption>Classical and paradoxical low-flow, low-gradient AS</caption>
+  <tr><th></th><th>Classical (reduced EF), stage D2</th><th>Paradoxical (preserved EF), stage D3</th></tr>
+  <tr><td>Definition</td><td>AVA 1.0 cm&sup2; or less, MG below 40 mmHg, LVEF below 50%, SVi below 35 mL/m&sup2;</td><td>AVA 1.0 cm&sup2; or less (AVAi 0.6 or less), MG below 40 mmHg, LVEF 50% or more, SVi below 35 mL/m&sup2;</td></tr>
+  <tr><td>Typical patient</td><td>Dilated LV, ischaemic or dilated cardiomyopathy</td><td>Older, often women; small hypertrophied LV, hypertension, restrictive physiology, reduced strain, atrial fibrillation</td></tr>
+  <tr><td>The question</td><td>Is the valve truly severe, or is a weak ventricle unable to open a moderately stenotic one?</td><td>Is the low flow real, or is it an artefact of measurement?</td></tr>
+  <tr><td>First test</td><td>Low-dose dobutamine stress echo, and / or CT calcium score</td><td>Exclude technical errors, then CT calcium score. Dobutamine cannot raise flow in a small stiff ventricle</td></tr>
+  <tr><td>If left alone</td><td>Poor outcome; absence of flow reserve is worse still</td><td>Outcome comparable with high-gradient severe AS</td></tr>
+  <tr><td>Treatment</td><td>Intervention for symptomatic severe AS; TAVI often favoured if surgical risk is high</td><td>Intervention for symptomatic patients once severity is confirmed and other causes of symptoms are excluded</td></tr>
+</table>
+
+<h3>Dobutamine stress echo in the classical type</h3>
+<p>Start at 2.5 to 5 &micro;g/kg/min and increase every 3 to 5 minutes to a maximum of 20 &micro;g/kg/min, recording stroke volume, Vmax, mean gradient and valve area at each stage.</p>
+<aside class="aside"><span class="tag">Projected AVA</span><p>When flow rise is modest, compute the valve area projected at a normal flow rate of 250 mL/s: AVA<sub>rest</sub> + (AVA<sub>peak</sub> &minus; AVA<sub>rest</sub>) / (Q<sub>peak</sub> &minus; Q<sub>rest</sub>) &times; (250 &minus; Q<sub>rest</sub>). Severe if below 1.0 cm&sup2;.</p></aside>
+<ul>
+  <li><b>Flow (contractile) reserve</b> is present when stroke volume rises by 20% or more.</li>
+  <li><b>True-severe AS:</b> the valve area stays at 1.0 cm&sup2; or less, with a peak velocity of 4 m/s or more (or a mean gradient of 40 mmHg or more) at the higher flow.</li>
+  <li><b>Pseudo-severe AS:</b> the valve area rises above about 1.0 to 1.2 cm&sup2; as flow improves, and the gradient remains low.</li>
+  <li><b>No flow reserve:</b> the test cannot decide. Operative risk is higher, but benefit from valve replacement persists. Use the CT calcium score to adjudicate.</li>
+</ul>
+
+<h3>Checklist before accepting paradoxical low-flow</h3>
+<ul>
+  <li><b>Blood pressure.</b> Scan with controlled systolic pressure (below 140 mmHg). Hypertension lowers flow and distorts gradients.</li>
+  <li><b>LVOT area.</b> The outflow tract is elliptical. A single 2D diameter underestimates its area, and that lowers both the valve area and the stroke volume. Cross-check with 3D echo or CT.</li>
+  <li><b>Body size.</b> Index the valve area in small patients. An area of 0.9 cm&sup2; in a very small woman may be moderate stenosis.</li>
+  <li><b>Rhythm.</b> Average at least five beats in atrial fibrillation.</li>
+  <li><b>Mimics and companions.</b> Amyloidosis, significant mitral regurgitation, mitral stenosis, or aortic regurgitation can reproduce the picture. Pressure recovery can lower gradients in a small aorta (below 30 mm).</li>
+</ul>
+<aside class="aside"><span class="tag">Third group</span><p>Normal-flow, low-gradient AS (SVi 35 or more, LVEF 50% or more) is usually moderate stenosis or a measurement inconsistency. Re-measure before you grade it severe.</p></aside>
+<p>That third group is where the valve-area cut-off and the gradient cut-off simply do not correspond. Check the LVOT diameter, repeat the continuous-wave recording from another window, and compare with the dimensionless index.</p>
+
+<h2>4.5 Calcium score</h2>
+<p>Non-contrast CT measurement of aortic valve calcium (Agatston units) is independent of flow, which makes it valuable in exactly the situations where echo is discordant. ESC/EACTS recommends sex-specific thresholds.</p>
+<table>
+  <caption>Aortic valve calcium score, ESC/EACTS</caption>
+  <tr><th>Interpretation</th><th>Men</th><th>Women</th></tr>
+  <tr><td>Severe AS very likely</td><td>3000 or more</td><td>1600 or more</td></tr>
+  <tr><td>Severe AS likely</td><td>2000 or more</td><td>1200 or more</td></tr>
+  <tr><td>Severe AS unlikely</td><td>Below 1600</td><td>Below 800</td></tr>
+</table>
+<p>Calcium confirms a burden; it does not replace haemodynamics. Severe stenosis can occur with less calcium, particularly in younger patients, bicuspid valves, and rheumatic disease.</p>
+
+<h2>4.6 From numbers to decisions</h2>
+<p>The table summarises the common ground between ESC/EACTS and ACC/AHA. The early-intervention evidence (EARLY TAVR, AVATAR, RECOVERY) has changed how asymptomatic patients are managed, and the 2025 ESC/EACTS guidelines reflect that shift. Confirm the exact class and level in the current text before quoting them.</p>
+<table class="wide">
+  <caption>Intervention summary for severe aortic stenosis</caption>
+  <tr><th>Situation</th><th>Typical recommendation</th></tr>
+  <tr><td>Symptomatic, severe high-gradient AS</td><td>Intervention (class I). Choice of TAVI or surgery by age, life expectancy, anatomy, surgical risk and Heart Team</td></tr>
+  <tr><td>Symptomatic, classical LFLG with flow reserve</td><td>Intervention (class I). Without flow reserve, intervention is considered when CT calcium supports severe AS</td></tr>
+  <tr><td>Symptomatic, paradoxical LFLG</td><td>Intervention once severity is confirmed and no alternative explanation for symptoms exists (ESC 2021: considered, class IIa; ACC/AHA 2020: class I when AS is the most likely cause)</td></tr>
+  <tr><td>Asymptomatic, LVEF below 50% from AS</td><td>Intervention (class I in ESC 2021 and ACC/AHA 2020). Check the LVEF cut-off in the 2025 text</td></tr>
+  <tr><td>Asymptomatic, symptoms on exercise testing</td><td>Intervention (ESC class I). A fall in blood pressure on exercise is a weaker trigger</td></tr>
+  <tr><td>Asymptomatic, very severe (Vmax 5 m/s or more)</td><td>Intervention considered in low-risk patients (class IIa)</td></tr>
+  <tr><td>Asymptomatic with other markers</td><td>BNP above three times normal, Vmax rise of 0.3 m/s or more per year, or marked calcification: intervention considered (class IIa)</td></tr>
+</table>
+<aside class="aside"><span class="tag">Surveillance</span><p>Mild: every 3 to 5 years. Moderate: every 1 to 2 years. Severe, asymptomatic: every 6 to 12 months, with symptom education. Shorten the interval when velocity is high, calcification is heavy, or progression is fast.</p></aside>
+<p>Surveillance intervals above are typical practice rather than strict rules. Heavy calcification and a velocity above 4.5 m/s move a patient towards a shorter interval.</p>
+
+<h2>4.7 The five-line AS report</h2>
+<ol>
+  <li>Valve morphology (tricuspid, bicuspid, rheumatic) and degree of calcification.</li>
+  <li>Vmax, mean gradient, AVA, AVAi and DVI, with the windows used.</li>
+  <li>LVOT diameter and stroke volume index (the flow state).</li>
+  <li>LVEF and strain, LV mass, relative wall thickness.</li>
+  <li>One sentence on severity, flow state, and what would change management.</li>
+</ol>
+
+<!-- ===================== 05 AR ===================== -->
+<section class="opener" id="c5">
+  <div class="num">05</div>
+  <h1>Aortic regurgitation</h1>
+  <p class="standfirst">No single parameter is enough. Integrate.</p>
+  <hr>
+  <p>Grade aortic regurgitation from the mechanism, a qualitative impression, and at least two semi-quantitative or quantitative measures. Colour jet size alone is the least reliable of these.</p>
+</section>
+<table class="wide">
+  <caption>Severity of chronic aortic regurgitation, ASE 2017</caption>
+  <tr><th>Parameter</th><th>Mild</th><th>Moderate</th><th class="hl">Severe</th></tr>
+  <tr><td>Vena contracta</td><td>Below 3 mm</td><td>3 to 6 mm</td><td class="hl">Above 6 mm</td></tr>
+  <tr><td>Jet width / LVOT (central jet)</td><td>Below 25%</td><td>25 to 64%</td><td class="hl">65% or more</td></tr>
+  <tr><td>Pressure half-time</td><td>Above 500 ms</td><td>200 to 500 ms</td><td class="hl">Below 200 ms</td></tr>
+  <tr><td>Descending aorta flow reversal</td><td>Brief, early diastole</td><td>Intermediate</td><td class="hl">Holodiastolic; end-diastolic velocity above 20 cm/s in the abdominal aorta</td></tr>
+  <tr><td>EROA</td><td>Below 0.10 cm&sup2;</td><td>0.10 to 0.29 cm&sup2;</td><td class="hl">0.30 cm&sup2; or more</td></tr>
+  <tr><td>Regurgitant volume</td><td>Below 30 mL</td><td>30 to 59 mL</td><td class="hl">60 mL or more</td></tr>
+  <tr><td>Regurgitant fraction</td><td>Below 30%</td><td>30 to 49%</td><td class="hl">50% or more</td></tr>
+  <tr><td>LV size</td><td>Normal</td><td>Normal or dilated</td><td class="hl">Usually dilated in chronic AR</td></tr>
+</table>
+<h2>Timing of surgery in chronic severe AR</h2>
+<aside class="aside"><span class="tag">Do not forget</span><p>Measure the aortic root and ascending aorta. A dilated root changes the surgical threshold independently of the valve.</p></aside>
+<p>Symptoms are an indication. In asymptomatic patients, decisions rest on LV size and function. The two societies differ slightly:</p>
+<ul>
+  <li><b>ESC/EACTS 2021:</b> LV end-systolic diameter above 50 mm (or above 25 mm/m&sup2; in small patients), or resting LVEF of 50% or less.</li>
+  <li><b>ACC/AHA 2020:</b> LVEF of 55% or less (class I); LV end-systolic diameter above 50 mm (class IIa).</li>
+  <li>The 2025 ESC/EACTS text should be checked for updated cut-offs.</li>
+</ul>
+<aside class="aside err"><span class="tag">Where it goes wrong</span><p>Underestimating eccentric jets with colour area. Use the vena contracta, flow reversal in the descending aorta, and PISA instead.</p></aside>
+<p>In acute severe regurgitation the LV is not dilated. A very short pressure half-time and early mitral valve closure are clues, and these patients need urgent surgery rather than serial imaging.</p>
+
+<!-- ===================== 06 MS ===================== -->
+<section class="opener" id="c6">
+  <div class="num">06</div>
+  <h1>Mitral stenosis</h1>
+  <p class="standfirst">Rheumatic mitral stenosis has not gone away. Look for it, especially in patients from endemic regions.</p>
+  <hr>
+</section>
+<table class="wide">
+  <caption>Severity of mitral stenosis</caption>
+  <tr><th>Parameter</th><th>Mild</th><th>Moderate</th><th class="hl">Clinically significant (severe)</th></tr>
+  <tr><td>Valve area, planimetry</td><td>Above 1.5 cm&sup2;</td><td>1.0 to 1.5 cm&sup2;</td><td class="hl">1.5 cm&sup2; or less; very severe 1.0 cm&sup2; or less</td></tr>
+  <tr><td>Pressure half-time</td><td>Below 150 ms</td><td>150 to 219 ms</td><td class="hl">150 ms or more; very severe 220 ms or more</td></tr>
+  <tr><td>Mean gradient</td><td>Below 5 mmHg</td><td>5 to 10 mmHg</td><td class="hl">Above 10 mmHg at a heart rate of 60 to 80</td></tr>
+  <tr><td>Systolic PA pressure</td><td>Below 30 mmHg</td><td>30 to 50 mmHg</td><td class="hl">Above 50 mmHg</td></tr>
+</table>
+<h2>Technique</h2>
+<aside class="aside"><span class="tag">Heart rate</span><p>Always record the heart rate with the gradient. The same orifice can give very different mean gradients at 60 and 110 beats per minute.</p></aside>
+<ul>
+  <li><b>Planimetry</b> in the parasternal short axis, at the leaflet tips, with the lowest gain that shows the orifice. It is the reference method when the window allows.</li>
+  <li><b>Pressure half-time</b> gives area as 220 divided by the half-time. It is unreliable in atrial fibrillation, tachycardia, abnormal chamber compliance, after balloon valvotomy, and with significant aortic regurgitation.</li>
+  <li><b>Continuity or PISA</b> help when planimetry fails.</li>
+  <li><b>Wilkins score:</b> mobility, thickening, calcification and subvalvular thickening, each scored 1 to 4. A total of 8 or less favours percutaneous balloon commissurotomy.</li>
+</ul>
+<h2>Before balloon commissurotomy</h2>
+<p>Exclude left atrial or appendage thrombus with transoesophageal echo and confirm that mitral regurgitation is no more than mild. Intervention is indicated in symptomatic patients with clinically significant stenosis and favourable anatomy, and may be considered in asymptomatic patients with a high thromboembolic risk or pulmonary hypertension (systolic pressure above 50 mmHg).</p>
+<aside class="aside"><span class="tag">Degenerative MS</span><p>Annular calcification that extends into the leaflets causes stenosis in older patients. Pressure half-time is unreliable here, so use planimetry or continuity, and consider CT.</p></aside>
+
+<!-- ===================== 07 MR ===================== -->
+<section class="opener" id="c7">
+  <div class="num">07</div>
+  <h1>Mitral regurgitation</h1>
+  <p class="standfirst">First ask whether it is primary or secondary. The answer changes the thresholds and the treatment.</p>
+  <hr>
+</section>
+<table class="wide">
+  <caption>Severity of primary mitral regurgitation, ASE 2017</caption>
+  <tr><th>Parameter</th><th>Mild</th><th>Moderate</th><th class="hl">Severe</th></tr>
+  <tr><td>Vena contracta</td><td>Below 3 mm</td><td>3 to 6.9 mm</td><td class="hl">7 mm or more (3D area 0.4 cm&sup2; or more)</td></tr>
+  <tr><td>EROA</td><td>Below 0.20 cm&sup2;</td><td>0.20 to 0.39 cm&sup2;</td><td class="hl">0.40 cm&sup2; or more</td></tr>
+  <tr><td>Regurgitant volume</td><td>Below 30 mL</td><td>30 to 59 mL</td><td class="hl">60 mL or more</td></tr>
+  <tr><td>Regurgitant fraction</td><td>Below 30%</td><td>30 to 49%</td><td class="hl">50% or more</td></tr>
+  <tr><td>Pulmonary vein flow</td><td>Systolic dominance</td><td>Blunted</td><td class="hl">Systolic flow reversal</td></tr>
+  <tr><td>Mitral inflow</td><td colspan="2">Variable</td><td class="hl">E above 1.5 m/s; mitral to LVOT VTI ratio above 1.4</td></tr>
+  <tr><td>Continuous-wave signal</td><td>Faint</td><td>Dense</td><td class="hl">Dense, early-peaking, triangular</td></tr>
+</table>
+<h2>Primary MR: when to operate</h2>
+<aside class="aside err"><span class="tag">Where it goes wrong</span><p>Wall-hugging jets (the Coanda effect) are underestimated by colour area. Use vena contracta, pulmonary vein flow and quantitative volumes, and move to TEE or CMR when in doubt.</p></aside>
+<ul>
+  <li>Symptomatic severe MR with LVEF above 30%: surgery, with repair preferred when durable repair is feasible.</li>
+  <li>Asymptomatic with LV end-systolic diameter of 40 mm or more, or LVEF of 60% or less: surgery.</li>
+  <li>Asymptomatic with new atrial fibrillation, resting systolic PA pressure above 50 mmHg, or LA volume index of 60 mL/m&sup2; or more: surgery should be considered in a centre with a high repair rate.</li>
+</ul>
+<h2>Secondary (functional) MR</h2>
+<p>In secondary MR the leaflets are normal and the ventricle or the annulus is diseased. The regurgitant orifice is elliptical, so lower thresholds are used: an EROA of 0.20 cm&sup2; or more, or a regurgitant volume of 30 mL or more, qualifies as severe in ESC practice. The COAPT trial enrolled patients with an EROA above 0.30 cm&sup2;.</p>
+<p>Transcatheter edge-to-edge repair is considered in symptomatic patients on optimal guideline-directed therapy whose anatomy suits the device. Follow the COAPT selection profile: LVEF 20 to 50%, LV end-systolic diameter 70 mm or less, systolic PA pressure 70 mmHg or less.</p>
+
+<!-- ===================== 08 TR ===================== -->
+<section class="opener" id="c8">
+  <div class="num">08</div>
+  <h1>Tricuspid regurgitation</h1>
+  <p class="standfirst">Severe is no longer the top of the scale.</p>
+  <hr>
+</section>
+<p>Many patients now reach tricuspid intervention after years of untreated severe regurgitation, and outcomes differ strikingly within the old severe category. The five-grade scheme separates them.</p>
+<table class="wide">
+  <caption>Five-grade scheme for TR (ASE 2017; Hahn and Zamorano 2017)</caption>
+  <tr><th>Parameter</th><th>Mild</th><th>Moderate</th><th class="hl">Severe</th><th class="hl">Massive</th><th class="hl">Torrential</th></tr>
+  <tr><td>Vena contracta</td><td>Below 3 mm</td><td>3 to 6.9 mm</td><td class="hl">7 to 13 mm</td><td class="hl">14 to 20 mm</td><td class="hl">21 mm or more</td></tr>
+  <tr><td>EROA</td><td>Below 20 mm&sup2;</td><td>20 to 39 mm&sup2;</td><td class="hl">40 to 59 mm&sup2;</td><td class="hl">60 to 79 mm&sup2;</td><td class="hl">80 mm&sup2; or more</td></tr>
+  <tr><td>Regurgitant volume</td><td>Below 30 mL</td><td>30 to 44 mL</td><td class="hl">45 to 59 mL</td><td class="hl">60 to 74 mL</td><td class="hl">75 mL or more</td></tr>
+  <tr><td>PISA radius</td><td>5 mm or less</td><td>6 to 9 mm</td><td class="hl">Above 9 mm</td><td></td><td></td></tr>
+</table>
+<p class="src">PISA radius at a Nyquist limit of about 28 cm/s.</p>
+<aside class="aside"><span class="tag">Supportive signs</span><p>Dense triangular CW signal with early peaking, hepatic vein systolic reversal, E velocity above 1.0 m/s, annulus above 40 mm, dilated RA, RV and IVC.</p></aside>
+<p>Always state the mechanism: secondary (annular dilation, the commonest), primary, or related to a device lead. Report the right ventricular size and function and the rhythm alongside the grade.</p>
+<aside class="aside err"><span class="tag">Where it goes wrong</span><p>Reading a low TR velocity as a low pulmonary pressure. In free-flowing TR the velocity is low because the pressures have equalised.</p></aside>
+
+<!-- ===================== 09 REPORT ===================== -->
+<section class="opener" id="c9">
+  <div class="num">09</div>
+  <h1>The report</h1>
+  <p class="standfirst">A report is a message to the person who will decide what happens next.</p>
+  <hr>
+  <p>The structure below is consistent with the ASE 2025 standards for adult echocardiography reporting. Adapt it to your laboratory template, but keep the order: the question first, the evidence next, the conclusion last and short.</p>
+</section>
+<ol>
+  <li>Indication and clinical question, image quality, rhythm, heart rate, blood pressure and body surface area.</li>
+  <li>Left ventricle: size, mass and geometry, method for ejection fraction, regional wall motion, strain if measured.</li>
+  <li>Diastology: is left atrial pressure raised, and which parameters support it.</li>
+  <li>Right ventricle: size, function, estimated systolic PA pressure, probability of pulmonary hypertension.</li>
+  <li>Atria, IVC, pericardium, aortic root and ascending aorta.</li>
+  <li>Each valve: mechanism, severity, the parameters used, and the consequence for the chambers.</li>
+  <li>Conclusion in three to five lines, with the first line answering the clinical question, and comparison with the previous study.</li>
+</ol>
+<h2>Before you sign</h2>
+<ol>
+  <li>Did the report answer the referral question?</li>
+  <li>Are volumes and ejection fraction indexed and compared with the last study?</li>
+  <li>If aortic stenosis: is the stroke volume index reported and the flow state named?</li>
+  <li>If MR or TR: are the mechanism and the quantitative parameters listed?</li>
+  <li>Are right atrial pressure, PA pressure and the PH probability stated?</li>
+  <li>Do the cut-offs quoted match the current guideline editions?</li>
+</ol>
+
+<!-- ===================== 10 REFERENCES ===================== -->
+<section class="opener" id="c10">
+  <div class="num">10</div>
+  <h1>References and licence</h1>
+  <p class="standfirst">Primary sources. Read them; this book is a companion, not a substitute.</p>
+  <hr>
+</section>
+<ol class="small" style="width:118mm; font:400 8.4pt/12.2pt 'Inter',sans-serif; padding-left:5mm">
+  <li>Lang RM, Badano LP, Mor-Avi V, et al. Recommendations for cardiac chamber quantification by echocardiography in adults. J Am Soc Echocardiogr 2015;28:1-39.</li>
+  <li>Baumgartner H, Hung J, Bermejo J, et al. Recommendations on the echocardiographic assessment of aortic valve stenosis. J Am Soc Echocardiogr 2017;30:372-392.</li>
+  <li>Zoghbi WA, Adams D, Bonow RO, et al. Recommendations for noninvasive evaluation of native valvular regurgitation. J Am Soc Echocardiogr 2017;30:303-371.</li>
+  <li>American Society of Echocardiography. Recommendations for the evaluation of left ventricular diastolic function by echocardiography and for heart failure with preserved ejection fraction diagnosis. J Am Soc Echocardiogr 2025.</li>
+  <li>American Society of Echocardiography. Guidelines for the standardization of adult echocardiography reporting. J Am Soc Echocardiogr 2025;38:735-774.</li>
+  <li>ESC/EACTS. 2025 Guidelines for the management of valvular heart disease. 2025.</li>
+  <li>Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for the management of patients with valvular heart disease. Circulation 2021;143:e72-e227.</li>
+  <li>Hahn RT, Zamorano JL. The need for a new tricuspid regurgitation grading scheme. Eur Heart J Cardiovasc Imaging 2017;18:1342-1343.</li>
+  <li>Humbert M, Kovacs G, Hoeper MM, et al. 2022 ESC/ERS guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Heart J 2022;43:3618-3731.</li>
+  <li>Blais C, Burwash IG, Mundigler G, et al. Projected valve area at normal flow rate improves the assessment of stenosis severity in patients with low-flow, low-gradient aortic stenosis. Circulation 2006;113:711-721.</li>
+</ol>
+<div class="define" style="margin-top:14pt"><span class="tag">Licence and disclaimer</span>
+<p>This book is licensed to one reader for personal study and clinical reference. Please do not copy or share it. It is an educational summary for qualified clinicians and does not replace the full guidelines, local protocols, or clinical judgement. Verify thresholds and classes of recommendation against the current editions before clinical or examination use.</p></div>
+
+</body></html>
