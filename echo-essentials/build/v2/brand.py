@@ -1,3 +1,3 @@
-"""Single place to personalise every product. Edit, then run ./build_all.sh."""
+"""Single place to personalise every product. Edit, then run ./refresh_assets.sh."""
 AUTHOR = "Dr. Elfadil Bilal Abdelrahman"
-CREDENTIALS = "Consultant Cardiologist and Echocardiographer, Prince Mohammed bin Abdulaziz Hospital, Riyadh"
+CREDENTIALS = "Consultant Cardiologist and Echocardiographer"
