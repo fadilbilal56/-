@@ -1,0 +1,21 @@
+{
+  "name": "koshteena-hareeg",
+  "version": "1.0.0",
+  "description": "كوشتينة – الحريق السوداني: لعبة ورق جماعية أونلاين وضد الذكاء الاصطناعي",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/*.test.js",
+    "build:www": "node scripts/build-www.js",
+    "cap:android": "npm run build:www && npx cap add android && npx cap sync android && npx cap open android",
+    "cap:ios": "npm run build:www && npx cap add ios && npx cap sync ios && npx cap open ios"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

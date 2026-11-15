@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#10161f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="كوشتينة – الحريق السوداني: العب الحريق مع أصحابك أونلاين أو ضد الكمبيوتر">
+  <title>كوشتينة – الحريق السوداني</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Reem+Kufi:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- الرئيسية -->
+<section id="home" class="screen pattern active">
+  <div class="logo">
+    <div class="logo-fan" id="logoFan"></div>
+    <h1>كوشتينة</h1>
+    <div class="sub">الحريق <b>السوداني</b> 🔥</div>
+    <div class="flag-line"></div>
+  </div>
+
+  <div class="home-menu">
+    <label class="name-field">
+      <span>👤</span>
+      <input id="nameInput" maxlength="16" placeholder="اكتب اسمك يا زول" autocomplete="nickname">
+    </label>
+    <button class="btn gold block" data-go="aiSetup">🤖 العب ضد الكمبيوتر</button>
+    <button class="btn block" id="createRoomBtn">🏠 أنشئ غرفة وادعُ أصحابك</button>
+    <div class="join-row">
+      <input id="joinCode" maxlength="5" placeholder="الكود" inputmode="latin" autocomplete="off">
+      <button class="btn green" id="joinBtn">ادخل 🚪</button>
+    </div>
+  </div>
+
+  <div class="home-foot">
+    <button class="btn ghost small" data-go="leaderboard">🏆 الترتيب</button>
+    <button class="btn ghost small" data-go="rules">📜 القواعد</button>
+    <button class="btn ghost small" data-go="settings">⚙️ الإعدادات</button>
+  </div>
+</section>
+
+<!-- إعداد اللعب ضد الكمبيوتر -->
+<section id="aiSetup" class="screen pattern">
+  <div class="page-head">
+    <button class="icon-btn" data-go="home">→</button>
+    <h2>العب ضد الكمبيوتر</h2>
+  </div>
+  <div class="page-body">
+    <div class="panel">
+      <h3>عدد الخصوم</h3>
+      <div class="seg" data-opt="opponents">
+        <button data-v="1">1</button><button data-v="2" class="on">2</button><button data-v="3">3</button>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>المستوى</h3>
+      <div class="seg" data-opt="level">
+        <button data-v="easy">سهل 😌</button><button data-v="medium" class="on">وسط 🙂</button><button data-v="hard">صعب 😈</button>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>طول المباراة (حد الحريق)</h3>
+      <div class="seg" data-opt="burnLimit">
+        <button data-v="151">سريعة 151</button><button data-v="251" class="on">عادية 251</button><button data-v="351">طويلة 351</button>
+      </div>
+      <p class="hint">اللاعب البتوصل نقاطه للحد ده "بيتحرق" 🔥 ويطلع. آخر واحد بيفضل هو الفائز.</p>
+    </div>
+    <div class="panel">
+      <h3>أول نزول</h3>
+      <div class="seg" data-opt="firstMeldMin">
+        <button data-v="41">41</button><button data-v="51" class="on">51</button><button data-v="71">71</button>
+      </div>
+    </div>
+    <button class="btn gold block" id="startAiBtn">🃏 يلا نلعب</button>
+  </div>
+</section>
+
+<!-- اللوبي -->
+<section id="lobby" class="screen pattern">
+  <div class="page-head">
+    <button class="icon-btn" id="leaveLobbyBtn">→</button>
+    <h2>الغرفة</h2>
+    <button class="icon-btn" data-chat>💬<span class="badge" data-unread></span></button>
+  </div>
+  <div class="page-body">
+    <div class="code-box">
+      <div class="hint" style="margin:0 0 4px">كود الدعوة</div>
+      <div class="code" id="roomCode">-----</div>
+      <div class="actions">
+        <button class="btn small gold" id="shareBtn">📤 مشاركة</button>
+        <button class="btn small green" id="waBtn">واتساب</button>
+        <button class="btn small ghost" id="copyBtn">📋 نسخ</button>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>اللاعبين <span id="seatCount" class="hint"></span></h3>
+      <div class="seats" id="seats"></div>
+      <div id="botAdd" style="margin-top:10px; display:flex; gap:6px">
+        <button class="btn small ghost" data-addbot="easy">+ كمبيوتر سهل</button>
+        <button class="btn small ghost" data-addbot="medium">+ وسط</button>
+        <button class="btn small ghost" data-addbot="hard">+ صعب</button>
+      </div>
+    </div>
+    <div class="panel" id="roomSettings">
+      <h3>الإعدادات</h3>
+      <div class="hint" style="margin:0 0 6px">حد الحريق</div>
+      <div class="seg" data-rs="burnLimit">
+        <button data-v="151">151</button><button data-v="201">201</button><button data-v="251">251</button><button data-v="351">351</button>
+      </div>
+      <div class="hint" style="margin:10px 0 6px">أول نزول</div>
+      <div class="seg" data-rs="firstMeldMin">
+        <button data-v="41">41</button><button data-v="51">51</button><button data-v="71">71</button>
+      </div>
+      <div class="hint" style="margin:10px 0 6px">وقت الدور</div>
+      <div class="seg" data-rs="turnSeconds">
+        <button data-v="30">30ث</button><button data-v="45">45ث</button><button data-v="90">90ث</button><button data-v="0">مفتوح</button>
+      </div>
+    </div>
+    <button class="btn gold block" id="startRoomBtn">🃏 ابدأ اللعب</button>
+    <p class="hint center" id="lobbyHint" style="text-align:center"></p>
+  </div>
+</section>
+
+<!-- الترابيزة -->
+<section id="game" class="screen">
+  <div class="topbar">
+    <button class="icon-btn" id="menuBtn">☰</button>
+    <div class="title" id="gameTitle">الجولة 1</div>
+    <button class="icon-btn" id="scoresBtn">📊</button>
+    <button class="icon-btn" data-chat>💬<span class="badge" data-unread></span></button>
+  </div>
+  <div class="opponents" id="opponents"></div>
+  <div class="table" id="tableArea"><div class="melds" id="melds"></div></div>
+  <div class="piles">
+    <div class="pile" id="stockPile"><div class="stack"></div><div class="label">الكومة</div></div>
+    <div class="status" id="status"></div>
+    <div class="pile" id="discardPile"><div class="stack"></div><div class="label">الأرض</div></div>
+  </div>
+  <div class="stage" id="stage"></div>
+  <div class="actions" id="actions"></div>
+  <div class="my-bar" id="myBar"></div>
+  <div class="hand-wrap"><div class="hand" id="hand"></div></div>
+</section>
+
+<!-- الترتيب -->
+<section id="leaderboard" class="screen pattern">
+  <div class="page-head">
+    <button class="icon-btn" data-go="home">→</button>
+    <h2>🏆 الترتيب</h2>
+  </div>
+  <div class="page-body">
+    <div class="seg" id="lbTabs" style="margin-bottom:12px">
+      <button data-v="online" class="on">أونلاين 🌍</button><button data-v="local">ضد الكمبيوتر 🤖</button>
+    </div>
+    <div id="lbStats"></div>
+    <div id="lbList"></div>
+    <p class="hint">النقاط: الفوز بالمباراة 10 • قفل جولة 2 • الحريق 5 • كل مباراة 1</p>
+  </div>
+</section>
+
+<!-- القواعد -->
+<section id="rules" class="screen pattern">
+  <div class="page-head">
+    <button class="icon-btn" data-go="home">→</button>
+    <h2>📜 قواعد الحريق</h2>
+  </div>
+  <div class="page-body rules" id="rulesBody"></div>
+</section>
+
+<!-- الإعدادات -->
+<section id="settings" class="screen pattern">
+  <div class="page-head">
+    <button class="icon-btn" data-go="home">→</button>
+    <h2>⚙️ الإعدادات</h2>
+  </div>
+  <div class="page-body">
+    <div class="panel">
+      <h3>الصوت</h3>
+      <div class="seg" data-set="sound"><button data-v="1">شغّال 🔊</button><button data-v="0">مقفول 🔇</button></div>
+    </div>
+    <div class="panel">
+      <h3>الاهتزاز</h3>
+      <div class="seg" data-set="vibrate"><button data-v="1">شغّال 📳</button><button data-v="0">مقفول</button></div>
+    </div>
+    <div class="panel">
+      <h3>ترتيب الورق في اليد</h3>
+      <div class="seg" data-set="sort"><button data-v="suit">بالشكل ♠♥</button><button data-v="rank">بالرقم 123</button></div>
+    </div>
+    <div class="panel">
+      <h3>سرعة الكمبيوتر</h3>
+      <div class="seg" data-set="botSpeed"><button data-v="1400">هادي</button><button data-v="900">عادي</button><button data-v="450">سريع</button></div>
+    </div>
+    <div class="panel">
+      <h3>عنوان الخادم (للتطبيق)</h3>
+      <input id="serverInput" class="name-field" style="width:100%;direction:ltr;color:var(--text)" placeholder="https://koshteena.example.com">
+      <p class="hint">خليه فاضي لو بتلعب من نفس الموقع. في تطبيق الموبايل اكتب عنوان الخادم.</p>
+    </div>
+  </div>
+</section>
+
+<!-- النوافذ -->
+<div class="modal" id="modal"><div class="sheet" id="sheet"></div></div>
+<div class="toast" id="toast"></div>
+<div class="conn" id="conn">⚠️ بنحاول نتصل…</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

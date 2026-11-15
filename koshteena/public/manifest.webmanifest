@@ -1,0 +1,16 @@
+{
+  "name": "كوشتينة – الحريق السوداني",
+  "short_name": "كوشتينة",
+  "description": "العب الحريق السوداني مع أصحابك أونلاين أو ضد الكمبيوتر",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10161f",
+  "theme_color": "#10161f",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "appId": "sd.koshteena.hareeg",
+  "appName": "كوشتينة",
+  "webDir": "www",
+  "backgroundColor": "#10161f",
+  "android": { "allowMixedContent": true }
+}
