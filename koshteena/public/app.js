@@ -6,7 +6,7 @@ import { cardEl, PLAYER_COLORS, initials } from './cards.js';
 import { OnlineSession, LocalSession, P2PHost, P2PGuest } from './net.js';
 
 // العنوان العام للتطبيق (لروابط الدعوة من داخل تطبيق الموبايل)
-export const PUBLIC_URL = 'https://koshteena.vercel.app';
+export const PUBLIC_URL = 'https://koshteena-fadilbilal56-3326.vercel.app';
 import { sfx, setSound } from './sound.js';
 
 const $ = (s, r = document) => r.querySelector(s);
