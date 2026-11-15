@@ -321,3 +321,4 @@ input { font: inherit; }
 .home-menu { grid-template-columns: minmax(0, 1fr); }
 .home-menu input, .join-row input, .name-field input { min-width: 0; width: 100%; }
 .join-row .btn { flex: none; }
+[hidden] { display: none !important; }

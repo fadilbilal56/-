@@ -3,7 +3,10 @@ import { analyzeMeld, isJoker, rankLabel, SUIT_SYMBOL, penaltyValue, DEFAULT_SET
 import { bestPlan, jokerSwapTarget, LEVELS } from './shared/ai.js';
 import { QUICK_PHRASES, EMOJIS } from './shared/match.js';
 import { cardEl, PLAYER_COLORS, initials } from './cards.js';
-import { OnlineSession, LocalSession } from './net.js';
+import { OnlineSession, LocalSession, P2PHost, P2PGuest } from './net.js';
+
+// العنوان العام للتطبيق (لروابط الدعوة من داخل تطبيق الموبايل)
+export const PUBLIC_URL = 'https://koshteena.vercel.app';
 import { sfx, setSound } from './sound.js';
 
 const $ = (s, r = document) => r.querySelector(s);
@@ -166,18 +169,24 @@ function resetTableState() {
   updateUnread();
 }
 
+const connStatus = (st) => $('#conn').classList.toggle('show', st !== 'open');
 $('#createRoomBtn').onclick = () => {
   if (needName()) return;
   resetTableState();
-  ensureOnline().send({ t: 'create', name: S.name });
   toast('بنجهّز ليك الغرفة…');
+  if (S.prefs.server) return ensureOnline().send({ t: 'create', name: S.name });
+  leaveSession();
+  S.session = new P2PHost({ pid: S.pid, name: S.name, onMessage, onStatus: connStatus });
 };
 $('#joinBtn').onclick = () => {
   if (needName()) return;
   const code = $('#joinCode').value.trim().toUpperCase();
   if (code.length !== 5) return toast('الكود 5 حروف', true);
   resetTableState();
-  ensureOnline().send({ t: 'join', code, name: S.name });
+  toast('بندخّلك الغرفة…');
+  if (S.prefs.server) return ensureOnline().send({ t: 'join', code, name: S.name });
+  leaveSession();
+  S.session = new P2PGuest({ code, pid: S.pid, name: S.name, onMessage, onStatus: connStatus });
 };
 
 // ---------------- الرسائل ----------------
@@ -191,6 +200,12 @@ function onMessage(msg) {
       if (msg.code !== 'LOCAL') history.replaceState(null, '', '?room=' + msg.code);
       break;
     case 'left':
+      break;
+    case 'failed':
+      leaveSession();
+      $('#modal').classList.remove('show');
+      history.replaceState(null, '', location.pathname);
+      if (current() !== 'home') show('home');
       break;
     case 'state':
       onState(msg.view);
@@ -207,6 +222,10 @@ function onMessage(msg) {
 }
 
 function onState(view) {
+  if (view.room.phase === 'matchOver' && view.ranking && S.session?.online) {
+    const key = view.room.code + ':' + view.roundNo;
+    if (S.recordedMatch !== key) { S.recordedMatch = key; recordMatch(view.ranking, 'friends', view.you); }
+  }
   const prev = S.view;
   S.view = view;
   S._lastStaged = null;
@@ -260,7 +279,8 @@ $('#startRoomBtn').onclick = () => S.session?.send({ t: 'start' });
 $('#leaveLobbyBtn').onclick = () => { leaveSession(); history.replaceState(null, '', location.pathname); show('home'); };
 
 function inviteLink() {
-  const base = S.prefs.server || location.origin + location.pathname;
+  const web = /^https?:$/.test(location.protocol) && !/^(localhost|127\.)/.test(location.hostname);
+  const base = S.prefs.server || (web ? location.origin + location.pathname : PUBLIC_URL);
   return `${base.replace(/\/$/, '')}/?room=${S.view.room.code}`;
 }
 function inviteText() {
@@ -922,18 +942,19 @@ function renderChatList() {
 
 // ---------------- الترتيب ----------------
 function lbPoints(e) { return e.wins * 10 + e.roundsWon * 2 + e.hareegs * 5 + e.games; }
-function recordLocalMatch(ranking) {
-  const data = store.get('local', {});
+function recordLocalMatch(ranking) { recordMatch(ranking, 'local', 'me'); }
+function recordMatch(ranking, bucket, myId) {
+  const data = store.get(bucket, {});
   for (const r of ranking) {
-    const key = r.isBot ? 'bot:' + r.name : 'me';
+    const key = r.pid === myId ? 'me' : r.isBot ? 'bot:' + r.name : 'p:' + r.name;
     const e = (data[key] ||= { name: r.name, games: 0, wins: 0, roundsWon: 0, hareegs: 0, bot: r.isBot });
-    e.name = r.isBot ? r.name : (S.name || r.name);
+    e.name = key === 'me' ? (S.name || r.name) : r.name;
     e.games++;
     if (r.place === 1) e.wins++;
     e.roundsWon += r.roundsWon;
     e.hareegs += r.hareegs;
   }
-  store.set('local', data);
+  store.set(bucket, data);
 }
 $$('#lbTabs button').forEach((b) => (b.onclick = () => {
   $$('#lbTabs button').forEach((x) => x.classList.toggle('on', x === b));
@@ -948,8 +969,9 @@ function lbRows(list, meTest) {
 async function renderLeaderboard() {
   const list = $('#lbList'), stats = $('#lbStats');
   stats.innerHTML = '';
-  if (S.lbTab === 'local') {
-    const data = store.get('local', {});
+  if (S.lbTab === 'local' || !S.prefs.server) {
+    const bucket = S.lbTab === 'local' ? 'local' : 'friends';
+    const data = store.get(bucket, {});
     const arr = Object.values(data).map((e) => ({ ...e, points: lbPoints(e) })).sort((a, b) => b.points - a.points);
     const me = data.me;
     if (me) stats.innerHTML = `<div class="panel" style="display:flex;justify-content:space-around;text-align:center">
@@ -957,7 +979,8 @@ async function renderLeaderboard() {
       <div><b style="font-size:22px">${me.wins}</b><div class="hint" style="margin:0">فوز</div></div>
       <div><b style="font-size:22px">${me.games ? Math.round((me.wins / me.games) * 100) : 0}%</b><div class="hint" style="margin:0">نسبة الفوز</div></div>
       <div><b style="font-size:22px">${me.hareegs}</b><div class="hint" style="margin:0">حريق 🔥</div></div></div>`;
-    list.innerHTML = arr.length ? lbRows(arr, (e) => !e.bot) : '<p class="hint" style="text-align:center">العب أول مباراة ضد الكمبيوتر عشان يظهر ترتيبك</p>';
+    list.innerHTML = arr.length ? lbRows(arr, (e) => e === arr.find((x) => x.name === (data.me && data.me.name)))
+      : `<p class="hint" style="text-align:center">${bucket === 'local' ? 'العب أول مباراة ضد الكمبيوتر عشان يظهر ترتيبك' : 'العب مع أصحابك أونلاين عشان يظهر الترتيب هنا 🏆'}</p>`;
     return;
   }
   list.innerHTML = '<p class="hint" style="text-align:center">بنحمّل…</p>';
@@ -1035,3 +1058,9 @@ if (roomParam) {
 }
 window.addEventListener('resize', () => { if (S.view?.round && current() === 'game') renderHand(false); });
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(() => {});
+
+// زر التثبيت (PWA) ورابط الـ APK
+let installEvt = null;
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvt = e; $('#installBtn').hidden = false; });
+$('#installBtn').onclick = async () => { if (!installEvt) return; installEvt.prompt(); await installEvt.userChoice; installEvt = null; $('#installBtn').hidden = true; };
+if (window.Capacitor || /Android .*wv/.test(navigator.userAgent)) $('#apkLink').hidden = true;

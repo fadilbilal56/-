@@ -1,0 +1,69 @@
+name: بناء تطبيق أندرويد (APK)
+
+on:
+  push:
+    paths:
+      - 'koshteena/**'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: koshteena
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: تثبيت الحزم
+        run: |
+          npm ci
+          npm install --no-save @capacitor/core@6 @capacitor/cli@6 @capacitor/android@6 @capacitor/assets@3
+
+      - name: تجهيز ملفات التطبيق
+        run: node scripts/build-www.js
+
+      - name: إنشاء مشروع أندرويد
+        run: |
+          npx cap add android
+          npx @capacitor/assets generate --android --iconBackgroundColor '#10161f' --iconBackgroundColorDark '#10161f' --splashBackgroundColor '#10161f' --splashBackgroundColorDark '#10161f'
+          npx cap sync android
+
+      - name: بناء الـ APK
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+          cp app/build/outputs/apk/debug/app-debug.apk ../koshteena.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: koshteena-apk
+          path: koshteena/koshteena.apk
+
+      - name: نشر الـ APK في صفحة الإصدارات
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-latest
+          name: كوشتينة – تطبيق أندرويد
+          make_latest: true
+          files: koshteena/koshteena.apk
+          body: |
+            🃏 **كوشتينة – الحريق السوداني**
+
+            1. حمّل `koshteena.apk` من تحت على موبايلك الأندرويد.
+            2. افتح الملف، ولو طلب منك "السماح بالتثبيت من مصادر غير معروفة" وافق.
+            3. افتح التطبيق، اكتب اسمك، والعب!
