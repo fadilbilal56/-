@@ -1,4 +1,4 @@
-// حريق قدللة – الكوتشينة السودانية | الواجهة
+// حريق قدالة – الكوتشينة السودانية | الواجهة
 import { analyzeMeld, isJoker, rankLabel, SUIT_SYMBOL, penaltyValue, DEFAULT_SETTINGS } from './shared/engine.js';
 import { bestPlan, jokerSwapTarget, LEVELS } from './shared/ai.js';
 import { QUICK_PHRASES, EMOJIS } from './shared/match.js';
@@ -284,10 +284,10 @@ function inviteLink() {
   return `${base.replace(/\/$/, '')}/?room=${S.view.room.code}`;
 }
 function inviteText() {
-  return `تعال نلعب حريق قدللة 🃏🔥\nكود الغرفة: ${S.view.room.code}\n${inviteLink()}`;
+  return `تعال نلعب حريق قدالة 🃏🔥\nكود الغرفة: ${S.view.room.code}\n${inviteLink()}`;
 }
 $('#shareBtn').onclick = async () => {
-  if (navigator.share) { try { await navigator.share({ title: 'حريق قدللة – الكوتشينة السودانية', text: inviteText() }); } catch {} }
+  if (navigator.share) { try { await navigator.share({ title: 'حريق قدالة – الكوتشينة السودانية', text: inviteText() }); } catch {} }
   else copyInvite();
 };
 $('#waBtn').onclick = () => window.open('https://wa.me/?text=' + encodeURIComponent(inviteText()), '_blank');
