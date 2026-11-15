@@ -44,6 +44,8 @@ jobs:
 
       - name: بناء الـ APK
         run: |
+          # مفتاح توقيع ثابت عشان التحديثات تتثبت فوق النسخة القديمة
+          mkdir -p ~/.android && cp android-signing/debug.keystore ~/.android/debug.keystore
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
