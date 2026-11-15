@@ -1,4 +1,4 @@
-// خادم كوشتينة: ملفات الواجهة + WebSocket للغرف + جدول الترتيب
+// خادم حريق قدللة: ملفات الواجهة + WebSocket للغرف + جدول الترتيب
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -224,5 +224,5 @@ setInterval(() => {
 }, 30000).unref();
 
 server.listen(PORT, () => {
-  console.log(`🃏 كوشتينة – الحريق السوداني شغال على http://localhost:${PORT}`);
+  console.log(`🃏 حريق قدللة – الكوتشينة السودانية شغال على http://localhost:${PORT}`);
 });

@@ -58,11 +58,11 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: apk-latest
-          name: كوشتينة – تطبيق أندرويد
+          name: حريق قدللة – تطبيق أندرويد
           make_latest: true
           files: koshteena/koshteena.apk
           body: |
-            🃏 **كوشتينة – الحريق السوداني**
+            🃏 **حريق قدللة – الكوتشينة السودانية**
 
             1. حمّل `koshteena.apk` من تحت على موبايلك الأندرويد.
             2. افتح الملف، ولو طلب منك "السماح بالتثبيت من مصادر غير معروفة" وافق.

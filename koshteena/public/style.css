@@ -1,4 +1,4 @@
-/* كوشتينة – الحريق السوداني | هوية سودانية عصرية */
+/* حريق قدللة – الكوتشينة السودانية | هوية سودانية عصرية */
 :root {
   --night: #10161f;
   --night-2: #1a2330;
@@ -76,7 +76,7 @@ input { font: inherit; }
 .logo { text-align: center; margin-top: 2vh; }
 .logo-fan { position: relative; width: 190px; height: 130px; margin: 0 auto 6px; }
 .logo-fan .card { position: absolute; left: 50%; bottom: 0; transform-origin: 50% 120%; --cw: 66px; }
-.logo h1 { font-family: 'Reem Kufi', 'Cairo', sans-serif; font-size: 54px; margin: 0; line-height: 1.1; color: var(--gold-2); text-shadow: 0 3px 0 #7a4a10, 0 8px 30px rgba(232, 176, 74, .35); letter-spacing: 1px; }
+.logo h1 { font-family: 'Reem Kufi', 'Cairo', sans-serif; font-size: 46px; margin: 0; line-height: 1.15; white-space: nowrap; color: var(--gold-2); text-shadow: 0 3px 0 #7a4a10, 0 8px 30px rgba(232, 176, 74, .35); letter-spacing: 1px; }
 .logo .sub { font-size: 20px; font-weight: 800; color: var(--sand); margin-top: 2px; }
 .logo .sub b { color: var(--clay-2); }
 .flag-line { height: 5px; width: 140px; margin: 10px auto 0; border-radius: 3px; background: linear-gradient(90deg, var(--red) 0 25%, #fff 25% 50%, #111 50% 75%, var(--green) 75%); }
@@ -133,7 +133,7 @@ input { font: inherit; }
   background-size: auto, auto, auto, 30% 21%;
   box-shadow: inset 0 0 0 3px #f6efe3, inset 0 0 0 5px var(--gold), 0 4px 10px rgba(0, 0, 0, .35);
 }
-.card .back::after { content: 'ك'; position: absolute; inset: 0; display: grid; place-items: center; font-family: 'Reem Kufi', serif; font-weight: 900; color: #5a1010; font-size: calc(var(--cw) * .26); }
+.card .back::after { content: 'ح'; position: absolute; inset: 0; display: grid; place-items: center; font-family: 'Reem Kufi', serif; font-weight: 900; color: #5a1010; font-size: calc(var(--cw) * .26); }
 .card.down { transform: rotateY(180deg); }
 .card .corner { position: absolute; display: flex; flex-direction: column; align-items: center; line-height: .95; font-weight: 900; }
 .card .corner .r { font-size: calc(var(--cw) * .26); letter-spacing: -1px; }
@@ -322,3 +322,4 @@ input { font: inherit; }
 .home-menu input, .join-row input, .name-field input { min-width: 0; width: 100%; }
 .join-row .btn { flex: none; }
 [hidden] { display: none !important; }
+a.btn { color: inherit; }
