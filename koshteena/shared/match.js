@@ -154,6 +154,17 @@ export class Room {
       case 'emoji':
         this.say(pid, String(msg.e || '').slice(0, 8), true);
         break;
+      case 'voice': {
+        // رسالة صوتية قصيرة: بتتوزع على كل اللاعبين في الغرفة
+        const data = typeof msg.data === 'string' ? msg.data : '';
+        const now = Date.now();
+        if (!data || data.length > 300000 || !/^[A-Za-z0-9+/=]+$/.test(data.slice(0, 200))) break;
+        if (s.lastVoice && now - s.lastVoice < 1500) break;
+        s.lastVoice = now;
+        const m = { id: ++this.chatSeq, pid, name: s.name, mime: String(msg.mime || 'audio/webm').slice(0, 40), dur: Math.min(15, Math.max(0, +msg.dur || 0)), data, at: now };
+        for (const h of this.humans()) if (h.connected) this.emit(h.id, { t: 'voice', msg: m });
+        break;
+      }
       default:
         res = { ok: false, error: 'رسالة غير معروفة' };
     }

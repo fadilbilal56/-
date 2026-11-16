@@ -92,6 +92,7 @@
   <div class="page-head">
     <button class="icon-btn" id="leaveLobbyBtn">→</button>
     <h2>الغرفة</h2>
+    <button class="icon-btn mic-btn" data-mic hidden title="اضغط مطوّل واتكلم">🎤</button>
     <button class="icon-btn" data-chat>💬<span class="badge" data-unread></span></button>
   </div>
   <div class="page-body">
@@ -139,6 +140,7 @@
     <button class="icon-btn" id="menuBtn">☰</button>
     <div class="title" id="gameTitle">الجولة 1</div>
     <button class="icon-btn" id="scoresBtn">📊</button>
+    <button class="icon-btn mic-btn" data-mic hidden title="اضغط مطوّل واتكلم">🎤</button>
     <button class="icon-btn" data-chat>💬<span class="badge" data-unread></span></button>
   </div>
   <div class="opponents" id="opponents"></div>
@@ -195,6 +197,10 @@
       <div class="seg" data-set="vibrate"><button data-v="1">شغّال 📳</button><button data-v="0">مقفول</button></div>
     </div>
     <div class="panel">
+      <h3>الرسائل الصوتية</h3>
+      <div class="seg" data-set="voice"><button data-v="1">تشتغل براها 🔊</button><button data-v="0">مقفولة 🔇</button></div>
+    </div>
+    <div class="panel">
       <h3>ترتيب الورق في اليد</h3>
       <div class="seg" data-set="sort"><button data-v="suit">بالشكل ♠♥</button><button data-v="rank">بالرقم 123</button><button data-v="manual">يدوي ✋</button></div>
     </div>
@@ -213,6 +219,7 @@
 <!-- النوافذ -->
 <div class="modal" id="modal"><div class="sheet" id="sheet"></div></div>
 <div class="toast" id="toast"></div>
+<div class="rec-bar" id="recBar"><span class="rec-dot"></span> بيسجّل… <b id="recTime">0</b>ث – فكّ عشان ترسل <button class="btn small ghost" id="recCancel">إلغاء</button></div>
 <div class="conn" id="conn">⚠️ بنحاول نتصل…</div>
 
 <script type="module" src="app.js"></script>

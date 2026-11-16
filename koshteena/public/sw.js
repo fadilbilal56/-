@@ -1,6 +1,6 @@
 // كاش للعمل بدون إنترنت (اللعب ضد الكمبيوتر يشتغل أوفلاين)
-const CACHE = 'koshteena-v2';
-const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'cards.js', 'net.js', 'sound.js', 'icon.svg', 'manifest.webmanifest',
+const CACHE = 'koshteena-v3';
+const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'cards.js', 'net.js', 'sound.js', 'voice.js', 'icon.svg', 'manifest.webmanifest',
   'shared/engine.js', 'shared/ai.js', 'shared/match.js', 'vendor/mqtt.min.js'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

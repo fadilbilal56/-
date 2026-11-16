@@ -202,7 +202,7 @@ const server = http.createServer((req, res) => {
   serveFile(res, file);
 });
 
-const wss = new WebSocketServer({ server, path: '/ws', maxPayload: 16 * 1024 });
+const wss = new WebSocketServer({ server, path: '/ws', maxPayload: 512 * 1024 });
 wss.on('connection', (ws) => {
   ws.isAlive = true;
   ws.on('pong', () => { ws.isAlive = true; });

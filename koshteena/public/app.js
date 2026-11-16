@@ -8,6 +8,7 @@ import { OnlineSession, LocalSession, P2PHost, P2PGuest } from './net.js';
 // العنوان العام للتطبيق (لروابط الدعوة من داخل تطبيق الموبايل)
 export const PUBLIC_URL = 'https://koshteena-fadilbilal56-3326.vercel.app';
 import { sfx, setSound } from './sound.js';
+import { VoiceRecorder, voiceSupported, voiceUrl } from './voice.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -26,7 +27,7 @@ function uuid() {
 const S = {
   pid: store.get('pid', null) || uuid(),
   name: store.get('name', ''),
-  prefs: { sound: 1, vibrate: 1, sort: 'suit', botSpeed: 900, server: '', ...store.get('prefs', {}) },
+  prefs: { sound: 1, vibrate: 1, voice: 1, sort: 'suit', botSpeed: 900, server: '', ...store.get('prefs', {}) },
   ai: { opponents: 2, level: 'medium', burnLimit: 251, firstMeldMin: 51, ...store.get('ai', {}) },
   session: null,
   view: null,
@@ -213,6 +214,9 @@ function onMessage(msg) {
     case 'chat':
       onChat(msg.msg);
       break;
+    case 'voice':
+      onVoice(msg.msg);
+      break;
     case 'error':
       if (S._lastStaged && !S.staged.length) { S.staged = S._lastStaged; S._lastStaged = null; if (S.view?.round) refreshInteractive(); }
       sfx.error(); vibrate(60);
@@ -222,6 +226,7 @@ function onMessage(msg) {
 }
 
 function onState(view) {
+  updateMicButtons();
   if (view.room.phase === 'matchOver' && view.ranking && S.session?.online) {
     const key = view.room.code + ':' + view.roundNo;
     if (S.recordedMatch !== key) { S.recordedMatch = key; recordMatch(view.ranking, 'friends', view.you); }
@@ -982,6 +987,7 @@ $('#scoresBtn').onclick = () => {
 
 // ---------------- الدردشة ----------------
 function onChat(m) {
+  if (m.id && S.chat.some((x) => x.id === m.id && !x.voice)) return; // ما نكرر الرسالة
   S.chat.push(m);
   if (S.chat.length > 80) S.chat.shift();
   if (!m.system) {
@@ -998,11 +1004,11 @@ function showBubble(m) {
   if (!host || current() !== 'game') return;
   host.querySelector('.bubble')?.remove();
   const b = document.createElement('div');
-  b.className = 'bubble' + (m.emoji ? ' emoji' : '');
+  b.className = 'bubble' + (m.emoji ? ' emoji' : '') + (m.voice ? ' voice' : '');
   if (host.id === 'myBar') { b.style.top = 'auto'; b.style.bottom = '100%'; b.style.right = '40px'; }
   b.textContent = m.text;
   host.appendChild(b);
-  setTimeout(() => b.remove(), 3200);
+  setTimeout(() => b.remove(), m.voice ? Math.max(3200, (m.dur || 2) * 1000 + 800) : 3200);
 }
 function openChat() {
   S.chatOpen = true;
@@ -1029,9 +1035,84 @@ function renderChatList() {
   const me = myPid();
   list.innerHTML = S.chat.map((m) => m.system
     ? `<div class="msg sys">${esc(m.text)}</div>`
+    : m.voice
+    ? `<div class="msg ${m.pid === me ? 'me' : ''}">${m.pid === me ? '' : `<span class="who">${esc(m.name)}</span>`}<button class="voice-msg" data-vid="${m.id}">▶️ 🎤 رسالة صوتية <small>${Math.round(m.dur) || 1}ث</small></button></div>`
     : `<div class="msg ${m.pid === me ? 'me' : ''} ${m.emoji ? 'emoji' : ''}">${m.pid === me || m.emoji ? '' : `<span class="who">${esc(m.name)}</span>`}${esc(m.text)}</div>`).join('') || '<div class="msg sys">ابدأ الونسة 👋</div>';
   list.scrollTop = list.scrollHeight;
+  $$('[data-vid]', list).forEach((b) => (b.onclick = () => playVoice(+b.dataset.vid, true)));
 }
+
+// ---------------- الرسائل الصوتية ----------------
+const voices = new Map(); // id -> object URL
+function updateMicButtons() {
+  const on = !!(S.session && S.session.online && voiceSupported());
+  $$('[data-mic]').forEach((b) => (b.hidden = !on));
+}
+function onVoice(m) {
+  let url;
+  try { url = voiceUrl(m); } catch { return; }
+  voices.set(m.id, url);
+  if (voices.size > 30) { const [k, u] = voices.entries().next().value; URL.revokeObjectURL(u); voices.delete(k); }
+  const entry = { id: m.id, pid: m.pid, name: m.name, voice: true, dur: m.dur, at: m.at };
+  S.chat.push(entry);
+  if (S.chat.length > 80) S.chat.shift();
+  const mine = m.pid === myPid();
+  showBubble({ pid: m.pid, text: '🎤 ' + (Math.round(m.dur) || 1) + 'ث', voice: true, dur: m.dur });
+  if (!mine && S.prefs.voice) playVoice(m.id);
+  if (S.chatOpen) renderChatList();
+  else if (!mine) { S.unread++; updateUnread(); }
+}
+let currentAudio = null;
+function playVoice(id, manual = false) {
+  const url = voices.get(id);
+  if (!url) return manual && toast('الرسالة دي ما متوفرة', true);
+  try { currentAudio?.pause(); } catch {}
+  currentAudio = new Audio(url);
+  currentAudio.play().catch(() => { if (manual) toast('ما قدرنا نشغّل الصوت', true); else toast('🎤 وصلتك رسالة صوتية – افتح الونسة 💬'); });
+}
+
+let recorder = null;
+let recState = 'idle'; // idle | starting | recording
+async function startRecording(e) {
+  e.preventDefault();
+  if (recState !== 'idle' || !S.session?.online) return;
+  recState = 'starting';
+  recorder = new VoiceRecorder({
+    onTick: (sec) => { const t = $('#recTime'); if (t) t.textContent = Math.floor(sec); },
+    onAutoStop: () => stopRecording(true),
+  });
+  try {
+    try { currentAudio?.pause(); } catch {}
+    const ok = await recorder.start();
+    if (!ok || recState !== 'starting') { recState = 'idle'; return; }
+    recState = 'recording';
+    $('#recBar').classList.add('show');
+    vibrate(25);
+  } catch (err) {
+    recState = 'idle';
+    recorder.cancel();
+    toast('لازم تسمح للتطبيق باستعمال المايكروفون 🎤', true);
+  }
+}
+async function stopRecording(send = true) {
+  if (recState === 'starting') { recState = 'idle'; recorder?.cancel(); return; }
+  if (recState !== 'recording') return;
+  recState = 'idle';
+  $('#recBar').classList.remove('show');
+  if (!send) { recorder.cancel(); return; }
+  const clip = await recorder.stop();
+  if (!clip) return toast('اضغط مطوّل على 🎤 واتكلم، وفكّه عشان ترسل');
+  if (clip.data.length > 290000) return toast('الرسالة طويلة شوية – خليها أقصر', true);
+  S.session?.send({ t: 'voice', data: clip.data, mime: clip.mime, dur: clip.dur });
+  sfx.chat();
+}
+$$('[data-mic]').forEach((b) => {
+  b.addEventListener('pointerdown', startRecording);
+  b.addEventListener('pointerup', () => stopRecording(true));
+  b.addEventListener('pointercancel', () => stopRecording(false));
+  b.addEventListener('contextmenu', (e) => e.preventDefault());
+});
+$('#recCancel').addEventListener('click', () => stopRecording(false));
 
 // ---------------- الترتيب ----------------
 function lbPoints(e) { return e.wins * 10 + e.roundsWon * 2 + e.hareegs * 5 + e.games; }
@@ -1062,6 +1143,7 @@ function lbRows(list, meTest) {
 async function renderLeaderboard() {
   const list = $('#lbList'), stats = $('#lbStats');
   stats.innerHTML = '';
+  renderBackupRow();
   if (S.lbTab === 'local' || !S.prefs.server) {
     const bucket = S.lbTab === 'local' ? 'local' : 'friends';
     const data = store.get(bucket, {});
@@ -1157,3 +1239,57 @@ let installEvt = null;
 window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvt = e; $('#installBtn').hidden = false; });
 $('#installBtn').onclick = async () => { if (!installEvt) return; installEvt.prompt(); await installEvt.userChoice; installEvt = null; $('#installBtn').hidden = true; };
 if (window.Capacitor || /Android .*wv/.test(navigator.userAgent)) $('#apkLink').hidden = true;
+
+
+// ---------------- نسخة احتياطية للنقاط ----------------
+function backupCode() {
+  const payload = { v: 1, name: S.name, local: store.get('local', {}), friends: store.get('friends', {}) };
+  return 'HQ1-' + btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+}
+function restoreFromCode(code) {
+  const raw = String(code || '').trim().replace(/\s+/g, '');
+  if (!raw.startsWith('HQ1-')) throw new Error('bad');
+  const data = JSON.parse(decodeURIComponent(escape(atob(raw.slice(4)))));
+  const merge = (bucket, incoming) => {
+    const cur = store.get(bucket, {});
+    for (const [k, e] of Object.entries(incoming || {})) {
+      const c = cur[k];
+      // ناخد الأكبر عشان ما تتكرر النقاط لو استرجعت نفس الكود مرتين
+      cur[k] = !c ? e : { ...c, games: Math.max(c.games, e.games), wins: Math.max(c.wins, e.wins), roundsWon: Math.max(c.roundsWon, e.roundsWon), hareegs: Math.max(c.hareegs, e.hareegs) };
+    }
+    store.set(bucket, cur);
+  };
+  merge('local', data.local);
+  merge('friends', data.friends);
+  if (data.name && !S.name) { S.name = data.name; store.set('name', S.name); nameInput.value = S.name; }
+}
+function renderBackupRow() {
+  let row = $('#backupRow');
+  if (!row) {
+    row = document.createElement('div');
+    row.id = 'backupRow';
+    row.className = 'btn-row';
+    row.style.margin = '14px 0 4px';
+    row.innerHTML = '<button class="btn small ghost" id="backupBtn">📤 نسخة احتياطية</button><button class="btn small ghost" id="restoreBtn">📥 استرجاع النقاط</button>';
+    $('#leaderboard .page-body').appendChild(row);
+    $('#backupBtn').onclick = () => {
+      const code = backupCode();
+      const sheet = openModal(`<h2>📤 نسخة احتياطية</h2>
+        <p class="hint center">انسخ الكود ده واحفظه (مثلاً ابعته لنفسك في واتساب). لو مسحت التطبيق أو غيّرت الموبايل، بترجّع بيه نقاطك.</p>
+        <textarea id="bkCode" readonly style="width:100%;height:110px;direction:ltr;border-radius:12px;border:0;padding:10px;background:rgba(255,255,255,.08);color:var(--text);font-size:12px">${esc(code)}</textarea>
+        <div class="btn-row" style="margin-top:10px"><button class="btn gold" id="bkCopy">📋 نسخ</button><button class="btn green" id="bkWa">واتساب</button></div>`);
+      $('#bkCopy', sheet).onclick = () => { $('#bkCode').select(); navigator.clipboard?.writeText(code).then(() => toast('اتنسخ ✅'), () => { document.execCommand('copy'); toast('اتنسخ ✅'); }); };
+      $('#bkWa', sheet).onclick = () => window.open('https://wa.me/?text=' + encodeURIComponent('نسخة نقاطي في حريق قدالة 🃏\n' + code), '_blank');
+    };
+    $('#restoreBtn').onclick = () => {
+      const sheet = openModal(`<h2>📥 استرجاع النقاط</h2>
+        <p class="hint center">الصق كود النسخة الاحتياطية (بيبدأ بـ HQ1-)</p>
+        <textarea id="rsCode" style="width:100%;height:110px;direction:ltr;border-radius:12px;border:0;padding:10px;background:rgba(255,255,255,.08);color:var(--text);font-size:12px"></textarea>
+        <button class="btn gold block" id="rsGo" style="margin-top:10px">استرجاع ✅</button>`);
+      $('#rsGo', sheet).onclick = () => {
+        try { restoreFromCode($('#rsCode').value); closeModal(); toast('رجعت نقاطك ✅'); renderLeaderboard(); }
+        catch { toast('الكود ده غلط – اتأكد إنك نسخته كامل', true); }
+      };
+    };
+  }
+}

@@ -329,3 +329,12 @@ a.btn { color: inherit; }
 .hand .card.armed { animation: armed .35s ease; }
 .hand .card.armed .front { box-shadow: 0 0 0 3px #7fffd4, 0 14px 24px rgba(0, 0, 0, .5); }
 @keyframes armed { 0%, 100% { margin-top: 0; } 30% { margin-top: -14px; } 60% { margin-top: -6px; } }
+.mic-btn { touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+.mic-btn:active { background: var(--red); transform: scale(1.1); }
+.rec-bar { position: fixed; left: 50%; bottom: calc(var(--safe-bottom) + 18px); transform: translateX(-50%) translateY(140px); z-index: 120; background: var(--night-2); border: 2px solid var(--red); color: var(--text); padding: 10px 14px; border-radius: 18px; font-weight: 800; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow); transition: transform .25s cubic-bezier(.2, 1.4, .5, 1); white-space: nowrap; }
+.rec-bar.show { transform: translateX(-50%) translateY(0); }
+.rec-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--red); animation: recblink 1s infinite; }
+@keyframes recblink { 50% { opacity: .2; } }
+.voice-msg { border: 0; background: rgba(255, 255, 255, .12); color: inherit; font: inherit; font-weight: 800; padding: 6px 12px; border-radius: 12px; cursor: pointer; margin-top: 2px; }
+.bubble.voice { background: #7fffd4; animation: pop .3s cubic-bezier(.2, 1.6, .5, 1), voicepulse 1s ease-in-out infinite .3s; }
+@keyframes voicepulse { 50% { transform: scale(1.08); } }
