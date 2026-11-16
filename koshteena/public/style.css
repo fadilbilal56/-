@@ -323,3 +323,6 @@ input { font: inherit; }
 .join-row .btn { flex: none; }
 [hidden] { display: none !important; }
 a.btn { color: inherit; }
+.hand .card { touch-action: none; }
+.hand .card.dragging { transition: none !important; z-index: 999 !important; cursor: grabbing; }
+.hand .card.dragging .front { box-shadow: 0 0 0 3px var(--gold-2), 0 18px 30px rgba(0, 0, 0, .55); }

@@ -304,6 +304,20 @@ function sortHand(hand) {
   else h.sort((a, b) => SUIT_ORDER[a.s] - SUIT_ORDER[b.s] || a.r - b.r);
   return h;
 }
+// ترتيب اليد: تلقائي (بالشكل/بالرقم) أو يدوي بالسحب. الورق الجديد بيجي في الآخر.
+function orderedHand(hand) {
+  if (S.prefs.sort !== 'manual') {
+    const sorted = sortHand(hand);
+    S.handOrder = sorted.map((c) => c.id);
+    return sorted;
+  }
+  const byId = new Map(hand.map((c) => [c.id, c]));
+  let order = (S.handOrder || []).filter((id) => byId.has(id));
+  if (!order.length) order = sortHand(hand).map((c) => c.id);
+  for (const c of hand) if (!order.includes(c.id)) order.push(c.id);
+  S.handOrder = order;
+  return order.map((id) => byId.get(id));
+}
 
 function captureRects() {
   const rects = { hand: new Map(), opp: new Map(), melds: new Map() };
@@ -322,7 +336,7 @@ function renderGame(prev) {
   const newRound = roundKey !== S.roundKey;
   const before = newRound ? null : captureRects();
   if (newRound) {
-    S.roundKey = roundKey; S.lastSeq = 0; S.sel.clear(); S.staged = []; S.readySent = false;
+    S.roundKey = roundKey; S.lastSeq = 0; S.sel.clear(); S.staged = []; S.readySent = false; S.handOrder = [];
     $('#hand').innerHTML = '';
   }
   // نظّف الاختيار
@@ -489,13 +503,16 @@ function handLayout(n) {
   const mid = (n - 1) / 2;
   const angStep = Math.min(3, 28 / Math.max(n, 1));
   const k = 8 / Math.max(mid * mid, 1); // قوس خفيف: الوسط أعلى بـ 8px
-  return (i) => ({ left: start + i * step, rot: (i - mid) * angStep, y: -(mid * mid - (i - mid) ** 2) * k });
+  const pos = (i) => ({ left: start + i * step, rot: (i - mid) * angStep, y: -(mid * mid - (i - mid) ** 2) * k });
+  pos.start = start; pos.step = step;
+  return pos;
 }
 
 function renderHand(newRound) {
   const r = S.view.round;
   const wrap = $('#hand');
-  const sorted = sortHand(r.hand);
+  const sorted = orderedHand(r.hand);
+  const dragId = S.drag && S.drag.id;
   const existing = new Map($$('.card', wrap).map((el) => [el.dataset.id, el]));
   const stagedIds = new Set(S.staged.flat());
   const pos = handLayout(sorted.length);
@@ -507,6 +524,7 @@ function renderHand(newRound) {
       if (!newRound) S.fresh.add(c.id), setTimeout(() => { S.fresh.delete(c.id); el.classList.remove('fresh'); }, 1700);
       wrap.appendChild(el);
     }
+    if (c.id === dragId) { el.style.zIndex = 999; return; }
     const p = pos(i);
     const lift = S.sel.has(c.id) ? 24 : stagedIds.has(c.id) ? 12 : 0;
     el.style.left = p.left + 'px';
@@ -518,12 +536,68 @@ function renderHand(newRound) {
     el.classList.toggle('must', r.tookDiscard === c.id);
   });
   for (const el of existing.values()) el.remove();
-  // ترتيب DOM مطابق
-  sorted.forEach((c) => { const el = wrap.querySelector(`[data-id="${c.id}"]`); if (el) wrap.appendChild(el); });
+  // ترتيب DOM مطابق (ما بنحرك العناصر أثناء السحب)
+  if (!dragId) sorted.forEach((c) => { const el = wrap.querySelector(`[data-id="${c.id}"]`); if (el) wrap.appendChild(el); });
 }
+
+// ---- ترتيب الورق بالسحب ----
+let drag = null;
+let suppressClick = false;
+$('#hand').addEventListener('pointerdown', (e) => {
+  const el = e.target.closest('.card');
+  if (!el || !S.view?.round || (e.pointerType === 'mouse' && e.button !== 0)) return;
+  drag = { id: el.dataset.id, el, x0: e.clientX, y0: e.clientY, pid: e.pointerId, active: false, to: -1 };
+});
+$('#hand').addEventListener('pointermove', (e) => {
+  if (!drag || e.pointerId !== drag.pid) return;
+  const dx = e.clientX - drag.x0, dy = e.clientY - drag.y0;
+  if (!drag.active) {
+    if (Math.hypot(dx, dy) < 10) return;
+    drag.active = true;
+    try { drag.el.setPointerCapture(e.pointerId); } catch {}
+    drag.order = orderedHand(S.view.round.hand).map((c) => c.id);
+    drag.left0 = parseFloat(drag.el.style.left) || 0;
+    drag.el.classList.add('dragging');
+    S.drag = drag;
+  }
+  e.preventDefault();
+  const pos = handLayout(drag.order.length);
+  const maxLeft = pos.start + pos.step * (drag.order.length - 1);
+  const left = Math.max(pos.start - 6, Math.min(maxLeft + 6, drag.left0 + dx));
+  drag.el.style.left = left + 'px';
+  drag.el.style.transform = `translateY(${Math.max(-60, Math.min(0, dy)) - 26}px) scale(1.08)`;
+  let to = pos.step ? Math.round((left - pos.start) / pos.step) : 0;
+  to = Math.max(0, Math.min(drag.order.length - 1, to));
+  if (to !== drag.to) {
+    drag.to = to;
+    const order = drag.order.filter((id) => id !== drag.id);
+    order.splice(to, 0, drag.id);
+    S.handOrder = order;
+    S.prefs.sort = 'manual';
+    renderHand(false);
+  }
+});
+function endDrag(e) {
+  if (!drag || e.pointerId !== drag.pid) return;
+  if (drag.active) {
+    drag.el.classList.remove('dragging');
+    S.drag = null;
+    S.prefs.sort = 'manual';
+    store.set('prefs', S.prefs);
+    suppressClick = true;
+    setTimeout(() => (suppressClick = false), 80);
+    sfx.flick();
+    renderHand(false);
+    renderActions();
+  }
+  drag = null;
+}
+$('#hand').addEventListener('pointerup', endDrag);
+$('#hand').addEventListener('pointercancel', endDrag);
 
 let lastTap = { id: null, t: 0 };
 $('#hand').addEventListener('click', (e) => {
+  if (suppressClick) return;
   const el = e.target.closest('.card');
   if (!el || !S.view?.round) return;
   const id = el.dataset.id;
@@ -607,10 +681,12 @@ function renderActions() {
   if (myPlay && r.canUndoDraw) add('↩️ رجّع ورقة الأرض', 'ghost', () => act({ type: 'undoDraw' }));
   if (S.sel.size || S.staged.length) add('✖', 'ghost', () => { S.sel.clear(); S.staged = []; refreshInteractive(); });
   add('💡', 'ghost', suggest);
-  add(S.prefs.sort === 'suit' ? '⇅ ♠♥' : '⇅ 123', 'ghost', () => {
+  add({ suit: '⇅ ♠♥', rank: '⇅ 123', manual: '✋ يدوي' }[S.prefs.sort] || '⇅ ♠♥', 'ghost', () => {
     S.prefs.sort = S.prefs.sort === 'suit' ? 'rank' : 'suit';
     store.set('prefs', S.prefs);
     renderHand(false);
+    renderActions();
+    if (!store.get('dragHint', false)) { store.set('dragHint', true); toast('تقدر كمان تسحب أي ورقة وترتب يدك براك ✋'); }
   });
 }
 
@@ -1046,7 +1122,7 @@ $('#rulesBody').innerHTML = `
 <h3>🔥 نهاية المباراة</h3>
 <p>اللاعب البتوصل نقاطه لحد الحريق (251 مثلاً) "بيتحرق" ويطلع. آخر لاعب بيفضل في اللعب هو البطل 🏆.</p>
 <h3>💡 نصايح سريعة</h3>
-<ul><li>دوس على الورق عشان تختاره، و"➕ تشكيلة" عشان تجهزه للنزول.</li><li>دبل تاب على ورقة = رمي سريع.</li><li>زر 💡 بيقترح عليك أحسن تشكيلات في يدك.</li><li>عشان تلزّق: اختار الورقة ودوس على التشكيلة في الترابيزة.</li></ul>`;
+<ul><li>دوس على الورق عشان تختاره، و"➕ تشكيلة" عشان تجهزه للنزول.</li><li><b>رتّب يدك براك:</b> امسك أي ورقة واسحبها يمين أو شمال للمكان العايزه. أو استعمل زر ⇅ للترتيب التلقائي.</li><li>دبل تاب على ورقة = رمي سريع.</li><li>زر 💡 بيقترح عليك أحسن تشكيلات في يدك.</li><li>عشان تلزّق: اختار الورقة ودوس على التشكيلة في الترابيزة.</li></ul>`;
 
 // ---------------- البداية ----------------
 const params = new URLSearchParams(location.search);
