@@ -546,13 +546,27 @@ let suppressClick = false;
 $('#hand').addEventListener('pointerdown', (e) => {
   const el = e.target.closest('.card');
   if (!el || !S.view?.round || (e.pointerType === 'mouse' && e.button !== 0)) return;
-  drag = { id: el.dataset.id, el, x0: e.clientX, y0: e.clientY, pid: e.pointerId, active: false, to: -1 };
+  drag = { id: el.dataset.id, el, x0: e.clientX, y0: e.clientY, pid: e.pointerId, active: false, armed: false, to: -1, cancelled: false };
+  // باللمس: لازم ضغطة طويلة (350ms) قبل ما الورقة تتحرك، عشان التمرير العابر ما يغيّر الترتيب
+  const d = drag;
+  const delay = e.pointerType === 'mouse' ? 0 : 350;
+  d.timer = setTimeout(() => {
+    if (drag !== d || d.cancelled) return;
+    d.armed = true;
+    d.el.classList.add('armed');
+    vibrate(20);
+  }, delay);
 });
 $('#hand').addEventListener('pointermove', (e) => {
   if (!drag || e.pointerId !== drag.pid) return;
   const dx = e.clientX - drag.x0, dy = e.clientY - drag.y0;
   if (!drag.active) {
-    if (Math.hypot(dx, dy) < 10) return;
+    if (!drag.armed) {
+      // اتحرك قبل الضغطة الطويلة = تمرير عادي، ما ترتيب
+      if (Math.hypot(dx, dy) > 8) { drag.cancelled = true; clearTimeout(drag.timer); }
+      return;
+    }
+    if (Math.hypot(dx, dy) < 6) return;
     drag.active = true;
     try { drag.el.setPointerCapture(e.pointerId); } catch {}
     drag.order = orderedHand(S.view.round.hand).map((c) => c.id);
@@ -579,6 +593,9 @@ $('#hand').addEventListener('pointermove', (e) => {
 });
 function endDrag(e) {
   if (!drag || e.pointerId !== drag.pid) return;
+  clearTimeout(drag.timer);
+  drag.el.classList.remove('armed');
+  if (drag.armed && !drag.active) { suppressClick = true; setTimeout(() => (suppressClick = false), 80); }
   if (drag.active) {
     drag.el.classList.remove('dragging');
     S.drag = null;
@@ -686,7 +703,7 @@ function renderActions() {
     store.set('prefs', S.prefs);
     renderHand(false);
     renderActions();
-    if (!store.get('dragHint', false)) { store.set('dragHint', true); toast('تقدر كمان تسحب أي ورقة وترتب يدك براك ✋'); }
+    if (!store.get('dragHint', false)) { store.set('dragHint', true); toast('تقدر ترتب يدك براك: اضغط ضغطة طويلة على الورقة واسحبها ✋'); }
   });
 }
 
@@ -1122,7 +1139,7 @@ $('#rulesBody').innerHTML = `
 <h3>🔥 نهاية المباراة</h3>
 <p>اللاعب البتوصل نقاطه لحد الحريق (251 مثلاً) "بيتحرق" ويطلع. آخر لاعب بيفضل في اللعب هو البطل 🏆.</p>
 <h3>💡 نصايح سريعة</h3>
-<ul><li>دوس على الورق عشان تختاره، و"➕ تشكيلة" عشان تجهزه للنزول.</li><li><b>رتّب يدك براك:</b> امسك أي ورقة واسحبها يمين أو شمال للمكان العايزه. أو استعمل زر ⇅ للترتيب التلقائي.</li><li>دبل تاب على ورقة = رمي سريع.</li><li>زر 💡 بيقترح عليك أحسن تشكيلات في يدك.</li><li>عشان تلزّق: اختار الورقة ودوس على التشكيلة في الترابيزة.</li></ul>`;
+<ul><li>دوس على الورق عشان تختاره، و"➕ تشكيلة" عشان تجهزه للنزول.</li><li><b>رتّب يدك براك:</b> اضغط ضغطة طويلة على الورقة لحدي ما ترتفع، وبعدين اسحبها يمين أو شمال للمكان العايزه. أو استعمل زر ⇅ للترتيب التلقائي.</li><li>دبل تاب على ورقة = رمي سريع.</li><li>زر 💡 بيقترح عليك أحسن تشكيلات في يدك.</li><li>عشان تلزّق: اختار الورقة ودوس على التشكيلة في الترابيزة.</li></ul>`;
 
 // ---------------- البداية ----------------
 const params = new URLSearchParams(location.search);

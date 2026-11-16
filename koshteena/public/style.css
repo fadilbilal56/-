@@ -326,3 +326,6 @@ a.btn { color: inherit; }
 .hand .card { touch-action: none; }
 .hand .card.dragging { transition: none !important; z-index: 999 !important; cursor: grabbing; }
 .hand .card.dragging .front { box-shadow: 0 0 0 3px var(--gold-2), 0 18px 30px rgba(0, 0, 0, .55); }
+.hand .card.armed { animation: armed .35s ease; }
+.hand .card.armed .front { box-shadow: 0 0 0 3px #7fffd4, 0 14px 24px rgba(0, 0, 0, .5); }
+@keyframes armed { 0%, 100% { margin-top: 0; } 30% { margin-top: -14px; } 60% { margin-top: -6px; } }
