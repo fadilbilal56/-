@@ -1,0 +1,10 @@
+{
+  "appId": "sd.nabdaljazeera.app",
+  "appName": "نبض الجزيرة",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 1200, "backgroundColor": "#0d6b3a", "showSpinner": false },
+    "StatusBar": { "backgroundColor": "#0d6b3a", "style": "DARK", "overlaysWebView": false }
+  }
+}
