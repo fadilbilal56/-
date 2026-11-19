@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نبض الجزيرة</title>
+<meta name="description" content="صحيفة نبض الجزيرة – أخبار ولاية الجزيرة لحظة بلحظة">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;600;800&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f4ef; --surface:#ffffff; --ink:#1b1d1f; --muted:#5f6670; --line:#e3ded3;
+  --brand:#0d6b3a; --brand-2:#c8102e; --accent:#e7b416; --chip:#eef5f0;
+  --ph1:#cfe3d6; --ph2:#9cc5ac;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111416; --surface:#1a1e21; --ink:#eceae4; --muted:#a3a9b0; --line:#2b3135;
+    --brand:#3fb877; --brand-2:#ff5c6e; --accent:#f2c94c; --chip:#1f2a24;
+    --ph1:#21352a; --ph2:#2f5440;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111416; --surface:#1a1e21; --ink:#eceae4; --muted:#a3a9b0; --line:#2b3135;
+  --brand:#3fb877; --brand-2:#ff5c6e; --accent:#f2c94c; --chip:#1f2a24;
+  --ph1:#21352a; --ph2:#2f5440;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Naskh Arabic",serif;line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--brand)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+h1,h2,h3,h4,.kufi{font-family:"Noto Kufi Arabic",sans-serif;line-height:1.5;margin:0}
+
+/* top bar */
+.topbar{background:var(--brand);color:#fff;font-size:.85rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:6px;flex-wrap:wrap}
+.topbar button{background:transparent;border:1px solid rgba(255,255,255,.5);color:#fff;border-radius:6px;padding:2px 10px;font:inherit;cursor:pointer}
+
+/* masthead */
+.masthead{background:var(--surface);border-bottom:1px solid var(--line)}
+.masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px}
+.logo svg{width:52px;height:52px;flex:none}
+.logo .name{font-family:"Noto Kufi Arabic";font-weight:800;font-size:2rem;color:var(--brand);letter-spacing:0}
+.logo .name span{color:var(--brand-2)}
+.logo .tag{font-size:.85rem;color:var(--muted)}
+.search{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--bg);min-width:0;flex:0 1 300px}
+.search input{border:0;background:transparent;padding:8px 14px;font:inherit;color:var(--ink);flex:1;min-width:0;outline:none}
+.search button{border:0;background:var(--brand);color:#fff;padding:0 16px;font-family:"Noto Kufi Arabic";cursor:pointer}
+
+/* nav */
+nav.main{background:var(--surface);border-bottom:3px solid var(--brand);position:sticky;top:0;z-index:10}
+nav.main ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.main a{display:block;padding:12px 14px;font-family:"Noto Kufi Arabic";font-weight:600;font-size:.95rem;white-space:nowrap}
+nav.main a.active{color:var(--brand);box-shadow:inset 0 -3px 0 var(--brand)}
+
+/* ticker */
+.ticker{background:var(--surface);border-bottom:1px solid var(--line)}
+.ticker .wrap{display:flex;align-items:center;gap:12px;padding-block:8px;overflow:hidden}
+.ticker .label{background:var(--brand-2);color:#fff;font-family:"Noto Kufi Arabic";font-weight:800;font-size:.85rem;padding:4px 12px;border-radius:4px;flex:none}
+.ticker .track{overflow:hidden;flex:1;mask-image:linear-gradient(to left,transparent,#000 5%,#000 95%,transparent)}
+.ticker .items{display:inline-flex;gap:48px;white-space:nowrap;animation:tick 40s linear infinite}
+.ticker .items span::before{content:"●";color:var(--brand-2);margin-left:8px;font-size:.6rem;vertical-align:middle}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(50%)}}
+@media (prefers-reduced-motion:reduce){.ticker .items{animation:none}}
+
+/* image placeholder */
+.ph{background:linear-gradient(135deg,var(--ph1),var(--ph2));border-radius:8px;position:relative;overflow:hidden;aspect-ratio:16/10}
+.ph::after{content:"صورة";position:absolute;inset:0;display:grid;place-items:center;color:var(--brand);opacity:.45;font-family:"Noto Kufi Arabic";font-size:.9rem}
+
+.chip{display:inline-block;background:var(--chip);color:var(--brand);font-family:"Noto Kufi Arabic";font-size:.75rem;font-weight:600;padding:2px 10px;border-radius:999px}
+.meta{color:var(--muted);font-size:.8rem}
+
+/* hero */
+.hero{display:grid;grid-template-columns:2fr 1fr;gap:24px;margin-block:24px}
+.lead .ph{aspect-ratio:16/9}
+.lead h1{font-size:1.75rem;margin:12px 0 8px}
+.lead p{color:var(--muted);margin:0 0 8px}
+.side-list{display:flex;flex-direction:column;gap:16px}
+.mini{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:start}
+.mini .ph{aspect-ratio:4/3}
+.mini h3{font-size:.95rem;margin-top:4px}
+
+/* sections */
+.section-head{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--line);margin:32px 0 16px}
+.section-head h2{font-size:1.25rem;padding-bottom:8px;border-bottom:3px solid var(--brand);margin-bottom:-2px}
+.section-head a{font-size:.85rem;color:var(--brand);font-family:"Noto Kufi Arabic"}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card .ph{border-radius:0}
+.card .body{padding:12px 14px 16px;display:flex;flex-direction:column;gap:6px}
+.card h3{font-size:1rem}
+
+.layout{display:grid;grid-template-columns:1fr 320px;gap:28px}
+.localities{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.localities a{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px;text-align:center;font-family:"Noto Kufi Arabic";font-weight:600;font-size:.9rem}
+.localities a:hover{border-color:var(--brand)}
+
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.feature h3{font-size:1.2rem;margin:8px 0}
+.feature p{color:var(--muted);margin:0}
+
+aside .box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:20px}
+aside h4{font-size:1rem;margin-bottom:12px;color:var(--brand)}
+.most{list-style:none;margin:0;padding:0;counter-reset:m}
+.most li{counter-increment:m;display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.most li:last-child{border-bottom:0}
+.most li::before{content:counter(m);font-family:"Noto Kufi Arabic";font-weight:800;font-size:1.4rem;color:var(--brand-2);min-width:24px;line-height:1.2}
+.opinion{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.opinion:last-child{border-bottom:0}
+.avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--ph1),var(--ph2));flex:none}
+.opinion b{display:block;font-family:"Noto Kufi Arabic";font-size:.8rem;color:var(--muted);font-weight:600}
+.pdf{background:var(--brand);color:#fff;border-radius:10px;padding:16px;text-align:center}
+.pdf .cover{background:#fff;color:var(--brand);border-radius:6px;aspect-ratio:3/4;display:grid;place-items:center;font-family:"Noto Kufi Arabic";font-weight:800;margin:12px auto;max-width:160px}
+.btn{display:inline-block;background:var(--accent);color:#1b1d1f;font-family:"Noto Kufi Arabic";font-weight:700;padding:8px 18px;border-radius:999px;font-size:.9rem}
+.btn:hover{color:#1b1d1f;filter:brightness(.95)}
+.weather{display:flex;justify-content:space-between;text-align:center;font-size:.85rem}
+.weather strong{display:block;font-family:"Noto Kufi Arabic";font-size:1.2rem}
+
+.video-row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.video .ph::before{content:"▶";position:absolute;inset:0;display:grid;place-items:center;font-size:2.2rem;color:#fff;z-index:1;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.video h3{font-size:.95rem;margin-top:8px}
+
+.newsletter{background:var(--chip);border-radius:12px;padding:24px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:36px}
+.newsletter form{display:flex;gap:8px;flex:1 1 260px;max-width:460px;min-width:0}
+.newsletter input{flex:1;min-width:0;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:10px 16px;font:inherit}
+.newsletter button{border:0;background:var(--brand);color:#fff;border-radius:999px;padding:0 20px;font-family:"Noto Kufi Arabic";font-weight:700;cursor:pointer}
+
+footer{background:#0b2a1a;color:#cfd8d2;margin-top:40px;padding:36px 0 16px;font-size:.9rem}
+footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:24px}
+footer h4{color:#fff;font-size:1rem;margin-bottom:10px}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{padding:3px 0}
+footer .social{display:flex;gap:8px;margin-top:12px}
+footer .social a{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;font-family:"Noto Kufi Arabic";font-size:.8rem}
+footer .copy{border-top:1px solid rgba(255,255,255,.12);margin-top:24px;padding-top:12px;text-align:center;font-size:.8rem;color:#9fb0a6}
+.demo-note{background:var(--accent);color:#1b1d1f;text-align:center;font-family:"Noto Kufi Arabic";font-size:.8rem;padding:4px 16px}
+
+@media (max-width:960px){
+  .hero,.layout{grid-template-columns:1fr}
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  footer .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+  .grid4,.video-row,.feature{grid-template-columns:1fr}
+  .localities{grid-template-columns:repeat(2,1fr)}
+  .lead h1{font-size:1.35rem}
+  .logo .name{font-size:1.6rem}
+  .search{flex-basis:100%}
+  footer .cols{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="demo-note">نموذج أولي – المحتوى المعروض تجريبي للتوضيح فقط</div>
+
+<div class="topbar">
+  <div class="wrap">
+    <span id="today">ود مدني</span>
+    <span>
+      <button id="themeBtn" type="button" aria-label="تبديل الوضع الليلي">◐ الوضع الليلي</button>
+    </span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="logo" href="#">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="var(--brand)"/>
+        <polyline points="8,34 20,34 25,22 31,46 37,16 42,34 56,34" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <div class="name">نبض <span>الجزيرة</span></div>
+        <div class="tag">صحيفة إخبارية شاملة – ولاية الجزيرة، السودان</div>
+      </div>
+    </a>
+    <form class="search" role="search" onsubmit="return false">
+      <input type="search" placeholder="ابحث في الأخبار…" aria-label="بحث">
+      <button type="submit">بحث</button>
+    </form>
+  </div>
+</header>
+
+<nav class="main" aria-label="الأقسام">
+  <div class="wrap">
+    <ul>
+      <li><a class="active" href="#">الرئيسية</a></li>
+      <li><a href="#">أخبار الولاية</a></li>
+      <li><a href="#">المحليات</a></li>
+      <li><a href="#">مشروع الجزيرة والزراعة</a></li>
+      <li><a href="#">اقتصاد</a></li>
+      <li><a href="#">صحة</a></li>
+      <li><a href="#">تعليم</a></li>
+      <li><a href="#">رياضة</a></li>
+      <li><a href="#">مقالات الرأي</a></li>
+      <li><a href="#">ثقافة ومجتمع</a></li>
+      <li><a href="#">فيديو</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="ticker" aria-label="عاجل">
+  <div class="wrap">
+    <span class="label">عاجل</span>
+    <div class="track">
+      <div class="items">
+        <span>عنوان خبر عاجل تجريبي من ود مدني</span>
+        <span>عنوان خبر عاجل تجريبي عن الموسم الزراعي</span>
+        <span>عنوان خبر عاجل تجريبي عن الخدمات الصحية</span>
+        <span>عنوان خبر عاجل تجريبي عن امتحانات الشهادة</span>
+        <span>عنوان خبر عاجل تجريبي من ود مدني</span>
+        <span>عنوان خبر عاجل تجريبي عن الموسم الزراعي</span>
+        <span>عنوان خبر عاجل تجريبي عن الخدمات الصحية</span>
+        <span>عنوان خبر عاجل تجريبي عن امتحانات الشهادة</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section class="hero">
+    <article class="lead">
+      <a href="#"><div class="ph"></div></a>
+      <span class="chip" style="margin-top:12px">أخبار الولاية</span>
+      <h1><a href="#">هنا يظهر عنوان الخبر الرئيسي لليوم بخط كبير وواضح يجذب القارئ</a></h1>
+      <p>ملخص قصير للخبر الرئيسي في سطرين أو ثلاثة يوضح أهم ما فيه ويدعو القارئ لمتابعة القراءة.</p>
+      <span class="meta">ود مدني · منذ ساعة · بقلم: محرر الصحيفة</span>
+    </article>
+    <div class="side-list">
+      <div class="mini"><div class="ph"></div><div><span class="chip">زراعة</span><h3><a href="#">عنوان خبر تجريبي عن مشروع الجزيرة والموسم الشتوي</a></h3><span class="meta">منذ ساعتين</span></div></div>
+      <div class="mini"><div class="ph"></div><div><span class="chip">صحة</span><h3><a href="#">عنوان خبر تجريبي عن حملة صحية في المحليات</a></h3><span class="meta">منذ ٣ ساعات</span></div></div>
+      <div class="mini"><div class="ph"></div><div><span class="chip">تعليم</span><h3><a href="#">عنوان خبر تجريبي عن المدارس وجامعة الجزيرة</a></h3><span class="meta">منذ ٤ ساعات</span></div></div>
+      <div class="mini"><div class="ph"></div><div><span class="chip">رياضة</span><h3><a href="#">عنوان خبر تجريبي عن الدوري المحلي في مدني</a></h3><span class="meta">منذ ٥ ساعات</span></div></div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <div>
+      <div class="section-head"><h2>آخر الأخبار</h2><a href="#">عرض الكل ←</a></div>
+      <div class="grid4">
+        <article class="card"><div class="ph"></div><div class="body"><span class="chip">اقتصاد</span><h3><a href="#">عنوان خبر تجريبي عن الأسواق والأسعار</a></h3><span class="meta">منذ ٦ ساعات</span></div></article>
+        <article class="card"><div class="ph"></div><div class="body"><span class="chip">خدمات</span><h3><a href="#">عنوان خبر تجريبي عن المياه والكهرباء</a></h3><span class="meta">منذ ٧ ساعات</span></div></article>
+        <article class="card"><div class="ph"></div><div class="body"><span class="chip">مجتمع</span><h3><a href="#">عنوان خبر تجريبي عن مبادرة شبابية</a></h3><span class="meta">منذ ٨ ساعات</span></div></article>
+        <article class="card"><div class="ph"></div><div class="body"><span class="chip">ثقافة</span><h3><a href="#">عنوان خبر تجريبي عن فعالية ثقافية</a></h3><span class="meta">أمس</span></div></article>
+      </div>
+
+      <div class="section-head"><h2>أخبار المحليات</h2><a href="#">كل المحليات ←</a></div>
+      <div class="localities">
+        <a href="#">مدني الكبرى</a><a href="#">الحصاحيصا</a><a href="#">الكاملين</a><a href="#">المناقل</a>
+        <a href="#">جنوب الجزيرة</a><a href="#">شرق الجزيرة</a><a href="#">أم القرى</a><a href="#">الحوش</a>
+      </div>
+
+      <div class="section-head"><h2>مشروع الجزيرة والزراعة</h2><a href="#">المزيد ←</a></div>
+      <article class="feature">
+        <div class="ph"></div>
+        <div>
+          <span class="chip">تقرير خاص</span>
+          <h3><a href="#">عنوان تقرير تجريبي مطوّل عن واقع مشروع الجزيرة والمزارعين</a></h3>
+          <p>مساحة لتقرير معمّق أو تحقيق صحفي، تُبرز فيه الصحيفة القضايا المهمة لإنسان الجزيرة: الري، والتمويل، والتسويق، وحقوق المزارعين.</p>
+          <p class="meta" style="margin-top:8px">إعداد: قسم التحقيقات</p>
+        </div>
+      </article>
+
+      <div class="section-head"><h2>فيديو</h2><a href="#">قناة الصحيفة ←</a></div>
+      <div class="video-row">
+        <div class="video"><div class="ph"></div><h3><a href="#">عنوان مقطع فيديو تجريبي – تغطية ميدانية</a></h3></div>
+        <div class="video"><div class="ph"></div><h3><a href="#">عنوان مقطع فيديو تجريبي – حوار خاص</a></h3></div>
+        <div class="video"><div class="ph"></div><h3><a href="#">عنوان مقطع فيديو تجريبي – من الأسواق</a></h3></div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="box">
+        <h4>الأكثر قراءة</h4>
+        <ol class="most">
+          <li><a href="#">عنوان الخبر الأكثر قراءة رقم واحد</a></li>
+          <li><a href="#">عنوان الخبر الأكثر قراءة رقم اثنين</a></li>
+          <li><a href="#">عنوان الخبر الأكثر قراءة رقم ثلاثة</a></li>
+          <li><a href="#">عنوان الخبر الأكثر قراءة رقم أربعة</a></li>
+          <li><a href="#">عنوان الخبر الأكثر قراءة رقم خمسة</a></li>
+        </ol>
+      </div>
+
+      <div class="box">
+        <h4>مقالات الرأي</h4>
+        <div class="opinion"><div class="avatar"></div><div><b>اسم الكاتب</b><a href="#">عنوان مقال رأي تجريبي</a></div></div>
+        <div class="opinion"><div class="avatar"></div><div><b>اسم الكاتب</b><a href="#">عنوان مقال رأي تجريبي آخر</a></div></div>
+        <div class="opinion"><div class="avatar"></div><div><b>اسم الكاتب</b><a href="#">عنوان عمود أسبوعي تجريبي</a></div></div>
+      </div>
+
+      <div class="pdf">
+        <h4 style="color:#fff">النسخة الورقية (PDF)</h4>
+        <div class="cover">نبض الجزيرة<br>عدد اليوم</div>
+        <a class="btn" href="#">تصفّح العدد</a>
+      </div>
+
+      <div class="box" style="margin-top:20px">
+        <h4>الطقس اليوم</h4>
+        <div class="weather">
+          <div>ود مدني<strong>--°</strong></div>
+          <div>الحصاحيصا<strong>--°</strong></div>
+          <div>المناقل<strong>--°</strong></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <section class="newsletter">
+    <div>
+      <h3>اشترك في النشرة اليومية</h3>
+      <span class="meta">أهم أخبار الجزيرة تصلك كل صباح</span>
+    </div>
+    <form onsubmit="return false">
+      <input type="email" placeholder="بريدك الإلكتروني" aria-label="البريد الإلكتروني">
+      <button type="submit">اشترك</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>نبض الجزيرة</h4>
+        <p>صحيفة إخبارية تهتم بشؤون ولاية الجزيرة وإنسانها: الأخبار، والتحقيقات، والزراعة، والخدمات، والرياضة، والثقافة.</p>
+        <div class="social">
+          <a href="#" aria-label="فيسبوك">f</a><a href="#" aria-label="إكس">X</a><a href="#" aria-label="يوتيوب">▶</a><a href="#" aria-label="واتساب">W</a><a href="#" aria-label="تيليجرام">T</a>
+        </div>
+      </div>
+      <div><h4>الأقسام</h4><ul><li><a href="#">أخبار الولاية</a></li><li><a href="#">المحليات</a></li><li><a href="#">الزراعة</a></li><li><a href="#">الرياضة</a></li></ul></div>
+      <div><h4>الصحيفة</h4><ul><li><a href="#">من نحن</a></li><li><a href="#">هيئة التحرير</a></li><li><a href="#">أرشيف الأعداد</a></li><li><a href="#">أعلن معنا</a></li></ul></div>
+      <div><h4>تواصل</h4><ul><li><a href="#">راسلنا بخبر</a></li><li><a href="#">اتصل بنا</a></li><li><a href="#">سياسة الخصوصية</a></li></ul></div>
+    </div>
+    <div class="copy">© <span id="yr"></span> صحيفة نبض الجزيرة – جميع الحقوق محفوظة</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var d=new Date();
+  try{
+    document.getElementById('today').textContent='ود مدني · '+d.toLocaleDateString('ar-SD',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+  }catch(e){}
+  document.getElementById('yr').textContent=d.getFullYear();
+  var root=document.documentElement, btn=document.getElementById('themeBtn');
+  try{var s=localStorage.getItem('nabd-theme'); if(s) root.setAttribute('data-theme',s);}catch(e){}
+  btn.addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var nx=cur==='dark'?'light':'dark';
+    root.setAttribute('data-theme',nx);
+    try{localStorage.setItem('nabd-theme',nx);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
