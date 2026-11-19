@@ -55,7 +55,7 @@
   }
   function api(path) {
     var ctrl = new AbortController(); var to = setTimeout(function () { ctrl.abort(); }, 15000);
-    return fetch(SB + "/rest/v1/" + path, { headers: { apikey: KEY, Authorization: "Bearer " + KEY }, signal: ctrl.signal }).then(function (r) {
+    return fetch(SB + "/rest/v1/" + path, { headers: { apikey: KEY }, signal: ctrl.signal }).then(function (r) {
       clearTimeout(to);
       if (!r.ok) { var e = new Error("HTTP " + r.status); e.status = r.status; throw e; }
       return r.json();

@@ -6,13 +6,13 @@
  * إذا تُرك SUPABASE_URL فارغاً يعرض التطبيق محتوى تجريبياً.
  */
 window.NABD_CONFIG = {
-  SUPABASE_URL: "",
-  SUPABASE_KEY: "",
-  SITE_URL: "",
+  SUPABASE_URL: "https://oicmvldauzyyuqmxgydo.supabase.co",
+  SUPABASE_KEY: "sb_publishable_tanjsriWx-SK-pw9aGCJow_zfAiaH1A",
+  SITE_URL: "https://nabd-aljazeera.vercel.app",
   POSTS_PER_PAGE: 20,
   CONTACT_EMAIL: "",
   CONTACT_WHATSAPP: "",
-  PRIVACY_URL: "",
+  PRIVACY_URL: "https://nabd-aljazeera.vercel.app/privacy.html",
   FACEBOOK_URL: "",
   APP_VERSION: "1.0.0"
 };

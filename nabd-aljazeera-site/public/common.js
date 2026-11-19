@@ -48,7 +48,7 @@
 
   function rest(path) {
     var ctrl = new AbortController(); var to = setTimeout(function () { ctrl.abort(); }, 15000);
-    return fetch(URL_ + "/rest/v1/" + path, { headers: { apikey: KEY, Authorization: "Bearer " + KEY }, signal: ctrl.signal })
+    return fetch(URL_ + "/rest/v1/" + path, { headers: { apikey: KEY }, signal: ctrl.signal })
       .then(function (r) { clearTimeout(to); if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
   }
 
@@ -83,7 +83,7 @@
   function addView(id) {
     if (DEMO) return;
     try { var k = "nabd:v:" + id; if (sessionStorage.getItem(k)) return; sessionStorage.setItem(k, "1"); } catch (e) {}
-    fetch(URL_ + "/rest/v1/rpc/increment_views", { method: "POST", headers: { apikey: KEY, Authorization: "Bearer " + KEY, "Content-Type": "application/json" }, body: JSON.stringify({ post_id: +id }) }).catch(function () {});
+    fetch(URL_ + "/rest/v1/rpc/increment_views", { method: "POST", headers: { apikey: KEY, "Content-Type": "application/json" }, body: JSON.stringify({ post_id: +id }) }).catch(function () {});
   }
 
   window.NABD = { CFG: CFG, DEMO: DEMO, esc: esc, ago: ago, renderContent: renderContent, getPosts: getPosts, getPost: getPost, getCategories: getCategories, addView: addView };

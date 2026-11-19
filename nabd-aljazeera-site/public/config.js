@@ -5,8 +5,8 @@
  * إذا تُركا فارغين يعرض الموقع محتوى تجريبياً.
  */
 window.NABD_CONFIG = {
-  SUPABASE_URL: "",
-  SUPABASE_KEY: "",
+  SUPABASE_URL: "https://oicmvldauzyyuqmxgydo.supabase.co",
+  SUPABASE_KEY: "sb_publishable_tanjsriWx-SK-pw9aGCJow_zfAiaH1A",
   SITE_NAME: "نبض الجزيرة",
   CONTACT_EMAIL: "",
   CONTACT_WHATSAPP: "",
