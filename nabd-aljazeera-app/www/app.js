@@ -1,8 +1,9 @@
 (function () {
   "use strict";
   var CFG = window.NABD_CONFIG || {};
-  var SITE = (CFG.WP_SITE || "").replace(/\/+$/, "");
-  var DEMO = !SITE;
+  var SB = (CFG.SUPABASE_URL || "").replace(/\/+$/, ""), KEY = CFG.SUPABASE_KEY || "";
+  var SITE = (CFG.SITE_URL || "").replace(/\/+$/, "");
+  var DEMO = !(SB && KEY);
   var Plugins = (window.Capacitor && window.Capacitor.Plugins) || {};
   var $ = function (id) { return document.getElementById(id); };
   var LOGO = '<svg viewBox="0 0 64 64"><polyline points="8,34 20,34 25,22 31,46 37,16 42,34 56,34" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -15,7 +16,6 @@
 
   /* ---------- helpers ---------- */
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
-  function textOf(html) { var d = document.createElement("div"); d.innerHTML = html || ""; return (d.textContent || "").trim(); }
   function ago(iso) {
     var t = new Date(iso).getTime(); if (!t) return "";
     var m = Math.round((Date.now() - t) / 60000);
@@ -26,50 +26,36 @@
     try { return new Date(t).toLocaleDateString("ar-SD", { day: "numeric", month: "long", year: "numeric" }); } catch (e) { return new Date(t).toDateString(); }
   }
   function toast(msg) { var t = $("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function () { t.hidden = true; }, 2200); }
-  function sanitize(html) {
-    var doc = new DOMParser().parseFromString("<div>" + (html || "") + "</div>", "text/html");
-    doc.querySelectorAll("script,style,object,embed,form,link,meta").forEach(function (n) { n.remove(); });
-    doc.querySelectorAll("iframe").forEach(function (f) {
-      var src = f.getAttribute("src") || "";
-      if (!/^https:\/\/(www\.)?(youtube\.com|youtube-nocookie\.com)\//.test(src)) f.remove();
-    });
-    doc.querySelectorAll("*").forEach(function (el) {
-      Array.prototype.slice.call(el.attributes).forEach(function (a) {
-        if (/^on/i.test(a.name) || (/^(href|src)$/i.test(a.name) && /^\s*javascript:/i.test(a.value))) el.removeAttribute(a.name);
-      });
-      if (el.tagName === "A") { el.setAttribute("target", "_blank"); el.setAttribute("rel", "noopener"); }
-      if (el.tagName === "IMG") el.setAttribute("loading", "lazy");
-    });
-    return doc.body.firstChild.innerHTML;
+  /* نص الخبر بصيغة لوحة التحكم: سطر فارغ = فقرة، ## عنوان، > اقتباس، رابط يوتيوب منفرد = فيديو */
+  function youtubeId(u) {
+    var m = String(u).trim().match(/^https?:\/\/(?:www\.|m\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);
+    return m ? m[1] : null;
+  }
+  function linkify(s) { return esc(s).replace(/https?:\/\/[^\s<]+/g, function (u) { return '<a href="' + u + '" target="_blank" rel="noopener">' + u + "</a>"; }); }
+  function renderContent(text) {
+    return String(text || "").replace(/\r/g, "").split(/\n\s*\n/).map(function (block) {
+      block = block.trim(); if (!block) return "";
+      var yt = youtubeId(block);
+      if (yt && !/\s/.test(block)) return '<iframe src="https://www.youtube-nocookie.com/embed/' + yt + '" allowfullscreen loading="lazy" title="فيديو"></iframe>';
+      if (/^##\s+/.test(block)) return "<h2>" + esc(block.replace(/^##\s+/, "")) + "</h2>";
+      if (/^>\s?/.test(block)) return "<blockquote>" + linkify(block.replace(/^>\s?/gm, "")).replace(/\n/g, "<br>") + "</blockquote>";
+      return "<p>" + linkify(block).replace(/\n/g, "<br>") + "</p>";
+    }).join("");
   }
   function img(p) { return '<div class="ph">' + LOGO + (p.image ? '<img src="' + esc(p.image) + '" alt="" loading="lazy">' : "") + "</div>"; }
 
   /* ---------- data ---------- */
   function normalize(p) {
-    var media = p._embedded && p._embedded["wp:featuredmedia"] && p._embedded["wp:featuredmedia"][0];
-    var terms = (p._embedded && p._embedded["wp:term"] && p._embedded["wp:term"][0]) || [];
-    var author = p._embedded && p._embedded.author && p._embedded.author[0];
-    var image = "";
-    if (media) {
-      var sz = media.media_details && media.media_details.sizes;
-      image = (sz && (sz.medium_large || sz.large || sz.full) && (sz.medium_large || sz.large || sz.full).source_url) || media.source_url || "";
-    }
     return {
-      id: p.id,
-      title: textOf(p.title && p.title.rendered),
-      excerpt: textOf(p.excerpt && p.excerpt.rendered),
-      content: (p.content && p.content.rendered) || "",
-      date: p.date_gmt ? p.date_gmt + "Z" : p.date,
-      cat: terms[0] ? terms[0].id : 0,
-      catName: terms[0] ? textOf(terms[0].name) : "",
-      image: image,
-      link: p.link || "",
-      author: author ? author.name : ""
+      id: p.id, title: p.title, excerpt: p.excerpt || "", content: p.content || "",
+      date: p.published_at, cat: p.category_id || 0, catName: (p.categories && p.categories.name) || "",
+      image: p.image_url || "", link: SITE ? SITE + "/article.html?id=" + p.id : "",
+      author: p.author || "", breaking: !!p.is_breaking
     };
   }
   function api(path) {
     var ctrl = new AbortController(); var to = setTimeout(function () { ctrl.abort(); }, 15000);
-    return fetch(SITE + "/wp-json/wp/v2/" + path, { signal: ctrl.signal }).then(function (r) {
+    return fetch(SB + "/rest/v1/" + path, { headers: { apikey: KEY, Authorization: "Bearer " + KEY }, signal: ctrl.signal }).then(function (r) {
       clearTimeout(to);
       if (!r.ok) { var e = new Error("HTTP " + r.status); e.status = r.status; throw e; }
       return r.json();
@@ -77,8 +63,8 @@
   }
   function fetchCats() {
     if (DEMO) return Promise.resolve(window.NABD_DEMO.cats);
-    return api("categories?per_page=50&orderby=count&order=desc&hide_empty=true&_fields=id,name,count")
-      .then(function (list) { var c = list.filter(function (x) { return x.name !== "Uncategorized" && x.name !== "غير مصنف"; }).map(function (x) { return { id: x.id, name: textOf(x.name) }; }); save("nabd:cats", c); return c; })
+    return api("categories?select=id,name&order=sort.asc")
+      .then(function (c) { save("nabd:cats", c); return c; })
       .catch(function () { return load("nabd:cats", []); });
   }
   function fetchPosts(opts) {
@@ -89,15 +75,16 @@
       return Promise.resolve({ posts: opts.page > 1 ? [] : all, more: false, offline: false });
     }
     var n = CFG.POSTS_PER_PAGE || 20;
-    var q = "posts?_embed=wp:featuredmedia,wp:term,author&per_page=" + n + "&page=" + opts.page +
-      (opts.cat ? "&categories=" + opts.cat : "") + (opts.q ? "&search=" + encodeURIComponent(opts.q) : "");
+    var q = "posts?select=id,title,excerpt,content,image_url,category_id,author,is_breaking,published_at,categories(name)" +
+      "&order=published_at.desc&limit=" + n + "&offset=" + (opts.page - 1) * n;
+    if (opts.cat) q += "&category_id=eq." + (+opts.cat);
+    if (opts.q) { var s = encodeURIComponent(opts.q.replace(/[,()*%]/g, " ").trim()); q += "&or=(title.ilike.*" + s + "*,content.ilike.*" + s + "*)"; }
     var cacheKey = "nabd:posts:" + (opts.cat || 0);
     return api(q).then(function (list) {
       var posts = list.map(normalize);
       if (opts.page === 1 && !opts.q) save(cacheKey, posts);
       return { posts: posts, more: posts.length === n, offline: false };
     }).catch(function (e) {
-      if (e.status === 400) return { posts: [], more: false, offline: false }; // past last page
       if (opts.page === 1 && !opts.q) return { posts: load(cacheKey, []), more: false, offline: true };
       throw e;
     });
@@ -111,7 +98,8 @@
     $("cats").hidden = state.tab !== "home";
   }
   function renderTicker(posts) {
-    var top = posts.slice(0, 5);
+    var br = posts.filter(function (p) { return p.breaking; });
+    var top = (br.length ? br : posts).slice(0, 5);
     if (!top.length || state.tab !== "home") { $("ticker").hidden = true; return; }
     var items = top.concat(top).map(function (p) { return '<span data-id="' + p.id + '">' + esc(p.title) + "</span>"; }).join("");
     $("tickerItems").innerHTML = items;
@@ -202,7 +190,7 @@
     $("articleScroll").innerHTML = img(p) + '<div class="article-body">' +
       (p.catName ? '<span class="chip">' + esc(p.catName) + "</span>" : "") +
       "<h1>" + esc(p.title) + '</h1><div class="meta">' + ago(p.date) + (p.author ? " · " + esc(p.author) : "") + "</div>" +
-      '<div class="article-content">' + sanitize(p.content) + "</div>" +
+      '<div class="article-content">' + renderContent(p.content) + "</div>" +
       '<div class="share-row"><button class="s-wa" data-share="wa">واتساب</button><button class="s-fb" data-share="fb">فيسبوك</button><button class="s-more" data-share="more">مشاركة</button></div></div>' +
       (related.length ? '<div class="related"><div class="section-title">أخبار ذات صلة</div>' + related.map(rowHTML).join("") + "</div>" : "");
     $("articleScroll").scrollTop = 0;

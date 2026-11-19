@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>لوحة التحكم – نبض الجزيرة</title>
+<link rel="icon" href="/favicon.png">
+<style>
+@font-face{font-family:"Cairo";src:url("/vendor/Cairo.ttf") format("truetype");font-weight:200 1000}
+:root{--bg:#f4f2ec;--surface:#fff;--ink:#1b1d1f;--muted:#646b73;--line:#e1dcd1;--brand:#0d6b3a;--red:#c8102e;--chip:#e8f2ec}
+@media (prefers-color-scheme:dark){:root{--bg:#101315;--surface:#1a1e21;--ink:#ecebe6;--muted:#a2a9b0;--line:#2c3236;--brand:#3fb877;--red:#ff5c6e;--chip:#1e2b24}}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Cairo",sans-serif;line-height:1.7}
+button,input,select,textarea{font:inherit;color:inherit}
+.top{background:#0a5530;color:#fff;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.top b{font-size:1.2rem}.top a{color:#fff}
+.top .who{font-size:.85rem;opacity:.9}
+.wrap{max-width:1000px;margin:0 auto;padding:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+h1,h2{margin:0 0 12px;line-height:1.4}h1{font-size:1.4rem}h2{font-size:1.1rem}
+label{display:block;font-weight:700;font-size:.9rem;margin:12px 0 4px}
+input[type=text],input[type=email],input[type=password],input[type=datetime-local],select,textarea{width:100%;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:8px 12px}
+textarea{min-height:320px;line-height:1.9;resize:vertical}
+.hint{font-size:.8rem;color:var(--muted)}
+.btn{border:0;background:var(--brand);color:#fff;border-radius:8px;padding:8px 18px;font-weight:700;cursor:pointer}
+.btn.alt{background:var(--chip);color:var(--brand)}
+.btn.danger{background:var(--red)}
+.btn:disabled{opacity:.6;cursor:wait}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.checks{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px}
+.checks label{display:flex;gap:6px;align-items:center;margin:0;font-weight:600}
+.tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.tabs button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 16px;cursor:pointer;font-weight:700}
+.tabs button.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{padding:8px;border-bottom:1px solid var(--line);text-align:right;vertical-align:top}
+th{color:var(--muted);font-size:.8rem}
+td.t{font-weight:700;cursor:pointer}td.t:hover{color:var(--brand)}
+.badge{display:inline-block;font-size:.72rem;padding:0 8px;border-radius:999px;font-weight:700;margin-left:4px}
+.b-pub{background:#d8f0e1;color:#0d6b3a}.b-draft{background:#eee;color:#555}.b-br{background:#fde2e6;color:#c8102e}.b-ft{background:#fff1c2;color:#7a5a00}
+.imgbox{border:2px dashed var(--line);border-radius:10px;padding:12px;text-align:center}
+.imgbox img{max-width:100%;max-height:220px;border-radius:8px;display:block;margin:0 auto 8px}
+.msg{padding:8px 12px;border-radius:8px;margin:8px 0;font-size:.9rem}
+.msg.ok{background:#d8f0e1;color:#0a5530}.msg.err{background:#fde2e6;color:#8a0d1f}
+.login{max-width:420px;margin:48px auto}
+.scroll{overflow-x:auto}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}.hide-sm{display:none}}
+</style>
+</head>
+<body>
+<div class="top">
+  <b>نبض الجزيرة · لوحة التحكم</b>
+  <span class="row"><span class="who" id="who"></span><a href="/" target="_blank">عرض الموقع ↗</a><button class="btn alt" id="logoutBtn" hidden>خروج</button></span>
+</div>
+
+<div class="wrap">
+  <div id="notConfigured" class="card" hidden>
+    <h1>الموقع غير مربوط بقاعدة البيانات بعد</h1>
+    <p>ضع رابط مشروع Supabase والمفتاح العام في ملف <code>config.js</code> ثم أعد تحميل الصفحة.</p>
+  </div>
+
+  <!-- login -->
+  <div id="loginView" class="card login" hidden>
+    <h1>دخول المحررين</h1>
+    <div class="tabs"><button class="on" data-auth="in">تسجيل الدخول</button><button data-auth="up">إنشاء حساب جديد</button></div>
+    <label for="email">البريد الإلكتروني</label><input id="email" type="email" autocomplete="email" dir="ltr">
+    <label for="pass">كلمة المرور</label><input id="pass" type="password" autocomplete="current-password" dir="ltr">
+    <p class="hint" id="authHint">لا يستطيع النشر إلا المحررون الذين أضافهم مدير الموقع.</p>
+    <div id="authMsg"></div>
+    <div class="row" style="margin-top:12px"><button class="btn" id="authBtn">دخول</button><button class="btn alt" id="resetBtn" type="button">نسيت كلمة المرور</button></div>
+  </div>
+
+  <!-- not an editor -->
+  <div id="noAccess" class="card" hidden>
+    <h1>حسابك غير مضاف كمحرر</h1>
+    <p>سجّلت الدخول بنجاح، لكن هذا البريد غير موجود في قائمة المحررين. اطلب من مدير الموقع إضافته من تبويب «المحررون».</p>
+  </div>
+
+  <!-- dashboard -->
+  <div id="dash" hidden>
+    <div class="tabs" id="mainTabs">
+      <button class="on" data-view="list">الأخبار</button>
+      <button data-view="edit" id="newBtn">+ خبر جديد</button>
+      <button data-view="editors" id="editorsTab" hidden>المحررون</button>
+      <button data-view="help">طريقة الكتابة</button>
+    </div>
+
+    <section id="v-list" class="card">
+      <div class="row" style="justify-content:space-between;margin-bottom:8px">
+        <h2 style="margin:0">كل الأخبار</h2>
+        <input id="filter" type="text" placeholder="بحث بالعنوان…" style="max-width:240px">
+      </div>
+      <div class="scroll"><table><thead><tr><th>العنوان</th><th class="hide-sm">القسم</th><th>الحالة</th><th class="hide-sm">التاريخ</th><th class="hide-sm">قراءات</th></tr></thead><tbody id="postsBody"></tbody></table></div>
+      <div class="row" style="margin-top:12px"><button class="btn alt" id="moreBtn" hidden>عرض المزيد</button></div>
+    </section>
+
+    <section id="v-edit" class="card" hidden>
+      <h2 id="editTitle">خبر جديد</h2>
+      <div id="editMsg"></div>
+      <label for="f-title">العنوان *</label><input id="f-title" type="text" maxlength="300">
+      <label for="f-excerpt">ملخص قصير (سطر أو سطرين)</label><input id="f-excerpt" type="text" maxlength="400">
+      <div class="grid2">
+        <div><label for="f-cat">القسم</label><select id="f-cat"></select></div>
+        <div><label for="f-author">الكاتب / المراسل</label><input id="f-author" type="text" maxlength="120"></div>
+      </div>
+      <label>الصورة</label>
+      <div class="imgbox"><img id="f-imgprev" alt="" hidden><input id="f-img" type="file" accept="image/jpeg,image/png,image/webp"><div class="hint">JPG أو PNG أو WEBP – تُصغَّر تلقائياً قبل الرفع</div><button class="btn alt" id="rmImg" type="button" hidden>إزالة الصورة</button></div>
+      <label for="f-content">نص الخبر *</label>
+      <textarea id="f-content" placeholder="اكتب الخبر هنا… اترك سطراً فارغاً بين الفقرات."></textarea>
+      <div class="hint">سطر فارغ = فقرة جديدة · ## عنوان فرعي · &gt; اقتباس · رابط يوتيوب في سطر مستقل = فيديو</div>
+      <div class="grid2">
+        <div><label for="f-date">تاريخ ووقت النشر</label><input id="f-date" type="datetime-local"><div class="hint">لو اخترت وقتاً قادماً يظهر الخبر تلقائياً في وقته</div></div>
+        <div></div>
+      </div>
+      <div class="checks">
+        <label><input type="checkbox" id="f-pub"> منشور (يظهر للقراء)</label>
+        <label><input type="checkbox" id="f-br"> عاجل (يظهر في الشريط)</label>
+        <label><input type="checkbox" id="f-ft"> خبر رئيسي (أعلى الصفحة)</label>
+      </div>
+      <div class="row" style="margin-top:16px">
+        <button class="btn" id="saveBtn">حفظ</button>
+        <button class="btn alt" id="previewBtn" type="button" hidden>معاينة على الموقع ↗</button>
+        <span style="flex:1"></span>
+        <button class="btn danger" id="delBtn" type="button" hidden>حذف الخبر</button>
+      </div>
+    </section>
+
+    <section id="v-editors" class="card" hidden>
+      <h2>المحررون</h2>
+      <p class="hint">أضف بريد المحرر هنا، ثم يدخل هو إلى هذه الصفحة ويختار «إنشاء حساب جديد» بنفس البريد.</p>
+      <div class="grid2">
+        <div><label for="e-email">البريد</label><input id="e-email" type="email" dir="ltr"></div>
+        <div><label for="e-name">الاسم</label><input id="e-name" type="text"></div>
+      </div>
+      <div class="row" style="margin-top:8px"><select id="e-role" style="max-width:200px"><option value="editor">محرر (ينشر الأخبار)</option><option value="admin">مدير (ينشر ويضيف محررين)</option></select><button class="btn" id="addEditor">إضافة</button></div>
+      <div id="edMsg"></div>
+      <table style="margin-top:12px"><thead><tr><th>البريد</th><th>الاسم</th><th>الصلاحية</th><th></th></tr></thead><tbody id="editorsBody"></tbody></table>
+    </section>
+
+    <section id="v-help" class="card" hidden>
+      <h2>طريقة كتابة الخبر</h2>
+      <ul>
+        <li>اكتب كل فقرة، واترك <b>سطراً فارغاً</b> بين الفقرات.</li>
+        <li>لعنوان فرعي داخل الخبر ابدأ السطر بـ <code>## </code></li>
+        <li>للاقتباس ابدأ السطر بـ <code>&gt; </code></li>
+        <li>لإضافة فيديو ضع رابط يوتيوب وحده في سطر مستقل.</li>
+        <li>اختر «عاجل» ليظهر الخبر في الشريط الأحمر، و«خبر رئيسي» ليتصدّر الصفحة.</li>
+        <li>اترك «منشور» بدون علامة لحفظ الخبر كمسودة لا يراها القراء.</li>
+        <li>أي خبر تنشره يظهر فوراً في الموقع وفي تطبيق الجوال.</li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<script src="/config.js"></script>
+<script src="/vendor/supabase-2.119.0.js"></script>
+<script src="/admin/admin.js"></script>
+</body>
+</html>
