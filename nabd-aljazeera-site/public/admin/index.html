@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>لوحة التحكم – نبض الجزيرة</title>
-<link rel="icon" href="/favicon.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-@font-face{font-family:"Cairo";src:url("/vendor/Cairo.ttf") format("truetype");font-weight:200 1000}
 :root{--bg:#f4f2ec;--surface:#fff;--ink:#1b1d1f;--muted:#646b73;--line:#e1dcd1;--brand:#0d6b3a;--red:#c8102e;--chip:#e8f2ec}
 @media (prefers-color-scheme:dark){:root{--bg:#101315;--surface:#1a1e21;--ink:#ecebe6;--muted:#a2a9b0;--line:#2c3236;--brand:#3fb877;--red:#ff5c6e;--chip:#1e2b24}}
 *{box-sizing:border-box}[hidden]{display:none!important}
@@ -155,7 +155,7 @@ td.t{font-weight:700;cursor:pointer}td.t:hover{color:var(--brand)}
 </div>
 
 <script src="/config.js"></script>
-<script src="/vendor/supabase-2.119.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0/dist/umd/supabase.js" crossorigin="anonymous"></script>
 <script src="/admin/admin.js"></script>
 </body>
 </html>
