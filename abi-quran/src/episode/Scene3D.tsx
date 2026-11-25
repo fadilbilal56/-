@@ -42,12 +42,19 @@ const CameraRig: React.FC<{segments: Segment[]; layout: Layout}> = ({segments, l
   const presets = CAMERA_PRESETS[layout];
   const to = presets[shotOf(segments, index)];
   const from = index > 0 ? presets[shotOf(segments, index - 1)] : to;
-  const t = ease(Math.min(1, (frame - seg.from) / 22));
-  const pos = lerp3(from.pos, to.pos, t);
+  const TRANSITION = 30;
+  const t = ease(Math.min(1, (frame - seg.from) / TRANSITION));
+  let pos = lerp3(from.pos, to.pos, t);
   const target = lerp3(from.target, to.target, t);
-  // gentle handheld-free drift keeps the frame alive
-  pos[0] += Math.sin(frame / 90) * 0.03;
-  pos[1] += Math.sin(frame / 120) * 0.012;
+  // slow push-in during the shot (continues through the following pause)
+  const shotStart = seg.kind === 'pause' && index > 0 ? segments[index - 1].from : seg.from;
+  const shotLen = seg.kind === 'pause' && index > 0 ? segments[index - 1].durationInFrames + seg.durationInFrames : seg.durationInFrames;
+  const push = Easing.out(Easing.quad)(Math.min(1, Math.max(0, (frame - shotStart) / Math.max(1, shotLen)))) * 0.07;
+  pos = lerp3(pos, target, push);
+  // gentle floating arc keeps the frame alive
+  pos[0] += Math.sin(frame / 70) * 0.045;
+  pos[1] += Math.sin(frame / 95) * 0.02;
+  pos[2] += Math.sin(frame / 110) * 0.03;
   camera.position.set(...pos);
   camera.lookAt(...target);
   // @ts-expect-error perspective camera
@@ -92,7 +99,7 @@ const sonTarget = (s: Segment, frame: number): CharTarget => {
   }
 };
 
-const BLEND_FRAMES = 12;
+const BLEND_FRAMES = 16;
 
 const useCharacter = (segments: Segment[], who: Speaker, targetFn: (s: Segment, f: number) => CharTarget, seed: number) => {
   const frame = useCurrentFrame();
@@ -106,6 +113,22 @@ const useCharacter = (segments: Segment[], who: Speaker, targetFn: (s: Segment, 
 
   const speaking =
     (seg.kind === 'recite' && seg.speaker === who) || (seg.kind === 'line' && seg.line.speaker === who && frame < seg.from + seg.durationInFrames) ? seg : null;
+
+  // ── secondary motion, so no shot ever looks frozen ──
+  const sin = Math.sin;
+  // idle micro-movements of the head
+  pose = {...pose, headYaw: pose.headYaw + sin(frame / 53 + seed) * 0.035, headRoll: pose.headRoll + sin(frame / 71 + seed * 2) * 0.025, headPitch: pose.headPitch + sin(frame / 41 + seed) * 0.015};
+  if (speaking && speaking.kind === 'recite') {
+    // gentle forward rocking while reciting from the mushaf
+    pose = {...pose, torsoPitch: pose.torsoPitch + sin(frame * 0.16) * 0.035, headPitch: pose.headPitch + sin(frame * 0.16 + 0.6) * 0.035};
+    if (who === 'son') pose = {...pose, torsoYaw: pose.torsoYaw + sin(frame * 0.08) * 0.04};
+  } else if (speaking && speaking.kind === 'line' && who === 'father' && speaking.line.mood !== 'praising') {
+    // talking hand gesture
+    pose = {...pose, rightArm: {...pose.rightArm, elbow: pose.rightArm.elbow + sin(frame * 0.13) * 0.18, shoulderRoll: pose.rightArm.shoulderRoll + sin(frame * 0.09) * 0.08}};
+  } else if (seg.kind === 'recite' && seg.speaker !== who) {
+    // listener nods now and then
+    pose = {...pose, headPitch: pose.headPitch + Math.max(0, sin(frame * 0.11 + seed)) * 0.045};
+  }
   const mouthOpen = useMouthOpen({
     audioSrc: speaking && (speaking.kind === 'recite' || speaking.kind === 'line') ? speaking.audioSrc : null,
     from: speaking ? speaking.from : -1,

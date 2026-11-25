@@ -432,7 +432,7 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
 
 /** Each reader has his own wooden rehal with an open mushaf (reference picture). */
 export const SON_REHAL_POS: [number, number, number] = [0.38, 0, 0.47];
-export const FATHER_REHAL_POS: [number, number, number] = [-0.4, 0, 0.42];
+export const FATHER_REHAL_POS: [number, number, number] = [-0.36, 0, 0.36];
 
 const Rehal: React.FC<{pageTex: THREE.Texture; position: [number, number, number]; rotationY: number; scale: number}> = ({pageTex, position, rotationY, scale}) => (
   <group position={position} rotation={[0, rotationY, 0]} scale={scale}>

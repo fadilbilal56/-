@@ -1,6 +1,6 @@
 # QA report — Episode 1: Surah An-Nas (الناس, 114)
 
-Generated 2026-11-25 08:29 UTC by `scripts/qa-episode.mjs` (with visual check).
+Generated 2026-11-25 09:18 UTC by `scripts/qa-episode.mjs` (with visual check).
 
 **Automated checks:** 23 passed · 0 failed · 4 pending human action
 
@@ -50,7 +50,7 @@ Generated 2026-11-25 08:29 UTC by `scripts/qa-episode.mjs` (with visual check).
 | | Check | Detail |
 |---|---|---|
 | ✅ | Character spec unchanged since lock | sha256 f36e9e94008d… |
-| ✅ | Character rig unchanged since lock | sha256 0951ec90ee0d… |
+| ✅ | Character rig unchanged since lock | sha256 9af58db2abc5… |
 | ✅ | Single source of truth: character colours only defined in characterSpec.ts | 25 locked colours |
 | ✅ | Same model instance used in every episode (shared Scene3D) |  |
 | ✅ | father: re-render matches approved reference sheet (SSIM ≥ 0.995) | SSIM 1 |

@@ -252,6 +252,12 @@ const Arm: React.FC<{side: 1 | -1; spec: CharacterSpec; arm: Pose['leftArm']; sh
           <capsuleGeometry args={[0.014, 0.03, 4, 8]} />
           {mat(c.skin)}
         </mesh>
+        {arm.point && (
+          <mesh position={[0, -p.forearm - 0.13, 0.01]}>
+            <capsuleGeometry args={[0.012, 0.06, 4, 8]} />
+            {mat(c.skin)}
+          </mesh>
+        )}
       </group>
     </group>
   );

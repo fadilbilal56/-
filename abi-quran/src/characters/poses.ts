@@ -9,6 +9,8 @@ export type ArmPose = {
   shoulderRoll: number;
   /** elbow bend (+ = bend forward) */
   elbow: number;
+  /** extend the index finger (pointing at the mushaf line) */
+  point?: boolean;
 };
 
 export type Pose = {
@@ -30,7 +32,7 @@ export type Expression = {
   lookY: number; // -1..1
 };
 
-const arm = (shoulderPitch: number, shoulderRoll: number, elbow: number): ArmPose => ({shoulderPitch, shoulderRoll, elbow});
+const arm = (shoulderPitch: number, shoulderRoll: number, elbow: number, point = false): ArmPose => ({shoulderPitch, shoulderRoll, elbow, point});
 
 export const POSES = {
   /** Hands resting on knees, upright. */
@@ -42,7 +44,7 @@ export const POSES = {
   /** Father listening to his son: head tilted toward son, slight lean. */
   listening: {headYaw: 0.5, headPitch: 0.18, headRoll: 0.1, torsoYaw: 0.2, torsoPitch: 0.08, leftArm: arm(0.5, 0.18, 0.9), rightArm: arm(0.62, 0.05, 0.75)},
   /** Father reciting from his own mushaf, pointing at the line (reference picture). */
-  pointing: {headYaw: 0.18, headPitch: 0.16, headRoll: 0.03, torsoYaw: 0.1, torsoPitch: 0.14, leftArm: arm(0.85, 0.12, 0.95), rightArm: arm(1.15, 0.05, 0.55)},
+  pointing: {headYaw: 0.05, headPitch: 0.3, headRoll: 0.03, torsoYaw: 0.05, torsoPitch: 0.16, leftArm: arm(1.0, -0.22, 0.75), rightArm: arm(1.2, -0.28, 0.45, true)},
   /** Father praising: hand raised toward son, upright, proud. */
   praising: {headYaw: 0.45, headPitch: 0.05, headRoll: 0.08, torsoYaw: 0.25, torsoPitch: 0.02, leftArm: arm(0.5, 0.18, 0.9), rightArm: arm(1.35, 0.7, 0.8)},
   /** Addressing the camera / the children watching. */
@@ -70,6 +72,7 @@ const mixArm = (a: ArmPose, b: ArmPose, t: number): ArmPose => ({
   shoulderPitch: lerp(a.shoulderPitch, b.shoulderPitch, t),
   shoulderRoll: lerp(a.shoulderRoll, b.shoulderRoll, t),
   elbow: lerp(a.elbow, b.elbow, t),
+  point: t < 0.5 ? a.point : b.point,
 });
 
 export const mixPose = (a: Pose, b: Pose, t: number): Pose => ({
