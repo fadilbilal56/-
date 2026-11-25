@@ -1,0 +1,16 @@
+@font-face{font-family:Amiri;src:url(../../poster/Amiri-Regular.ttf);font-weight:400}
+@font-face{font-family:Amiri;src:url(../../poster/Amiri-Bold.ttf);font-weight:700}
+@font-face{font-family:Cairo;src:url(../../poster/Cairo.ttf);font-weight:200 900}
+:root{
+  --sky:#7fd3f7; --sky2:#c9f0ff; --grass:#6cc551; --grass2:#3f9e3a;
+  --sun:#ffc93c; --sun2:#ffe48a; --coral:#ff7b6b; --pink:#ff9ec4;
+  --purple:#8b6cf0; --teal:#1fb5a5; --cream:#fffaf0; --ink:#2b2350;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{overflow:hidden}
+body{font-family:Cairo,sans-serif;color:var(--ink);overflow:hidden;position:relative}
+.amiri{font-family:Amiri,serif}
+/* playful soft shadow text */
+.pop{text-shadow:0 5px 0 rgba(43,35,80,.18)}
+.bubble{background:#fff;border-radius:40px;padding:22px 34px;box-shadow:0 10px 0 rgba(43,35,80,.12);position:relative;font-weight:800}
+.chip{display:inline-block;border-radius:999px;padding:6px 22px;font-weight:800}

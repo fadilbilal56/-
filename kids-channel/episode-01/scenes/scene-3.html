@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>المشهد ٣</title>
+<link rel="stylesheet" href="scene.css"><script src="../../assets/chars.js"></script>
+<style>
+.half{position:absolute;top:0;bottom:0;width:50%;overflow:hidden}
+.r{right:0;background:linear-gradient(#fff1d6,#ffe2b8)}
+.l{left:0;background:linear-gradient(#e3f7ea,#c6efd3)}
+.split{position:absolute;top:0;bottom:0;left:calc(50% - 10px);width:20px;background:#fff}
+.wave{position:absolute;top:470px;left:calc(50% - 120px);display:flex;gap:20px}
+.wave i{display:block;width:26px;height:26px;border-radius:50%;background:#ffc93c;box-shadow:0 5px 0 #e89a10}
+</style></head><body>
+<div class="half r"><div class="floor"></div></div>
+<div class="half l"><div class="floor" style="background:#c9a27a"></div></div>
+<div class="split"></div>
+<div class="ep">المشهد ٣</div>
+<div class="abs" style="bottom:150px;right:520px" id="m"></div>
+<div class="abs" style="bottom:150px;right:230px" id="o"></div>
+<div class="abs" style="bottom:140px;left:300px" id="g"></div>
+<div class="abs" style="top:170px;left:180px" id="h1"></div><div class="abs" style="top:120px;left:690px" id="h2"></div><div class="abs" style="top:300px;left:120px" id="h3"></div>
+<div class="wave"><i></i><i></i><i></i></div>
+<div class="say tail-r" style="top:140px;right:170px;width:640px">السلام عليكم يا جدّتي!<br>اشتقنا إليكِ 💛</div>
+<div class="say tail-l" style="top:330px;left:230px;width:600px">يا فرحةَ قلبي!<br>صوتُكم أجملُ هديّة</div>
+<script>
+m.innerHTML=kid({type:'girl',size:300,hold:'phone',mood:'happy'});
+o.innerHTML=kid({type:'boy',size:300,wave:true,mood:'happy'});
+g.innerHTML=granny({size:320,arms:true,mood:'happy'});
+h1.innerHTML=heart(80);h2.innerHTML=heart(60,'#ff8fb8');h3.innerHTML=heart(50);
+</script>
+</body></html>

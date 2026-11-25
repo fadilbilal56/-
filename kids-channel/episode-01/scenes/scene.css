@@ -1,0 +1,18 @@
+@import url(../../assets/kids.css);
+body{width:1920px;height:1080px;background:linear-gradient(#8fdcff,#d6f4ff 70%)}
+body.indoor{background:linear-gradient(#fff1d6,#ffe2b8)}
+.ground{position:absolute;left:-200px;right:-200px;bottom:-120px;height:330px;border-radius:50% 50% 0 0;background:#6cc551}
+.ground.back{bottom:-60px;height:380px;background:#8bd66b;left:-400px;right:600px}
+.floor{position:absolute;left:0;right:0;bottom:0;height:250px;background:#e8b77c}
+.floor::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 238px,rgba(0,0,0,.06) 238px 242px)}
+.wall-win{position:absolute;top:110px;width:300px;height:230px;border-radius:20px;background:#9fe3ff;border:14px solid #fff;box-shadow:0 8px 0 rgba(0,0,0,.08)}
+.abs{position:absolute}
+.ep{position:absolute;top:40px;right:50px;background:#2b2350;color:#fff;font-weight:800;font-size:34px;padding:8px 30px;border-radius:999px}
+.logo-mini{position:absolute;top:34px;left:46px;display:flex;align-items:center;gap:10px;font-weight:900;font-size:38px;color:#fff;-webkit-text-stroke:7px #2b2350;paint-order:stroke fill}
+.logo-mini span{color:#ffc93c}
+.say{position:absolute;background:#fff;border-radius:44px;padding:26px 40px;font-weight:800;font-size:52px;line-height:1.45;box-shadow:0 10px 0 rgba(43,35,80,.13);text-align:center}
+.say::after{content:"";position:absolute;bottom:-34px;width:0;height:0;border:22px solid transparent;border-top:28px solid #fff}
+.say.tail-r::after{right:90px}.say.tail-l::after{left:90px}.say.tail-c::after{left:calc(50% - 22px)}
+.say small{display:block;font-size:30px;color:#6b6290;font-weight:700}
+.name{position:absolute;background:#2b2350;color:#fff;font-weight:800;font-size:30px;padding:4px 22px;border-radius:999px}
+.sub{position:absolute;left:0;right:0;bottom:0;padding:18px 60px 24px;background:rgba(43,35,80,.82);color:#fff;font-size:40px;font-weight:700;text-align:center}

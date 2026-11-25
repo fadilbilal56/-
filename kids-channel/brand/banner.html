@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>غلاف القناة</title>
+<link rel="stylesheet" href="../assets/kids.css"><script src="../assets/chars.js"></script>
+<style>
+/* YouTube banner 2560x1440. Safe area visible on all devices: 1546x423 centred (x 507–2053, y 508–931) */
+body{width:2560px;height:1440px;background:linear-gradient(#8fdcff,#d6f4ff 72%)}
+.g1{position:absolute;left:-300px;right:900px;bottom:-110px;height:720px;border-radius:50%;background:#8bd66b}
+.g2{position:absolute;left:700px;right:-300px;bottom:-170px;height:760px;border-radius:50%;background:#6cc551}
+.safe{position:absolute;left:507px;top:508px;width:1546px;height:423px;display:flex;align-items:center;justify-content:center;gap:30px}
+.txt{text-align:center}
+.txt h1{font-size:170px;font-weight:900;line-height:1;color:#fff;-webkit-text-stroke:20px #2b2350;paint-order:stroke fill}
+.txt h1 span{color:#ffc93c}
+.txt p{margin-top:28px}
+.txt p b{font-size:52px;font-weight:800;color:#fff;background:#ff7b6b;padding:8px 44px;border-radius:999px;box-shadow:0 8px 0 #d9584a}
+.days{margin-top:26px;font-size:38px;font-weight:800;color:#2b2350}
+.abs{position:absolute}
+</style></head><body>
+<div class="abs" style="top:120px;left:300px" id="c1"></div><div class="abs" style="top:200px;right:380px" id="c2"></div><div class="abs" style="top:90px;left:1200px" id="c3"></div>
+<div class="g1"></div><div class="g2"></div>
+<div class="abs" style="bottom:530px;left:-10px" id="h"></div>
+<div class="safe">
+  <div id="n"></div>
+  <div class="txt"><h1>بُستان <span>القِيَم</span></h1><p><b>حكاياتٌ وأخلاقٌ إسلاميّة لكلّ العائلة</b></p><div class="days">🌟 حلقة جديدة كلّ أسبوع · مع د. الفاضل بلال</div></div>
+</div>
+<div class="abs" style="bottom:525px;left:330px" id="k1"></div>
+<div class="abs" style="bottom:530px;right:330px" id="k2"></div>
+<div class="abs" style="bottom:520px;right:70px" id="gr"></div>
+<script>
+c1.innerHTML=cloud(360,.95);c2.innerHTML=cloud(300,.9);c3.innerHTML=cloud(260,.8);
+h.innerHTML=house(380);
+n.innerHTML=noor({size:360,mood:'happy'});
+k1.innerHTML=kid({type:'boy',size:250,wave:true});k2.innerHTML=kid({type:'girl',size:250,hold:'gift'});gr.innerHTML=granny({size:270,arms:true});
+</script>
+</body></html>

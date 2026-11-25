@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>شعار بستان القيم</title>
+<link rel="stylesheet" href="../assets/kids.css"><script src="../assets/chars.js"></script>
+<style>
+body{width:1000px;height:1000px;background:#fffaf0;display:flex;align-items:center;justify-content:center}
+.disc{width:900px;height:900px;border-radius:50%;background:radial-gradient(circle at 50% 30%,#c9f0ff,#7fd3f7 70%);position:relative;overflow:hidden;border:16px solid #fff;box-shadow:0 0 0 10px #ffc93c,0 26px 50px rgba(43,35,80,.2)}
+.hill1{position:absolute;bottom:-260px;left:-120px;width:760px;height:520px;border-radius:50%;background:#6cc551}
+.hill2{position:absolute;bottom:-300px;right:-160px;width:820px;height:560px;border-radius:50%;background:#4fb548}
+.noor{position:absolute;top:70px;left:50%;transform:translateX(-50%)}
+.c1{position:absolute;top:120px;right:40px}.c2{position:absolute;top:240px;left:20px}
+.title{position:absolute;bottom:150px;width:100%;text-align:center;font-weight:900;font-size:116px;line-height:1;color:#fff;-webkit-text-stroke:12px #2b2350;paint-order:stroke fill;letter-spacing:-1px}
+.title span{color:#ffc93c}
+.tag{position:absolute;bottom:78px;width:100%;text-align:center}
+.tag b{background:#ff7b6b;color:#fff;font-size:40px;font-weight:800;padding:6px 34px;border-radius:999px;box-shadow:0 6px 0 #d9584a}
+.sp{position:absolute}
+</style></head><body>
+<div class="disc">
+  <div class="c1" id="c1"></div><div class="c2" id="c2"></div>
+  <div class="hill1"></div><div class="hill2"></div>
+  <div class="noor" id="noor"></div>
+  <div class="sp" style="top:90px;left:190px" id="s1"></div>
+  <div class="sp" style="top:300px;right:170px" id="s2"></div>
+  <div class="title">بُستان <span>القِيَم</span></div>
+  <div class="tag"><b>نتعلّم الأخلاق بمَرَح</b></div>
+</div>
+<script>
+noorEl=document.getElementById('noor');noorEl.innerHTML=noor({size:430,mood:'happy'});
+c1.innerHTML=cloud(230,.95);c2.innerHTML=cloud(180,.85);
+s1.innerHTML=sparkle(46);s2.innerHTML=sparkle(34,'#fff3a8');
+</script>
+</body></html>
