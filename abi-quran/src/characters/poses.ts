@@ -41,6 +41,8 @@ export const POSES = {
   reciting: {headYaw: 0.35, headPitch: -0.02, headRoll: 0.04, torsoYaw: 0.15, torsoPitch: 0.04, leftArm: arm(0.5, 0.18, 0.9), rightArm: arm(0.9, 0.35, 1.25)},
   /** Father listening to his son: head tilted toward son, slight lean. */
   listening: {headYaw: 0.5, headPitch: 0.18, headRoll: 0.1, torsoYaw: 0.2, torsoPitch: 0.08, leftArm: arm(0.5, 0.18, 0.9), rightArm: arm(0.62, 0.05, 0.75)},
+  /** Father reciting from his own mushaf, pointing at the line (reference picture). */
+  pointing: {headYaw: 0.18, headPitch: 0.16, headRoll: 0.03, torsoYaw: 0.1, torsoPitch: 0.14, leftArm: arm(0.85, 0.12, 0.95), rightArm: arm(1.15, 0.05, 0.55)},
   /** Father praising: hand raised toward son, upright, proud. */
   praising: {headYaw: 0.45, headPitch: 0.05, headRoll: 0.08, torsoYaw: 0.25, torsoPitch: 0.02, leftArm: arm(0.5, 0.18, 0.9), rightArm: arm(1.35, 0.7, 0.8)},
   /** Addressing the camera / the children watching. */

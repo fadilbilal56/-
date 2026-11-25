@@ -88,6 +88,49 @@ export const Character3D: React.FC<Props> = ({spec, pose, expression, mouthOpen,
     return g;
   }, [p.shoulderHalfWidth, p.torsoHeight]);
 
+  // Father's vest (صديري): lathe shell over the torso, open at the front (lathe phi = 0 faces +z).
+  const vestGeo = useMemo(() => {
+    const w = p.shoulderHalfWidth * 1.05;
+    const h = p.torsoHeight;
+    const pts = [
+      new THREE.Vector2(w * 1.14, h * 0.12),
+      new THREE.Vector2(w * 1.06, h * 0.4),
+      new THREE.Vector2(w * 1.03, h * 0.7),
+      new THREE.Vector2(w * 0.99, h * 0.88),
+      new THREE.Vector2(w * 0.72, h * 0.99),
+    ];
+    const gap = 0.34;
+    const g = new THREE.LatheGeometry(pts, 40, gap, Math.PI * 2 - gap * 2);
+    g.scale(1, 1, 0.74);
+    return g;
+  }, [p.shoulderHalfWidth, p.torsoHeight]);
+  const vestTex = useMemo(() => {
+    if (!isFather) return null;
+    const cv = document.createElement('canvas');
+    cv.width = 256;
+    cv.height = 256;
+    const ctx = cv.getContext('2d')!;
+    ctx.fillStyle = c.vest;
+    ctx.fillRect(0, 0, 256, 256);
+    ctx.strokeStyle = c.vestPattern;
+    ctx.fillStyle = c.vestPattern;
+    ctx.lineWidth = 2;
+    for (let y = 16; y < 256; y += 32)
+      for (let x = (y / 32) % 2 ? 16 : 0; x < 256; x += 32) {
+        ctx.beginPath();
+        ctx.arc(x, y, 7, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(x, y, 2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    const t = new THREE.CanvasTexture(cv);
+    t.colorSpace = THREE.SRGBColorSpace;
+    t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    t.repeat.set(6, 3);
+    return t;
+  }, [isFather, c.vest, c.vestPattern]);
+
   const yawDir = partnerDir; // pose yaw is "toward partner"
 
   return (
@@ -122,6 +165,19 @@ export const Character3D: React.FC<Props> = ({spec, pose, expression, mouthOpen,
           <mesh geometry={torsoGeo} position={[0, seatY, 0]}>
             {mat(c.thobe, 0.8)}
           </mesh>
+          {isFather && vestTex && (
+            <>
+              <mesh geometry={vestGeo} position={[0, seatY, 0]}>
+                <meshStandardMaterial map={vestTex} roughness={0.75} side={THREE.DoubleSide} />
+              </mesh>
+              {[-1, 1].map((sd) => (
+                <mesh key={`vt${sd}`} position={[sd * 0.075, seatY + p.torsoHeight * 0.52, p.shoulderHalfWidth * 0.78]} rotation={[-0.06, 0, sd * 0.08]}>
+                  <boxGeometry args={[0.022, p.torsoHeight * 0.82, 0.012]} />
+                  {mat(c.vestPattern, 0.45)}
+                </mesh>
+              ))}
+            </>
+          )}
           {/* collar */}
           <mesh position={[0, neckTop - 0.06, 0]} rotation={[Math.PI / 2, 0, 0]}>
             <torusGeometry args={[0.075, 0.016, 10, 28]} />
@@ -136,14 +192,10 @@ export const Character3D: React.FC<Props> = ({spec, pose, expression, mouthOpen,
             ))
           ) : (
             <>
-              <mesh position={[0, neckTop - 0.17, p.shoulderHalfWidth * 0.72]} rotation={[-0.12, 0, 0]}>
-                <boxGeometry args={[0.05, 0.2, 0.01]} />
-                {mat(c.embroidery, 0.5)}
-              </mesh>
               {[0, 1, 2, 3].map((i) => (
                 <mesh key={i} position={[0, neckTop - 0.1 - i * 0.045, p.shoulderHalfWidth * 0.74]}>
                   <sphereGeometry args={[0.009, 8, 6]} />
-                  {mat('#d9b44a', 0.3)}
+                  {mat(c.thobeShade, 0.3)}
                 </mesh>
               ))}
             </>
@@ -226,11 +278,11 @@ const Head: React.FC<{spec: CharacterSpec; expression: Expression; mouthOpen: nu
   const beardGeo = useMemo(
     () =>
       bandGeometry(
-        r * 1.04,
-        PI * 0.0,
-        PI * 1.0,
-        (phi) => PI * 0.47 + PI * 0.2 * Math.pow(Math.sin(phi), 4),
-        (phi) => PI * 0.8 + PI * 0.13 * Math.pow(Math.sin(phi), 2),
+        r * 1.035,
+        PI * 0.22,
+        PI * 0.56,
+        (phi) => PI * 0.67 + PI * 0.06 * (1 - Math.pow(Math.sin(phi), 6)),
+        (phi) => PI * 0.79 + PI * 0.09 * Math.pow(Math.sin(phi), 3),
       ),
     [r],
   );
@@ -259,7 +311,7 @@ const Head: React.FC<{spec: CharacterSpec; expression: Expression; mouthOpen: nu
         [-1, 1].map((s) => (
           <mesh key={`ch${s}`} position={[s * 0.55 * r, -0.25 * r, 0.76 * r]} rotation={[0, s * 0.6, 0]}>
             <circleGeometry args={[0.14 * r, 20]} />
-            <meshBasicMaterial color={c.cheeks} transparent opacity={0.45} depthWrite={false} />
+            <meshBasicMaterial color={c.cheeks} transparent opacity={0.3} depthWrite={false} />
           </mesh>
         ))}
 
@@ -337,26 +389,62 @@ const Head: React.FC<{spec: CharacterSpec; expression: Expression; mouthOpen: nu
         </>
       )}
 
-      {/* kufi */}
-      <mesh>
-        <sphereGeometry args={[r * 1.06, 40, 16, 0, PI * 2, 0, PI * 0.36]} />
-        {mat(c.kufi, 0.9)}
-      </mesh>
-      <mesh>
-        <sphereGeometry args={[r * 1.075, 40, 6, 0, PI * 2, PI * 0.31, PI * 0.06]} />
-        {mat(c.kufiBand, 0.85)}
-      </mesh>
-      {Array.from({length: 16}).map((_, i) => {
-        const a = (i / 16) * PI * 2;
-        const rr = r * 1.06;
-        const th = PI * 0.2;
-        return (
-          <mesh key={`k${i}`} position={[Math.sin(a) * Math.sin(th) * rr, Math.cos(th) * rr, Math.cos(a) * Math.sin(th) * rr]}>
-            <sphereGeometry args={[r * 0.035, 8, 6]} />
-            {mat(c.kufiPattern, 0.9)}
+      {isFather ? (
+        <Turban r={r} color={c.turban} shade={c.turbanShade} />
+      ) : (
+        <>
+          {/* crochet kufi */}
+          <mesh>
+            <sphereGeometry args={[r * 1.06, 40, 16, 0, PI * 2, 0, PI * 0.36]} />
+            {mat(c.kufi, 0.9)}
           </mesh>
-        );
-      })}
+          <mesh>
+            <sphereGeometry args={[r * 1.075, 40, 6, 0, PI * 2, PI * 0.31, PI * 0.06]} />
+            {mat(c.kufiBand, 0.85)}
+          </mesh>
+          {[0.12, 0.2, 0.27].flatMap((th, ring) =>
+            Array.from({length: 10 + ring * 6}).map((_, i) => {
+              const a = (i / (10 + ring * 6)) * PI * 2 + ring * 0.2;
+              const rr = r * 1.06;
+              return (
+                <mesh key={`k${ring}-${i}`} position={[Math.sin(a) * Math.sin(PI * th) * rr, Math.cos(PI * th) * rr, Math.cos(a) * Math.sin(PI * th) * rr]}>
+                  <sphereGeometry args={[r * 0.03, 8, 6]} />
+                  {mat(c.kufiPattern, 0.9)}
+                </mesh>
+              );
+            }),
+          )}
+        </>
+      )}
+    </group>
+  );
+};
+
+/** Wrapped white turban: stacked, slightly tilted cloth rings and a crown. */
+const Turban: React.FC<{r: number; color: string; shade: string}> = ({r, color, shade}) => {
+  const rings = [
+    {y: 0.6, R: 0.97, tube: 0.15, tilt: 0.08},
+    {y: 0.74, R: 0.9, tube: 0.15, tilt: -0.1},
+    {y: 0.87, R: 0.76, tube: 0.15, tilt: 0.1},
+    {y: 0.98, R: 0.56, tube: 0.14, tilt: -0.08},
+  ];
+  return (
+    <group>
+      <mesh position={[0, r * 0.66, 0]} scale={[1, 0.55, 1]}>
+        <sphereGeometry args={[r * 0.97, 32, 16]} />
+        {mat(color, 0.9)}
+      </mesh>
+      {rings.map((g, i) => (
+        <mesh key={i} position={[0, r * g.y, 0]} rotation={[Math.PI / 2 + g.tilt, 0, g.tilt * 0.6]}>
+          <torusGeometry args={[r * g.R, r * g.tube, 14, 40]} />
+          {mat(i % 2 ? shade : color, 0.9)}
+        </mesh>
+      ))}
+      {/* tucked cloth fold at the front */}
+      <mesh position={[r * 0.2, r * 0.74, r * 0.86]} rotation={[0.3, 0, -0.6]} scale={[1, 0.5, 0.4]}>
+        <sphereGeometry args={[r * 0.22, 16, 10]} />
+        {mat(shade, 0.9)}
+      </mesh>
     </group>
   );
 };

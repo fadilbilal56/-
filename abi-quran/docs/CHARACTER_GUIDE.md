@@ -5,16 +5,20 @@ The two permanent characters are **procedural 3D models**: geometry generated in
 identical in every frame of every episode, and they cannot drift between shots.
 
 ## Father — الأب (أبو أحمد)
-- Early 30s, calm and warm, with a gentle smile.
-- Skin `#e3b48f`; short full dark-brown beard with a moustache (`#3a2619`); brown eyes.
-- White crochet kufi with a light-grey band; plain white thobe with a round collar and three buttons.
-- Sits on the right of the rug, angled toward his son.
+- Early 40s, calm and warm, with a kind smile. Based on the series reference picture.
+- Dark brown skin `#8a5a3c`; short black chin beard with a moustache (`#151010`).
+- White wrapped turban (عمامة); white jalabiya with a cream vest (صديري) embroidered in gold.
+- Sits on the **left** of the rug, angled toward his son, with his own rehal and mushaf. He points at the line while reciting.
 
 ## Son — الابن (أحمد)
-- 6 years old, curious and cheerful. Child proportions: a large head and a short torso, at 0.66 × the father's scale.
-- Skin `#ecc3a0` with rosy cheeks; brown hair under a white kufi with a navy band.
-- Cream thobe with a navy embroidered collar, placket and cuffs, and gold buttons.
-- Sits on the left, in front of the rehal and the open mushaf.
+- About 8 years old, curious and cheerful. Child proportions: a large head and a short torso, at 0.68 × the father's scale.
+- Dark brown skin `#96613f`; short black hair under a white crochet kufi (طاقية).
+- Plain white jalabiya with a round collar and white buttons.
+- Sits on the **right**, in front of his own rehal and mushaf.
+
+## Room
+- A library of green and maroon mushafs with gold bands, an arched mashrabiya window, a plant, and a carved wooden cabinet with a golden lantern.
+- A framed "القرآن الكريم" title, set in the real Amiri Quran font. This is the only lettering in the set; the mushaf pages show neutral line marks only.
 
 ## Rules (LOCKED)
 1. **Never change** faces, skin tones, outfits or proportions. Every value lives in `characterSpec.ts` and nowhere else; QA fails if a character colour appears in any other file.

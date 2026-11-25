@@ -1,5 +1,3 @@
-import {SON} from '../characters/characterSpec';
-
 export const THEME = {
   quranFont: 'AmiriQuran',
   uiFont: 'BalooBhaijaan2',
@@ -9,7 +7,7 @@ export const THEME = {
   goldSoft: '#f1d48f',
   fatherAccent: '#b9782d', // warm amber highlight when father recites
   sonAccent: '#1f8a7a', // teal highlight when son repeats
-  navy: SON.palette.embroidery, // series navy = son's embroidery (single source of truth)
+  navy: '#22346b',
   panelShadow: '0 18px 50px rgba(60, 35, 10, 0.35)',
 } as const;
 

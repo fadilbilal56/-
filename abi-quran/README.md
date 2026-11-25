@@ -55,7 +55,7 @@ docs/                         character guide, audio guide, workflow, QA reports
 | Requirement | How it's enforced |
 |---|---|
 | Verified Uthmani text in the Hafs reading | The text is copied byte-for-byte from the pinned `quran-json@3.1.2` package (Noble Qur'an Encyclopedia / KFGQPC Madani Uthmani text). Each verse carries a SHA-256 hash, and QA re-checks it against both the source and the frozen snapshot. |
-| No AI-generated Quranic text | The verse is always rendered as real typography in Amiri Quran. The 3D mushaf and the wall art contain no lettering. |
+| No AI-generated Quranic text | The verse is always rendered as real typography in Amiri Quran. The 3D mushaf pages contain no lettering; the only text in the room is the framed title "القرآن الكريم", set in a real font. |
 | No invented recitation | Only human WAV files are placed on the timeline. The pipeline measures them and never edits them. Without recordings, the render is silent and watermarked. |
 | Father → son, nothing skipped | The timeline is generated from the verse list, so verse count and order are checked. Duration comes from the data, so long surahs are never cut. |
 | Consistent characters | Both characters are built in code from one locked spec file. QA checks the file hash, rejects colours defined elsewhere, and compares fresh renders to the reference sheets pixel by pixel (SSIM). |

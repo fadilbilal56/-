@@ -1,4 +1,5 @@
 import React, {useMemo} from 'react';
+import {ensureFonts} from '../lib/fonts';
 import * as THREE from 'three';
 
 /**
@@ -20,7 +21,10 @@ export const ROOM_COLORS = {
   rugAccent: '#e7c27a',
   wood: '#7a4a28',
   plant: '#4f7a3a',
+  gold: '#c9a24a',
 } as const;
+
+const BOOK_COLORS = ['#1f4d33', '#6b1e22', '#2a5c3c', '#7a2a26', '#183d2a', '#5a1a1d'];
 
 const canvasTexture = (w: number, h: number, draw: (ctx: CanvasRenderingContext2D) => void, repeat?: [number, number]) => {
   const cv = document.createElement('canvas');
@@ -150,6 +154,67 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
     [],
   );
 
+  const latticeTex = useMemo(
+    () =>
+      canvasTexture(512, 256, (ctx) => {
+        ctx.fillStyle = '#6a3f20';
+        ctx.fillRect(0, 0, 512, 256);
+        ctx.strokeStyle = '#3d2412';
+        ctx.lineWidth = 5;
+        for (let y = 32; y < 256; y += 64)
+          for (let x = 32; x < 512; x += 64) {
+            starPath(ctx, x, y, 28, 14);
+            ctx.stroke();
+          }
+      }),
+    [],
+  );
+
+  // Framed title "القرآن الكريم", typeset with the real Amiri Quran font.
+  // Fonts are registered (and awaited by Remotion) before the 3D scene mounts;
+  // if they are not ready yet, the texture is redrawn as soon as they are.
+  const titleTex = useMemo(() => {
+    const draw = (ctx: CanvasRenderingContext2D) => {
+      ctx.fillStyle = '#141210';
+      ctx.fillRect(0, 0, 900, 520);
+      ctx.strokeStyle = '#c9a24a';
+      ctx.lineWidth = 6;
+      ctx.strokeRect(22, 22, 856, 476);
+      ctx.lineWidth = 2;
+      ctx.strokeRect(38, 38, 824, 444);
+      for (const [x, y] of [
+        [60, 60],
+        [840, 60],
+        [60, 460],
+        [840, 460],
+      ]) {
+        ctx.fillStyle = '#c9a24a';
+        starPath(ctx, x, y, 18, 9);
+        ctx.fill();
+      }
+      ctx.fillStyle = '#d8b25a';
+      ctx.font = '200px AmiriQuran';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.direction = 'rtl';
+      ctx.fillText('القرآن الكريم', 450, 265);
+    };
+    let context: CanvasRenderingContext2D | null = null;
+    const tex = canvasTexture(900, 520, (ctx) => {
+      context = ctx;
+      draw(ctx);
+    });
+    if (!document.fonts.check('150px AmiriQuran', 'القرآن')) {
+      ensureFonts().then(() => {
+        if (context) {
+          draw(context);
+          tex.needsUpdate = true;
+        }
+      });
+    }
+    return tex;
+  }, []);
+
   const flick = 1 + lanternFlicker * 0.06;
 
   return (
@@ -159,7 +224,6 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
       <directionalLight position={[-1.5, 2.6, 2.2]} intensity={1.6} color="#fff0d6" />
       <directionalLight position={[2, 1.5, 1.5]} intensity={0.45} color="#ffd9a8" />
       <pointLight position={[-1.55, 1.55, -0.9]} intensity={1.4 * flick} distance={3.2} color={ROOM_COLORS.lanternGlow} />
-      <pointLight position={[1.55, 1.55, -0.9]} intensity={1.4 * flick} distance={3.2} color={ROOM_COLORS.lanternGlow} />
       <pointLight position={[0, 1.4, -1.4]} intensity={0.9} distance={3} color={ROOM_COLORS.windowGlow} />
 
       {/* floor */}
@@ -223,8 +287,8 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
         </mesh>
       </group>
 
-      {/* geometric wall art (no lettering) */}
-      {[-1, 1].map((s) => (
+      {/* geometric wall art (left) */}
+      {[-1].map((s) => (
         <group key={`art${s}`} position={[s * 1.2, 1.55, -1.66]}>
           <mesh>
             <boxGeometry args={[0.5, 0.5, 0.03]} />
@@ -237,8 +301,8 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
         </group>
       ))}
 
-      {/* hanging lanterns */}
-      {[-1, 1].map((s) => (
+      {/* hanging lantern (left) */}
+      {[-1].map((s) => (
         <group key={`lan${s}`} position={[s * 1.55, 1.55, -0.9]}>
           <mesh position={[0, 0.5, 0]}>
             <cylinderGeometry args={[0.004, 0.004, 0.8, 6]} />
@@ -259,26 +323,86 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
         </group>
       ))}
 
-      {/* bookshelf (right) */}
-      <group position={[1.85, 0, -1.35]}>
-        <mesh position={[0, 0.65, 0]}>
-          <boxGeometry args={[0.7, 1.3, 0.3]} />
-          <meshStandardMaterial color={ROOM_COLORS.wood} roughness={0.8} />
+      {/* library of mushafs and books (left, behind the father) */}
+      <group position={[-1.75, 0, -1.4]}>
+        <mesh position={[0, 0.85, 0]}>
+          <boxGeometry args={[1.05, 1.7, 0.32]} />
+          <meshStandardMaterial color={ROOM_COLORS.wood} roughness={0.75} />
         </mesh>
-        {[0.25, 0.65, 1.05].map((y, row) => (
-          <group key={row} position={[0, y, 0.06]}>
-            {Array.from({length: 8}).map((_, i) => (
-              <mesh key={i} position={[-0.27 + i * 0.075, 0.12, 0]}>
-                <boxGeometry args={[0.06, 0.22 + ((i * 7 + row) % 3) * 0.03, 0.2]} />
-                <meshStandardMaterial color={['#7d2a24', '#1f3a5f', '#2f5d3a', '#8a6a2a', '#5a2e4f'][(i + row) % 5]} roughness={0.7} />
-              </mesh>
-            ))}
+        {[0.12, 0.52, 0.92, 1.32].map((y, row) => (
+          <group key={row} position={[0, y, 0.07]}>
+            {Array.from({length: 13}).map((_, i) => {
+              const h = 0.27 + ((i * 7 + row) % 3) * 0.025;
+              return (
+                <group key={i} position={[-0.45 + i * 0.075, h / 2 + 0.02, 0]}>
+                  <mesh>
+                    <boxGeometry args={[0.064, h, 0.21]} />
+                    <meshStandardMaterial color={BOOK_COLORS[(i * 3 + row) % BOOK_COLORS.length]} roughness={0.6} />
+                  </mesh>
+                  {[0.32, -0.32].map((f) => (
+                    <mesh key={f} position={[0, h * f, 0.106]}>
+                      <boxGeometry args={[0.066, 0.012, 0.002]} />
+                      <meshStandardMaterial color={ROOM_COLORS.gold} metalness={0.6} roughness={0.35} />
+                    </mesh>
+                  ))}
+                </group>
+              );
+            })}
           </group>
         ))}
       </group>
 
-      {/* plant (left) */}
-      <group position={[-1.9, 0, -1.25]}>
+      {/* carved wooden cabinet with a golden lantern (right) */}
+      <group position={[1.25, 0, -1.45]}>
+        <mesh position={[0, 0.25, 0]}>
+          <boxGeometry args={[0.95, 0.5, 0.32]} />
+          <meshStandardMaterial color={ROOM_COLORS.wood} roughness={0.7} />
+        </mesh>
+        <mesh position={[0, 0.25, 0.165]}>
+          <planeGeometry args={[0.85, 0.4]} />
+          <meshStandardMaterial map={latticeTex} roughness={0.7} />
+        </mesh>
+        <group position={[0.18, 0.5, 0.02]}>
+          {[-1, 1].flatMap((sx) =>
+            [-1, 1].map((sz) => (
+              <mesh key={`${sx}${sz}`} position={[sx * 0.075, 0.14, sz * 0.075]}>
+                <boxGeometry args={[0.012, 0.26, 0.012]} />
+                <meshStandardMaterial color={ROOM_COLORS.gold} metalness={0.7} roughness={0.3} />
+              </mesh>
+            )),
+          )}
+          <mesh position={[0, 0.14, 0]}>
+            <boxGeometry args={[0.14, 0.22, 0.14]} />
+            <meshStandardMaterial color={ROOM_COLORS.lanternGlow} emissive={ROOM_COLORS.lanternGlow} emissiveIntensity={1.5 * flick} transparent opacity={0.85} />
+          </mesh>
+          <mesh position={[0, 0.3, 0]}>
+            <coneGeometry args={[0.11, 0.1, 4]} />
+            <meshStandardMaterial color={ROOM_COLORS.gold} metalness={0.7} roughness={0.3} />
+          </mesh>
+          <mesh position={[0, 0.005, 0]}>
+            <boxGeometry args={[0.17, 0.02, 0.17]} />
+            <meshStandardMaterial color={ROOM_COLORS.gold} metalness={0.7} roughness={0.3} />
+          </mesh>
+          <pointLight position={[0, 0.15, 0.1]} intensity={1.3 * flick} distance={2.6} color={ROOM_COLORS.lanternGlow} />
+        </group>
+      </group>
+
+      {/* framed title "القرآن الكريم" — set in a real font (Amiri Quran), never generated imagery */}
+      {titleTex && (
+        <group position={[1.25, 1.62, -1.66]}>
+          <mesh>
+            <boxGeometry args={[0.98, 0.6, 0.035]} />
+            <meshStandardMaterial color={ROOM_COLORS.gold} metalness={0.6} roughness={0.35} />
+          </mesh>
+          <mesh position={[0, 0, 0.02]}>
+            <planeGeometry args={[0.9, 0.52]} />
+            <meshStandardMaterial map={titleTex} roughness={0.6} />
+          </mesh>
+        </group>
+      )}
+
+      {/* plant (behind, between father and son) */}
+      <group position={[0.55, 0, -1.45]}>
         <mesh position={[0, 0.15, 0]}>
           <cylinderGeometry args={[0.15, 0.11, 0.3, 20]} />
           <meshStandardMaterial color="#c47a4a" roughness={0.8} />
@@ -300,16 +424,18 @@ export const QuranRoom3D: React.FC<{lanternFlicker?: number}> = ({lanternFlicker
         <meshStandardMaterial color="#2f6b6a" roughness={0.9} />
       </mesh>
 
-      <Rehal pageTex={pageTex} />
+      <Rehal pageTex={pageTex} position={SON_REHAL_POS} rotationY={Math.PI - 0.95} scale={0.85} />
+      <Rehal pageTex={pageTex} position={FATHER_REHAL_POS} rotationY={Math.PI + 0.95} scale={0.95} />
     </group>
   );
 };
 
-/** Wooden Quran stand with an open mushaf, placed in front of the son. */
-export const REHAL_POS: [number, number, number] = [-0.36, 0, 0.46];
+/** Each reader has his own wooden rehal with an open mushaf (reference picture). */
+export const SON_REHAL_POS: [number, number, number] = [0.38, 0, 0.47];
+export const FATHER_REHAL_POS: [number, number, number] = [-0.4, 0, 0.42];
 
-const Rehal: React.FC<{pageTex: THREE.Texture}> = ({pageTex}) => (
-  <group position={REHAL_POS} rotation={[0, Math.PI + 0.95, 0]} scale={0.85}>
+const Rehal: React.FC<{pageTex: THREE.Texture; position: [number, number, number]; rotationY: number; scale: number}> = ({pageTex, position, rotationY, scale}) => (
+  <group position={position} rotation={[0, rotationY, 0]} scale={scale}>
     {[-1, 1].map((s) => (
       <mesh key={s} position={[0, 0.12, s * 0.05]} rotation={[s * 0.75, 0, 0]}>
         <boxGeometry args={[0.36, 0.34, 0.015]} />

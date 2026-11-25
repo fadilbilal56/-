@@ -190,7 +190,7 @@ export const RoomReference: React.FC = () => {
   const {width} = useVideoConfig();
   return (
     <SheetFrame>
-      <Header title="غرفة تعليم القرآن — مرجع البيئة" subtitle="Quran learning room · environment reference (no generated lettering anywhere in the set)" />
+      <Header title="غرفة تعليم القرآن — مرجع البيئة" subtitle="Quran learning room · environment reference (only lettering: the title القرآن الكريم, set in a real font)" />
       <div style={{display: 'flex', gap: 20, justifyContent: 'center'}}>
         <RoomView w={Math.round((width - 140) * 0.6)} h={620} pos={[0, 1.3, 3.8]} target={[0, 0.7, -0.5]} caption="لقطة عامة · Wide" />
         <div style={{display: 'flex', flexDirection: 'column', gap: 10}}>

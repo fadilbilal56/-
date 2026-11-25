@@ -20,7 +20,7 @@ export const SpeakerBadge: React.FC<{speaker: Speaker; text?: string; layout: La
       style={{
         position: 'absolute',
         top: portrait ? '5%' : '6%',
-        [speaker === 'father' ? 'right' : 'left']: portrait ? '6%' : '5%',
+        [speaker === 'father' ? 'left' : 'right']: portrait ? '6%' : '5%',
         transform: `scale(${s})`,
         display: 'flex',
         alignItems: 'center',

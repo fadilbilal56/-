@@ -14,18 +14,18 @@ type Cam = {pos: [number, number, number]; target: [number, number, number]; fov
 
 export const CAMERA_PRESETS: Record<Layout, Record<Shot, Cam>> = {
   landscape: {
-    wide: {pos: [0, 1.05, 3.4], target: [0.02, 0.55, 0], fov: 34},
-    twoShot: {pos: [0.05, 0.9, 2.55], target: [0.05, 0.52, 0], fov: 32},
-    father: {pos: [0.05, 0.92, 1.75], target: [0.45, 0.72, 0], fov: 30},
-    son: {pos: [-0.05, 0.66, 1.55], target: [-0.4, 0.46, 0.1], fov: 30},
-    mushaf: {pos: [-0.3, 0.8, 1.2], target: [-0.36, 0.3, 0.4], fov: 30},
+    wide: {pos: [0, 1.05, 3.4], target: [-0.02, 0.58, 0], fov: 34},
+    twoShot: {pos: [-0.05, 0.92, 2.6], target: [-0.05, 0.55, 0], fov: 32},
+    father: {pos: [0.05, 0.86, 1.75], target: [-0.42, 0.78, 0], fov: 31},
+    son: {pos: [0.05, 0.66, 1.55], target: [0.4, 0.47, 0.1], fov: 30},
+    mushaf: {pos: [0.3, 0.8, 1.2], target: [0.38, 0.3, 0.45], fov: 30},
   },
   portrait: {
-    wide: {pos: [0, 1.25, 4.9], target: [0.03, 0.2, 0], fov: 40},
-    twoShot: {pos: [0.05, 1.1, 4.1], target: [0.05, 0.18, 0], fov: 38},
-    father: {pos: [0.42, 1.02, 2.75], target: [0.62, 0.52, 0], fov: 36},
-    son: {pos: [-0.2, 0.75, 1.85], target: [-0.42, 0.22, 0.1], fov: 36},
-    mushaf: {pos: [-0.3, 0.9, 1.5], target: [-0.36, 0.1, 0.4], fov: 34},
+    wide: {pos: [0, 1.25, 4.9], target: [-0.03, 0.22, 0], fov: 40},
+    twoShot: {pos: [-0.05, 1.1, 4.1], target: [-0.05, 0.2, 0], fov: 38},
+    father: {pos: [-0.4, 1.05, 2.75], target: [-0.6, 0.55, 0], fov: 36},
+    son: {pos: [0.2, 0.75, 1.85], target: [0.42, 0.22, 0.1], fov: 36},
+    mushaf: {pos: [0.3, 0.9, 1.5], target: [0.38, 0.1, 0.45], fov: 34},
   },
 };
 
@@ -66,7 +66,7 @@ const fatherTarget = (s: Segment, frame: number): CharTarget => {
       }
       return {pose: POSES.listening, expr: EXPRESSIONS.happy};
     case 'recite':
-      if (s.speaker === 'father') return {pose: POSES.reciting, expr: EXPRESSIONS.calm};
+      if (s.speaker === 'father') return {pose: POSES.pointing, expr: EXPRESSIONS.calm};
       return {pose: {...POSES.listening, headPitch: POSES.listening.headPitch + Math.sin(frame * 0.22) * 0.05}, expr: EXPRESSIONS.attentive};
     case 'pause':
       return s.after === 'father' ? {pose: POSES.listening, expr: EXPRESSIONS.attentive} : {pose: POSES.listening, expr: EXPRESSIONS.happy};
