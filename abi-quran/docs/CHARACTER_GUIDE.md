@@ -4,13 +4,13 @@ The two permanent characters are **procedural 3D models**: geometry generated in
 `src/characters/characterSpec.ts`. They are not AI images. So the father and the son are
 identical in every frame of every episode, and they cannot drift between shots.
 
-## Father — الأب (أبو يوسف)
+## Father — الأب (أبو أحمد)
 - Early 30s, calm and warm, with a gentle smile.
 - Skin `#e3b48f`; short full dark-brown beard with a moustache (`#3a2619`); brown eyes.
 - White crochet kufi with a light-grey band; plain white thobe with a round collar and three buttons.
 - Sits on the right of the rug, angled toward his son.
 
-## Son — الابن (يوسف)
+## Son — الابن (أحمد)
 - 6 years old, curious and cheerful. Child proportions: a large head and a short torso, at 0.66 × the father's scale.
 - Skin `#ecc3a0` with rosy cheeks; brown hair under a white kufi with a navy band.
 - Cream thobe with a navy embroidered collar, placket and cuffs, and gold buttons.

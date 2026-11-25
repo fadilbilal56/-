@@ -24,11 +24,11 @@ export const buildScript = (surah: SurahData, measured: Record<string, number> =
     intro: [
       line('intro_1', 'son', 'السلامُ عليكم يا أصدقائي!', 2.4, 'waving'),
       line('intro_2', 'father', `وعليكم السلام ورحمة الله. اليوم نحفظ معًا سورةَ ${name}.`, 4.2, 'presenting'),
-      line('intro_3', 'father', 'أقرأُ الآيةَ أولًا، ثم يُردِّدها يوسفُ خلفي. ردِّدوا معنا!', 4.6, 'calm'),
+      line('intro_3', 'father', 'أقرأُ الآيةَ أولًا، ثم يُردِّدها أحمدُ خلفي. ردِّدوا معنا!', 4.6, 'calm'),
       line('intro_4', 'son', 'أنا مستعدٌّ يا أبي!', 2.0, 'happy'),
     ],
     ending: [
-      line('end_1', 'father', 'أحسنتَ يا يوسف! باركَ اللهُ فيك.', 3.2, 'praising'),
+      line('end_1', 'father', 'أحسنتَ يا أحمد! باركَ اللهُ فيك.', 3.2, 'praising'),
       line('end_2', 'son', `الحمدُ لله، حفظتُ سورةَ ${name}!`, 3.0, 'happy'),
       line('end_3', 'father', 'يا أطفال، احفظوا القرآنَ وردِّدوه كلَّ يوم، فهو نورٌ في قلوبكم.', 5.2, 'presenting'),
     ],

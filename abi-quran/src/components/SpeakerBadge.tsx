@@ -5,7 +5,7 @@ import type {Layout, Speaker} from '../episode/types';
 
 export const SPEAKER_LABEL: Record<Speaker, {name: string; reciting: string; color: string}> = {
   father: {name: 'أبي', reciting: 'أبي يقرأ', color: THEME.fatherAccent},
-  son: {name: 'يوسف', reciting: 'يوسف يُردِّد', color: THEME.sonAccent},
+  son: {name: 'أحمد', reciting: 'أحمد يُردِّد', color: THEME.sonAccent},
 };
 
 export const SpeakerBadge: React.FC<{speaker: Speaker; text?: string; layout: Layout}> = ({speaker, text, layout}) => {

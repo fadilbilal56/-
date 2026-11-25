@@ -14,8 +14,8 @@
 
 export const FATHER = {
   id: 'father',
-  nameAr: 'الأب (أبو يوسف)',
-  nameEn: 'Father (Abu Yusuf)',
+  nameAr: 'الأب (أبو أحمد)',
+  nameEn: 'Father (Abu Ahmad)',
   ageDescription: 'early 30s, calm, warm, gentle smile',
   scale: 1.0,
   palette: {
@@ -47,8 +47,8 @@ export const FATHER = {
 
 export const SON = {
   id: 'son',
-  nameAr: 'الابن (يوسف)',
-  nameEn: 'Son (Yusuf)',
+  nameAr: 'الابن (أحمد)',
+  nameEn: 'Son (Ahmad)',
   ageDescription: '6 years old, curious, bright, cheerful',
   scale: 0.66,
   palette: {
