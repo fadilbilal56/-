@@ -1,0 +1,3731 @@
+{
+  "source": {
+    "package": "quran-json@3.1.2",
+    "text": "Uthmani script, Hafs ʿan ʿĀṣim — The Noble Qur'an Encyclopedia (quranenc.com), KFGQPC Madani mushaf",
+    "extractedAt": "2026-11-25"
+  },
+  "basmala": {
+    "text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "note": "Al-Fatiha 1:1 text; recited before each surah except At-Tawbah. Not counted as a verse of Juz' Amma surahs."
+  },
+  "surahs": [
+    {
+      "number": 114,
+      "nameAr": "الناس",
+      "nameEn": "An-Nas",
+      "type": "meccan",
+      "totalVerses": 6,
+      "verses": [
+        {
+          "surahNumber": 114,
+          "verseNumber": 1,
+          "textUthmani": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+          "sha256": "bd1404af080e93cdef6dac71384bb78d5933b6c265b641532c7813e0e2edf667"
+        },
+        {
+          "surahNumber": 114,
+          "verseNumber": 2,
+          "textUthmani": "مَلِكِ ٱلنَّاسِ",
+          "sha256": "ee43221a2d70da314a28481e2858b355b84ea76cc5505a17b6d6d8f592ce3dce"
+        },
+        {
+          "surahNumber": 114,
+          "verseNumber": 3,
+          "textUthmani": "إِلَٰهِ ٱلنَّاسِ",
+          "sha256": "83ea524a3332531b96d8b06c387410ac2371c0e79d79602356646d7c1b8151f1"
+        },
+        {
+          "surahNumber": 114,
+          "verseNumber": 4,
+          "textUthmani": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
+          "sha256": "04af28c8924483450a6968f46189467994eccf451daa8a7e33c93721cc638950"
+        },
+        {
+          "surahNumber": 114,
+          "verseNumber": 5,
+          "textUthmani": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+          "sha256": "6d5da11704c8c0a3fce24b7038f963c0ff6922063d76733da04e8b37511b759f"
+        },
+        {
+          "surahNumber": 114,
+          "verseNumber": 6,
+          "textUthmani": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+          "sha256": "3020b3a83101b27789ad8db9a84b00a9c97271013bf79e967b560d40164ccc6b"
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "nameAr": "الفلق",
+      "nameEn": "Al-Falaq",
+      "type": "meccan",
+      "totalVerses": 5,
+      "verses": [
+        {
+          "surahNumber": 113,
+          "verseNumber": 1,
+          "textUthmani": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
+          "sha256": "78355ff6d72817293b419ada39762e3a826f565300a57b5c583e3a42d11eb215"
+        },
+        {
+          "surahNumber": 113,
+          "verseNumber": 2,
+          "textUthmani": "مِن شَرِّ مَا خَلَقَ",
+          "sha256": "e20c1399e94c41de16f60f608354faed7eed0a2fb0e9e5b934979b1cfa963190"
+        },
+        {
+          "surahNumber": 113,
+          "verseNumber": 3,
+          "textUthmani": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "sha256": "b3501f9b1a17ac364b30a1e43e18f08c874a06bf01fb355061b6dec1da750a7b"
+        },
+        {
+          "surahNumber": 113,
+          "verseNumber": 4,
+          "textUthmani": "وَمِن شَرِّ ٱلنَّفَّـٰثَٰتِ فِي ٱلۡعُقَدِ",
+          "sha256": "3a9e128892ed717262459b6cb3ccea545f024c027a700d9c8eb12f0742d3ff7c"
+        },
+        {
+          "surahNumber": 113,
+          "verseNumber": 5,
+          "textUthmani": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "sha256": "2a974f26ea539b4ce14e2d0d8e9b3d63768255658a5cfcfb2cbfeb74117f4daa"
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "nameAr": "الإخلاص",
+      "nameEn": "Al-Ikhlas",
+      "type": "meccan",
+      "totalVerses": 4,
+      "verses": [
+        {
+          "surahNumber": 112,
+          "verseNumber": 1,
+          "textUthmani": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+          "sha256": "f578745163a95bf378c710b541fe5a9cc385320dc27fb909157af318cdfe5b64"
+        },
+        {
+          "surahNumber": 112,
+          "verseNumber": 2,
+          "textUthmani": "ٱللَّهُ ٱلصَّمَدُ",
+          "sha256": "a30b680c0f56ff9a29c1384eac94f728f9cfd0e8f1d3798a2e4916d91e57f57e"
+        },
+        {
+          "surahNumber": 112,
+          "verseNumber": 3,
+          "textUthmani": "لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ",
+          "sha256": "fb51da03e0a9888508063f5be81b416da6d0b7149f2c75a3e771f06499925289"
+        },
+        {
+          "surahNumber": 112,
+          "verseNumber": 4,
+          "textUthmani": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+          "sha256": "2880126fcc56756ef85c57c0d7376b517d8c50dbe31e704002bb915b15ba13a1"
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "nameAr": "المسد",
+      "nameEn": "Al-Masad",
+      "type": "meccan",
+      "totalVerses": 5,
+      "verses": [
+        {
+          "surahNumber": 111,
+          "verseNumber": 1,
+          "textUthmani": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+          "sha256": "e070e51fdee68a4131309e29296068b97bd94539fe1f93bd5b163bf475046212"
+        },
+        {
+          "surahNumber": 111,
+          "verseNumber": 2,
+          "textUthmani": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+          "sha256": "0a14b7e472c1e338b4fb8c15dabbcbbe94a936d81395673be710bf191a8bec74"
+        },
+        {
+          "surahNumber": 111,
+          "verseNumber": 3,
+          "textUthmani": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+          "sha256": "317a53e06cb77ab485c20d1f02c6775863938c436b3a0c82ae86da9683484496"
+        },
+        {
+          "surahNumber": 111,
+          "verseNumber": 4,
+          "textUthmani": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+          "sha256": "0055df95f522289469a3b8c51da1a15352066e4ffb52ce4e460593b75c1f6cdb"
+        },
+        {
+          "surahNumber": 111,
+          "verseNumber": 5,
+          "textUthmani": "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+          "sha256": "9d1605a96e83be2266144e1a73eca32ae992cbf268fbe5d3e03d30afae9ba357"
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "nameAr": "النصر",
+      "nameEn": "An-Nasr",
+      "type": "medinan",
+      "totalVerses": 3,
+      "verses": [
+        {
+          "surahNumber": 110,
+          "verseNumber": 1,
+          "textUthmani": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
+          "sha256": "e34b42f9921fc3b087579803712f404f6db54dbae3739392b0428435daba4893"
+        },
+        {
+          "surahNumber": 110,
+          "verseNumber": 2,
+          "textUthmani": "وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِي دِينِ ٱللَّهِ أَفۡوَاجٗا",
+          "sha256": "d1feb5dc6e75d5b247809d37028e5d8db4cf61f3050ed421cd859503afcf88ea"
+        },
+        {
+          "surahNumber": 110,
+          "verseNumber": 3,
+          "textUthmani": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا",
+          "sha256": "4faf2a97db85d75a58464f0a5d27fdaf28f8e7baca8f137cdacc0d0e8055f38b"
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "nameAr": "الكافرون",
+      "nameEn": "Al-Kafirun",
+      "type": "meccan",
+      "totalVerses": 6,
+      "verses": [
+        {
+          "surahNumber": 109,
+          "verseNumber": 1,
+          "textUthmani": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
+          "sha256": "56885a5df7c3c7be0f6df69c80522f34b8eb394b6c1a06dab7a4a7a2b0df3777"
+        },
+        {
+          "surahNumber": 109,
+          "verseNumber": 2,
+          "textUthmani": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
+          "sha256": "31862983e3dc66eb68b2a0b54c3aed2158858fa18e3a6109166ac2cee23c020b"
+        },
+        {
+          "surahNumber": 109,
+          "verseNumber": 3,
+          "textUthmani": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+          "sha256": "f61b2c6da17f66bd86a524e5c313a46d8dad805f9a37b9ea837689b8a215f69d"
+        },
+        {
+          "surahNumber": 109,
+          "verseNumber": 4,
+          "textUthmani": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
+          "sha256": "a5b9a7d672e7a0ca0c74504a80f30f42c970a3c9a77e7a3869be755d5b2bf196"
+        },
+        {
+          "surahNumber": 109,
+          "verseNumber": 5,
+          "textUthmani": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+          "sha256": "f61b2c6da17f66bd86a524e5c313a46d8dad805f9a37b9ea837689b8a215f69d"
+        },
+        {
+          "surahNumber": 109,
+          "verseNumber": 6,
+          "textUthmani": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+          "sha256": "5b6eb9c77784bd4e8fef94d5389fb2c8557ebda794ef746dc901909fc8131be5"
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "nameAr": "الكوثر",
+      "nameEn": "Al-Kawthar",
+      "type": "meccan",
+      "totalVerses": 3,
+      "verses": [
+        {
+          "surahNumber": 108,
+          "verseNumber": 1,
+          "textUthmani": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+          "sha256": "560f15ec8ffdd62f789ad428285f3e96b01c7fe7671f3cf528611ddecdc4ffe1"
+        },
+        {
+          "surahNumber": 108,
+          "verseNumber": 2,
+          "textUthmani": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+          "sha256": "c7717510bbc79f116f3c320ffbf2eb306873058528c658eaa27cda03b0844506"
+        },
+        {
+          "surahNumber": 108,
+          "verseNumber": 3,
+          "textUthmani": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+          "sha256": "7368cc85826fc5a482d7980b2609f188f8bf37486442bb9e3170a5177a79e816"
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "nameAr": "الماعون",
+      "nameEn": "Al-Ma'un",
+      "type": "meccan",
+      "totalVerses": 7,
+      "verses": [
+        {
+          "surahNumber": 107,
+          "verseNumber": 1,
+          "textUthmani": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ",
+          "sha256": "51af29793b8c64ce86f90e503cc44f35262bba13a594037cd9b975e7500a17e1"
+        },
+        {
+          "surahNumber": 107,
+          "verseNumber": 2,
+          "textUthmani": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ",
+          "sha256": "a8c0c5410f60ce8ee52a5815d760d29eda095e00284b5928d4a47b69e8f6e3d0"
+        },
+        {
+          "surahNumber": 107,
+          "verseNumber": 3,
+          "textUthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+          "sha256": "f72f2bd4ec0588ec8f606c24d9cfa221cf71a1e5fe90e4654430fc4d75cfcc52"
+        },
+        {
+          "surahNumber": 107,
+          "verseNumber": 4,
+          "textUthmani": "فَوَيۡلٞ لِّلۡمُصَلِّينَ",
+          "sha256": "f38ea60335bd58aa9057f35fc5bf9a967d328e3d3ecf9c23a8af26250c89b82c"
+        },
+        {
+          "surahNumber": 107,
+          "verseNumber": 5,
+          "textUthmani": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+          "sha256": "7ec317ba5fdba8807cd12f4cde142119e9efe64798532ea3096ab617a617e065"
+        },
+        {
+          "surahNumber": 107,
+          "verseNumber": 6,
+          "textUthmani": "ٱلَّذِينَ هُمۡ يُرَآءُونَ",
+          "sha256": "401b6a42f23b0b389c1d5490cd62a2bdcb1d37f699354abbd683749f1b613815"
+        },
+        {
+          "surahNumber": 107,
+          "verseNumber": 7,
+          "textUthmani": "وَيَمۡنَعُونَ ٱلۡمَاعُونَ",
+          "sha256": "6f25c8075e5f3a8ce87322527d885500f08cf2d593a3fee249ca9d7d270edbca"
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "nameAr": "قريش",
+      "nameEn": "Quraysh",
+      "type": "meccan",
+      "totalVerses": 4,
+      "verses": [
+        {
+          "surahNumber": 106,
+          "verseNumber": 1,
+          "textUthmani": "لِإِيلَٰفِ قُرَيۡشٍ",
+          "sha256": "c294d2ff33bdd22362949c7e12616b82c10ee7f3780ae8eb45307498e5ec66b7"
+        },
+        {
+          "surahNumber": 106,
+          "verseNumber": 2,
+          "textUthmani": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+          "sha256": "dcfc13a262eeb0dc45f4fcacf3c1a9fa563ef3291fcbf258a1765940f0c6e35c"
+        },
+        {
+          "surahNumber": 106,
+          "verseNumber": 3,
+          "textUthmani": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+          "sha256": "48ce5bbbefc6657dcd8f231ce9b97fb3f8dfec326feb26dd29d981f32980c21f"
+        },
+        {
+          "surahNumber": 106,
+          "verseNumber": 4,
+          "textUthmani": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+          "sha256": "4e80a625a7a0f4963b064db679107a9a0c8616d175fae50681d58e487a3122bf"
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "nameAr": "الفيل",
+      "nameEn": "Al-Fil",
+      "type": "meccan",
+      "totalVerses": 5,
+      "verses": [
+        {
+          "surahNumber": 105,
+          "verseNumber": 1,
+          "textUthmani": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
+          "sha256": "5970817b1d1b7837ab86e5f1aabe5e312bef0ae5584ad529514d7af839d597f1"
+        },
+        {
+          "surahNumber": 105,
+          "verseNumber": 2,
+          "textUthmani": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
+          "sha256": "8bb04873e3b5a58a1c76737bdc81cb6be29ec5498b017e0c7eca214275ec8b04"
+        },
+        {
+          "surahNumber": 105,
+          "verseNumber": 3,
+          "textUthmani": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+          "sha256": "a0050c8c27f636088e8280b5f88fe75bf6ed17cae0f0ff3e92fb28b2abf41be3"
+        },
+        {
+          "surahNumber": 105,
+          "verseNumber": 4,
+          "textUthmani": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
+          "sha256": "5ec55e803e958430772ddce910a71cb4d8092fd517181b667c4ab9064f70242e"
+        },
+        {
+          "surahNumber": 105,
+          "verseNumber": 5,
+          "textUthmani": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
+          "sha256": "92c1b118e14025759474093ab2fbb533e789093ef81be351f57443eb2cd40b04"
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "nameAr": "الهمزة",
+      "nameEn": "Al-Humazah",
+      "type": "meccan",
+      "totalVerses": 9,
+      "verses": [
+        {
+          "surahNumber": 104,
+          "verseNumber": 1,
+          "textUthmani": "وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ",
+          "sha256": "4fd78641b923e272b9c7f723defa13b34399eb495139d1d97cb2dd5c78878310"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 2,
+          "textUthmani": "ٱلَّذِي جَمَعَ مَالٗا وَعَدَّدَهُۥ",
+          "sha256": "cb7b041575e5041b19a95a69f59f3c252cef27d755ac508b1db91e9ae5e12005"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 3,
+          "textUthmani": "يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ",
+          "sha256": "d9acda301f62b8d36b2fb0bcdff736682e2e30b69c213cbd85f072aae6ebc659"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 4,
+          "textUthmani": "كَلَّاۖ لَيُنۢبَذَنَّ فِي ٱلۡحُطَمَةِ",
+          "sha256": "00740368a3ced3c96cf194df3cb84ceb41910586967c32911ed3b015360bd9e8"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 5,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ",
+          "sha256": "408f5610d4e7112eeadfeeace2b69bcf87dfda0c1e72a01ebe829ded7bf74954"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 6,
+          "textUthmani": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+          "sha256": "c3689fe9f731c214639bd014bb1ddc94960d6e83decde666eecd9ba75b6a2c07"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 7,
+          "textUthmani": "ٱلَّتِي تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ",
+          "sha256": "e8b01f69479cc4288d992c337ef067c2deafae11d47353d1a07ca55e8afb0348"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 8,
+          "textUthmani": "إِنَّهَا عَلَيۡهِم مُّؤۡصَدَةٞ",
+          "sha256": "b4420c88541153aeb95ecf2cfaed37ff0c4381ac11d9b3993abfdbe1b10c76f2"
+        },
+        {
+          "surahNumber": 104,
+          "verseNumber": 9,
+          "textUthmani": "فِي عَمَدٖ مُّمَدَّدَةِۭ",
+          "sha256": "f8fda8800680b307cdb74f2a7e1346b15f03aff1fd25553612a43ffca5884c4b"
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "nameAr": "العصر",
+      "nameEn": "Al-'Asr",
+      "type": "meccan",
+      "totalVerses": 3,
+      "verses": [
+        {
+          "surahNumber": 103,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلۡعَصۡرِ",
+          "sha256": "d9c8dbfa392d8be03db17cdaf5fa51f7fdc2721449e33a76f62e7d6a8fc51810"
+        },
+        {
+          "surahNumber": 103,
+          "verseNumber": 2,
+          "textUthmani": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+          "sha256": "9f6a1e796e3d0bfced74f2dddc98b424a44cedb6271361796d69fac79fb4210c"
+        },
+        {
+          "surahNumber": 103,
+          "verseNumber": 3,
+          "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+          "sha256": "da1240011860d8acbcab4e5ee45816ef23d35c4068cfe4ea1f64f7be3c03acb9"
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "nameAr": "التكاثر",
+      "nameEn": "At-Takathur",
+      "type": "meccan",
+      "totalVerses": 8,
+      "verses": [
+        {
+          "surahNumber": 102,
+          "verseNumber": 1,
+          "textUthmani": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
+          "sha256": "83325eff478cbec0e673e24362f4730c4bcaac662299a86e83358eef5790aa9b"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 2,
+          "textUthmani": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
+          "sha256": "89aff6836fda220d95f274b49fe70a65f1ae54bfbc12689b47de33de05f3a6c8"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 3,
+          "textUthmani": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
+          "sha256": "8bfe924282951f8ccd2cfff081d5b6a86b8310dd43ceba4585336f439ca7e999"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 4,
+          "textUthmani": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ",
+          "sha256": "2dd491a495a23ec7d8ffbb6385a3d80fc6af97c46ecae123b5d889d90c463178"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 5,
+          "textUthmani": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ",
+          "sha256": "b7068161b1f9643f4cb9585ee26d823a4aa70d1d5eefc3b34b21a60f542f0698"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 6,
+          "textUthmani": "لَتَرَوُنَّ ٱلۡجَحِيمَ",
+          "sha256": "8b12142fb7918aadabef0402c5db0d82a25826f3b29047068ecb9b3a74108900"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 7,
+          "textUthmani": "ثُمَّ لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ",
+          "sha256": "751df0e09f908b9f6c97148773ba70d99023d1ca576ec228a7814ffcb0566b52"
+        },
+        {
+          "surahNumber": 102,
+          "verseNumber": 8,
+          "textUthmani": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
+          "sha256": "7dd4cbf10aad6add6b0646a6fc2c19e08e0d5fe7d56e6b736cc60c8e9993143d"
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "nameAr": "القارعة",
+      "nameEn": "Al-Qari'ah",
+      "type": "meccan",
+      "totalVerses": 11,
+      "verses": [
+        {
+          "surahNumber": 101,
+          "verseNumber": 1,
+          "textUthmani": "ٱلۡقَارِعَةُ",
+          "sha256": "49bc69aa3a9e00c6921b5866f35ae68e9f3a13d47ed2df1adc9e40db80ae8006"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 2,
+          "textUthmani": "مَا ٱلۡقَارِعَةُ",
+          "sha256": "be1380f13856994a865d1b49ebeee3e17f3ad1b914148688266ad9d39743943d"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 3,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ",
+          "sha256": "96fa35e2eadff100ce66dee0361c8e3f4d3253739ab0f35c9fed404d25e83041"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 4,
+          "textUthmani": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+          "sha256": "17452452e533d5032a3d537e1e6b4f16dc09376ed85c12e03884d474cd2f7541"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 5,
+          "textUthmani": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+          "sha256": "5e8763c7a9fa64a6912fb9ad939cf15645fb1adcdb11ed69e98e2989baf4123f"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 6,
+          "textUthmani": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+          "sha256": "a9f830bc9b714ba2478a328816bd3aa0d09032cd87bcdb4c0a440acee133afec"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 7,
+          "textUthmani": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
+          "sha256": "67e6a1635cb4959edc29c2a9ca8aa6917ca92edc0e40e24f6989ee13ab7f9f1f"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 8,
+          "textUthmani": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+          "sha256": "8e37215680a8eeaf51934912c3191ec538a48c9ba98535ce5bf927429713fb99"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 9,
+          "textUthmani": "فَأُمُّهُۥ هَاوِيَةٞ",
+          "sha256": "3a0d0433a5df9ef30ee050edf5e8def5d7afb093240ed96ab574570d9be7cc8b"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 10,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ",
+          "sha256": "a7276b0ce99b075a0cc1c93f272595c74b2ada424b4a37969b0bee0c21174bfa"
+        },
+        {
+          "surahNumber": 101,
+          "verseNumber": 11,
+          "textUthmani": "نَارٌ حَامِيَةُۢ",
+          "sha256": "c6d683994d6f8edaa599d4e2275461fe9656cbe943429facac007431a01c3d9c"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "nameAr": "العاديات",
+      "nameEn": "Al-'Adiyat",
+      "type": "meccan",
+      "totalVerses": 11,
+      "verses": [
+        {
+          "surahNumber": 100,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+          "sha256": "096aa7728f82f9b2275a547a6de53b88b592e5f026531448a1ad10175d1a0b34"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 2,
+          "textUthmani": "فَٱلۡمُورِيَٰتِ قَدۡحٗا",
+          "sha256": "4af810d841a3422e6244922d62cca882dda4b005bc7a949b0e306cacf227c36a"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 3,
+          "textUthmani": "فَٱلۡمُغِيرَٰتِ صُبۡحٗا",
+          "sha256": "f553124d829545279b4e3135c2aebb08f642a04ccbed8f807baea24caa1f0635"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 4,
+          "textUthmani": "فَأَثَرۡنَ بِهِۦ نَقۡعٗا",
+          "sha256": "394a9c3b987bba78aff5dd02b283f9fddebe2ba62cfe050adc4a90fa78c58e73"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 5,
+          "textUthmani": "فَوَسَطۡنَ بِهِۦ جَمۡعًا",
+          "sha256": "839dcc01b76c8fc9475a1cd0098f4c44c24b5c6c85dd12c45a4433f45a8a29e3"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 6,
+          "textUthmani": "إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ",
+          "sha256": "88df3a3ce1f9e72dda628639d9bf57e3469394257e68d7d7c72db61506e108c8"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 7,
+          "textUthmani": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+          "sha256": "c00a3ea671f7b44135fade6b5971b8de8e0da90172f745877d1c24dd6b49a6a0"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 8,
+          "textUthmani": "وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ",
+          "sha256": "5fbb2b95d00acb8885410aa89a8bde7f595a879519403c7986ee5422f28ba5b4"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 9,
+          "textUthmani": "۞أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+          "sha256": "4997ff35b389a3599cbf4b871083fbd072f7abc8089c282ae386bd100e25d13c"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 10,
+          "textUthmani": "وَحُصِّلَ مَا فِي ٱلصُّدُورِ",
+          "sha256": "21b8688065a55b197e5c114064c3ab7052bec6c4d9fa32abac2ced783346efb6"
+        },
+        {
+          "surahNumber": 100,
+          "verseNumber": 11,
+          "textUthmani": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+          "sha256": "64d39e63b9fd55aeb91f74990593dc8e0403e632f35763aef5c3410655b08002"
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "nameAr": "الزلزلة",
+      "nameEn": "Az-Zalzalah",
+      "type": "medinan",
+      "totalVerses": 8,
+      "verses": [
+        {
+          "surahNumber": 99,
+          "verseNumber": 1,
+          "textUthmani": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا",
+          "sha256": "22271d6b4697c9a6c226ed140e1296e24a60c5641d5f01a42f08e9f7a99e7c89"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 2,
+          "textUthmani": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا",
+          "sha256": "7c7932925bc94d83fcd8c133687f916482ab48b280ecfdf40e0ce1a104f32231"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 3,
+          "textUthmani": "وَقَالَ ٱلۡإِنسَٰنُ مَا لَهَا",
+          "sha256": "440f339738edc7d52c9d39de3070278934ef35ec0c51acf31e67226f8a90b58f"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 4,
+          "textUthmani": "يَوۡمَئِذٖ تُحَدِّثُ أَخۡبَارَهَا",
+          "sha256": "6856a674343fa6c8785957aeaff41ae544c131d3602d968371a3e44238acfe34"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 5,
+          "textUthmani": "بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا",
+          "sha256": "eb431ffcc83e3552a0420d7b0794b241e5deb6e2f6fb15f76fb6fb57aab24b96"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 6,
+          "textUthmani": "يَوۡمَئِذٖ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتٗا لِّيُرَوۡاْ أَعۡمَٰلَهُمۡ",
+          "sha256": "f55587a4c6e9c5bad522403e070d39720e2ac75a74a1ec40abd7a768fcd4e574"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 7,
+          "textUthmani": "فَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَيۡرٗا يَرَهُۥ",
+          "sha256": "f605713c8ccc4023b7f744dd13b80d1cc5147758c4e6516c5cef075ed59cf13b"
+        },
+        {
+          "surahNumber": 99,
+          "verseNumber": 8,
+          "textUthmani": "وَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٖ شَرّٗا يَرَهُۥ",
+          "sha256": "379e4dd4aaa0c8e0d6b392ab779a1bb074ee683bfdefda3ae328c9a393724bb1"
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "nameAr": "البينة",
+      "nameEn": "Al-Bayyinah",
+      "type": "medinan",
+      "totalVerses": 8,
+      "verses": [
+        {
+          "surahNumber": 98,
+          "verseNumber": 1,
+          "textUthmani": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ",
+          "sha256": "476a5b3eba8dd12f62548707acdb86565cabf0a65849232dbdd4cec00ab4fee7"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 2,
+          "textUthmani": "رَسُولٞ مِّنَ ٱللَّهِ يَتۡلُواْ صُحُفٗا مُّطَهَّرَةٗ",
+          "sha256": "b10b32567cc4ca033250a3e51b24b2bfa54882cb1def55c46d6b9503539f1308"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 3,
+          "textUthmani": "فِيهَا كُتُبٞ قَيِّمَةٞ",
+          "sha256": "6dba983484fbe62299dd90664526770e32bcdd56135b57b931485ca18312d497"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 4,
+          "textUthmani": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ إِلَّا مِنۢ بَعۡدِ مَا جَآءَتۡهُمُ ٱلۡبَيِّنَةُ",
+          "sha256": "48a8ce1a961e5e34bd8d9155d7a329913af1e9dec02c44e55b261325d2ea4095"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 5,
+          "textUthmani": "وَمَآ أُمِرُوٓاْ إِلَّا لِيَعۡبُدُواْ ٱللَّهَ مُخۡلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُواْ ٱلصَّلَوٰةَ وَيُؤۡتُواْ ٱلزَّكَوٰةَۚ وَذَٰلِكَ دِينُ ٱلۡقَيِّمَةِ",
+          "sha256": "9e2e919714e4b46e7fd0ff16f11e6a5b60fcaddb3bc778d7783d70797743cbba"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 6,
+          "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَـٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ",
+          "sha256": "32f2a04533ea4ddb5d7013fad122fd82fe7b25823345cbf48ac862ce59c93c15"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 7,
+          "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ أُوْلَـٰٓئِكَ هُمۡ خَيۡرُ ٱلۡبَرِيَّةِ",
+          "sha256": "d04bb987ee70a48be23e5dcffb48d8bfaea7a90a471ab67b635aa75771f889a4"
+        },
+        {
+          "surahNumber": 98,
+          "verseNumber": 8,
+          "textUthmani": "جَزَآؤُهُمۡ عِندَ رَبِّهِمۡ جَنَّـٰتُ عَدۡنٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ لِمَنۡ خَشِيَ رَبَّهُۥ",
+          "sha256": "c3fa61bd2a117f60eafe3ef31cd95a702fe776e25b95f19a12395015cea50ada"
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "nameAr": "القدر",
+      "nameEn": "Al-Qadr",
+      "type": "meccan",
+      "totalVerses": 5,
+      "verses": [
+        {
+          "surahNumber": 97,
+          "verseNumber": 1,
+          "textUthmani": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ",
+          "sha256": "16191ed45fed965b1975b96a89173cf5baa2600e58360e3ddc277d62cbedb0bf"
+        },
+        {
+          "surahNumber": 97,
+          "verseNumber": 2,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ",
+          "sha256": "a7c50f8ce4eb37f7ca948e0dffe9d9f8248315745878e996c8c7ed573998ef6c"
+        },
+        {
+          "surahNumber": 97,
+          "verseNumber": 3,
+          "textUthmani": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+          "sha256": "3975b446c80d755a79b1cf2b600acd82143b7853c2f431ecfea010b1af782291"
+        },
+        {
+          "surahNumber": 97,
+          "verseNumber": 4,
+          "textUthmani": "تَنَزَّلُ ٱلۡمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٖ",
+          "sha256": "edadda24ac79d28db9465fa2dddbe06689e737f60cca4eb17d24d640aaa54f50"
+        },
+        {
+          "surahNumber": 97,
+          "verseNumber": 5,
+          "textUthmani": "سَلَٰمٌ هِيَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
+          "sha256": "52e4d9ab90e4d992d64ea50f6066024561337f04032035d9908bcb144974b216"
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "nameAr": "العلق",
+      "nameEn": "Al-'Alaq",
+      "type": "meccan",
+      "totalVerses": 19,
+      "verses": [
+        {
+          "surahNumber": 96,
+          "verseNumber": 1,
+          "textUthmani": "ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِي خَلَقَ",
+          "sha256": "160dad6aac3e498d78adfcdf03c6ca0fc02cbe6db03ee92b01b275a012d91a02"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 2,
+          "textUthmani": "خَلَقَ ٱلۡإِنسَٰنَ مِنۡ عَلَقٍ",
+          "sha256": "ba26472c849397ec9bbc1957341f53cdeeda2902e0c08692edb9b7fce7476ec9"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 3,
+          "textUthmani": "ٱقۡرَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ",
+          "sha256": "c41b86283d5457d3887b491d6930d22671e53847d9eec5e5a284a7c358e018f3"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 4,
+          "textUthmani": "ٱلَّذِي عَلَّمَ بِٱلۡقَلَمِ",
+          "sha256": "db1ece22a2a1190e18c8266c7e34f61c15268d67732502fb14d813e646e555fd"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 5,
+          "textUthmani": "عَلَّمَ ٱلۡإِنسَٰنَ مَا لَمۡ يَعۡلَمۡ",
+          "sha256": "75ff4b0e0fee9fd8cfb2acaf025b6ac1f057a62109b68ded780db63ab5c2348f"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 6,
+          "textUthmani": "كَلَّآ إِنَّ ٱلۡإِنسَٰنَ لَيَطۡغَىٰٓ",
+          "sha256": "4461a179d99e8df524b82ff7be0b8f1471236d0ef0ef13f1383d8e15d6f36c8f"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 7,
+          "textUthmani": "أَن رَّءَاهُ ٱسۡتَغۡنَىٰٓ",
+          "sha256": "db983659e9af117707dfeef712b2375e4305ad7c956dd23e3ca7f7dd64ee93ec"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 8,
+          "textUthmani": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجۡعَىٰٓ",
+          "sha256": "eef6b6cc5a227d351877e0b2d8e199e1384999a9c31596235fe5e5de19b951ae"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 9,
+          "textUthmani": "أَرَءَيۡتَ ٱلَّذِي يَنۡهَىٰ",
+          "sha256": "ec353b2ec69fbe38220be3cc9629910850393b11f2551e661fb0a0b8ec4c8d04"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 10,
+          "textUthmani": "عَبۡدًا إِذَا صَلَّىٰٓ",
+          "sha256": "7807c5af6f5232b1ed3e6e834ff0bbc3c0cb34c7b6c5102c47be7d41d6d17ce0"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 11,
+          "textUthmani": "أَرَءَيۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰٓ",
+          "sha256": "630d2a44a9e1f869db0cd228e1f3b18a04d60f17eaf8f18ba800fd03bceb3fb6"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 12,
+          "textUthmani": "أَوۡ أَمَرَ بِٱلتَّقۡوَىٰٓ",
+          "sha256": "6ba2c178ed4f388dba47b8242a90a594ba9e95ee2915ee62c50b7f4be0ca5178"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 13,
+          "textUthmani": "أَرَءَيۡتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+          "sha256": "e5d94212e30268496f234b51d750462ffd01d1acba6e1ffb6eabd06e291c6d38"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 14,
+          "textUthmani": "أَلَمۡ يَعۡلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+          "sha256": "3d531ea9f2a1a1b2a7c3e245a9af85ce4ec6aa4072c8feafedc5f81a159bd15c"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 15,
+          "textUthmani": "كَلَّا لَئِن لَّمۡ يَنتَهِ لَنَسۡفَعَۢا بِٱلنَّاصِيَةِ",
+          "sha256": "a1a03bc6d841d636a655ee9818c53057f544e7b2e6a61e0d88e23aead4c15645"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 16,
+          "textUthmani": "نَاصِيَةٖ كَٰذِبَةٍ خَاطِئَةٖ",
+          "sha256": "bb3f3d1763ae3460e9e37b2888dbaa908db653f08855f3c1f8db7ba81e6b8d6d"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 17,
+          "textUthmani": "فَلۡيَدۡعُ نَادِيَهُۥ",
+          "sha256": "8923970ed97f7a393547efebeff4284c4a48fd2bc250068e03c4ab8b0b6c0682"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 18,
+          "textUthmani": "سَنَدۡعُ ٱلزَّبَانِيَةَ",
+          "sha256": "af626b05d912cd1a097881f5c8b32a0d4daef7dfcb8ba472c69cb3f2edd9de9d"
+        },
+        {
+          "surahNumber": 96,
+          "verseNumber": 19,
+          "textUthmani": "كَلَّا لَا تُطِعۡهُ وَٱسۡجُدۡۤ وَٱقۡتَرِب۩",
+          "sha256": "fa1f3bef87869b0f9abe9ff39cbc150fe98fa44ff01b8fe0785383ca99b8af29"
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "nameAr": "التين",
+      "nameEn": "At-Tin",
+      "type": "meccan",
+      "totalVerses": 8,
+      "verses": [
+        {
+          "surahNumber": 95,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلتِّينِ وَٱلزَّيۡتُونِ",
+          "sha256": "108a03bab052b5ff338fd165803ff185aaeb6b019ad9f79da9c496e200d7d70c"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 2,
+          "textUthmani": "وَطُورِ سِينِينَ",
+          "sha256": "890581bb591d4d003c13abc58b45e08b1e10d9170509b78805c40ae16f6b4192"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 3,
+          "textUthmani": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+          "sha256": "fe83adf20a38a82746c6db4630cf2e2d65235a07bb7a5d315f7acfc964ead268"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 4,
+          "textUthmani": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِيٓ أَحۡسَنِ تَقۡوِيمٖ",
+          "sha256": "b6b92a14e60b6da521ce247e3a5dc1a68200825096d1114d5911cc48c53036c0"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 5,
+          "textUthmani": "ثُمَّ رَدَدۡنَٰهُ أَسۡفَلَ سَٰفِلِينَ",
+          "sha256": "588b6aca2ea1dc057470eeb10de0c9ebfa3d52c69f5685273de180d5ce7cb5cd"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 6,
+          "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ",
+          "sha256": "2333febd81a65b7ca8d9705cff1319997237536226409f771110c16c353278d0"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 7,
+          "textUthmani": "فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ",
+          "sha256": "82c8b8b6de08cdc3e2c4175dbacd2277303dac042f6a16db987d6bf29e282736"
+        },
+        {
+          "surahNumber": 95,
+          "verseNumber": 8,
+          "textUthmani": "أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَٰكِمِينَ",
+          "sha256": "ec5cad29ac07e9c8bd1bbf4b55e0a99a0ad09de2825bf4753f485b59160a8e3a"
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "nameAr": "الشرح",
+      "nameEn": "Ash-Sharh",
+      "type": "meccan",
+      "totalVerses": 8,
+      "verses": [
+        {
+          "surahNumber": 94,
+          "verseNumber": 1,
+          "textUthmani": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ",
+          "sha256": "69b6a060dbaf451861f9cd7dfa8c69629a2ba4396266d86395227a2ffc4763f4"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 2,
+          "textUthmani": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ",
+          "sha256": "6133ad3b0518238aa6b3090587625caeacac69d4a9a939f949bfeccbb265ae91"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 3,
+          "textUthmani": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ",
+          "sha256": "ac344a62af52a0e95d1210dbd11351d9ca5664155723f2a3eb6d59cb26e4e201"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 4,
+          "textUthmani": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ",
+          "sha256": "db8986be04c6416def101bf99810fa2e1de03f3cee2a49775ee11558a526e076"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 5,
+          "textUthmani": "فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا",
+          "sha256": "deb01b04f3b4dfa55666d17acfffa40ec2b4e66e310e40429fdd0360332fff63"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 6,
+          "textUthmani": "إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا",
+          "sha256": "fb8c73b1a78f8e1cd444f927bad55a2ed68c5072a447096ec460e7618539c81a"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 7,
+          "textUthmani": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ",
+          "sha256": "a9120da95c1d587af007641b0ae0f2ae179ea340f5eb8e356a19f8ac924f2724"
+        },
+        {
+          "surahNumber": 94,
+          "verseNumber": 8,
+          "textUthmani": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب",
+          "sha256": "ddffaefe2b407b0906b69a1b00e3d2ecdc3dada680305112a28027cf99dc0c09"
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "nameAr": "الضحى",
+      "nameEn": "Ad-Duhaa",
+      "type": "meccan",
+      "totalVerses": 11,
+      "verses": [
+        {
+          "surahNumber": 93,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلضُّحَىٰ",
+          "sha256": "6c2de41b97937f32c7f1eee3c1ef3d942c5a505d0690028583e43ee9751237b6"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 2,
+          "textUthmani": "وَٱلَّيۡلِ إِذَا سَجَىٰ",
+          "sha256": "c041ec096706dd3c1bd48475f5103a043b59657a860c753389991f4fa1a028ca"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 3,
+          "textUthmani": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+          "sha256": "a16a3dbf01b0132a20fb0e9152b369d2949126532760b0dc39d471685c37ed78"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 4,
+          "textUthmani": "وَلَلۡأٓخِرَةُ خَيۡرٞ لَّكَ مِنَ ٱلۡأُولَىٰ",
+          "sha256": "494f82c34368edf2b87868a17024f05b352d90011f5899b8a2a3e10f84830975"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 5,
+          "textUthmani": "وَلَسَوۡفَ يُعۡطِيكَ رَبُّكَ فَتَرۡضَىٰٓ",
+          "sha256": "9c5eb8395893d8eee89f26b1e3ed5932587c1c54dc2c234b41cd3218660ed120"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 6,
+          "textUthmani": "أَلَمۡ يَجِدۡكَ يَتِيمٗا فَـَٔاوَىٰ",
+          "sha256": "2bb54954d55335579a4a9a9e3bffa2c32ca2c9e8f912c0a2413313533d4baa06"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 7,
+          "textUthmani": "وَوَجَدَكَ ضَآلّٗا فَهَدَىٰ",
+          "sha256": "67e6880ea3a2e5608591fd2b8e63c07e0b0d612c3f79746d307c09314f2c3956"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 8,
+          "textUthmani": "وَوَجَدَكَ عَآئِلٗا فَأَغۡنَىٰ",
+          "sha256": "62659195d29a33cc5146e4e451ecd9b44fa6f108737185a8a70a28a3a2a20d0f"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 9,
+          "textUthmani": "فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ",
+          "sha256": "ae64493b210bb90716f10d36b15b939a5a9ea58044c0e33d0486346ef95cbc41"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 10,
+          "textUthmani": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ",
+          "sha256": "db201a0b48c4a1e5cd2d740b7ac85d555b8f0573217fa5937cf7e90a18e3875f"
+        },
+        {
+          "surahNumber": 93,
+          "verseNumber": 11,
+          "textUthmani": "وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ",
+          "sha256": "d6f3b64952edebdd42e3d67ede73a806fd08fba3234881b7c9cd9b0d975d6514"
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "nameAr": "الليل",
+      "nameEn": "Al-Layl",
+      "type": "meccan",
+      "totalVerses": 21,
+      "verses": [
+        {
+          "surahNumber": 92,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلَّيۡلِ إِذَا يَغۡشَىٰ",
+          "sha256": "27ee5a68034a077fa4bcd2418669741b12a044e2c885c91188befa42ae51488b"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 2,
+          "textUthmani": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+          "sha256": "da3886c507434eec91e73524db610bb3d64c51398ad596a2b273f6737777af98"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 3,
+          "textUthmani": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلۡأُنثَىٰٓ",
+          "sha256": "2ad9313577e7bb2d5504d38e31f9c6c58d6393a64b160a26fc79d1c46e9eb849"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 4,
+          "textUthmani": "إِنَّ سَعۡيَكُمۡ لَشَتَّىٰ",
+          "sha256": "dee1842438ec5d6a7508473e3ac58c034dbd58eb84313e536b7b3bcaf9fd43d6"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 5,
+          "textUthmani": "فَأَمَّا مَنۡ أَعۡطَىٰ وَٱتَّقَىٰ",
+          "sha256": "9b0698d26f00fa0ef3d61cb7794c12d867d4c78cf09e315a9e377167987f05f2"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 6,
+          "textUthmani": "وَصَدَّقَ بِٱلۡحُسۡنَىٰ",
+          "sha256": "d9227a331fc2337ebc6ab8a63aa2f31cbeea8485eb57884cdf36df6262d36d28"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 7,
+          "textUthmani": "فَسَنُيَسِّرُهُۥ لِلۡيُسۡرَىٰ",
+          "sha256": "5d9383bf38ec633cc6f328bce622c390dc48b41bc6907f096428390f25aa7335"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 8,
+          "textUthmani": "وَأَمَّا مَنۢ بَخِلَ وَٱسۡتَغۡنَىٰ",
+          "sha256": "97b13d615dfcffe4ace12e6589c076a1ea8bfeb60b176760c6b7ef67456174e6"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 9,
+          "textUthmani": "وَكَذَّبَ بِٱلۡحُسۡنَىٰ",
+          "sha256": "2567ea3581a398edc9c05995253c2b7bfb0f7b0cc66e66c2107ba48ffc68f0ba"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 10,
+          "textUthmani": "فَسَنُيَسِّرُهُۥ لِلۡعُسۡرَىٰ",
+          "sha256": "59ba62c80f5f1dd6232610bc502681e7a79e5e8acee35c93f5877c6b2b07b94c"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 11,
+          "textUthmani": "وَمَا يُغۡنِي عَنۡهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+          "sha256": "386a26f0e3b0a71eb1e3a6eaf36c02a3ad600662bc9cef1d50cbae4c37d27353"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 12,
+          "textUthmani": "إِنَّ عَلَيۡنَا لَلۡهُدَىٰ",
+          "sha256": "6296b8c65fdc0001eb9fcb090dedf0e92fbcb488bc562a31e0f8dbd3f58ed814"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 13,
+          "textUthmani": "وَإِنَّ لَنَا لَلۡأٓخِرَةَ وَٱلۡأُولَىٰ",
+          "sha256": "f5624264e75d79d0efcfe7bc5b1e0f1d4eb4955ecc219618c37687bff3511762"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 14,
+          "textUthmani": "فَأَنذَرۡتُكُمۡ نَارٗا تَلَظَّىٰ",
+          "sha256": "a5223572ef64ee009ef7bc3021906e344a311d91f5a0ecf8a7a01dcbf1c2b298"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 15,
+          "textUthmani": "لَا يَصۡلَىٰهَآ إِلَّا ٱلۡأَشۡقَى",
+          "sha256": "784d8cc740f0fef55c2a3398ab8e878b762f523b312a24ae6ce9035ea2e78b4d"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 16,
+          "textUthmani": "ٱلَّذِي كَذَّبَ وَتَوَلَّىٰ",
+          "sha256": "ea64144765bb236dbe6b1b097614d5d8a5ec0902176c530650ae95860776a2ee"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 17,
+          "textUthmani": "وَسَيُجَنَّبُهَا ٱلۡأَتۡقَى",
+          "sha256": "12195fcdcc272c14f53465a938de44d44b6228ac5a3ae70a3ed939106ae64360"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 18,
+          "textUthmani": "ٱلَّذِي يُؤۡتِي مَالَهُۥ يَتَزَكَّىٰ",
+          "sha256": "af29d7b930b87290187fbf4a2c6e19aa948c34778c9bc3f0de6954b593f45836"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 19,
+          "textUthmani": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعۡمَةٖ تُجۡزَىٰٓ",
+          "sha256": "a2158b20655d1d0835de541842387f6865420a894ecd8509ba2160424990fc5a"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 20,
+          "textUthmani": "إِلَّا ٱبۡتِغَآءَ وَجۡهِ رَبِّهِ ٱلۡأَعۡلَىٰ",
+          "sha256": "3a0d442da6db0d84d1a51c21fef5207f6e6de7465df335e97ea29929033df009"
+        },
+        {
+          "surahNumber": 92,
+          "verseNumber": 21,
+          "textUthmani": "وَلَسَوۡفَ يَرۡضَىٰ",
+          "sha256": "06b29a83a8cbeab193b83c0cbf179b30055fafccacaa275991589616a064b8e1"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "nameAr": "الشمس",
+      "nameEn": "Ash-Shams",
+      "type": "meccan",
+      "totalVerses": 15,
+      "verses": [
+        {
+          "surahNumber": 91,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلشَّمۡسِ وَضُحَىٰهَا",
+          "sha256": "fb9b37edb31bffcbb3e332bdf44dc46fa9af24fc0972c241f01478c719a18107"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 2,
+          "textUthmani": "وَٱلۡقَمَرِ إِذَا تَلَىٰهَا",
+          "sha256": "a50e9daae9dacc22b6f5e2d6562ec571097530ac4c29c5fe5d02fbc57e7e8b44"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 3,
+          "textUthmani": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+          "sha256": "ab9e23473b78be8672207581fd5c98a164da4a01579cb0179444f139bb4da6e9"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 4,
+          "textUthmani": "وَٱلَّيۡلِ إِذَا يَغۡشَىٰهَا",
+          "sha256": "4ac19da61acb69eb2d74d2e79899b4f6731d322357336095be65ca185c3ed72d"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 5,
+          "textUthmani": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+          "sha256": "0f871da71024e756d4a79316460868a7271b478d4698af9749f56b72c4b0a99e"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 6,
+          "textUthmani": "وَٱلۡأَرۡضِ وَمَا طَحَىٰهَا",
+          "sha256": "095fa9abc0e1c092ddebb06a42852eb422eb58c5aade0396e126297262d055b3"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 7,
+          "textUthmani": "وَنَفۡسٖ وَمَا سَوَّىٰهَا",
+          "sha256": "9f981a2ea7001c95309b5c11a77a9cb5cb794642ac1164583e2af030b79e8b38"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 8,
+          "textUthmani": "فَأَلۡهَمَهَا فُجُورَهَا وَتَقۡوَىٰهَا",
+          "sha256": "eea2799a77ad6f57f60d963cdcbd1d3ffadeba187f3605ede3b6563d423552ca"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 9,
+          "textUthmani": "قَدۡ أَفۡلَحَ مَن زَكَّىٰهَا",
+          "sha256": "b037c67884bc1458cd854f38c0923cc6aa6a2151de8f60da4f6fc603ad51699e"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 10,
+          "textUthmani": "وَقَدۡ خَابَ مَن دَسَّىٰهَا",
+          "sha256": "b5e6e095298ad778aa3f82934b04cb331efa8f7916d755b4fac2847c0a927a27"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 11,
+          "textUthmani": "كَذَّبَتۡ ثَمُودُ بِطَغۡوَىٰهَآ",
+          "sha256": "703a476936045bb20ca1f73309acfb72d4baf34bcbaa7aae50bbbd452c6a8803"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 12,
+          "textUthmani": "إِذِ ٱنۢبَعَثَ أَشۡقَىٰهَا",
+          "sha256": "dc89aa182d8e953fd159d0f715988bbf815df1e3b8522a3c74f951b78680a0fc"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 13,
+          "textUthmani": "فَقَالَ لَهُمۡ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقۡيَٰهَا",
+          "sha256": "2c919628b06a362c14a10e76bd8b6f83865066bfa5f5f84d485ba8b5a696c9db"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 14,
+          "textUthmani": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمۡدَمَ عَلَيۡهِمۡ رَبُّهُم بِذَنۢبِهِمۡ فَسَوَّىٰهَا",
+          "sha256": "57b5a103e544b4251b70bbe1491d6c7d57fda549379ecc758fd3cf6b177c3f2c"
+        },
+        {
+          "surahNumber": 91,
+          "verseNumber": 15,
+          "textUthmani": "وَلَا يَخَافُ عُقۡبَٰهَا",
+          "sha256": "c8c8c13815b5076024dacdd98a56d4c0ada7fde9ea69b5d729c6b9dd62b9d549"
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "nameAr": "البلد",
+      "nameEn": "Al-Balad",
+      "type": "meccan",
+      "totalVerses": 20,
+      "verses": [
+        {
+          "surahNumber": 90,
+          "verseNumber": 1,
+          "textUthmani": "لَآ أُقۡسِمُ بِهَٰذَا ٱلۡبَلَدِ",
+          "sha256": "e39f8ae9f6c2c0ea47d02c9aacad89d311208f76e092d70a2376a714faa2a457"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 2,
+          "textUthmani": "وَأَنتَ حِلُّۢ بِهَٰذَا ٱلۡبَلَدِ",
+          "sha256": "d8064be26601df5a16a19d001b213464b787f95bee9586c435ff0a40814fedf6"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 3,
+          "textUthmani": "وَوَالِدٖ وَمَا وَلَدَ",
+          "sha256": "1cfb6a552b3532d8a67a5753d24c6e2e3b3f674ba7af526ca3453f918f9eb9a4"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 4,
+          "textUthmani": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِي كَبَدٍ",
+          "sha256": "4a550639927d40d2454c440f77ff34905561102098380d5891faa66c2d72409f"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 5,
+          "textUthmani": "أَيَحۡسَبُ أَن لَّن يَقۡدِرَ عَلَيۡهِ أَحَدٞ",
+          "sha256": "bb676b9279466f289553710e57fd6f509fbcdac848d0f23f2629549b56d82371"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 6,
+          "textUthmani": "يَقُولُ أَهۡلَكۡتُ مَالٗا لُّبَدًا",
+          "sha256": "cca3693a3851717977729fca8f9b270c872ef4bcb8514eb2d8e39d5542e9120b"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 7,
+          "textUthmani": "أَيَحۡسَبُ أَن لَّمۡ يَرَهُۥٓ أَحَدٌ",
+          "sha256": "2d8bfe1d5e7ca8057c50414ff477988b8971bf0343801507ffc4b8c0785c0c24"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 8,
+          "textUthmani": "أَلَمۡ نَجۡعَل لَّهُۥ عَيۡنَيۡنِ",
+          "sha256": "b09f9a2d8686713af07294c4444140e603fd0eae694fa68145b1fb9da8252d3d"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 9,
+          "textUthmani": "وَلِسَانٗا وَشَفَتَيۡنِ",
+          "sha256": "9ba116ebf40aa3fbb9aa68a4266cf2739b22f45323d41ab6f09effeb29897571"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 10,
+          "textUthmani": "وَهَدَيۡنَٰهُ ٱلنَّجۡدَيۡنِ",
+          "sha256": "0c6fadcc686cc8f8222878f70d27fe204aa59d147f6000c8b53b4e2f8934b9cc"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 11,
+          "textUthmani": "فَلَا ٱقۡتَحَمَ ٱلۡعَقَبَةَ",
+          "sha256": "da0f36c4d7c421d15ccecffa13c58bddd994028f2783b9a912b453c976f485aa"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 12,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡعَقَبَةُ",
+          "sha256": "2519a5927da6ce52d277a95ea859a4e24c39b434eba7746a7dc5d0cd1c452032"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 13,
+          "textUthmani": "فَكُّ رَقَبَةٍ",
+          "sha256": "aaa08ef1f34ff7b2c90207bd22e0ba26bb0a1f1cce5a87252f3ba4fb4cb4c3bf"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 14,
+          "textUthmani": "أَوۡ إِطۡعَٰمٞ فِي يَوۡمٖ ذِي مَسۡغَبَةٖ",
+          "sha256": "3852433217e72018f04d1f134a8f95aef172f1426e0afca81c61d8872a021ea2"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 15,
+          "textUthmani": "يَتِيمٗا ذَا مَقۡرَبَةٍ",
+          "sha256": "20111228b32c0382954f9d72544fbe655201d91a62054a90595368a8306fd716"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 16,
+          "textUthmani": "أَوۡ مِسۡكِينٗا ذَا مَتۡرَبَةٖ",
+          "sha256": "7cca52401de6b6523ac8a9fcbcb45200931bc3426c04a80afe0d6047d9a00d9d"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 17,
+          "textUthmani": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُواْ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ وَتَوَاصَوۡاْ بِٱلۡمَرۡحَمَةِ",
+          "sha256": "be4845ac4e493e52da08a82e7e664bf14945ca8df00d621a99baa627bd38e4f2"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 18,
+          "textUthmani": "أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلۡمَيۡمَنَةِ",
+          "sha256": "01a7fcee7b863286ac7f5247c46e3801f6a811454c60ab54b0214c761fe479bd"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 19,
+          "textUthmani": "وَٱلَّذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمۡ أَصۡحَٰبُ ٱلۡمَشۡـَٔمَةِ",
+          "sha256": "688f06c6851e73726435d3af7b5ef3b52955fce74460d748a6fe1f45886609d7"
+        },
+        {
+          "surahNumber": 90,
+          "verseNumber": 20,
+          "textUthmani": "عَلَيۡهِمۡ نَارٞ مُّؤۡصَدَةُۢ",
+          "sha256": "3aa798dbb0d72021c3877f68fef573d42804c599b987f9d18343b52557a69d89"
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "nameAr": "الفجر",
+      "nameEn": "Al-Fajr",
+      "type": "meccan",
+      "totalVerses": 30,
+      "verses": [
+        {
+          "surahNumber": 89,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلۡفَجۡرِ",
+          "sha256": "8b60b4ec94bce4974a19f2199d0dfb083aaefdeaaebdaa67e2545e6cbd4c17ec"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 2,
+          "textUthmani": "وَلَيَالٍ عَشۡرٖ",
+          "sha256": "60fbe67526ce3063ba76354feada76e99955fd4954fe774a2d809504931ad74c"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 3,
+          "textUthmani": "وَٱلشَّفۡعِ وَٱلۡوَتۡرِ",
+          "sha256": "9d3fd1171fb03fb1cdd92ff1dd1c30ba156a39253e6b22ff9b94cf96b1f4187e"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 4,
+          "textUthmani": "وَٱلَّيۡلِ إِذَا يَسۡرِ",
+          "sha256": "cb8061895df99a0070beaccbb9260bf5446a0fc6f8d755c95ae819b054810aba"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 5,
+          "textUthmani": "هَلۡ فِي ذَٰلِكَ قَسَمٞ لِّذِي حِجۡرٍ",
+          "sha256": "9d6a2f1df56e937fdd5163e03de778fe515e290ecd196019cbd59c35558c0962"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 6,
+          "textUthmani": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِعَادٍ",
+          "sha256": "e746e880786d36b8695caf545c295bb2d0e3c4f128b7a305b2dcaf0913ffadbb"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 7,
+          "textUthmani": "إِرَمَ ذَاتِ ٱلۡعِمَادِ",
+          "sha256": "5c0f336cf294b6b1b14bb7a36d757003b4138518f128ae09a278dfedd9928133"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 8,
+          "textUthmani": "ٱلَّتِي لَمۡ يُخۡلَقۡ مِثۡلُهَا فِي ٱلۡبِلَٰدِ",
+          "sha256": "18862df428eab32cef7c5c19070cc1618aceb6a8ecff94878119549d0643c0eb"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 9,
+          "textUthmani": "وَثَمُودَ ٱلَّذِينَ جَابُواْ ٱلصَّخۡرَ بِٱلۡوَادِ",
+          "sha256": "d9c3cf474c17990664b63eef5981e945403d51fca4ca198b8ec860ec2a336578"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 10,
+          "textUthmani": "وَفِرۡعَوۡنَ ذِي ٱلۡأَوۡتَادِ",
+          "sha256": "e2b7e91f9e5552a5fffab22c2c01285ec3dafd4866b9a6ad2e7ec8e58ad43d48"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 11,
+          "textUthmani": "ٱلَّذِينَ طَغَوۡاْ فِي ٱلۡبِلَٰدِ",
+          "sha256": "02f4bf9efc7d4a81df739deff020393eb4f81c3faf2fa0f2213bd98eb7489a49"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 12,
+          "textUthmani": "فَأَكۡثَرُواْ فِيهَا ٱلۡفَسَادَ",
+          "sha256": "25755ea71c952442d679d27b12ac07e27d381ca62987a210c66b636df9be7b3c"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 13,
+          "textUthmani": "فَصَبَّ عَلَيۡهِمۡ رَبُّكَ سَوۡطَ عَذَابٍ",
+          "sha256": "7de920e7f9f63022c962c221b1f55c14a030ce39dc9d2fd546e0c6afea377f77"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 14,
+          "textUthmani": "إِنَّ رَبَّكَ لَبِٱلۡمِرۡصَادِ",
+          "sha256": "a95f240f44a8f5caa6e32ba9d93968b352bada00de79969a63d60fe202feeef0"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 15,
+          "textUthmani": "فَأَمَّا ٱلۡإِنسَٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّيٓ أَكۡرَمَنِ",
+          "sha256": "f600ee4fd3a5818e174901b7c1306288b6be36aa7e85782354dd0f4da334cf2e"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 16,
+          "textUthmani": "وَأَمَّآ إِذَا مَا ٱبۡتَلَىٰهُ فَقَدَرَ عَلَيۡهِ رِزۡقَهُۥ فَيَقُولُ رَبِّيٓ أَهَٰنَنِ",
+          "sha256": "b744bb04baeb278bbe3cc15a5d9861a72028b3d56ce99f86dbf523b0895da1f6"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 17,
+          "textUthmani": "كَلَّاۖ بَل لَّا تُكۡرِمُونَ ٱلۡيَتِيمَ",
+          "sha256": "44f79218647fae763b8bd612ce95122e01851433f568352a4ccf9f701a4f2a3a"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 18,
+          "textUthmani": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+          "sha256": "b78519e1e117ce515682fe1874cec388a175cbe4ee0d9fa7c4381566ded1c92a"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 19,
+          "textUthmani": "وَتَأۡكُلُونَ ٱلتُّرَاثَ أَكۡلٗا لَّمّٗا",
+          "sha256": "020b686ccec751e89eb2d34f6fe8564a173f577d66da3ed31d72e477c3dda1b2"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 20,
+          "textUthmani": "وَتُحِبُّونَ ٱلۡمَالَ حُبّٗا جَمّٗا",
+          "sha256": "83bc664a67db6202f64dff5cbda98ed86a1a06d13e536a007ecf9c2e30ca6fea"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 21,
+          "textUthmani": "كَلَّآۖ إِذَا دُكَّتِ ٱلۡأَرۡضُ دَكّٗا دَكّٗا",
+          "sha256": "1794698b2e4cf475d074fd5db953ffaff9d08128e2c2fed94f0e01eb8cec0c68"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 22,
+          "textUthmani": "وَجَآءَ رَبُّكَ وَٱلۡمَلَكُ صَفّٗا صَفّٗا",
+          "sha256": "d71d2e804f07450c35463cda52952238d9b18d8a18391c2eb620a97ca51198f6"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 23,
+          "textUthmani": "وَجِاْيٓءَ يَوۡمَئِذِۭ بِجَهَنَّمَۚ يَوۡمَئِذٖ يَتَذَكَّرُ ٱلۡإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكۡرَىٰ",
+          "sha256": "1278255f82b25ed1dc25cab8009f993e42d9ec081c1c0ed42f48d4405da6115d"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 24,
+          "textUthmani": "يَقُولُ يَٰلَيۡتَنِي قَدَّمۡتُ لِحَيَاتِي",
+          "sha256": "0df6d6806650cdd5736eea467f641f7881bf4977f887db84b93e0337024f12ce"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 25,
+          "textUthmani": "فَيَوۡمَئِذٖ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٞ",
+          "sha256": "fc6246b89dc035b0ae14f0c525f8f3f79dda62ab9ff5fd06878665b262f5e873"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 26,
+          "textUthmani": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٞ",
+          "sha256": "85661ffe87014ef60a444d9ec2eefc51fc161ce402872f76a23fe43348e44724"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 27,
+          "textUthmani": "يَـٰٓأَيَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَئِنَّةُ",
+          "sha256": "fbb646d7b787e0b327fe5f5987dc4d75f52e300122cf1d76ec786a46a87c26f0"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 28,
+          "textUthmani": "ٱرۡجِعِيٓ إِلَىٰ رَبِّكِ رَاضِيَةٗ مَّرۡضِيَّةٗ",
+          "sha256": "24ecca9728dd90367b7289dc9bc1099823ef58529257d45f73518853d291791f"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 29,
+          "textUthmani": "فَٱدۡخُلِي فِي عِبَٰدِي",
+          "sha256": "45ce574363d22c38bc441fbf17b6941ebfcec900249302b2af094cb2ecc6dab0"
+        },
+        {
+          "surahNumber": 89,
+          "verseNumber": 30,
+          "textUthmani": "وَٱدۡخُلِي جَنَّتِي",
+          "sha256": "e70acada778009a0cdd848abf3f70169a12af46cf31f0e8eb8530f7a2d2afea7"
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "nameAr": "الغاشية",
+      "nameEn": "Al-Ghashiyah",
+      "type": "meccan",
+      "totalVerses": 26,
+      "verses": [
+        {
+          "surahNumber": 88,
+          "verseNumber": 1,
+          "textUthmani": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡغَٰشِيَةِ",
+          "sha256": "4432d2441d2c680c8ee40e8a395050e31a363e3dedba100a8a3fc238fe5c7eb3"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 2,
+          "textUthmani": "وُجُوهٞ يَوۡمَئِذٍ خَٰشِعَةٌ",
+          "sha256": "aaadb64a7205a5eba978346265b02cc79bb9ef6c56f24bf783bd0a727e1def20"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 3,
+          "textUthmani": "عَامِلَةٞ نَّاصِبَةٞ",
+          "sha256": "6b0f9bda19f45e63c9469ff984013efad4d4f087a8b687496ebb901fc4a426b0"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 4,
+          "textUthmani": "تَصۡلَىٰ نَارًا حَامِيَةٗ",
+          "sha256": "722943739a97dc86304b40020c4644ee278c85b8b603c6ab40d21ce8c5c397d7"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 5,
+          "textUthmani": "تُسۡقَىٰ مِنۡ عَيۡنٍ ءَانِيَةٖ",
+          "sha256": "e1b3acf37f449d6917d1c2d2d341363ceac1a31697a2fed25208c322ea8a020a"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 6,
+          "textUthmani": "لَّيۡسَ لَهُمۡ طَعَامٌ إِلَّا مِن ضَرِيعٖ",
+          "sha256": "ba910a04174edd896a3f86d411cf7ef6761a715cd8439bf0c89310370ab5990d"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 7,
+          "textUthmani": "لَّا يُسۡمِنُ وَلَا يُغۡنِي مِن جُوعٖ",
+          "sha256": "930058c8b18353b2a1d980e0913351b6944e3111428704d8d917877281ab87ed"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 8,
+          "textUthmani": "وُجُوهٞ يَوۡمَئِذٖ نَّاعِمَةٞ",
+          "sha256": "f3dac5c34111203c977c1434d845802ebfb628af2ee3300e503dd12445e84d1a"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 9,
+          "textUthmani": "لِّسَعۡيِهَا رَاضِيَةٞ",
+          "sha256": "f512fa59c511616c8257e2591fa11c720d289b03a6b122673e76a942abfcd9f3"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 10,
+          "textUthmani": "فِي جَنَّةٍ عَالِيَةٖ",
+          "sha256": "b1e4f73e2388f8829b104d42bfa1bc4927fd4e5ab5f7a182cd1673b862bc1491"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 11,
+          "textUthmani": "لَّا تَسۡمَعُ فِيهَا لَٰغِيَةٗ",
+          "sha256": "cc3860cbeeedd9495ca45e1a149dab998d991877a7f85707f9ca44e1031be9ff"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 12,
+          "textUthmani": "فِيهَا عَيۡنٞ جَارِيَةٞ",
+          "sha256": "5f1f87e41ef0f520451a9a9eb5fe0f2633047ed66b5f58dab1759e32af2c6870"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 13,
+          "textUthmani": "فِيهَا سُرُرٞ مَّرۡفُوعَةٞ",
+          "sha256": "55bf028a4c1bb4cde602c23d97fe3509e8d9af36eb8a4d5bdc9466e02492e544"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 14,
+          "textUthmani": "وَأَكۡوَابٞ مَّوۡضُوعَةٞ",
+          "sha256": "3da5b84d86184d3b0ce7a3b1a052aec69e8f5d2482d14c49c004c512a84fc5f7"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 15,
+          "textUthmani": "وَنَمَارِقُ مَصۡفُوفَةٞ",
+          "sha256": "dde99fcfc694b4b0022314b9a723116f9405899d223b58b50c1aceb66ebad40b"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 16,
+          "textUthmani": "وَزَرَابِيُّ مَبۡثُوثَةٌ",
+          "sha256": "ed111ab252c7af644938649281a9f1e71ce006e2142e4c745f75bd15e99c5125"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 17,
+          "textUthmani": "أَفَلَا يَنظُرُونَ إِلَى ٱلۡإِبِلِ كَيۡفَ خُلِقَتۡ",
+          "sha256": "0246c1e3838079ddd0b2e392b61d7ce4f30f147ac4fd1fc4fee4f95bf84b8c5d"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 18,
+          "textUthmani": "وَإِلَى ٱلسَّمَآءِ كَيۡفَ رُفِعَتۡ",
+          "sha256": "e3027ea7e3d3e9e22252bc587fbad61e88918ea9b48da70ff7f06bbad94d48da"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 19,
+          "textUthmani": "وَإِلَى ٱلۡجِبَالِ كَيۡفَ نُصِبَتۡ",
+          "sha256": "090c0ba98d6c61d13537acf42fab3373be397eed7d8ebd5386f39b0851dd2f74"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 20,
+          "textUthmani": "وَإِلَى ٱلۡأَرۡضِ كَيۡفَ سُطِحَتۡ",
+          "sha256": "c9d881ed8242f4bceab528c702147fbeded7623370d306fa1e198c6d329526e4"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 21,
+          "textUthmani": "فَذَكِّرۡ إِنَّمَآ أَنتَ مُذَكِّرٞ",
+          "sha256": "2c516a67e53b7b634cd742a097b71652cc9bd9431e2bee9840f88d1f11bf739b"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 22,
+          "textUthmani": "لَّسۡتَ عَلَيۡهِم بِمُصَيۡطِرٍ",
+          "sha256": "ca5d1bb01a015d2d1b8ea779b0a4eaf235c3aa22cc575b4bbb7d744933cb0add"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 23,
+          "textUthmani": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+          "sha256": "fcc04e739d1628727b4b596d3318a6ed1988701ef1e07cc5b24194670d3eed6c"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 24,
+          "textUthmani": "فَيُعَذِّبُهُ ٱللَّهُ ٱلۡعَذَابَ ٱلۡأَكۡبَرَ",
+          "sha256": "61250bb678fa0c5e382efdd803fea7cbe73c0eb9de901cf94f6201a7b002593c"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 25,
+          "textUthmani": "إِنَّ إِلَيۡنَآ إِيَابَهُمۡ",
+          "sha256": "b49dad4e1af99e8f6fe26b5cb04c56324d23088b38451d88ac8c8c6110ca1d2f"
+        },
+        {
+          "surahNumber": 88,
+          "verseNumber": 26,
+          "textUthmani": "ثُمَّ إِنَّ عَلَيۡنَا حِسَابَهُم",
+          "sha256": "dd6dad2f05edbd7dbb323846f2bec19b4ef44a10acd35c2c71526da26b011375"
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "nameAr": "الأعلى",
+      "nameEn": "Al-A'la",
+      "type": "meccan",
+      "totalVerses": 19,
+      "verses": [
+        {
+          "surahNumber": 87,
+          "verseNumber": 1,
+          "textUthmani": "سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى",
+          "sha256": "93e805be973aa9c81b35a54512f805b9ba0fb908f69e1cef9633171f32c7d144"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 2,
+          "textUthmani": "ٱلَّذِي خَلَقَ فَسَوَّىٰ",
+          "sha256": "31ed1e6b3a444cc449dd9730ecebce405350d8d0f30559f5e2cc6523e967f664"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 3,
+          "textUthmani": "وَٱلَّذِي قَدَّرَ فَهَدَىٰ",
+          "sha256": "9a7fcd30fe56369983cce25d61c6644f14372d88bf9f9ec5a65211a54f6ebbc8"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 4,
+          "textUthmani": "وَٱلَّذِيٓ أَخۡرَجَ ٱلۡمَرۡعَىٰ",
+          "sha256": "e18024c583a1d84b6b5bf88d90b76f852a7e54dccb5b1fe42af8de8cd5ab5459"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 5,
+          "textUthmani": "فَجَعَلَهُۥ غُثَآءً أَحۡوَىٰ",
+          "sha256": "d2554413da0c26fc3a808882bb856a98b9e60e026e62707521172b480a4264f1"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 6,
+          "textUthmani": "سَنُقۡرِئُكَ فَلَا تَنسَىٰٓ",
+          "sha256": "d3063bcbde71837d5eaae959d38c14ea32d1b198ab2c07f73dc7fd015aa804dd"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 7,
+          "textUthmani": "إِلَّا مَا شَآءَ ٱللَّهُۚ إِنَّهُۥ يَعۡلَمُ ٱلۡجَهۡرَ وَمَا يَخۡفَىٰ",
+          "sha256": "e078d4908396b63ffd2355f5f680b40045a443ec04e49746bc1d4e254bc0b97c"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 8,
+          "textUthmani": "وَنُيَسِّرُكَ لِلۡيُسۡرَىٰ",
+          "sha256": "85ae08a6b8befffa8d8c9ae8d34a4d085b59324c3b1e8e965b1810d4dccb58cf"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 9,
+          "textUthmani": "فَذَكِّرۡ إِن نَّفَعَتِ ٱلذِّكۡرَىٰ",
+          "sha256": "bef3e6ff32714426f519af165df30f4e3c8fd04bcf27b6e2c9a2c7ec764d6e09"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 10,
+          "textUthmani": "سَيَذَّكَّرُ مَن يَخۡشَىٰ",
+          "sha256": "eea515cd4e8d184d10d01d3c8792637573a7740420096365aa2cd37b1356e80d"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 11,
+          "textUthmani": "وَيَتَجَنَّبُهَا ٱلۡأَشۡقَى",
+          "sha256": "f86b54b4bf881c7b87000de7fe973975ae843761f27d889f843f3ae3a2b38fe1"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 12,
+          "textUthmani": "ٱلَّذِي يَصۡلَى ٱلنَّارَ ٱلۡكُبۡرَىٰ",
+          "sha256": "c3575252adf924b12b88df4d07f84ffdd77423acc922a515f637e7229672a626"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 13,
+          "textUthmani": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحۡيَىٰ",
+          "sha256": "8dae809c91055f113af0016d95a061418f9fce98d39b9fc6b8328895aa23d332"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 14,
+          "textUthmani": "قَدۡ أَفۡلَحَ مَن تَزَكَّىٰ",
+          "sha256": "a7f598c0a0e20211ec33f212aaf6ab014eba706ee99bef609bd39b61e37c5304"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 15,
+          "textUthmani": "وَذَكَرَ ٱسۡمَ رَبِّهِۦ فَصَلَّىٰ",
+          "sha256": "3a394e565380ef984558566ae9cb9e531a3890e5c61d0ce89b1b312625368a6c"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 16,
+          "textUthmani": "بَلۡ تُؤۡثِرُونَ ٱلۡحَيَوٰةَ ٱلدُّنۡيَا",
+          "sha256": "03d1285ee6de5095c24aa01c345e8e50d433d3f29c20e872862934581dba1f1a"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 17,
+          "textUthmani": "وَٱلۡأٓخِرَةُ خَيۡرٞ وَأَبۡقَىٰٓ",
+          "sha256": "9876400e8f15bf47d1fc7d7989533ab90ff7b7ea8f38f5d75ded52823eeebe85"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 18,
+          "textUthmani": "إِنَّ هَٰذَا لَفِي ٱلصُّحُفِ ٱلۡأُولَىٰ",
+          "sha256": "959ee2e94cd6b72c50394bc20aab5ba7ac58b234b8959c2d1db27645584d27ea"
+        },
+        {
+          "surahNumber": 87,
+          "verseNumber": 19,
+          "textUthmani": "صُحُفِ إِبۡرَٰهِيمَ وَمُوسَىٰ",
+          "sha256": "123266fabf66234fce7eec9a8a0325224179e461e96d490fba0f6da81c5cda88"
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "nameAr": "الطارق",
+      "nameEn": "At-Tariq",
+      "type": "meccan",
+      "totalVerses": 17,
+      "verses": [
+        {
+          "surahNumber": 86,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+          "sha256": "69ab355666d783c8f9db193e6ce193ee3b529559799777f3cd9e1d9390e0af8b"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 2,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلطَّارِقُ",
+          "sha256": "fc72e85d01392763853cac4037e0c44cc0fea5a1f04b0075439f7d03653faca6"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 3,
+          "textUthmani": "ٱلنَّجۡمُ ٱلثَّاقِبُ",
+          "sha256": "fd4eb86fc586933e26f5e53af2fcdb27579db61025a868e4d91bb2757bce7b87"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 4,
+          "textUthmani": "إِن كُلُّ نَفۡسٖ لَّمَّا عَلَيۡهَا حَافِظٞ",
+          "sha256": "70042634100a93adcb4c595f6ff1a9f42a74a2d9f3d74a8d6484c7a6e6998044"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 5,
+          "textUthmani": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ مِمَّ خُلِقَ",
+          "sha256": "4f46eced79e4d54b4dd526484620db64a84ee1adfd7baf9d19d8dc829c19dac0"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 6,
+          "textUthmani": "خُلِقَ مِن مَّآءٖ دَافِقٖ",
+          "sha256": "40ee32eeed3c2467511e8312b3d29d53f94707a33474b6f42e7811732aa087c3"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 7,
+          "textUthmani": "يَخۡرُجُ مِنۢ بَيۡنِ ٱلصُّلۡبِ وَٱلتَّرَآئِبِ",
+          "sha256": "1d2a18be52e8c7ca5fe8b9bff086158cb962ad37cb3c6126bec0a87fec0430ea"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 8,
+          "textUthmani": "إِنَّهُۥ عَلَىٰ رَجۡعِهِۦ لَقَادِرٞ",
+          "sha256": "586eaa93bf3b706bb9801398d50d24465162d59f6a2b432043914f3772c0eb00"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 9,
+          "textUthmani": "يَوۡمَ تُبۡلَى ٱلسَّرَآئِرُ",
+          "sha256": "02c40e345d2eee539ea9498fcef0391178b68f826ea6243fc672287d69242cf8"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 10,
+          "textUthmani": "فَمَا لَهُۥ مِن قُوَّةٖ وَلَا نَاصِرٖ",
+          "sha256": "6f78ac73f8f87772d31bd896cc9c4c927dc6446dfcc029da3dcecf8832436e0c"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 11,
+          "textUthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجۡعِ",
+          "sha256": "6685d8e6d23fa915ad7b20eb0eaed1b637cec56c5824ae2a01767d9595c2ea45"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 12,
+          "textUthmani": "وَٱلۡأَرۡضِ ذَاتِ ٱلصَّدۡعِ",
+          "sha256": "5ad5bed94ecb04606371f76a867e39b5a04412d284c8f9292d8e5e2ca13ce09b"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 13,
+          "textUthmani": "إِنَّهُۥ لَقَوۡلٞ فَصۡلٞ",
+          "sha256": "de08bfed2dc3678de13cccade704e48ac98acb8f7c74ab070c7ba71746e9918f"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 14,
+          "textUthmani": "وَمَا هُوَ بِٱلۡهَزۡلِ",
+          "sha256": "dda79c433c3839d3dfbe69d40476748eb1ddc4efe48f556ccbed83749f93465f"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 15,
+          "textUthmani": "إِنَّهُمۡ يَكِيدُونَ كَيۡدٗا",
+          "sha256": "98b988556ee44ca7f33e4c8330a69b600edc48493c82da4de83779e1be771b7d"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 16,
+          "textUthmani": "وَأَكِيدُ كَيۡدٗا",
+          "sha256": "7c170660443c8005fe4932a5cecd782fd56d6f049047500358195aa10e02f12f"
+        },
+        {
+          "surahNumber": 86,
+          "verseNumber": 17,
+          "textUthmani": "فَمَهِّلِ ٱلۡكَٰفِرِينَ أَمۡهِلۡهُمۡ رُوَيۡدَۢا",
+          "sha256": "14e72f0d2f02d4b369c818763f440c6ccb16e10844a5633bf11efad3163fd399"
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "nameAr": "البروج",
+      "nameEn": "Al-Buruj",
+      "type": "meccan",
+      "totalVerses": 22,
+      "verses": [
+        {
+          "surahNumber": 85,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلۡبُرُوجِ",
+          "sha256": "7001d2522b7a0344571cd2765d0db70e1c01c8445fa625d1a2af8eace78e40f8"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 2,
+          "textUthmani": "وَٱلۡيَوۡمِ ٱلۡمَوۡعُودِ",
+          "sha256": "3cc00cc4d2ba92221d42b1fb4891bbc4a397ca4641c05712815b0c4ab58d576c"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 3,
+          "textUthmani": "وَشَاهِدٖ وَمَشۡهُودٖ",
+          "sha256": "80da1ef5b291d13ea1125ed181b2b5ad554e2b1f09695035732f96d3c6804b55"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 4,
+          "textUthmani": "قُتِلَ أَصۡحَٰبُ ٱلۡأُخۡدُودِ",
+          "sha256": "7086b9c39e2be41c5ed429019fd295761576482284fccdd4a61e637c28bda3e2"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 5,
+          "textUthmani": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
+          "sha256": "aa2339cde05d96b5b86b3580e000091e5483778ac012674c992b98a23014376a"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 6,
+          "textUthmani": "إِذۡ هُمۡ عَلَيۡهَا قُعُودٞ",
+          "sha256": "e767b1cfd2e3cdbb7059eb6e32e8812e0fe0f9cbed24898d4c6d3d76701f80ef"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 7,
+          "textUthmani": "وَهُمۡ عَلَىٰ مَا يَفۡعَلُونَ بِٱلۡمُؤۡمِنِينَ شُهُودٞ",
+          "sha256": "f973a7c50a41c76e438ea35c1bd9e82e0fb803692dbaa0917b068ed725ac9067"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 8,
+          "textUthmani": "وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ",
+          "sha256": "58eac960b218805a43a32af3721dc15c47f76aa8078c92d59ce7d3c402a612f1"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 9,
+          "textUthmani": "ٱلَّذِي لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ شَهِيدٌ",
+          "sha256": "96ca979942fb17ff1ca81d1475021915fa7e500be4d12c104bb3de70a01a9e49"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 10,
+          "textUthmani": "إِنَّ ٱلَّذِينَ فَتَنُواْ ٱلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِ ثُمَّ لَمۡ يَتُوبُواْ فَلَهُمۡ عَذَابُ جَهَنَّمَ وَلَهُمۡ عَذَابُ ٱلۡحَرِيقِ",
+          "sha256": "ae9e47949113e1a8970af33df0d8e55090e7763b4be4af5425eb719b7170b86b"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 11,
+          "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ جَنَّـٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡكَبِيرُ",
+          "sha256": "56f08b1eb00f89fbc39b29b6a0454719eae6dea0a649a393f22204bb09a166e4"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 12,
+          "textUthmani": "إِنَّ بَطۡشَ رَبِّكَ لَشَدِيدٌ",
+          "sha256": "21289e6ddeffc47bc407d7ab9fd1aeebc4a64dac12b4a1c91f7f2bc271869a69"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 13,
+          "textUthmani": "إِنَّهُۥ هُوَ يُبۡدِئُ وَيُعِيدُ",
+          "sha256": "5a109160d6594c34108507c37fcdf1ed6e925f8464473833cfdc1f219b48d390"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 14,
+          "textUthmani": "وَهُوَ ٱلۡغَفُورُ ٱلۡوَدُودُ",
+          "sha256": "cd640a6d99e87e58153c8db689a23cbc95cee53f16ab0d5e4815326b37df9f4e"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 15,
+          "textUthmani": "ذُو ٱلۡعَرۡشِ ٱلۡمَجِيدُ",
+          "sha256": "a088b2d19ee3854809f3d65973fee299fb083afa720cfa693cf4c62e2924db3a"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 16,
+          "textUthmani": "فَعَّالٞ لِّمَا يُرِيدُ",
+          "sha256": "c8ecc840a16245e595218b5f39adcf68cdb8b93cdead5c26ca9f05543db5fbde"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 17,
+          "textUthmani": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡجُنُودِ",
+          "sha256": "44692ea9dd6b135560afa6fa74e1c263f42b876ce30c40aceb7c4ef355de3775"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 18,
+          "textUthmani": "فِرۡعَوۡنَ وَثَمُودَ",
+          "sha256": "b866c9435dd9f80d78141c67c1f0eb0aae3f910ab91b34b95ff29e39c72db41d"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 19,
+          "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي تَكۡذِيبٖ",
+          "sha256": "4230ad9c841f56c36faf482c196fd9d8c51475e04bcaa6cd8081e154467b0dfa"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 20,
+          "textUthmani": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ",
+          "sha256": "001b5445d0650afd18cbc696528f39d6aff79c50d5612f9a376824a8e76d6eff"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 21,
+          "textUthmani": "بَلۡ هُوَ قُرۡءَانٞ مَّجِيدٞ",
+          "sha256": "4e954e4769367c5ec26198b6c377833443bf4aa3e25713102da012480077a4ed"
+        },
+        {
+          "surahNumber": 85,
+          "verseNumber": 22,
+          "textUthmani": "فِي لَوۡحٖ مَّحۡفُوظِۭ",
+          "sha256": "33d9cb97de0c11087657bc0a9aa5d7a471c0929f83a0a16e70f99c2205151bf7"
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "nameAr": "الإنشقاق",
+      "nameEn": "Al-Inshiqaq",
+      "type": "meccan",
+      "totalVerses": 25,
+      "verses": [
+        {
+          "surahNumber": 84,
+          "verseNumber": 1,
+          "textUthmani": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتۡ",
+          "sha256": "617c14b4ad81ff71c343fee70497c6d424984911bc23eb91cb73234b31d6d919"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 2,
+          "textUthmani": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ",
+          "sha256": "1bbfe0331c87a4ad78f3b3f85fdc9110258b7f031eb3d0de89d3923c069d86d4"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 3,
+          "textUthmani": "وَإِذَا ٱلۡأَرۡضُ مُدَّتۡ",
+          "sha256": "290b1b55f817a8b4e1c402e9bfa7c9a59c21b6b7eb9de2e4cefda8b9df00ff02"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 4,
+          "textUthmani": "وَأَلۡقَتۡ مَا فِيهَا وَتَخَلَّتۡ",
+          "sha256": "6c74f9c485f463994bed9e230a03cd83c2c2d5b825d3a5f1e749e340f2cd7d25"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 5,
+          "textUthmani": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ",
+          "sha256": "1bbfe0331c87a4ad78f3b3f85fdc9110258b7f031eb3d0de89d3923c069d86d4"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 6,
+          "textUthmani": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدۡحٗا فَمُلَٰقِيهِ",
+          "sha256": "148d9f232ac47a941fec963b9f829f825c70dfe95e9eb8a7f3bc5089e7723dad"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 7,
+          "textUthmani": "فَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
+          "sha256": "a85fcfb6942f3442ca1e98fa4a4fb617c798e0c86ea8f7db465fcf27d858f433"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 8,
+          "textUthmani": "فَسَوۡفَ يُحَاسَبُ حِسَابٗا يَسِيرٗا",
+          "sha256": "e6e9b4e3bbe18de6820b42c69bab69a03d2f9473e119975d1c0179f9c7f46d25"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 9,
+          "textUthmani": "وَيَنقَلِبُ إِلَىٰٓ أَهۡلِهِۦ مَسۡرُورٗا",
+          "sha256": "7fd73e4b13ec60a238e2939125525efe2bdf4dd722a15ecf0bb03a3ab3af2996"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 10,
+          "textUthmani": "وَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ وَرَآءَ ظَهۡرِهِۦ",
+          "sha256": "a0f6afcf0a9ca37dd4c1e5bb9122cfef4303e30efea2c5e8fda091649e5b7403"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 11,
+          "textUthmani": "فَسَوۡفَ يَدۡعُواْ ثُبُورٗا",
+          "sha256": "20c0d36e0f1c07a011050549d19080bc907d81197deacd52d48e870597785831"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 12,
+          "textUthmani": "وَيَصۡلَىٰ سَعِيرًا",
+          "sha256": "96966a3d6e2d3b10642e2eb7a35d1166f43e62a21673d52e32eef3dc82f02a57"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 13,
+          "textUthmani": "إِنَّهُۥ كَانَ فِيٓ أَهۡلِهِۦ مَسۡرُورًا",
+          "sha256": "18371b7facebbdd300f38ebc126bb5571aa82122a214640e8fbe8d5311222dd9"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 14,
+          "textUthmani": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+          "sha256": "2eafcbf57c5e461e68f8456b6e8af687bf72a49f9df70f262afe3a21f57a6a13"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 15,
+          "textUthmani": "بَلَىٰٓۚ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرٗا",
+          "sha256": "88a2f4cf0758a6aa14a00d2f1a3fd695752caed8faf2146ae782755c8a071797"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 16,
+          "textUthmani": "فَلَآ أُقۡسِمُ بِٱلشَّفَقِ",
+          "sha256": "37d8c6738d7f077357067ff7c8e5d0ac5a054d5d783a673db2b887c1b829ba4d"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 17,
+          "textUthmani": "وَٱلَّيۡلِ وَمَا وَسَقَ",
+          "sha256": "50fee3e0be937a85d32224997d783e0e573ec67956e3f7cfe70c50176c8f20e7"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 18,
+          "textUthmani": "وَٱلۡقَمَرِ إِذَا ٱتَّسَقَ",
+          "sha256": "dd152d4433f16476924d5258223dac4e31363c76eeed7d7d220327f5666a7e06"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 19,
+          "textUthmani": "لَتَرۡكَبُنَّ طَبَقًا عَن طَبَقٖ",
+          "sha256": "6cb6c991ed19318c09aa8b95d151eec7be6c1736e64e75c1e017cff177e51c1a"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 20,
+          "textUthmani": "فَمَا لَهُمۡ لَا يُؤۡمِنُونَ",
+          "sha256": "b4ca927b3fc07e5daa6bda51b90e1fee39f51b1336df9558c82ad9b2e65fff5d"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 21,
+          "textUthmani": "وَإِذَا قُرِئَ عَلَيۡهِمُ ٱلۡقُرۡءَانُ لَا يَسۡجُدُونَۤ۩",
+          "sha256": "69a69d807b39702236ce3ef04ed2ca6b47b74bb79d3d39761a4deb209756e5f1"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 22,
+          "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُواْ يُكَذِّبُونَ",
+          "sha256": "63aa2c3760776a6ebfdddcd50f6afebc6c30c802459b21c7f419887f94571e65"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 23,
+          "textUthmani": "وَٱللَّهُ أَعۡلَمُ بِمَا يُوعُونَ",
+          "sha256": "caa2e5137e3bced8d0d6a9cdd79a2b8bd7242814456eb719116c7115ca9ab770"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 24,
+          "textUthmani": "فَبَشِّرۡهُم بِعَذَابٍ أَلِيمٍ",
+          "sha256": "5b9f730282d8d0d540ae5ae5c1ff1a7cf13d2afcb10d324fdeb1d7a931d6eb8e"
+        },
+        {
+          "surahNumber": 84,
+          "verseNumber": 25,
+          "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونِۭ",
+          "sha256": "9a3ad410231605030d82e8f805a53202301f397307facf9d1ce075f0cbc45699"
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "nameAr": "المطففين",
+      "nameEn": "Al-Mutaffifin",
+      "type": "meccan",
+      "totalVerses": 36,
+      "verses": [
+        {
+          "surahNumber": 83,
+          "verseNumber": 1,
+          "textUthmani": "وَيۡلٞ لِّلۡمُطَفِّفِينَ",
+          "sha256": "3c254f5a2c7887257309782e98ff8b0fbecf8375f8c8450516879f9ac81ac3b7"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 2,
+          "textUthmani": "ٱلَّذِينَ إِذَا ٱكۡتَالُواْ عَلَى ٱلنَّاسِ يَسۡتَوۡفُونَ",
+          "sha256": "c6d6a3b5b0a998143d3498b4698215dcb68a0aee28b096bb5e4c826a348d0027"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 3,
+          "textUthmani": "وَإِذَا كَالُوهُمۡ أَو وَّزَنُوهُمۡ يُخۡسِرُونَ",
+          "sha256": "11eb27487752fde3c972e9c246ef67ea55486a35023407ac168056b75aff20c9"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 4,
+          "textUthmani": "أَلَا يَظُنُّ أُوْلَـٰٓئِكَ أَنَّهُم مَّبۡعُوثُونَ",
+          "sha256": "db693d6c58608ba620f2a06bf3c59ba47b92d0710244a66187318f0785095efc"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 5,
+          "textUthmani": "لِيَوۡمٍ عَظِيمٖ",
+          "sha256": "8d2c291dc68de963504b044a8f708a98b184cce18e3b02d334710fc2c1d899be"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 6,
+          "textUthmani": "يَوۡمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلۡعَٰلَمِينَ",
+          "sha256": "d86c6de8dc24b14c6c97b726b4d620d4e5f9fc87cee4763f7516031dd573d22f"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 7,
+          "textUthmani": "كَلَّآ إِنَّ كِتَٰبَ ٱلۡفُجَّارِ لَفِي سِجِّينٖ",
+          "sha256": "b97732534ce98be09d40be272e3f3e63c6c3dc3505282ce5c68ce30f7ad59d7a"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 8,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا سِجِّينٞ",
+          "sha256": "e2aca65895e367bc1febae121810a472496df0d89d07d3b0472ad7645ff8eb9c"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 9,
+          "textUthmani": "كِتَٰبٞ مَّرۡقُومٞ",
+          "sha256": "eb47da19b8472bfb46434f63976182bd94531ec4ee6575baee1dce9d527674b9"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 10,
+          "textUthmani": "وَيۡلٞ يَوۡمَئِذٖ لِّلۡمُكَذِّبِينَ",
+          "sha256": "470dd46658ee3d282c1952d9ea1260b777cb295c7f0bea1531b9b1bfd618b341"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 11,
+          "textUthmani": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوۡمِ ٱلدِّينِ",
+          "sha256": "0013ff276576d60dfe1e1e1596f99f9a501e7800e85f4ebf62067369442a83c8"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 12,
+          "textUthmani": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعۡتَدٍ أَثِيمٍ",
+          "sha256": "6f521843dc18c7d272348a19c7cc0d417f6ce54727d7ced82dd5a9ef9810d237"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 13,
+          "textUthmani": "إِذَا تُتۡلَىٰ عَلَيۡهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلۡأَوَّلِينَ",
+          "sha256": "4732ab48237dbd2e0046781c291472b3a8ee25e3aa5053a90dab8e4439b503f4"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 14,
+          "textUthmani": "كَلَّاۖ بَلۡۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُواْ يَكۡسِبُونَ",
+          "sha256": "48ccab879222c34a684c2af405bfc5a2ae0046def4f5aef0793d35714a36d6dd"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 15,
+          "textUthmani": "كَلَّآ إِنَّهُمۡ عَن رَّبِّهِمۡ يَوۡمَئِذٖ لَّمَحۡجُوبُونَ",
+          "sha256": "d54efcdf31ad7bac54b995fc11909433d496ee2f553f262ccaacb8fe14b7b610"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 16,
+          "textUthmani": "ثُمَّ إِنَّهُمۡ لَصَالُواْ ٱلۡجَحِيمِ",
+          "sha256": "7fc3765a258dd08dad38a58bdef37ce9fe3085d23e8c48b19c58d6e196b619aa"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 17,
+          "textUthmani": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِي كُنتُم بِهِۦ تُكَذِّبُونَ",
+          "sha256": "bb7a745f87d7d4ebe7e538bd8a25b3faa7f8401b2c48e25e4cc6e7cc55f12e4e"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 18,
+          "textUthmani": "كَلَّآ إِنَّ كِتَٰبَ ٱلۡأَبۡرَارِ لَفِي عِلِّيِّينَ",
+          "sha256": "09367a7cd9e0805c438730470e91f55e40aed5566f317b2d70188fa14cfa631b"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 19,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا عِلِّيُّونَ",
+          "sha256": "0a684c895cdd3ebeed7db3d11464d594b56393be0f20d5d0bd817b4b9d02e194"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 20,
+          "textUthmani": "كِتَٰبٞ مَّرۡقُومٞ",
+          "sha256": "eb47da19b8472bfb46434f63976182bd94531ec4ee6575baee1dce9d527674b9"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 21,
+          "textUthmani": "يَشۡهَدُهُ ٱلۡمُقَرَّبُونَ",
+          "sha256": "1012e18aae087099854e86513e283db2e0caa930eda164dc129221cb58959154"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 22,
+          "textUthmani": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٍ",
+          "sha256": "432a0cb657f041c8e1887a5cb87b9a99812a7ed576048dc7bdd1f9d8213b35af"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 23,
+          "textUthmani": "عَلَى ٱلۡأَرَآئِكِ يَنظُرُونَ",
+          "sha256": "96212789a11ba4e3af300810684b3a3cbdc12e7ae6c666efdf489eba913f2666"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 24,
+          "textUthmani": "تَعۡرِفُ فِي وُجُوهِهِمۡ نَضۡرَةَ ٱلنَّعِيمِ",
+          "sha256": "c02aca879793522cb5486c330d956a1944ccb0afe5f26e702a58a518b7824123"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 25,
+          "textUthmani": "يُسۡقَوۡنَ مِن رَّحِيقٖ مَّخۡتُومٍ",
+          "sha256": "b72f28a16563d0fad824de5d8de6afc58c28b19be813dc7df487b15d1ab8d05b"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 26,
+          "textUthmani": "خِتَٰمُهُۥ مِسۡكٞۚ وَفِي ذَٰلِكَ فَلۡيَتَنَافَسِ ٱلۡمُتَنَٰفِسُونَ",
+          "sha256": "1ae569e80bf36e99f43c76111b2d515b871a911e1a8185474304f399fd8fb66b"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 27,
+          "textUthmani": "وَمِزَاجُهُۥ مِن تَسۡنِيمٍ",
+          "sha256": "5042e059d0aea9f0d56d854733fb6398a4f9679edb62929e6d58354754e1927a"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 28,
+          "textUthmani": "عَيۡنٗا يَشۡرَبُ بِهَا ٱلۡمُقَرَّبُونَ",
+          "sha256": "17f0ca7fd95f1b3296299f0a4ca9b79f63ee8e0be0e33200f64ec1f14f3976dd"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 29,
+          "textUthmani": "إِنَّ ٱلَّذِينَ أَجۡرَمُواْ كَانُواْ مِنَ ٱلَّذِينَ ءَامَنُواْ يَضۡحَكُونَ",
+          "sha256": "d314c712395029ab607b4d0a834fd48f2ccaaae25e6806bedf903d027fd6b050"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 30,
+          "textUthmani": "وَإِذَا مَرُّواْ بِهِمۡ يَتَغَامَزُونَ",
+          "sha256": "6df6d9e4c783d533948f641b862871ab7e84d63f69298de9e6d7d13ef6c69a8e"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 31,
+          "textUthmani": "وَإِذَا ٱنقَلَبُوٓاْ إِلَىٰٓ أَهۡلِهِمُ ٱنقَلَبُواْ فَكِهِينَ",
+          "sha256": "67bfc19e13c8db07d8cb4c440897949a7df95dacb21b753a169c3af23ecd1dc9"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 32,
+          "textUthmani": "وَإِذَا رَأَوۡهُمۡ قَالُوٓاْ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
+          "sha256": "8338ec0517ece98cae4c0d3cf2d7763efe8837ce11858cf1d7bbf39f651898d6"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 33,
+          "textUthmani": "وَمَآ أُرۡسِلُواْ عَلَيۡهِمۡ حَٰفِظِينَ",
+          "sha256": "64ebc242819bea0d26fcf0d0be51189609085512210527370969333df2320cd1"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 34,
+          "textUthmani": "فَٱلۡيَوۡمَ ٱلَّذِينَ ءَامَنُواْ مِنَ ٱلۡكُفَّارِ يَضۡحَكُونَ",
+          "sha256": "0fc64631f088f7bffb6db1cc93d7432303546237adcc3f6e494a4e0b1aa49c76"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 35,
+          "textUthmani": "عَلَى ٱلۡأَرَآئِكِ يَنظُرُونَ",
+          "sha256": "96212789a11ba4e3af300810684b3a3cbdc12e7ae6c666efdf489eba913f2666"
+        },
+        {
+          "surahNumber": 83,
+          "verseNumber": 36,
+          "textUthmani": "هَلۡ ثُوِّبَ ٱلۡكُفَّارُ مَا كَانُواْ يَفۡعَلُونَ",
+          "sha256": "ee88c01cead06ce526d3fdd5e90dbf8898d7dfce01d9347dabc0c070d971a441"
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "nameAr": "الإنفطار",
+      "nameEn": "Al-Infitar",
+      "type": "meccan",
+      "totalVerses": 19,
+      "verses": [
+        {
+          "surahNumber": 82,
+          "verseNumber": 1,
+          "textUthmani": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتۡ",
+          "sha256": "bc50ba4d791f7476185112244f052a7b8bf5a670286692282e237b49ac04d269"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 2,
+          "textUthmani": "وَإِذَا ٱلۡكَوَاكِبُ ٱنتَثَرَتۡ",
+          "sha256": "e2f1909bdaf0491feb6dae0c64c4c7967a01e8eccd69cb8f09dee6fc84588caf"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 3,
+          "textUthmani": "وَإِذَا ٱلۡبِحَارُ فُجِّرَتۡ",
+          "sha256": "71b790c544b48fe9d8b685f722885f8f43c1f94415e260a203036355d980fe8d"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 4,
+          "textUthmani": "وَإِذَا ٱلۡقُبُورُ بُعۡثِرَتۡ",
+          "sha256": "f1630cb59a0bf47ae091ede0e14ced4fa68e99629a33b1de611f746a3b65eac1"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 5,
+          "textUthmani": "عَلِمَتۡ نَفۡسٞ مَّا قَدَّمَتۡ وَأَخَّرَتۡ",
+          "sha256": "950ebec6dbff2b4d3956ede8c9c5f09842fc7194990807903d8f8703ca6e62e1"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 6,
+          "textUthmani": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلۡكَرِيمِ",
+          "sha256": "ed23de42f54d593cd9cf3599ecf75989d019d4fc1e0dbd051582cc5cae9cc799"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 7,
+          "textUthmani": "ٱلَّذِي خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+          "sha256": "331af8faaf3d61a92762f2517ce6f8f85092c30f326aa39788e63900ecdf48ea"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 8,
+          "textUthmani": "فِيٓ أَيِّ صُورَةٖ مَّا شَآءَ رَكَّبَكَ",
+          "sha256": "d034f94a148aaea6e89bf81710a9e4e3aefc1269fc973a5391268833cb2cca73"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 9,
+          "textUthmani": "كَلَّا بَلۡ تُكَذِّبُونَ بِٱلدِّينِ",
+          "sha256": "a77ceffc6c28d33a6b090161f13774cdbd8cf1990a4f38c74cb6a395e808d64c"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 10,
+          "textUthmani": "وَإِنَّ عَلَيۡكُمۡ لَحَٰفِظِينَ",
+          "sha256": "5846fe8ba17ccb49858ba61278a3ea654da9b43d0de0a2077edb451a3f54b245"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 11,
+          "textUthmani": "كِرَامٗا كَٰتِبِينَ",
+          "sha256": "fd6b2a0dd5a810bc637e6bae96bf2f941c1b902f2148ecbc972cdd556506ef93"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 12,
+          "textUthmani": "يَعۡلَمُونَ مَا تَفۡعَلُونَ",
+          "sha256": "b3c71ab5af1cfb3e7ba6c116ff32ac1c1e48e9376cd42b40a04be3c26ece6e3b"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 13,
+          "textUthmani": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٖ",
+          "sha256": "cf43e82fc7e3c3f6c56138e00142b5b80ce325b972465a30e96dabdeb44bcf8c"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 14,
+          "textUthmani": "وَإِنَّ ٱلۡفُجَّارَ لَفِي جَحِيمٖ",
+          "sha256": "8f471b14b497e7c50fd34abc21164ba49e50206df26fb4e67f88bff5d0b929e8"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 15,
+          "textUthmani": "يَصۡلَوۡنَهَا يَوۡمَ ٱلدِّينِ",
+          "sha256": "0e630f5488807db357b41d33338589635f075855a2e93eaebb7222323bcfe9e3"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 16,
+          "textUthmani": "وَمَا هُمۡ عَنۡهَا بِغَآئِبِينَ",
+          "sha256": "e722d136c0d5854d6c0bb4c92eca5f6ce23e4760e34bef7b6c59cff80e64ffb4"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 17,
+          "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+          "sha256": "45a576ed14a986dc04c81d099c64acc2ec5e940e494925e3567c4acf30582711"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 18,
+          "textUthmani": "ثُمَّ مَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+          "sha256": "1d88f1c2234c4100090f5384a496307a892fe132c93c446e1dc366692ab0a144"
+        },
+        {
+          "surahNumber": 82,
+          "verseNumber": 19,
+          "textUthmani": "يَوۡمَ لَا تَمۡلِكُ نَفۡسٞ لِّنَفۡسٖ شَيۡـٔٗاۖ وَٱلۡأَمۡرُ يَوۡمَئِذٖ لِّلَّهِ",
+          "sha256": "6c8685f1ae5586ad6fe07bde16dfb5654da605425c4c0a93e890a50da7a80252"
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "nameAr": "التكوير",
+      "nameEn": "At-Takwir",
+      "type": "meccan",
+      "totalVerses": 29,
+      "verses": [
+        {
+          "surahNumber": 81,
+          "verseNumber": 1,
+          "textUthmani": "إِذَا ٱلشَّمۡسُ كُوِّرَتۡ",
+          "sha256": "0b94cbd728d208cadba11884e091a1d3118987363a755db47a74f091e3006528"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 2,
+          "textUthmani": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتۡ",
+          "sha256": "5dd5de844f88220aadc6577226d62b96242a5e7550e48183df61cbef319ab97e"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 3,
+          "textUthmani": "وَإِذَا ٱلۡجِبَالُ سُيِّرَتۡ",
+          "sha256": "c331cfcbf769e6e4035d8e5be32375c4debed6931464c13080202674fce262fd"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 4,
+          "textUthmani": "وَإِذَا ٱلۡعِشَارُ عُطِّلَتۡ",
+          "sha256": "aa8d69cfabe0ce9f5244b886224f116d5983be0624f8a2d0e2ab2c01e1df4673"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 5,
+          "textUthmani": "وَإِذَا ٱلۡوُحُوشُ حُشِرَتۡ",
+          "sha256": "ff909473b3c2be836042d6df4f898d4d8b4e842e91ea77b348fa089b2705ec4c"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 6,
+          "textUthmani": "وَإِذَا ٱلۡبِحَارُ سُجِّرَتۡ",
+          "sha256": "6f18f8ea75792166e31724e0151197317570510f2242fe73498e3cb98711a95e"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 7,
+          "textUthmani": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتۡ",
+          "sha256": "8894eab458ad05aba31a40ab8dcacb09950ee4d33266842ed297bc2156c827e1"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 8,
+          "textUthmani": "وَإِذَا ٱلۡمَوۡءُۥدَةُ سُئِلَتۡ",
+          "sha256": "08b23558202d4f961a92fce8bbc8c99d59bb5c7cef176570c98c8749837b3d98"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 9,
+          "textUthmani": "بِأَيِّ ذَنۢبٖ قُتِلَتۡ",
+          "sha256": "7f189ba23172fc5bdfa04287b7be1743a066dd96aa3af955bf1f5d1e3ca0c70e"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 10,
+          "textUthmani": "وَإِذَا ٱلصُّحُفُ نُشِرَتۡ",
+          "sha256": "38a8ea3ddb07c7f42d4cc07e0f8ef260c00cd12cf2e3f8131c41874a68bcce5d"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 11,
+          "textUthmani": "وَإِذَا ٱلسَّمَآءُ كُشِطَتۡ",
+          "sha256": "964ab6fcbb6d537da746aa19ea38c96025be5edd69dd0984a06fe3799a3bc2e1"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 12,
+          "textUthmani": "وَإِذَا ٱلۡجَحِيمُ سُعِّرَتۡ",
+          "sha256": "17244978e7e88d01aa564d1eb34f0ec6b6810747b446a77b9fd52193a4ac91fa"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 13,
+          "textUthmani": "وَإِذَا ٱلۡجَنَّةُ أُزۡلِفَتۡ",
+          "sha256": "1aeae9cc78caa66009b8e172ed9bf00dfc3d373fd7e084ed19fa4a905b240cf5"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 14,
+          "textUthmani": "عَلِمَتۡ نَفۡسٞ مَّآ أَحۡضَرَتۡ",
+          "sha256": "3de1e9dcb1e55ae8874dcf5f85f5c307a22e8a81bc013a8194bee06e070b7561"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 15,
+          "textUthmani": "فَلَآ أُقۡسِمُ بِٱلۡخُنَّسِ",
+          "sha256": "b595ad6b952b03cc0926e9d34d78e4fd5bf62c67535e73e13b03cf12148cffaa"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 16,
+          "textUthmani": "ٱلۡجَوَارِ ٱلۡكُنَّسِ",
+          "sha256": "265ebc4c206ba229b739dc864b65cbfde2ef469d657630f0ce492fe19e94a503"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 17,
+          "textUthmani": "وَٱلَّيۡلِ إِذَا عَسۡعَسَ",
+          "sha256": "063ea57d9c1f296e0c5ac4c6e26105902961824b153695613b9f70ffbaae5ee1"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 18,
+          "textUthmani": "وَٱلصُّبۡحِ إِذَا تَنَفَّسَ",
+          "sha256": "fc94a7fcdecf05bc1d8c1f44e6dae3b7944d06709bb281053c8462f266d39c62"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 19,
+          "textUthmani": "إِنَّهُۥ لَقَوۡلُ رَسُولٖ كَرِيمٖ",
+          "sha256": "9813dad0f4564071dd8b0664675bbdd8b57479d6e1d9e85ba63e66ff19d8505a"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 20,
+          "textUthmani": "ذِي قُوَّةٍ عِندَ ذِي ٱلۡعَرۡشِ مَكِينٖ",
+          "sha256": "f1585b17d544f4f7af67e78298bbf84352bf6cf1a6865f9ecae7d98963ba9714"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 21,
+          "textUthmani": "مُّطَاعٖ ثَمَّ أَمِينٖ",
+          "sha256": "6ecfa0b2b8b68a261eb3d719ed97875dbbe0d1c596955c5fcbe61121807e9c84"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 22,
+          "textUthmani": "وَمَا صَاحِبُكُم بِمَجۡنُونٖ",
+          "sha256": "79f203e4dfa7fe17e1afc4618d72d51dc12a0e1bcb8a407dc9fce7d407d643b2"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 23,
+          "textUthmani": "وَلَقَدۡ رَءَاهُ بِٱلۡأُفُقِ ٱلۡمُبِينِ",
+          "sha256": "87996247ba5a815b1812d67f15ec9033436a56f4799b927158e38be8998ee240"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 24,
+          "textUthmani": "وَمَا هُوَ عَلَى ٱلۡغَيۡبِ بِضَنِينٖ",
+          "sha256": "6ae1e41c7dc9bba6cc4b6ee4c46ffed3469f171981d8dc23e455da7834759936"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 25,
+          "textUthmani": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنٖ رَّجِيمٖ",
+          "sha256": "9d18cbeaecddc85cd5dabf3d09e3ba2c84a288cdc170c5b057910d180a804309"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 26,
+          "textUthmani": "فَأَيۡنَ تَذۡهَبُونَ",
+          "sha256": "ed3a87cc61352c0b422fd310b3b65536e553d9060b76f7b887cac07ed2005a30"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 27,
+          "textUthmani": "إِنۡ هُوَ إِلَّا ذِكۡرٞ لِّلۡعَٰلَمِينَ",
+          "sha256": "06ded92c03e8d6eb2ad9296f07bdf9fded2c119d049cf3f1ce98eaff633dcb87"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 28,
+          "textUthmani": "لِمَن شَآءَ مِنكُمۡ أَن يَسۡتَقِيمَ",
+          "sha256": "9f80538003f68e764df99266de92124a388323a1b92a134767db237e5995f848"
+        },
+        {
+          "surahNumber": 81,
+          "verseNumber": 29,
+          "textUthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلۡعَٰلَمِينَ",
+          "sha256": "156b7c8ce804ad27ad50639aa9f5c00bf25477dab77712af52230837875561ce"
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "nameAr": "عبس",
+      "nameEn": "'Abasa",
+      "type": "meccan",
+      "totalVerses": 42,
+      "verses": [
+        {
+          "surahNumber": 80,
+          "verseNumber": 1,
+          "textUthmani": "عَبَسَ وَتَوَلَّىٰٓ",
+          "sha256": "6ee72269c50a6c3b913a1c8dfa0341dece6ec22d23985284241e4293948361ee"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 2,
+          "textUthmani": "أَن جَآءَهُ ٱلۡأَعۡمَىٰ",
+          "sha256": "f3cee5a35bb6ae351a3a294bf3dc9944e2634c7abfd01b30af1a72512dd87603"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 3,
+          "textUthmani": "وَمَا يُدۡرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+          "sha256": "8cbe6889dfae76dbf2355a5342b477258bd06eb58cc51d4ba7ad5760b817ff26"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 4,
+          "textUthmani": "أَوۡ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكۡرَىٰٓ",
+          "sha256": "797fe5a94a0733b47bd65c96d8bd5c3fef1f93ec75612f4285277a869901d036"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 5,
+          "textUthmani": "أَمَّا مَنِ ٱسۡتَغۡنَىٰ",
+          "sha256": "2ff5481b549f9533bb73da5f07b3e6485b1a9b3544038ec408dca5911b8e0d7b"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 6,
+          "textUthmani": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+          "sha256": "95f32a6e05ec31c7badf44825e59d31d574dfd995d6be187df3b59b69ffa5694"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 7,
+          "textUthmani": "وَمَا عَلَيۡكَ أَلَّا يَزَّكَّىٰ",
+          "sha256": "07c70eb972bf18d6557d98148d4de2011e3b8c8ecfdfd9286b40bf7f08a95ea8"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 8,
+          "textUthmani": "وَأَمَّا مَن جَآءَكَ يَسۡعَىٰ",
+          "sha256": "51e0d1a474cffffee33e5ba5950731d2e0b0fc87438cc9268b7be011aa43abe5"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 9,
+          "textUthmani": "وَهُوَ يَخۡشَىٰ",
+          "sha256": "435a866bdccfbb786346b2f08382866a0a39d0c8b4916511ece1a9ffe7f6f0a9"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 10,
+          "textUthmani": "فَأَنتَ عَنۡهُ تَلَهَّىٰ",
+          "sha256": "7791d741f6366563ee36353fb6125f80cdd4a57d423adebf7c3097526d948f22"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 11,
+          "textUthmani": "كَلَّآ إِنَّهَا تَذۡكِرَةٞ",
+          "sha256": "a2ef8e0605c69952bddb9985a11bb7668ee453bea50b39e4f4500fe4fba027d8"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 12,
+          "textUthmani": "فَمَن شَآءَ ذَكَرَهُۥ",
+          "sha256": "cbffe735200bb584d8f72921d99bfed16bab94cca7f56351194d7a80349836d0"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 13,
+          "textUthmani": "فِي صُحُفٖ مُّكَرَّمَةٖ",
+          "sha256": "088bae69c23d2e100a4bb1cb46a122f07efa80efa6533db2867048ba6b3a6fd3"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 14,
+          "textUthmani": "مَّرۡفُوعَةٖ مُّطَهَّرَةِۭ",
+          "sha256": "f65853ef6f324eae0a70b61691d7f4adf2e0cb0f1c632374045ee061aa8c18de"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 15,
+          "textUthmani": "بِأَيۡدِي سَفَرَةٖ",
+          "sha256": "33a6d83471110986b939878b086bdb769230e6a7e18c27e7a78660a79c8c2952"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 16,
+          "textUthmani": "كِرَامِۭ بَرَرَةٖ",
+          "sha256": "b6340aaf35e7a79a2e2926278c2575abe071d38ee7acf1db3a9bb5dad634e490"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 17,
+          "textUthmani": "قُتِلَ ٱلۡإِنسَٰنُ مَآ أَكۡفَرَهُۥ",
+          "sha256": "b003de7f7f3934747540b49e3b30534b84362fa9df69b060f49ecf269cd223ca"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 18,
+          "textUthmani": "مِنۡ أَيِّ شَيۡءٍ خَلَقَهُۥ",
+          "sha256": "ff699663f6cdedc8c67943b695575c445151046a9e7db90406da495dd9118f70"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 19,
+          "textUthmani": "مِن نُّطۡفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+          "sha256": "75bb33425f72efceb4abbae6cb0c1dd7355725f28be127dfc179769dc88a5014"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 20,
+          "textUthmani": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+          "sha256": "d5d6b1b46ec053155eeb08083b6fc3210dac2a9e29b6db6bccde810c8fb06774"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 21,
+          "textUthmani": "ثُمَّ أَمَاتَهُۥ فَأَقۡبَرَهُۥ",
+          "sha256": "12c93147970d3f30e0763b271b193ea51018ca0191609446ed5ae212201a0edb"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 22,
+          "textUthmani": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+          "sha256": "b802b0a53a4e09bb9894456e66d09da242bd847f1c93f8183189171d96467aa8"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 23,
+          "textUthmani": "كَلَّا لَمَّا يَقۡضِ مَآ أَمَرَهُۥ",
+          "sha256": "6d66b4f1e9a9123307ed72e7f7fd8b69af1f57deb188108abc44120e658dc852"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 24,
+          "textUthmani": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ إِلَىٰ طَعَامِهِۦٓ",
+          "sha256": "8ce0a5581215e76b7f1a6c732b56f940e023784919872096b729d7c2aa7f21eb"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 25,
+          "textUthmani": "أَنَّا صَبَبۡنَا ٱلۡمَآءَ صَبّٗا",
+          "sha256": "b369a31663f514d8cd59942dedabda46cf2169a402e4e6edcf542ad4db1b64ee"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 26,
+          "textUthmani": "ثُمَّ شَقَقۡنَا ٱلۡأَرۡضَ شَقّٗا",
+          "sha256": "eb98a76516c62e6510f15940af3fc8a75a9072fe90d6adc2c84c30272f48f997"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 27,
+          "textUthmani": "فَأَنۢبَتۡنَا فِيهَا حَبّٗا",
+          "sha256": "03d5d824d55dfedc8d1a294e5f0dc30aba49c140f5c15b7160f4378a1779de29"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 28,
+          "textUthmani": "وَعِنَبٗا وَقَضۡبٗا",
+          "sha256": "b35c90c9f25af907a783acc751593a7235e0907fe606b98a48c735a1b42bb281"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 29,
+          "textUthmani": "وَزَيۡتُونٗا وَنَخۡلٗا",
+          "sha256": "a3f98f6fe8b021933c71ba97ca73465624bd8801d3eaf7278d7e649afc6ebe9e"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 30,
+          "textUthmani": "وَحَدَآئِقَ غُلۡبٗا",
+          "sha256": "efac268ecb1e4a746a8acefe6788e9f74888354e57902e1f61bf4daf1f0d68b4"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 31,
+          "textUthmani": "وَفَٰكِهَةٗ وَأَبّٗا",
+          "sha256": "269cd3746cf0e0b945b0accbfae0123862833da803cb8f80e251aff8d64cff1f"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 32,
+          "textUthmani": "مَّتَٰعٗا لَّكُمۡ وَلِأَنۡعَٰمِكُمۡ",
+          "sha256": "6704c738f5303492b1f47c5ec4c1ad7d4b49d5e59a0cc889a965dcf790b89d19"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 33,
+          "textUthmani": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+          "sha256": "8833cda00c8d1ae7606c91e547f02ad71b817c75d7c5bdefd730b96307e11463"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 34,
+          "textUthmani": "يَوۡمَ يَفِرُّ ٱلۡمَرۡءُ مِنۡ أَخِيهِ",
+          "sha256": "d30cb42ecc54189d5b85e07ae5bfd73f27230ba62fd1662c7fc42ecbbc7dd711"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 35,
+          "textUthmani": "وَأُمِّهِۦ وَأَبِيهِ",
+          "sha256": "653d61124df29542c3e14cf4a2c814719ddcd6037d94b5974d958d1941a89588"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 36,
+          "textUthmani": "وَصَٰحِبَتِهِۦ وَبَنِيهِ",
+          "sha256": "84742c39789e5719beffbbd36cf8a6126bd09d42c5a332c10e4f403d20ca9ea3"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 37,
+          "textUthmani": "لِكُلِّ ٱمۡرِيٕٖ مِّنۡهُمۡ يَوۡمَئِذٖ شَأۡنٞ يُغۡنِيهِ",
+          "sha256": "ac08f15bae52ceadb862e9eb38197124102fed4af484eaf09e40ff9068554d9a"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 38,
+          "textUthmani": "وُجُوهٞ يَوۡمَئِذٖ مُّسۡفِرَةٞ",
+          "sha256": "f4a872d8a12ae50d0d60af2507749f89069a418ddba2410fe2d12b4e64aeab19"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 39,
+          "textUthmani": "ضَاحِكَةٞ مُّسۡتَبۡشِرَةٞ",
+          "sha256": "b24513da2ee226e2cca617452aa345342c8c1e50ec31102a3b2dce4f956d3e1c"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 40,
+          "textUthmani": "وَوُجُوهٞ يَوۡمَئِذٍ عَلَيۡهَا غَبَرَةٞ",
+          "sha256": "d0e07b7673d54b49e7659d9d0a220295e8d537f7aa04907c101855df287a0148"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 41,
+          "textUthmani": "تَرۡهَقُهَا قَتَرَةٌ",
+          "sha256": "6dd3b5e6ddf8b8e86ea7eb221d1b7e7143e4ed8feeec3a465850706a96e20c18"
+        },
+        {
+          "surahNumber": 80,
+          "verseNumber": 42,
+          "textUthmani": "أُوْلَـٰٓئِكَ هُمُ ٱلۡكَفَرَةُ ٱلۡفَجَرَةُ",
+          "sha256": "2c867115038638e27b1e2a821eddd5102fdbe5ce93fa81cc1bc61f355e0b012f"
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "nameAr": "النازعات",
+      "nameEn": "An-Nazi'at",
+      "type": "meccan",
+      "totalVerses": 46,
+      "verses": [
+        {
+          "surahNumber": 79,
+          "verseNumber": 1,
+          "textUthmani": "وَٱلنَّـٰزِعَٰتِ غَرۡقٗا",
+          "sha256": "b539dbcd443a490483eca698843d8ff3a53aac8758b294ed3e4582c5efbd12d4"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 2,
+          "textUthmani": "وَٱلنَّـٰشِطَٰتِ نَشۡطٗا",
+          "sha256": "28feab07072cc21bb87d1fff2184f27983203e0334954221686a4dad4b2f1992"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 3,
+          "textUthmani": "وَٱلسَّـٰبِحَٰتِ سَبۡحٗا",
+          "sha256": "0321538b6a8b599463e41f6927b8675c05140c26bc439e09592a29a8808b2b85"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 4,
+          "textUthmani": "فَٱلسَّـٰبِقَٰتِ سَبۡقٗا",
+          "sha256": "a90054d875849742a001f0a8c2975070c62b6a0835f0cc8872f65bbefbe193ce"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 5,
+          "textUthmani": "فَٱلۡمُدَبِّرَٰتِ أَمۡرٗا",
+          "sha256": "4e189522e2e3d41bceb7051f5aef5e28dabe20bd2a88a61fc750f98ca5ec7675"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 6,
+          "textUthmani": "يَوۡمَ تَرۡجُفُ ٱلرَّاجِفَةُ",
+          "sha256": "07a311ea6cb0d9cdf6e59a7be16746a8cf3d1b1b80fdcf900170f479086dbb64"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 7,
+          "textUthmani": "تَتۡبَعُهَا ٱلرَّادِفَةُ",
+          "sha256": "1ce55a563121df0a734a1d7ba07f4595b3d433ffc6ae075a6dc44bf761d654ec"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 8,
+          "textUthmani": "قُلُوبٞ يَوۡمَئِذٖ وَاجِفَةٌ",
+          "sha256": "8b0085ced31f8c28388878efef61e702d966af560f57df3f64ba1902cb6c05d0"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 9,
+          "textUthmani": "أَبۡصَٰرُهَا خَٰشِعَةٞ",
+          "sha256": "18b2aad0a4c9c2e18e79ec6dc4751de0952b550a600693ddb52075bfeef95f71"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 10,
+          "textUthmani": "يَقُولُونَ أَءِنَّا لَمَرۡدُودُونَ فِي ٱلۡحَافِرَةِ",
+          "sha256": "af9f919f22f8b2a2fb14cfe46fc3b750ee651106c7bfb92e03c2f0ae7ef09957"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 11,
+          "textUthmani": "أَءِذَا كُنَّا عِظَٰمٗا نَّخِرَةٗ",
+          "sha256": "bd2a5087bcaec3f60b78e7c77672c9413de3a5fa32e96acf4bb072e2ac8f9014"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 12,
+          "textUthmani": "قَالُواْ تِلۡكَ إِذٗا كَرَّةٌ خَاسِرَةٞ",
+          "sha256": "89956c690de85c818d212a194e018fde299cbc54314544da92da547b6fc3fd3c"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 13,
+          "textUthmani": "فَإِنَّمَا هِيَ زَجۡرَةٞ وَٰحِدَةٞ",
+          "sha256": "b409ee8a4e70d0a4f3c0f85a43f6a9ea603f8281f0e702425b6ed7e115234a1f"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 14,
+          "textUthmani": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
+          "sha256": "b88e984942e007e7c97007f36da30f3888af75499df96e4da5180a102ebe6eed"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 15,
+          "textUthmani": "هَلۡ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+          "sha256": "6a23cc14d46cabb908620a3c65ca05a544055d12ff80cb59ca809f58c282a588"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 16,
+          "textUthmani": "إِذۡ نَادَىٰهُ رَبُّهُۥ بِٱلۡوَادِ ٱلۡمُقَدَّسِ طُوًى",
+          "sha256": "a1a1f6b5138c8305e2ccd786e6b741b7fbe9e4423020bfef78b778d44681fc49"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 17,
+          "textUthmani": "ٱذۡهَبۡ إِلَىٰ فِرۡعَوۡنَ إِنَّهُۥ طَغَىٰ",
+          "sha256": "a435f1e1df17ad5194200869631d3f9d7c6ee5543e5788ee63640e76428bfc8f"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 18,
+          "textUthmani": "فَقُلۡ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
+          "sha256": "41a6b3a4263893ff5e6122b152c6e5a4956c6dfa58e41c218d2ba0db2bc48f69"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 19,
+          "textUthmani": "وَأَهۡدِيَكَ إِلَىٰ رَبِّكَ فَتَخۡشَىٰ",
+          "sha256": "65b23aa910ec4c3c2eb8526bcd96fb2de7d9870e0dee9a437bea267a1ffe149d"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 20,
+          "textUthmani": "فَأَرَىٰهُ ٱلۡأٓيَةَ ٱلۡكُبۡرَىٰ",
+          "sha256": "1e56b558f5e121c4d94e4cd168bd42c94ca63fa5f3a9cd896795c2e5f1676485"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 21,
+          "textUthmani": "فَكَذَّبَ وَعَصَىٰ",
+          "sha256": "2905906f7d2be8ec0679884a5f38fb79db08b6a524fdf9675bd8d1c6937d7e25"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 22,
+          "textUthmani": "ثُمَّ أَدۡبَرَ يَسۡعَىٰ",
+          "sha256": "618f6d12ddf694a37780c0042b89ca54cd5bf3f7745ba6ea756315dd46f2fdf3"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 23,
+          "textUthmani": "فَحَشَرَ فَنَادَىٰ",
+          "sha256": "22c7dc166d7d0bf64d83e94e3465afa1b32dc93d2401a3c016712e4ee8bf9716"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 24,
+          "textUthmani": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلۡأَعۡلَىٰ",
+          "sha256": "8ef964ebe2b21dbac41fdae69691dc64305f7040efafb1061d28bde4cf8f608c"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 25,
+          "textUthmani": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلۡأٓخِرَةِ وَٱلۡأُولَىٰٓ",
+          "sha256": "913550d84b6c0d732fe084bb82198742bb94a94ef757123983e66b26c8d74dd1"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 26,
+          "textUthmani": "إِنَّ فِي ذَٰلِكَ لَعِبۡرَةٗ لِّمَن يَخۡشَىٰٓ",
+          "sha256": "ea7e846f63883f330641b4b2a91e9bc1c5ee0815005e253814a69528f1eb2919"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 27,
+          "textUthmani": "ءَأَنتُمۡ أَشَدُّ خَلۡقًا أَمِ ٱلسَّمَآءُۚ بَنَىٰهَا",
+          "sha256": "ebbaf07c198cae2b2f25dc80ff475dba6e38d22b7e0ac1b877d328db9592343c"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 28,
+          "textUthmani": "رَفَعَ سَمۡكَهَا فَسَوَّىٰهَا",
+          "sha256": "8255e208fbab61b3d2e1baf281400dfc471e6e3a6158c52446916ed31b816c80"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 29,
+          "textUthmani": "وَأَغۡطَشَ لَيۡلَهَا وَأَخۡرَجَ ضُحَىٰهَا",
+          "sha256": "b63293b82320c078bb8b1df7c022bcde50863df5a04823ad768812c68eaaeb4e"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 30,
+          "textUthmani": "وَٱلۡأَرۡضَ بَعۡدَ ذَٰلِكَ دَحَىٰهَآ",
+          "sha256": "acd0112f8e200503d4219d09be7377ef065be51fb9d750ef4ab702a8c93f19fc"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 31,
+          "textUthmani": "أَخۡرَجَ مِنۡهَا مَآءَهَا وَمَرۡعَىٰهَا",
+          "sha256": "f723b9227fe5326ec6b3cdc185d86b46d486c64653854568dd826c94d4b7698b"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 32,
+          "textUthmani": "وَٱلۡجِبَالَ أَرۡسَىٰهَا",
+          "sha256": "968efb450f61969afd4b1ce59b97cb5d0152003acd58963d827d37e526cc0710"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 33,
+          "textUthmani": "مَتَٰعٗا لَّكُمۡ وَلِأَنۡعَٰمِكُمۡ",
+          "sha256": "aefaaad7866153c0f238a9efd561e64a1f6635aa47b3946c935c48befb9c3ef8"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 34,
+          "textUthmani": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلۡكُبۡرَىٰ",
+          "sha256": "d8d9409eb355ed1f015d26ae52516186958a71aca8fc96e073a70fb5a69f5d8a"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 35,
+          "textUthmani": "يَوۡمَ يَتَذَكَّرُ ٱلۡإِنسَٰنُ مَا سَعَىٰ",
+          "sha256": "32010ebe44785f5ec9fb467978b5b8c74bb683c9e65471151dd784d61b8f75de"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 36,
+          "textUthmani": "وَبُرِّزَتِ ٱلۡجَحِيمُ لِمَن يَرَىٰ",
+          "sha256": "1309e4913ff7f42abf75ad1099e0abd8e6203a3136600bfafd29ae6a0fd540c6"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 37,
+          "textUthmani": "فَأَمَّا مَن طَغَىٰ",
+          "sha256": "41125f16495ff91923e00e908b506f4904ba1c930c81741bbbd230169a7a9a36"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 38,
+          "textUthmani": "وَءَاثَرَ ٱلۡحَيَوٰةَ ٱلدُّنۡيَا",
+          "sha256": "41b1191ed6a16baeba8510bfade7d2ea1980fd65000f421004a444c138f900a1"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 39,
+          "textUthmani": "فَإِنَّ ٱلۡجَحِيمَ هِيَ ٱلۡمَأۡوَىٰ",
+          "sha256": "0be1cd8fe50d9784e00ef91e13ec9b6378b34a59b2243afdc7c04588a49682c8"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 40,
+          "textUthmani": "وَأَمَّا مَنۡ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفۡسَ عَنِ ٱلۡهَوَىٰ",
+          "sha256": "b952123723ca3e635ccab52b2732e55f4b62f58ee768de07ec874762045ea0cc"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 41,
+          "textUthmani": "فَإِنَّ ٱلۡجَنَّةَ هِيَ ٱلۡمَأۡوَىٰ",
+          "sha256": "695267f2bab18c96c68476154cdb911bf3d202eb1816e5d52e099db28d4f23e0"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 42,
+          "textUthmani": "يَسۡـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرۡسَىٰهَا",
+          "sha256": "d131e0e93cb042f2b2170d50c2045ae7441e78ff5ccd13ae1fd96bfee2fdf084"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 43,
+          "textUthmani": "فِيمَ أَنتَ مِن ذِكۡرَىٰهَآ",
+          "sha256": "4d90abf847207979304f0834e61cded3a6ea3dec378ee49d37213f23db97be19"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 44,
+          "textUthmani": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+          "sha256": "705cd072c5a7e4cc8a7cec3e30a60ed15e1827d70242d0fabc8ecadafd8c027c"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 45,
+          "textUthmani": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخۡشَىٰهَا",
+          "sha256": "a3ee61881a1fec3cfa80b5d65a5946cf9884f7ca2dd04bbd95cc42c6888f4906"
+        },
+        {
+          "surahNumber": 79,
+          "verseNumber": 46,
+          "textUthmani": "كَأَنَّهُمۡ يَوۡمَ يَرَوۡنَهَا لَمۡ يَلۡبَثُوٓاْ إِلَّا عَشِيَّةً أَوۡ ضُحَىٰهَا",
+          "sha256": "0c3dc148724923226da180898ddb5ac51112822a829a572ff153ca0b31cd5634"
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "nameAr": "النبإ",
+      "nameEn": "An-Naba",
+      "type": "meccan",
+      "totalVerses": 40,
+      "verses": [
+        {
+          "surahNumber": 78,
+          "verseNumber": 1,
+          "textUthmani": "عَمَّ يَتَسَآءَلُونَ",
+          "sha256": "ee89126d7bb7b2cbba8b79d5823994a7ee890b43cf5cf74dd13bc1b151d56e15"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 2,
+          "textUthmani": "عَنِ ٱلنَّبَإِ ٱلۡعَظِيمِ",
+          "sha256": "3fe3a50d02be338869f59ee484652e2024c785af2a5d57629e5a3d6d76e262b6"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 3,
+          "textUthmani": "ٱلَّذِي هُمۡ فِيهِ مُخۡتَلِفُونَ",
+          "sha256": "ac6d866977968e85e71a27aa03c7180a699487388be6998f900cfd3d9fb2df13"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 4,
+          "textUthmani": "كَلَّا سَيَعۡلَمُونَ",
+          "sha256": "45fa86f40af07125de9d3bb698fd780465f78e758abbb792ad6454f3bef69a10"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 5,
+          "textUthmani": "ثُمَّ كَلَّا سَيَعۡلَمُونَ",
+          "sha256": "002198c4ca3a96c2de3f62f3afb593f5a63e0130d6c495c62c4b94a08c5178a7"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 6,
+          "textUthmani": "أَلَمۡ نَجۡعَلِ ٱلۡأَرۡضَ مِهَٰدٗا",
+          "sha256": "6077fcc776a9502cb3669b9af83d4921e67dc530e52125b59f77a3fcfc552d86"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 7,
+          "textUthmani": "وَٱلۡجِبَالَ أَوۡتَادٗا",
+          "sha256": "5a9c77ef7d5b23b2a753f3751c8aa0c9112e6822653baee46731a9376ee5ee15"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 8,
+          "textUthmani": "وَخَلَقۡنَٰكُمۡ أَزۡوَٰجٗا",
+          "sha256": "cc1b2e8514c9c25526b343aebe2bf143c64afb4d622babbe7af4aaa1ed308fd2"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 9,
+          "textUthmani": "وَجَعَلۡنَا نَوۡمَكُمۡ سُبَاتٗا",
+          "sha256": "2ee54503c5ef27120cf20856e535d4c3627ffb9650e6c3d7e45b6ab9d06e1780"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 10,
+          "textUthmani": "وَجَعَلۡنَا ٱلَّيۡلَ لِبَاسٗا",
+          "sha256": "ae1f56c1e20fa58cb49d9127d9d8faf18c89a3c8a4a32c5b3d106c3f82d5268b"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 11,
+          "textUthmani": "وَجَعَلۡنَا ٱلنَّهَارَ مَعَاشٗا",
+          "sha256": "2bb4e7d558e56792f339d0adee2fa1d4f9b93aa2dd8b77f9717222fa10425089"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 12,
+          "textUthmani": "وَبَنَيۡنَا فَوۡقَكُمۡ سَبۡعٗا شِدَادٗا",
+          "sha256": "edd7b802e091ed0a5dbd62ceee8aa17eb56487afdc553bf86eb68b04e8f9e853"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 13,
+          "textUthmani": "وَجَعَلۡنَا سِرَاجٗا وَهَّاجٗا",
+          "sha256": "95f28323975dc8a31ade9b6112bf68c5278c5c3aa32226b806857b17abe3264f"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 14,
+          "textUthmani": "وَأَنزَلۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءٗ ثَجَّاجٗا",
+          "sha256": "3fa49eba6eb86848d4db461a0dbe2576e5672bb6a383f515a4864a80dd5dbad2"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 15,
+          "textUthmani": "لِّنُخۡرِجَ بِهِۦ حَبّٗا وَنَبَاتٗا",
+          "sha256": "4dde27cc8ba1c5a2efddda90472f09bab9c2aa69ad71056ee598cece5f1c6a3b"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 16,
+          "textUthmani": "وَجَنَّـٰتٍ أَلۡفَافًا",
+          "sha256": "ff2245170e176f7c64e61a69cebdf2a219d6d55dc50765b9a13f247ccb3c43b4"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 17,
+          "textUthmani": "إِنَّ يَوۡمَ ٱلۡفَصۡلِ كَانَ مِيقَٰتٗا",
+          "sha256": "15fd202007221a35eb630960e79541696b763b521d5289b2f16932ebf7e96839"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 18,
+          "textUthmani": "يَوۡمَ يُنفَخُ فِي ٱلصُّورِ فَتَأۡتُونَ أَفۡوَاجٗا",
+          "sha256": "9da4911f8ab923987ec1927e55c102df443aafc982e99d340bac6821d62174cc"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 19,
+          "textUthmani": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتۡ أَبۡوَٰبٗا",
+          "sha256": "42305dc1a711166c13fb9539be32a7f6f771bd08a3dd7cf3b899c6eea1251d00"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 20,
+          "textUthmani": "وَسُيِّرَتِ ٱلۡجِبَالُ فَكَانَتۡ سَرَابًا",
+          "sha256": "5e68cfa873c04d76470f06371b6d09c800eb76952646fc54c848827346476989"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 21,
+          "textUthmani": "إِنَّ جَهَنَّمَ كَانَتۡ مِرۡصَادٗا",
+          "sha256": "9a7effe0650eb1f6d1f61a25e3a45c0dfd7dbef2cbc5ad89efebf196ad64d493"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 22,
+          "textUthmani": "لِّلطَّـٰغِينَ مَـَٔابٗا",
+          "sha256": "e5b95a71c51b45806e25d10cb5925c8a4bac89f0de9cd3c7ba323443ff13115f"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 23,
+          "textUthmani": "لَّـٰبِثِينَ فِيهَآ أَحۡقَابٗا",
+          "sha256": "d671ff0c199150e8f01a031b95cd6eca52f6126a50b9dba8f0bbb7430b5c13ba"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 24,
+          "textUthmani": "لَّا يَذُوقُونَ فِيهَا بَرۡدٗا وَلَا شَرَابًا",
+          "sha256": "e6446b7b43f49ade6d919fef06dd3fea3a83ceec2e147cc5184d1cf82e403bfa"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 25,
+          "textUthmani": "إِلَّا حَمِيمٗا وَغَسَّاقٗا",
+          "sha256": "f770caf1b44dd8af8e02751e831d013db6992bd1beceab962e0d4885c049546a"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 26,
+          "textUthmani": "جَزَآءٗ وِفَاقًا",
+          "sha256": "259c275391229a5cf64ad8f1b5ad9323b438c16a7378631a2dccd1e9daf62978"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 27,
+          "textUthmani": "إِنَّهُمۡ كَانُواْ لَا يَرۡجُونَ حِسَابٗا",
+          "sha256": "951df347e9523b39aa2f6f2380da1c1c3a85bd0b07815b3a9253be8b1af81bfd"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 28,
+          "textUthmani": "وَكَذَّبُواْ بِـَٔايَٰتِنَا كِذَّابٗا",
+          "sha256": "91b3ed4afb3f9a605b3cec85a1e5de43e00aafa2f41351ae0ce2c8fa056dfb5f"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 29,
+          "textUthmani": "وَكُلَّ شَيۡءٍ أَحۡصَيۡنَٰهُ كِتَٰبٗا",
+          "sha256": "4d6f2aa9826f6d807c1d19e2a18bc0c7d781be110a89aee90bc1a4be7b7033b5"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 30,
+          "textUthmani": "فَذُوقُواْ فَلَن نَّزِيدَكُمۡ إِلَّا عَذَابًا",
+          "sha256": "ef0c7554b7c926f4f7a87e747d434b1d76e957051481be11d47c01f88f104cee"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 31,
+          "textUthmani": "إِنَّ لِلۡمُتَّقِينَ مَفَازًا",
+          "sha256": "34d16b21abe9726fb9fd6c46dd3178d3df94df52d542cf13f2329573d384978a"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 32,
+          "textUthmani": "حَدَآئِقَ وَأَعۡنَٰبٗا",
+          "sha256": "bb93d3b4516dbe3c3bfa5d9f2a55d767918bae8c2383581760054f61bce8acda"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 33,
+          "textUthmani": "وَكَوَاعِبَ أَتۡرَابٗا",
+          "sha256": "67066d0ea3e0413b2acb8dc4274ec3e0b6fbb7ff732542546fbb73fa93c7f774"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 34,
+          "textUthmani": "وَكَأۡسٗا دِهَاقٗا",
+          "sha256": "85b4b5a1cb57acdfb4238ffa7c409d291f3744679887a88c6159a23d8f92712d"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 35,
+          "textUthmani": "لَّا يَسۡمَعُونَ فِيهَا لَغۡوٗا وَلَا كِذَّـٰبٗا",
+          "sha256": "1199f41dfc7927ead11455d10e327224e88c2d8b18f0ffe0bfe58cb514f63c9e"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 36,
+          "textUthmani": "جَزَآءٗ مِّن رَّبِّكَ عَطَآءً حِسَابٗا",
+          "sha256": "41462062d253466391acfbf588def814348bc4fc9bb94584cf133b17240bb60f"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 37,
+          "textUthmani": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَمَا بَيۡنَهُمَا ٱلرَّحۡمَٰنِۖ لَا يَمۡلِكُونَ مِنۡهُ خِطَابٗا",
+          "sha256": "ace4d27b8de2d07834baba2c10415b7d920876c4355df69a7956854ac0551de8"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 38,
+          "textUthmani": "يَوۡمَ يَقُومُ ٱلرُّوحُ وَٱلۡمَلَـٰٓئِكَةُ صَفّٗاۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنۡ أَذِنَ لَهُ ٱلرَّحۡمَٰنُ وَقَالَ صَوَابٗا",
+          "sha256": "6f672c3a89dfe8e6646fe254b7a7c953ef9b388894f729546e7a6c1c09ee207d"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 39,
+          "textUthmani": "ذَٰلِكَ ٱلۡيَوۡمُ ٱلۡحَقُّۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+          "sha256": "960380c3fd8b2c1e1c49ee165566896ae7d6cafbb29acd5bfc7868608d167caf"
+        },
+        {
+          "surahNumber": 78,
+          "verseNumber": 40,
+          "textUthmani": "إِنَّآ أَنذَرۡنَٰكُمۡ عَذَابٗا قَرِيبٗا يَوۡمَ يَنظُرُ ٱلۡمَرۡءُ مَا قَدَّمَتۡ يَدَاهُ وَيَقُولُ ٱلۡكَافِرُ يَٰلَيۡتَنِي كُنتُ تُرَٰبَۢا",
+          "sha256": "af5ff9120d3d059a4f53787fc76d9287c29391d9d4f1d320ddd08af52a2f630f"
+        }
+      ]
+    }
+  ]
+}

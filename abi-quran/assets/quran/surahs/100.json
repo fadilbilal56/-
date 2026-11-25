@@ -1,0 +1,265 @@
+{
+  "episode": 15,
+  "surahNumber": 100,
+  "surahNameAr": "العاديات",
+  "surahNameEn": "Al-'Adiyat",
+  "revelation": "meccan",
+  "totalVerses": 11,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/100/100_000_basmala.wav",
+    "sonAudio": "audio/son/100/100_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+      "sha256": "096aa7728f82f9b2275a547a6de53b88b592e5f026531448a1ad10175d1a0b34",
+      "fatherAudio": "audio/father/100/100_001.wav",
+      "sonAudio": "audio/son/100/100_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "فَٱلۡمُورِيَٰتِ قَدۡحٗا",
+      "sha256": "4af810d841a3422e6244922d62cca882dda4b005bc7a949b0e306cacf227c36a",
+      "fatherAudio": "audio/father/100/100_002.wav",
+      "sonAudio": "audio/son/100/100_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "فَٱلۡمُغِيرَٰتِ صُبۡحٗا",
+      "sha256": "f553124d829545279b4e3135c2aebb08f642a04ccbed8f807baea24caa1f0635",
+      "fatherAudio": "audio/father/100/100_003.wav",
+      "sonAudio": "audio/son/100/100_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "فَأَثَرۡنَ بِهِۦ نَقۡعٗا",
+      "sha256": "394a9c3b987bba78aff5dd02b283f9fddebe2ba62cfe050adc4a90fa78c58e73",
+      "fatherAudio": "audio/father/100/100_004.wav",
+      "sonAudio": "audio/son/100/100_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "فَوَسَطۡنَ بِهِۦ جَمۡعًا",
+      "sha256": "839dcc01b76c8fc9475a1cd0098f4c44c24b5c6c85dd12c45a4433f45a8a29e3",
+      "fatherAudio": "audio/father/100/100_005.wav",
+      "sonAudio": "audio/son/100/100_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ",
+      "sha256": "88df3a3ce1f9e72dda628639d9bf57e3469394257e68d7d7c72db61506e108c8",
+      "fatherAudio": "audio/father/100/100_006.wav",
+      "sonAudio": "audio/son/100/100_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+      "sha256": "c00a3ea671f7b44135fade6b5971b8de8e0da90172f745877d1c24dd6b49a6a0",
+      "fatherAudio": "audio/father/100/100_007.wav",
+      "sonAudio": "audio/son/100/100_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ",
+      "sha256": "5fbb2b95d00acb8885410aa89a8bde7f595a879519403c7986ee5422f28ba5b4",
+      "fatherAudio": "audio/father/100/100_008.wav",
+      "sonAudio": "audio/son/100/100_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "۞أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+      "sha256": "4997ff35b389a3599cbf4b871083fbd072f7abc8089c282ae386bd100e25d13c",
+      "fatherAudio": "audio/father/100/100_009.wav",
+      "sonAudio": "audio/son/100/100_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَحُصِّلَ مَا فِي ٱلصُّدُورِ",
+      "sha256": "21b8688065a55b197e5c114064c3ab7052bec6c4d9fa32abac2ced783346efb6",
+      "fatherAudio": "audio/father/100/100_010.wav",
+      "sonAudio": "audio/son/100/100_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 100,
+      "surahName": "العاديات",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+      "sha256": "64d39e63b9fd55aeb91f74990593dc8e0403e632f35763aef5c3410655b08002",
+      "fatherAudio": "audio/father/100/100_011.wav",
+      "sonAudio": "audio/son/100/100_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

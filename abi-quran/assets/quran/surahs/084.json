@@ -1,0 +1,573 @@
+{
+  "episode": 31,
+  "surahNumber": 84,
+  "surahNameAr": "الإنشقاق",
+  "surahNameEn": "Al-Inshiqaq",
+  "revelation": "meccan",
+  "totalVerses": 25,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/084/084_000_basmala.wav",
+    "sonAudio": "audio/son/084/084_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتۡ",
+      "sha256": "617c14b4ad81ff71c343fee70497c6d424984911bc23eb91cb73234b31d6d919",
+      "fatherAudio": "audio/father/084/084_001.wav",
+      "sonAudio": "audio/son/084/084_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ",
+      "sha256": "1bbfe0331c87a4ad78f3b3f85fdc9110258b7f031eb3d0de89d3923c069d86d4",
+      "fatherAudio": "audio/father/084/084_002.wav",
+      "sonAudio": "audio/son/084/084_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَإِذَا ٱلۡأَرۡضُ مُدَّتۡ",
+      "sha256": "290b1b55f817a8b4e1c402e9bfa7c9a59c21b6b7eb9de2e4cefda8b9df00ff02",
+      "fatherAudio": "audio/father/084/084_003.wav",
+      "sonAudio": "audio/son/084/084_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَأَلۡقَتۡ مَا فِيهَا وَتَخَلَّتۡ",
+      "sha256": "6c74f9c485f463994bed9e230a03cd83c2c2d5b825d3a5f1e749e340f2cd7d25",
+      "fatherAudio": "audio/father/084/084_004.wav",
+      "sonAudio": "audio/son/084/084_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ",
+      "sha256": "1bbfe0331c87a4ad78f3b3f85fdc9110258b7f031eb3d0de89d3923c069d86d4",
+      "fatherAudio": "audio/father/084/084_005.wav",
+      "sonAudio": "audio/son/084/084_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدۡحٗا فَمُلَٰقِيهِ",
+      "sha256": "148d9f232ac47a941fec963b9f829f825c70dfe95e9eb8a7f3bc5089e7723dad",
+      "fatherAudio": "audio/father/084/084_006.wav",
+      "sonAudio": "audio/son/084/084_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7,
+        "sonDurationSec": 7.7
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "فَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
+      "sha256": "a85fcfb6942f3442ca1e98fa4a4fb617c798e0c86ea8f7db465fcf27d858f433",
+      "fatherAudio": "audio/father/084/084_007.wav",
+      "sonAudio": "audio/son/084/084_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "فَسَوۡفَ يُحَاسَبُ حِسَابٗا يَسِيرٗا",
+      "sha256": "e6e9b4e3bbe18de6820b42c69bab69a03d2f9473e119975d1c0179f9c7f46d25",
+      "fatherAudio": "audio/father/084/084_008.wav",
+      "sonAudio": "audio/son/084/084_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "وَيَنقَلِبُ إِلَىٰٓ أَهۡلِهِۦ مَسۡرُورٗا",
+      "sha256": "7fd73e4b13ec60a238e2939125525efe2bdf4dd722a15ecf0bb03a3ab3af2996",
+      "fatherAudio": "audio/father/084/084_009.wav",
+      "sonAudio": "audio/son/084/084_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَأَمَّا مَنۡ أُوتِيَ كِتَٰبَهُۥ وَرَآءَ ظَهۡرِهِۦ",
+      "sha256": "a0f6afcf0a9ca37dd4c1e5bb9122cfef4303e30efea2c5e8fda091649e5b7403",
+      "fatherAudio": "audio/father/084/084_010.wav",
+      "sonAudio": "audio/son/084/084_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "فَسَوۡفَ يَدۡعُواْ ثُبُورٗا",
+      "sha256": "20c0d36e0f1c07a011050549d19080bc907d81197deacd52d48e870597785831",
+      "fatherAudio": "audio/father/084/084_011.wav",
+      "sonAudio": "audio/son/084/084_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "وَيَصۡلَىٰ سَعِيرًا",
+      "sha256": "96966a3d6e2d3b10642e2eb7a35d1166f43e62a21673d52e32eef3dc82f02a57",
+      "fatherAudio": "audio/father/084/084_012.wav",
+      "sonAudio": "audio/son/084/084_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "إِنَّهُۥ كَانَ فِيٓ أَهۡلِهِۦ مَسۡرُورًا",
+      "sha256": "18371b7facebbdd300f38ebc126bb5571aa82122a214640e8fbe8d5311222dd9",
+      "fatherAudio": "audio/father/084/084_013.wav",
+      "sonAudio": "audio/son/084/084_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+      "sha256": "2eafcbf57c5e461e68f8456b6e8af687bf72a49f9df70f262afe3a21f57a6a13",
+      "fatherAudio": "audio/father/084/084_014.wav",
+      "sonAudio": "audio/son/084/084_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "بَلَىٰٓۚ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرٗا",
+      "sha256": "88a2f4cf0758a6aa14a00d2f1a3fd695752caed8faf2146ae782755c8a071797",
+      "fatherAudio": "audio/father/084/084_015.wav",
+      "sonAudio": "audio/son/084/084_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "فَلَآ أُقۡسِمُ بِٱلشَّفَقِ",
+      "sha256": "37d8c6738d7f077357067ff7c8e5d0ac5a054d5d783a673db2b887c1b829ba4d",
+      "fatherAudio": "audio/father/084/084_016.wav",
+      "sonAudio": "audio/son/084/084_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "وَٱلَّيۡلِ وَمَا وَسَقَ",
+      "sha256": "50fee3e0be937a85d32224997d783e0e573ec67956e3f7cfe70c50176c8f20e7",
+      "fatherAudio": "audio/father/084/084_017.wav",
+      "sonAudio": "audio/son/084/084_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "وَٱلۡقَمَرِ إِذَا ٱتَّسَقَ",
+      "sha256": "dd152d4433f16476924d5258223dac4e31363c76eeed7d7d220327f5666a7e06",
+      "fatherAudio": "audio/father/084/084_018.wav",
+      "sonAudio": "audio/son/084/084_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "لَتَرۡكَبُنَّ طَبَقًا عَن طَبَقٖ",
+      "sha256": "6cb6c991ed19318c09aa8b95d151eec7be6c1736e64e75c1e017cff177e51c1a",
+      "fatherAudio": "audio/father/084/084_019.wav",
+      "sonAudio": "audio/son/084/084_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "فَمَا لَهُمۡ لَا يُؤۡمِنُونَ",
+      "sha256": "b4ca927b3fc07e5daa6bda51b90e1fee39f51b1336df9558c82ad9b2e65fff5d",
+      "fatherAudio": "audio/father/084/084_020.wav",
+      "sonAudio": "audio/son/084/084_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "وَإِذَا قُرِئَ عَلَيۡهِمُ ٱلۡقُرۡءَانُ لَا يَسۡجُدُونَۤ۩",
+      "sha256": "69a69d807b39702236ce3ef04ed2ca6b47b74bb79d3d39761a4deb209756e5f1",
+      "fatherAudio": "audio/father/084/084_021.wav",
+      "sonAudio": "audio/son/084/084_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.72,
+        "sonDurationSec": 6.29
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُواْ يُكَذِّبُونَ",
+      "sha256": "63aa2c3760776a6ebfdddcd50f6afebc6c30c802459b21c7f419887f94571e65",
+      "fatherAudio": "audio/father/084/084_022.wav",
+      "sonAudio": "audio/son/084/084_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "وَٱللَّهُ أَعۡلَمُ بِمَا يُوعُونَ",
+      "sha256": "caa2e5137e3bced8d0d6a9cdd79a2b8bd7242814456eb719116c7115ca9ab770",
+      "fatherAudio": "audio/father/084/084_023.wav",
+      "sonAudio": "audio/son/084/084_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "فَبَشِّرۡهُم بِعَذَابٍ أَلِيمٍ",
+      "sha256": "5b9f730282d8d0d540ae5ae5c1ff1a7cf13d2afcb10d324fdeb1d7a931d6eb8e",
+      "fatherAudio": "audio/father/084/084_024.wav",
+      "sonAudio": "audio/son/084/084_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 84,
+      "surahName": "الإنشقاق",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونِۭ",
+      "sha256": "9a3ad410231605030d82e8f805a53202301f397307facf9d1ce075f0cbc45699",
+      "fatherAudio": "audio/father/084/084_025.wav",
+      "sonAudio": "audio/son/084/084_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.96,
+        "sonDurationSec": 8.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

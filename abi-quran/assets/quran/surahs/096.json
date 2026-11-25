@@ -1,0 +1,441 @@
+{
+  "episode": 19,
+  "surahNumber": 96,
+  "surahNameAr": "العلق",
+  "surahNameEn": "Al-'Alaq",
+  "revelation": "meccan",
+  "totalVerses": 19,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/096/096_000_basmala.wav",
+    "sonAudio": "audio/son/096/096_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِي خَلَقَ",
+      "sha256": "160dad6aac3e498d78adfcdf03c6ca0fc02cbe6db03ee92b01b275a012d91a02",
+      "fatherAudio": "audio/father/096/096_001.wav",
+      "sonAudio": "audio/son/096/096_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "خَلَقَ ٱلۡإِنسَٰنَ مِنۡ عَلَقٍ",
+      "sha256": "ba26472c849397ec9bbc1957341f53cdeeda2902e0c08692edb9b7fce7476ec9",
+      "fatherAudio": "audio/father/096/096_002.wav",
+      "sonAudio": "audio/son/096/096_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "ٱقۡرَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ",
+      "sha256": "c41b86283d5457d3887b491d6930d22671e53847d9eec5e5a284a7c358e018f3",
+      "fatherAudio": "audio/father/096/096_003.wav",
+      "sonAudio": "audio/son/096/096_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "ٱلَّذِي عَلَّمَ بِٱلۡقَلَمِ",
+      "sha256": "db1ece22a2a1190e18c8266c7e34f61c15268d67732502fb14d813e646e555fd",
+      "fatherAudio": "audio/father/096/096_004.wav",
+      "sonAudio": "audio/son/096/096_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "عَلَّمَ ٱلۡإِنسَٰنَ مَا لَمۡ يَعۡلَمۡ",
+      "sha256": "75ff4b0e0fee9fd8cfb2acaf025b6ac1f057a62109b68ded780db63ab5c2348f",
+      "fatherAudio": "audio/father/096/096_005.wav",
+      "sonAudio": "audio/son/096/096_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "كَلَّآ إِنَّ ٱلۡإِنسَٰنَ لَيَطۡغَىٰٓ",
+      "sha256": "4461a179d99e8df524b82ff7be0b8f1471236d0ef0ef13f1383d8e15d6f36c8f",
+      "fatherAudio": "audio/father/096/096_006.wav",
+      "sonAudio": "audio/son/096/096_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "أَن رَّءَاهُ ٱسۡتَغۡنَىٰٓ",
+      "sha256": "db983659e9af117707dfeef712b2375e4305ad7c956dd23e3ca7f7dd64ee93ec",
+      "fatherAudio": "audio/father/096/096_007.wav",
+      "sonAudio": "audio/son/096/096_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجۡعَىٰٓ",
+      "sha256": "eef6b6cc5a227d351877e0b2d8e199e1384999a9c31596235fe5e5de19b951ae",
+      "fatherAudio": "audio/father/096/096_008.wav",
+      "sonAudio": "audio/son/096/096_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "أَرَءَيۡتَ ٱلَّذِي يَنۡهَىٰ",
+      "sha256": "ec353b2ec69fbe38220be3cc9629910850393b11f2551e661fb0a0b8ec4c8d04",
+      "fatherAudio": "audio/father/096/096_009.wav",
+      "sonAudio": "audio/son/096/096_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "عَبۡدًا إِذَا صَلَّىٰٓ",
+      "sha256": "7807c5af6f5232b1ed3e6e834ff0bbc3c0cb34c7b6c5102c47be7d41d6d17ce0",
+      "fatherAudio": "audio/father/096/096_010.wav",
+      "sonAudio": "audio/son/096/096_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "أَرَءَيۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰٓ",
+      "sha256": "630d2a44a9e1f869db0cd228e1f3b18a04d60f17eaf8f18ba800fd03bceb3fb6",
+      "fatherAudio": "audio/father/096/096_011.wav",
+      "sonAudio": "audio/son/096/096_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "أَوۡ أَمَرَ بِٱلتَّقۡوَىٰٓ",
+      "sha256": "6ba2c178ed4f388dba47b8242a90a594ba9e95ee2915ee62c50b7f4be0ca5178",
+      "fatherAudio": "audio/father/096/096_012.wav",
+      "sonAudio": "audio/son/096/096_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "أَرَءَيۡتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "sha256": "e5d94212e30268496f234b51d750462ffd01d1acba6e1ffb6eabd06e291c6d38",
+      "fatherAudio": "audio/father/096/096_013.wav",
+      "sonAudio": "audio/son/096/096_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "أَلَمۡ يَعۡلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "sha256": "3d531ea9f2a1a1b2a7c3e245a9af85ce4ec6aa4072c8feafedc5f81a159bd15c",
+      "fatherAudio": "audio/father/096/096_014.wav",
+      "sonAudio": "audio/son/096/096_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "كَلَّا لَئِن لَّمۡ يَنتَهِ لَنَسۡفَعَۢا بِٱلنَّاصِيَةِ",
+      "sha256": "a1a03bc6d841d636a655ee9818c53057f544e7b2e6a61e0d88e23aead4c15645",
+      "fatherAudio": "audio/father/096/096_015.wav",
+      "sonAudio": "audio/son/096/096_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.56,
+        "sonDurationSec": 6.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "نَاصِيَةٖ كَٰذِبَةٍ خَاطِئَةٖ",
+      "sha256": "bb3f3d1763ae3460e9e37b2888dbaa908db653f08855f3c1f8db7ba81e6b8d6d",
+      "fatherAudio": "audio/father/096/096_016.wav",
+      "sonAudio": "audio/son/096/096_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "فَلۡيَدۡعُ نَادِيَهُۥ",
+      "sha256": "8923970ed97f7a393547efebeff4284c4a48fd2bc250068e03c4ab8b0b6c0682",
+      "fatherAudio": "audio/father/096/096_017.wav",
+      "sonAudio": "audio/son/096/096_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "سَنَدۡعُ ٱلزَّبَانِيَةَ",
+      "sha256": "af626b05d912cd1a097881f5c8b32a0d4daef7dfcb8ba472c69cb3f2edd9de9d",
+      "fatherAudio": "audio/father/096/096_018.wav",
+      "sonAudio": "audio/son/096/096_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 96,
+      "surahName": "العلق",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "كَلَّا لَا تُطِعۡهُ وَٱسۡجُدۡۤ وَٱقۡتَرِب۩",
+      "sha256": "fa1f3bef87869b0f9abe9ff39cbc150fe98fa44ff01b8fe0785383ca99b8af29",
+      "fatherAudio": "audio/father/096/096_019.wav",
+      "sonAudio": "audio/son/096/096_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

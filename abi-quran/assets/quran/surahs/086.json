@@ -1,0 +1,397 @@
+{
+  "episode": 29,
+  "surahNumber": 86,
+  "surahNameAr": "الطارق",
+  "surahNameEn": "At-Tariq",
+  "revelation": "meccan",
+  "totalVerses": 17,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/086/086_000_basmala.wav",
+    "sonAudio": "audio/son/086/086_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "sha256": "69ab355666d783c8f9db193e6ce193ee3b529559799777f3cd9e1d9390e0af8b",
+      "fatherAudio": "audio/father/086/086_001.wav",
+      "sonAudio": "audio/son/086/086_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلطَّارِقُ",
+      "sha256": "fc72e85d01392763853cac4037e0c44cc0fea5a1f04b0075439f7d03653faca6",
+      "fatherAudio": "audio/father/086/086_002.wav",
+      "sonAudio": "audio/son/086/086_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "ٱلنَّجۡمُ ٱلثَّاقِبُ",
+      "sha256": "fd4eb86fc586933e26f5e53af2fcdb27579db61025a868e4d91bb2757bce7b87",
+      "fatherAudio": "audio/father/086/086_003.wav",
+      "sonAudio": "audio/son/086/086_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "إِن كُلُّ نَفۡسٖ لَّمَّا عَلَيۡهَا حَافِظٞ",
+      "sha256": "70042634100a93adcb4c595f6ff1a9f42a74a2d9f3d74a8d6484c7a6e6998044",
+      "fatherAudio": "audio/father/086/086_004.wav",
+      "sonAudio": "audio/son/086/086_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ مِمَّ خُلِقَ",
+      "sha256": "4f46eced79e4d54b4dd526484620db64a84ee1adfd7baf9d19d8dc829c19dac0",
+      "fatherAudio": "audio/father/086/086_005.wav",
+      "sonAudio": "audio/son/086/086_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "خُلِقَ مِن مَّآءٖ دَافِقٖ",
+      "sha256": "40ee32eeed3c2467511e8312b3d29d53f94707a33474b6f42e7811732aa087c3",
+      "fatherAudio": "audio/father/086/086_006.wav",
+      "sonAudio": "audio/son/086/086_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "يَخۡرُجُ مِنۢ بَيۡنِ ٱلصُّلۡبِ وَٱلتَّرَآئِبِ",
+      "sha256": "1d2a18be52e8c7ca5fe8b9bff086158cb962ad37cb3c6126bec0a87fec0430ea",
+      "fatherAudio": "audio/father/086/086_007.wav",
+      "sonAudio": "audio/son/086/086_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "إِنَّهُۥ عَلَىٰ رَجۡعِهِۦ لَقَادِرٞ",
+      "sha256": "586eaa93bf3b706bb9801398d50d24465162d59f6a2b432043914f3772c0eb00",
+      "fatherAudio": "audio/father/086/086_008.wav",
+      "sonAudio": "audio/son/086/086_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "يَوۡمَ تُبۡلَى ٱلسَّرَآئِرُ",
+      "sha256": "02c40e345d2eee539ea9498fcef0391178b68f826ea6243fc672287d69242cf8",
+      "fatherAudio": "audio/father/086/086_009.wav",
+      "sonAudio": "audio/son/086/086_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "فَمَا لَهُۥ مِن قُوَّةٖ وَلَا نَاصِرٖ",
+      "sha256": "6f78ac73f8f87772d31bd896cc9c4c927dc6446dfcc029da3dcecf8832436e0c",
+      "fatherAudio": "audio/father/086/086_010.wav",
+      "sonAudio": "audio/son/086/086_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجۡعِ",
+      "sha256": "6685d8e6d23fa915ad7b20eb0eaed1b637cec56c5824ae2a01767d9595c2ea45",
+      "fatherAudio": "audio/father/086/086_011.wav",
+      "sonAudio": "audio/son/086/086_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "وَٱلۡأَرۡضِ ذَاتِ ٱلصَّدۡعِ",
+      "sha256": "5ad5bed94ecb04606371f76a867e39b5a04412d284c8f9292d8e5e2ca13ce09b",
+      "fatherAudio": "audio/father/086/086_012.wav",
+      "sonAudio": "audio/son/086/086_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "إِنَّهُۥ لَقَوۡلٞ فَصۡلٞ",
+      "sha256": "de08bfed2dc3678de13cccade704e48ac98acb8f7c74ab070c7ba71746e9918f",
+      "fatherAudio": "audio/father/086/086_013.wav",
+      "sonAudio": "audio/son/086/086_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "وَمَا هُوَ بِٱلۡهَزۡلِ",
+      "sha256": "dda79c433c3839d3dfbe69d40476748eb1ddc4efe48f556ccbed83749f93465f",
+      "fatherAudio": "audio/father/086/086_014.wav",
+      "sonAudio": "audio/son/086/086_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "إِنَّهُمۡ يَكِيدُونَ كَيۡدٗا",
+      "sha256": "98b988556ee44ca7f33e4c8330a69b600edc48493c82da4de83779e1be771b7d",
+      "fatherAudio": "audio/father/086/086_015.wav",
+      "sonAudio": "audio/son/086/086_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "وَأَكِيدُ كَيۡدٗا",
+      "sha256": "7c170660443c8005fe4932a5cecd782fd56d6f049047500358195aa10e02f12f",
+      "fatherAudio": "audio/father/086/086_016.wav",
+      "sonAudio": "audio/son/086/086_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 86,
+      "surahName": "الطارق",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "فَمَهِّلِ ٱلۡكَٰفِرِينَ أَمۡهِلۡهُمۡ رُوَيۡدَۢا",
+      "sha256": "14e72f0d2f02d4b369c818763f440c6ccb16e10844a5633bf11efad3163fd399",
+      "fatherAudio": "audio/father/086/086_017.wav",
+      "sonAudio": "audio/son/086/086_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

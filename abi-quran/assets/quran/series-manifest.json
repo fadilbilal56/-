@@ -1,0 +1,302 @@
+{
+  "series": "أبي يعلّمني القرآن",
+  "order": "An-Nas (114) → An-Naba (78)",
+  "episodes": [
+    {
+      "episode": 1,
+      "surahNumber": 114,
+      "nameAr": "الناس",
+      "nameEn": "An-Nas",
+      "totalVerses": 6,
+      "status": "in-production"
+    },
+    {
+      "episode": 2,
+      "surahNumber": 113,
+      "nameAr": "الفلق",
+      "nameEn": "Al-Falaq",
+      "totalVerses": 5,
+      "status": "not-started"
+    },
+    {
+      "episode": 3,
+      "surahNumber": 112,
+      "nameAr": "الإخلاص",
+      "nameEn": "Al-Ikhlas",
+      "totalVerses": 4,
+      "status": "not-started"
+    },
+    {
+      "episode": 4,
+      "surahNumber": 111,
+      "nameAr": "المسد",
+      "nameEn": "Al-Masad",
+      "totalVerses": 5,
+      "status": "not-started"
+    },
+    {
+      "episode": 5,
+      "surahNumber": 110,
+      "nameAr": "النصر",
+      "nameEn": "An-Nasr",
+      "totalVerses": 3,
+      "status": "not-started"
+    },
+    {
+      "episode": 6,
+      "surahNumber": 109,
+      "nameAr": "الكافرون",
+      "nameEn": "Al-Kafirun",
+      "totalVerses": 6,
+      "status": "not-started"
+    },
+    {
+      "episode": 7,
+      "surahNumber": 108,
+      "nameAr": "الكوثر",
+      "nameEn": "Al-Kawthar",
+      "totalVerses": 3,
+      "status": "not-started"
+    },
+    {
+      "episode": 8,
+      "surahNumber": 107,
+      "nameAr": "الماعون",
+      "nameEn": "Al-Ma'un",
+      "totalVerses": 7,
+      "status": "not-started"
+    },
+    {
+      "episode": 9,
+      "surahNumber": 106,
+      "nameAr": "قريش",
+      "nameEn": "Quraysh",
+      "totalVerses": 4,
+      "status": "not-started"
+    },
+    {
+      "episode": 10,
+      "surahNumber": 105,
+      "nameAr": "الفيل",
+      "nameEn": "Al-Fil",
+      "totalVerses": 5,
+      "status": "not-started"
+    },
+    {
+      "episode": 11,
+      "surahNumber": 104,
+      "nameAr": "الهمزة",
+      "nameEn": "Al-Humazah",
+      "totalVerses": 9,
+      "status": "not-started"
+    },
+    {
+      "episode": 12,
+      "surahNumber": 103,
+      "nameAr": "العصر",
+      "nameEn": "Al-'Asr",
+      "totalVerses": 3,
+      "status": "not-started"
+    },
+    {
+      "episode": 13,
+      "surahNumber": 102,
+      "nameAr": "التكاثر",
+      "nameEn": "At-Takathur",
+      "totalVerses": 8,
+      "status": "not-started"
+    },
+    {
+      "episode": 14,
+      "surahNumber": 101,
+      "nameAr": "القارعة",
+      "nameEn": "Al-Qari'ah",
+      "totalVerses": 11,
+      "status": "not-started"
+    },
+    {
+      "episode": 15,
+      "surahNumber": 100,
+      "nameAr": "العاديات",
+      "nameEn": "Al-'Adiyat",
+      "totalVerses": 11,
+      "status": "not-started"
+    },
+    {
+      "episode": 16,
+      "surahNumber": 99,
+      "nameAr": "الزلزلة",
+      "nameEn": "Az-Zalzalah",
+      "totalVerses": 8,
+      "status": "not-started"
+    },
+    {
+      "episode": 17,
+      "surahNumber": 98,
+      "nameAr": "البينة",
+      "nameEn": "Al-Bayyinah",
+      "totalVerses": 8,
+      "status": "not-started"
+    },
+    {
+      "episode": 18,
+      "surahNumber": 97,
+      "nameAr": "القدر",
+      "nameEn": "Al-Qadr",
+      "totalVerses": 5,
+      "status": "not-started"
+    },
+    {
+      "episode": 19,
+      "surahNumber": 96,
+      "nameAr": "العلق",
+      "nameEn": "Al-'Alaq",
+      "totalVerses": 19,
+      "status": "not-started"
+    },
+    {
+      "episode": 20,
+      "surahNumber": 95,
+      "nameAr": "التين",
+      "nameEn": "At-Tin",
+      "totalVerses": 8,
+      "status": "not-started"
+    },
+    {
+      "episode": 21,
+      "surahNumber": 94,
+      "nameAr": "الشرح",
+      "nameEn": "Ash-Sharh",
+      "totalVerses": 8,
+      "status": "not-started"
+    },
+    {
+      "episode": 22,
+      "surahNumber": 93,
+      "nameAr": "الضحى",
+      "nameEn": "Ad-Duhaa",
+      "totalVerses": 11,
+      "status": "not-started"
+    },
+    {
+      "episode": 23,
+      "surahNumber": 92,
+      "nameAr": "الليل",
+      "nameEn": "Al-Layl",
+      "totalVerses": 21,
+      "status": "not-started"
+    },
+    {
+      "episode": 24,
+      "surahNumber": 91,
+      "nameAr": "الشمس",
+      "nameEn": "Ash-Shams",
+      "totalVerses": 15,
+      "status": "not-started"
+    },
+    {
+      "episode": 25,
+      "surahNumber": 90,
+      "nameAr": "البلد",
+      "nameEn": "Al-Balad",
+      "totalVerses": 20,
+      "status": "not-started"
+    },
+    {
+      "episode": 26,
+      "surahNumber": 89,
+      "nameAr": "الفجر",
+      "nameEn": "Al-Fajr",
+      "totalVerses": 30,
+      "status": "not-started"
+    },
+    {
+      "episode": 27,
+      "surahNumber": 88,
+      "nameAr": "الغاشية",
+      "nameEn": "Al-Ghashiyah",
+      "totalVerses": 26,
+      "status": "not-started"
+    },
+    {
+      "episode": 28,
+      "surahNumber": 87,
+      "nameAr": "الأعلى",
+      "nameEn": "Al-A'la",
+      "totalVerses": 19,
+      "status": "not-started"
+    },
+    {
+      "episode": 29,
+      "surahNumber": 86,
+      "nameAr": "الطارق",
+      "nameEn": "At-Tariq",
+      "totalVerses": 17,
+      "status": "not-started"
+    },
+    {
+      "episode": 30,
+      "surahNumber": 85,
+      "nameAr": "البروج",
+      "nameEn": "Al-Buruj",
+      "totalVerses": 22,
+      "status": "not-started"
+    },
+    {
+      "episode": 31,
+      "surahNumber": 84,
+      "nameAr": "الإنشقاق",
+      "nameEn": "Al-Inshiqaq",
+      "totalVerses": 25,
+      "status": "not-started"
+    },
+    {
+      "episode": 32,
+      "surahNumber": 83,
+      "nameAr": "المطففين",
+      "nameEn": "Al-Mutaffifin",
+      "totalVerses": 36,
+      "status": "not-started"
+    },
+    {
+      "episode": 33,
+      "surahNumber": 82,
+      "nameAr": "الإنفطار",
+      "nameEn": "Al-Infitar",
+      "totalVerses": 19,
+      "status": "not-started"
+    },
+    {
+      "episode": 34,
+      "surahNumber": 81,
+      "nameAr": "التكوير",
+      "nameEn": "At-Takwir",
+      "totalVerses": 29,
+      "status": "not-started"
+    },
+    {
+      "episode": 35,
+      "surahNumber": 80,
+      "nameAr": "عبس",
+      "nameEn": "'Abasa",
+      "totalVerses": 42,
+      "status": "not-started"
+    },
+    {
+      "episode": 36,
+      "surahNumber": 79,
+      "nameAr": "النازعات",
+      "nameEn": "An-Nazi'at",
+      "totalVerses": 46,
+      "status": "not-started"
+    },
+    {
+      "episode": 37,
+      "surahNumber": 78,
+      "nameAr": "النبإ",
+      "nameEn": "An-Naba",
+      "totalVerses": 40,
+      "status": "not-started"
+    }
+  ]
+}

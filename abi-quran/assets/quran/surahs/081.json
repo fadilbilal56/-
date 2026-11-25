@@ -1,0 +1,661 @@
+{
+  "episode": 34,
+  "surahNumber": 81,
+  "surahNameAr": "التكوير",
+  "surahNameEn": "At-Takwir",
+  "revelation": "meccan",
+  "totalVerses": 29,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/081/081_000_basmala.wav",
+    "sonAudio": "audio/son/081/081_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "إِذَا ٱلشَّمۡسُ كُوِّرَتۡ",
+      "sha256": "0b94cbd728d208cadba11884e091a1d3118987363a755db47a74f091e3006528",
+      "fatherAudio": "audio/father/081/081_001.wav",
+      "sonAudio": "audio/son/081/081_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتۡ",
+      "sha256": "5dd5de844f88220aadc6577226d62b96242a5e7550e48183df61cbef319ab97e",
+      "fatherAudio": "audio/father/081/081_002.wav",
+      "sonAudio": "audio/son/081/081_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَإِذَا ٱلۡجِبَالُ سُيِّرَتۡ",
+      "sha256": "c331cfcbf769e6e4035d8e5be32375c4debed6931464c13080202674fce262fd",
+      "fatherAudio": "audio/father/081/081_003.wav",
+      "sonAudio": "audio/son/081/081_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَإِذَا ٱلۡعِشَارُ عُطِّلَتۡ",
+      "sha256": "aa8d69cfabe0ce9f5244b886224f116d5983be0624f8a2d0e2ab2c01e1df4673",
+      "fatherAudio": "audio/father/081/081_004.wav",
+      "sonAudio": "audio/son/081/081_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَإِذَا ٱلۡوُحُوشُ حُشِرَتۡ",
+      "sha256": "ff909473b3c2be836042d6df4f898d4d8b4e842e91ea77b348fa089b2705ec4c",
+      "fatherAudio": "audio/father/081/081_005.wav",
+      "sonAudio": "audio/son/081/081_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "وَإِذَا ٱلۡبِحَارُ سُجِّرَتۡ",
+      "sha256": "6f18f8ea75792166e31724e0151197317570510f2242fe73498e3cb98711a95e",
+      "fatherAudio": "audio/father/081/081_006.wav",
+      "sonAudio": "audio/son/081/081_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتۡ",
+      "sha256": "8894eab458ad05aba31a40ab8dcacb09950ee4d33266842ed297bc2156c827e1",
+      "fatherAudio": "audio/father/081/081_007.wav",
+      "sonAudio": "audio/son/081/081_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَإِذَا ٱلۡمَوۡءُۥدَةُ سُئِلَتۡ",
+      "sha256": "08b23558202d4f961a92fce8bbc8c99d59bb5c7cef176570c98c8749837b3d98",
+      "fatherAudio": "audio/father/081/081_008.wav",
+      "sonAudio": "audio/son/081/081_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "بِأَيِّ ذَنۢبٖ قُتِلَتۡ",
+      "sha256": "7f189ba23172fc5bdfa04287b7be1743a066dd96aa3af955bf1f5d1e3ca0c70e",
+      "fatherAudio": "audio/father/081/081_009.wav",
+      "sonAudio": "audio/son/081/081_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَإِذَا ٱلصُّحُفُ نُشِرَتۡ",
+      "sha256": "38a8ea3ddb07c7f42d4cc07e0f8ef260c00cd12cf2e3f8131c41874a68bcce5d",
+      "fatherAudio": "audio/father/081/081_010.wav",
+      "sonAudio": "audio/son/081/081_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "وَإِذَا ٱلسَّمَآءُ كُشِطَتۡ",
+      "sha256": "964ab6fcbb6d537da746aa19ea38c96025be5edd69dd0984a06fe3799a3bc2e1",
+      "fatherAudio": "audio/father/081/081_011.wav",
+      "sonAudio": "audio/son/081/081_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "وَإِذَا ٱلۡجَحِيمُ سُعِّرَتۡ",
+      "sha256": "17244978e7e88d01aa564d1eb34f0ec6b6810747b446a77b9fd52193a4ac91fa",
+      "fatherAudio": "audio/father/081/081_012.wav",
+      "sonAudio": "audio/son/081/081_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "وَإِذَا ٱلۡجَنَّةُ أُزۡلِفَتۡ",
+      "sha256": "1aeae9cc78caa66009b8e172ed9bf00dfc3d373fd7e084ed19fa4a905b240cf5",
+      "fatherAudio": "audio/father/081/081_013.wav",
+      "sonAudio": "audio/son/081/081_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "عَلِمَتۡ نَفۡسٞ مَّآ أَحۡضَرَتۡ",
+      "sha256": "3de1e9dcb1e55ae8874dcf5f85f5c307a22e8a81bc013a8194bee06e070b7561",
+      "fatherAudio": "audio/father/081/081_014.wav",
+      "sonAudio": "audio/son/081/081_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "فَلَآ أُقۡسِمُ بِٱلۡخُنَّسِ",
+      "sha256": "b595ad6b952b03cc0926e9d34d78e4fd5bf62c67535e73e13b03cf12148cffaa",
+      "fatherAudio": "audio/father/081/081_015.wav",
+      "sonAudio": "audio/son/081/081_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "ٱلۡجَوَارِ ٱلۡكُنَّسِ",
+      "sha256": "265ebc4c206ba229b739dc864b65cbfde2ef469d657630f0ce492fe19e94a503",
+      "fatherAudio": "audio/father/081/081_016.wav",
+      "sonAudio": "audio/son/081/081_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "وَٱلَّيۡلِ إِذَا عَسۡعَسَ",
+      "sha256": "063ea57d9c1f296e0c5ac4c6e26105902961824b153695613b9f70ffbaae5ee1",
+      "fatherAudio": "audio/father/081/081_017.wav",
+      "sonAudio": "audio/son/081/081_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "وَٱلصُّبۡحِ إِذَا تَنَفَّسَ",
+      "sha256": "fc94a7fcdecf05bc1d8c1f44e6dae3b7944d06709bb281053c8462f266d39c62",
+      "fatherAudio": "audio/father/081/081_018.wav",
+      "sonAudio": "audio/son/081/081_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "إِنَّهُۥ لَقَوۡلُ رَسُولٖ كَرِيمٖ",
+      "sha256": "9813dad0f4564071dd8b0664675bbdd8b57479d6e1d9e85ba63e66ff19d8505a",
+      "fatherAudio": "audio/father/081/081_019.wav",
+      "sonAudio": "audio/son/081/081_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "ذِي قُوَّةٍ عِندَ ذِي ٱلۡعَرۡشِ مَكِينٖ",
+      "sha256": "f1585b17d544f4f7af67e78298bbf84352bf6cf1a6865f9ecae7d98963ba9714",
+      "fatherAudio": "audio/father/081/081_020.wav",
+      "sonAudio": "audio/son/081/081_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "مُّطَاعٖ ثَمَّ أَمِينٖ",
+      "sha256": "6ecfa0b2b8b68a261eb3d719ed97875dbbe0d1c596955c5fcbe61121807e9c84",
+      "fatherAudio": "audio/father/081/081_021.wav",
+      "sonAudio": "audio/son/081/081_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "وَمَا صَاحِبُكُم بِمَجۡنُونٖ",
+      "sha256": "79f203e4dfa7fe17e1afc4618d72d51dc12a0e1bcb8a407dc9fce7d407d643b2",
+      "fatherAudio": "audio/father/081/081_022.wav",
+      "sonAudio": "audio/son/081/081_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "وَلَقَدۡ رَءَاهُ بِٱلۡأُفُقِ ٱلۡمُبِينِ",
+      "sha256": "87996247ba5a815b1812d67f15ec9033436a56f4799b927158e38be8998ee240",
+      "fatherAudio": "audio/father/081/081_023.wav",
+      "sonAudio": "audio/son/081/081_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "وَمَا هُوَ عَلَى ٱلۡغَيۡبِ بِضَنِينٖ",
+      "sha256": "6ae1e41c7dc9bba6cc4b6ee4c46ffed3469f171981d8dc23e455da7834759936",
+      "fatherAudio": "audio/father/081/081_024.wav",
+      "sonAudio": "audio/son/081/081_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "وَمَا هُوَ بِقَوۡلِ شَيۡطَٰنٖ رَّجِيمٖ",
+      "sha256": "9d18cbeaecddc85cd5dabf3d09e3ba2c84a288cdc170c5b057910d180a804309",
+      "fatherAudio": "audio/father/081/081_025.wav",
+      "sonAudio": "audio/son/081/081_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "فَأَيۡنَ تَذۡهَبُونَ",
+      "sha256": "ed3a87cc61352c0b422fd310b3b65536e553d9060b76f7b887cac07ed2005a30",
+      "fatherAudio": "audio/father/081/081_026.wav",
+      "sonAudio": "audio/son/081/081_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 27,
+      "verseNumberAr": "٢٧",
+      "textUthmani": "إِنۡ هُوَ إِلَّا ذِكۡرٞ لِّلۡعَٰلَمِينَ",
+      "sha256": "06ded92c03e8d6eb2ad9296f07bdf9fded2c119d049cf3f1ce98eaff633dcb87",
+      "fatherAudio": "audio/father/081/081_027.wav",
+      "sonAudio": "audio/son/081/081_027.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 28,
+      "verseNumberAr": "٢٨",
+      "textUthmani": "لِمَن شَآءَ مِنكُمۡ أَن يَسۡتَقِيمَ",
+      "sha256": "9f80538003f68e764df99266de92124a388323a1b92a134767db237e5995f848",
+      "fatherAudio": "audio/father/081/081_028.wav",
+      "sonAudio": "audio/son/081/081_028.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 81,
+      "surahName": "التكوير",
+      "verseNumber": 29,
+      "verseNumberAr": "٢٩",
+      "textUthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلۡعَٰلَمِينَ",
+      "sha256": "156b7c8ce804ad27ad50639aa9f5c00bf25477dab77712af52230837875561ce",
+      "fatherAudio": "audio/father/081/081_029.wav",
+      "sonAudio": "audio/son/081/081_029.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.36,
+        "sonDurationSec": 7
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "episode": 13,
+  "surahNumber": 102,
+  "surahNameAr": "التكاثر",
+  "surahNameEn": "At-Takathur",
+  "revelation": "meccan",
+  "totalVerses": 8,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/102/102_000_basmala.wav",
+    "sonAudio": "audio/son/102/102_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "sha256": "83325eff478cbec0e673e24362f4730c4bcaac662299a86e83358eef5790aa9b",
+      "fatherAudio": "audio/father/102/102_001.wav",
+      "sonAudio": "audio/son/102/102_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
+      "sha256": "89aff6836fda220d95f274b49fe70a65f1ae54bfbc12689b47de33de05f3a6c8",
+      "fatherAudio": "audio/father/102/102_002.wav",
+      "sonAudio": "audio/son/102/102_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
+      "sha256": "8bfe924282951f8ccd2cfff081d5b6a86b8310dd43ceba4585336f439ca7e999",
+      "fatherAudio": "audio/father/102/102_003.wav",
+      "sonAudio": "audio/son/102/102_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ",
+      "sha256": "2dd491a495a23ec7d8ffbb6385a3d80fc6af97c46ecae123b5d889d90c463178",
+      "fatherAudio": "audio/father/102/102_004.wav",
+      "sonAudio": "audio/son/102/102_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ",
+      "sha256": "b7068161b1f9643f4cb9585ee26d823a4aa70d1d5eefc3b34b21a60f542f0698",
+      "fatherAudio": "audio/father/102/102_005.wav",
+      "sonAudio": "audio/son/102/102_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "لَتَرَوُنَّ ٱلۡجَحِيمَ",
+      "sha256": "8b12142fb7918aadabef0402c5db0d82a25826f3b29047068ecb9b3a74108900",
+      "fatherAudio": "audio/father/102/102_006.wav",
+      "sonAudio": "audio/son/102/102_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "ثُمَّ لَتَرَوُنَّهَا عَيۡنَ ٱلۡيَقِينِ",
+      "sha256": "751df0e09f908b9f6c97148773ba70d99023d1ca576ec228a7814ffcb0566b52",
+      "fatherAudio": "audio/father/102/102_007.wav",
+      "sonAudio": "audio/son/102/102_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 102,
+      "surahName": "التكاثر",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "sha256": "7dd4cbf10aad6add6b0646a6fc2c19e08e0d5fe7d56e6b736cc60c8e9993143d",
+      "fatherAudio": "audio/father/102/102_008.wav",
+      "sonAudio": "audio/son/102/102_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

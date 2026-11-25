@@ -1,0 +1,815 @@
+{
+  "episode": 32,
+  "surahNumber": 83,
+  "surahNameAr": "المطففين",
+  "surahNameEn": "Al-Mutaffifin",
+  "revelation": "meccan",
+  "totalVerses": 36,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/083/083_000_basmala.wav",
+    "sonAudio": "audio/son/083/083_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَيۡلٞ لِّلۡمُطَفِّفِينَ",
+      "sha256": "3c254f5a2c7887257309782e98ff8b0fbecf8375f8c8450516879f9ac81ac3b7",
+      "fatherAudio": "audio/father/083/083_001.wav",
+      "sonAudio": "audio/son/083/083_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "ٱلَّذِينَ إِذَا ٱكۡتَالُواْ عَلَى ٱلنَّاسِ يَسۡتَوۡفُونَ",
+      "sha256": "c6d6a3b5b0a998143d3498b4698215dcb68a0aee28b096bb5e4c826a348d0027",
+      "fatherAudio": "audio/father/083/083_002.wav",
+      "sonAudio": "audio/son/083/083_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.2,
+        "sonDurationSec": 6.82
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَإِذَا كَالُوهُمۡ أَو وَّزَنُوهُمۡ يُخۡسِرُونَ",
+      "sha256": "11eb27487752fde3c972e9c246ef67ea55486a35023407ac168056b75aff20c9",
+      "fatherAudio": "audio/father/083/083_003.wav",
+      "sonAudio": "audio/son/083/083_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "أَلَا يَظُنُّ أُوْلَـٰٓئِكَ أَنَّهُم مَّبۡعُوثُونَ",
+      "sha256": "db693d6c58608ba620f2a06bf3c59ba47b92d0710244a66187318f0785095efc",
+      "fatherAudio": "audio/father/083/083_004.wav",
+      "sonAudio": "audio/son/083/083_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.08,
+        "sonDurationSec": 5.59
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "لِيَوۡمٍ عَظِيمٖ",
+      "sha256": "8d2c291dc68de963504b044a8f708a98b184cce18e3b02d334710fc2c1d899be",
+      "fatherAudio": "audio/father/083/083_005.wav",
+      "sonAudio": "audio/son/083/083_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "يَوۡمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلۡعَٰلَمِينَ",
+      "sha256": "d86c6de8dc24b14c6c97b726b4d620d4e5f9fc87cee4763f7516031dd573d22f",
+      "fatherAudio": "audio/father/083/083_006.wav",
+      "sonAudio": "audio/son/083/083_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "كَلَّآ إِنَّ كِتَٰبَ ٱلۡفُجَّارِ لَفِي سِجِّينٖ",
+      "sha256": "b97732534ce98be09d40be272e3f3e63c6c3dc3505282ce5c68ce30f7ad59d7a",
+      "fatherAudio": "audio/father/083/083_007.wav",
+      "sonAudio": "audio/son/083/083_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا سِجِّينٞ",
+      "sha256": "e2aca65895e367bc1febae121810a472496df0d89d07d3b0472ad7645ff8eb9c",
+      "fatherAudio": "audio/father/083/083_008.wav",
+      "sonAudio": "audio/son/083/083_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "كِتَٰبٞ مَّرۡقُومٞ",
+      "sha256": "eb47da19b8472bfb46434f63976182bd94531ec4ee6575baee1dce9d527674b9",
+      "fatherAudio": "audio/father/083/083_009.wav",
+      "sonAudio": "audio/son/083/083_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَيۡلٞ يَوۡمَئِذٖ لِّلۡمُكَذِّبِينَ",
+      "sha256": "470dd46658ee3d282c1952d9ea1260b777cb295c7f0bea1531b9b1bfd618b341",
+      "fatherAudio": "audio/father/083/083_010.wav",
+      "sonAudio": "audio/son/083/083_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوۡمِ ٱلدِّينِ",
+      "sha256": "0013ff276576d60dfe1e1e1596f99f9a501e7800e85f4ebf62067369442a83c8",
+      "fatherAudio": "audio/father/083/083_011.wav",
+      "sonAudio": "audio/son/083/083_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعۡتَدٍ أَثِيمٍ",
+      "sha256": "6f521843dc18c7d272348a19c7cc0d417f6ce54727d7ced82dd5a9ef9810d237",
+      "fatherAudio": "audio/father/083/083_012.wav",
+      "sonAudio": "audio/son/083/083_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "إِذَا تُتۡلَىٰ عَلَيۡهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلۡأَوَّلِينَ",
+      "sha256": "4732ab48237dbd2e0046781c291472b3a8ee25e3aa5053a90dab8e4439b503f4",
+      "fatherAudio": "audio/father/083/083_013.wav",
+      "sonAudio": "audio/son/083/083_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.52,
+        "sonDurationSec": 7.17
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "كَلَّاۖ بَلۡۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُواْ يَكۡسِبُونَ",
+      "sha256": "48ccab879222c34a684c2af405bfc5a2ae0046def4f5aef0793d35714a36d6dd",
+      "fatherAudio": "audio/father/083/083_014.wav",
+      "sonAudio": "audio/son/083/083_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.2,
+        "sonDurationSec": 6.82
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "كَلَّآ إِنَّهُمۡ عَن رَّبِّهِمۡ يَوۡمَئِذٖ لَّمَحۡجُوبُونَ",
+      "sha256": "d54efcdf31ad7bac54b995fc11909433d496ee2f553f262ccaacb8fe14b7b610",
+      "fatherAudio": "audio/father/083/083_015.wav",
+      "sonAudio": "audio/son/083/083_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.56,
+        "sonDurationSec": 6.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "ثُمَّ إِنَّهُمۡ لَصَالُواْ ٱلۡجَحِيمِ",
+      "sha256": "7fc3765a258dd08dad38a58bdef37ce9fe3085d23e8c48b19c58d6e196b619aa",
+      "fatherAudio": "audio/father/083/083_016.wav",
+      "sonAudio": "audio/son/083/083_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِي كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "sha256": "bb7a745f87d7d4ebe7e538bd8a25b3faa7f8401b2c48e25e4cc6e7cc55f12e4e",
+      "fatherAudio": "audio/father/083/083_017.wav",
+      "sonAudio": "audio/son/083/083_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "كَلَّآ إِنَّ كِتَٰبَ ٱلۡأَبۡرَارِ لَفِي عِلِّيِّينَ",
+      "sha256": "09367a7cd9e0805c438730470e91f55e40aed5566f317b2d70188fa14cfa631b",
+      "fatherAudio": "audio/father/083/083_018.wav",
+      "sonAudio": "audio/son/083/083_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.08,
+        "sonDurationSec": 5.59
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا عِلِّيُّونَ",
+      "sha256": "0a684c895cdd3ebeed7db3d11464d594b56393be0f20d5d0bd817b4b9d02e194",
+      "fatherAudio": "audio/father/083/083_019.wav",
+      "sonAudio": "audio/son/083/083_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "كِتَٰبٞ مَّرۡقُومٞ",
+      "sha256": "eb47da19b8472bfb46434f63976182bd94531ec4ee6575baee1dce9d527674b9",
+      "fatherAudio": "audio/father/083/083_020.wav",
+      "sonAudio": "audio/son/083/083_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "يَشۡهَدُهُ ٱلۡمُقَرَّبُونَ",
+      "sha256": "1012e18aae087099854e86513e283db2e0caa930eda164dc129221cb58959154",
+      "fatherAudio": "audio/father/083/083_021.wav",
+      "sonAudio": "audio/son/083/083_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٍ",
+      "sha256": "432a0cb657f041c8e1887a5cb87b9a99812a7ed576048dc7bdd1f9d8213b35af",
+      "fatherAudio": "audio/father/083/083_022.wav",
+      "sonAudio": "audio/son/083/083_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "عَلَى ٱلۡأَرَآئِكِ يَنظُرُونَ",
+      "sha256": "96212789a11ba4e3af300810684b3a3cbdc12e7ae6c666efdf489eba913f2666",
+      "fatherAudio": "audio/father/083/083_023.wav",
+      "sonAudio": "audio/son/083/083_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "تَعۡرِفُ فِي وُجُوهِهِمۡ نَضۡرَةَ ٱلنَّعِيمِ",
+      "sha256": "c02aca879793522cb5486c330d956a1944ccb0afe5f26e702a58a518b7824123",
+      "fatherAudio": "audio/father/083/083_024.wav",
+      "sonAudio": "audio/son/083/083_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "يُسۡقَوۡنَ مِن رَّحِيقٖ مَّخۡتُومٍ",
+      "sha256": "b72f28a16563d0fad824de5d8de6afc58c28b19be813dc7df487b15d1ab8d05b",
+      "fatherAudio": "audio/father/083/083_025.wav",
+      "sonAudio": "audio/son/083/083_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "خِتَٰمُهُۥ مِسۡكٞۚ وَفِي ذَٰلِكَ فَلۡيَتَنَافَسِ ٱلۡمُتَنَٰفِسُونَ",
+      "sha256": "1ae569e80bf36e99f43c76111b2d515b871a911e1a8185474304f399fd8fb66b",
+      "fatherAudio": "audio/father/083/083_026.wav",
+      "sonAudio": "audio/son/083/083_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.2,
+        "sonDurationSec": 6.82
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 27,
+      "verseNumberAr": "٢٧",
+      "textUthmani": "وَمِزَاجُهُۥ مِن تَسۡنِيمٍ",
+      "sha256": "5042e059d0aea9f0d56d854733fb6398a4f9679edb62929e6d58354754e1927a",
+      "fatherAudio": "audio/father/083/083_027.wav",
+      "sonAudio": "audio/son/083/083_027.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 28,
+      "verseNumberAr": "٢٨",
+      "textUthmani": "عَيۡنٗا يَشۡرَبُ بِهَا ٱلۡمُقَرَّبُونَ",
+      "sha256": "17f0ca7fd95f1b3296299f0a4ca9b79f63ee8e0be0e33200f64ec1f14f3976dd",
+      "fatherAudio": "audio/father/083/083_028.wav",
+      "sonAudio": "audio/son/083/083_028.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 29,
+      "verseNumberAr": "٢٩",
+      "textUthmani": "إِنَّ ٱلَّذِينَ أَجۡرَمُواْ كَانُواْ مِنَ ٱلَّذِينَ ءَامَنُواْ يَضۡحَكُونَ",
+      "sha256": "d314c712395029ab607b4d0a834fd48f2ccaaae25e6806bedf903d027fd6b050",
+      "fatherAudio": "audio/father/083/083_029.wav",
+      "sonAudio": "audio/son/083/083_029.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.32,
+        "sonDurationSec": 8.05
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 30,
+      "verseNumberAr": "٣٠",
+      "textUthmani": "وَإِذَا مَرُّواْ بِهِمۡ يَتَغَامَزُونَ",
+      "sha256": "6df6d9e4c783d533948f641b862871ab7e84d63f69298de9e6d7d13ef6c69a8e",
+      "fatherAudio": "audio/father/083/083_030.wav",
+      "sonAudio": "audio/son/083/083_030.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 31,
+      "verseNumberAr": "٣١",
+      "textUthmani": "وَإِذَا ٱنقَلَبُوٓاْ إِلَىٰٓ أَهۡلِهِمُ ٱنقَلَبُواْ فَكِهِينَ",
+      "sha256": "67bfc19e13c8db07d8cb4c440897949a7df95dacb21b753a169c3af23ecd1dc9",
+      "fatherAudio": "audio/father/083/083_031.wav",
+      "sonAudio": "audio/son/083/083_031.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.36,
+        "sonDurationSec": 7
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 32,
+      "verseNumberAr": "٣٢",
+      "textUthmani": "وَإِذَا رَأَوۡهُمۡ قَالُوٓاْ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
+      "sha256": "8338ec0517ece98cae4c0d3cf2d7763efe8837ce11858cf1d7bbf39f651898d6",
+      "fatherAudio": "audio/father/083/083_032.wav",
+      "sonAudio": "audio/son/083/083_032.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.88,
+        "sonDurationSec": 6.47
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 33,
+      "verseNumberAr": "٣٣",
+      "textUthmani": "وَمَآ أُرۡسِلُواْ عَلَيۡهِمۡ حَٰفِظِينَ",
+      "sha256": "64ebc242819bea0d26fcf0d0be51189609085512210527370969333df2320cd1",
+      "fatherAudio": "audio/father/083/083_033.wav",
+      "sonAudio": "audio/son/083/083_033.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 34,
+      "verseNumberAr": "٣٤",
+      "textUthmani": "فَٱلۡيَوۡمَ ٱلَّذِينَ ءَامَنُواْ مِنَ ٱلۡكُفَّارِ يَضۡحَكُونَ",
+      "sha256": "0fc64631f088f7bffb6db1cc93d7432303546237adcc3f6e494a4e0b1aa49c76",
+      "fatherAudio": "audio/father/083/083_034.wav",
+      "sonAudio": "audio/son/083/083_034.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.36,
+        "sonDurationSec": 7
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 35,
+      "verseNumberAr": "٣٥",
+      "textUthmani": "عَلَى ٱلۡأَرَآئِكِ يَنظُرُونَ",
+      "sha256": "96212789a11ba4e3af300810684b3a3cbdc12e7ae6c666efdf489eba913f2666",
+      "fatherAudio": "audio/father/083/083_035.wav",
+      "sonAudio": "audio/son/083/083_035.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 83,
+      "surahName": "المطففين",
+      "verseNumber": 36,
+      "verseNumberAr": "٣٦",
+      "textUthmani": "هَلۡ ثُوِّبَ ٱلۡكُفَّارُ مَا كَانُواْ يَفۡعَلُونَ",
+      "sha256": "ee88c01cead06ce526d3fdd5e90dbf8898d7dfce01d9347dabc0c070d971a441",
+      "fatherAudio": "audio/father/083/083_036.wav",
+      "sonAudio": "audio/son/083/083_036.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "episode": 37,
+  "surahNumber": 78,
+  "surahNameAr": "النبإ",
+  "surahNameEn": "An-Naba",
+  "revelation": "meccan",
+  "totalVerses": 40,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/078/078_000_basmala.wav",
+    "sonAudio": "audio/son/078/078_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "عَمَّ يَتَسَآءَلُونَ",
+      "sha256": "ee89126d7bb7b2cbba8b79d5823994a7ee890b43cf5cf74dd13bc1b151d56e15",
+      "fatherAudio": "audio/father/078/078_001.wav",
+      "sonAudio": "audio/son/078/078_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "عَنِ ٱلنَّبَإِ ٱلۡعَظِيمِ",
+      "sha256": "3fe3a50d02be338869f59ee484652e2024c785af2a5d57629e5a3d6d76e262b6",
+      "fatherAudio": "audio/father/078/078_002.wav",
+      "sonAudio": "audio/son/078/078_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "ٱلَّذِي هُمۡ فِيهِ مُخۡتَلِفُونَ",
+      "sha256": "ac6d866977968e85e71a27aa03c7180a699487388be6998f900cfd3d9fb2df13",
+      "fatherAudio": "audio/father/078/078_003.wav",
+      "sonAudio": "audio/son/078/078_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "كَلَّا سَيَعۡلَمُونَ",
+      "sha256": "45fa86f40af07125de9d3bb698fd780465f78e758abbb792ad6454f3bef69a10",
+      "fatherAudio": "audio/father/078/078_004.wav",
+      "sonAudio": "audio/son/078/078_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "ثُمَّ كَلَّا سَيَعۡلَمُونَ",
+      "sha256": "002198c4ca3a96c2de3f62f3afb593f5a63e0130d6c495c62c4b94a08c5178a7",
+      "fatherAudio": "audio/father/078/078_005.wav",
+      "sonAudio": "audio/son/078/078_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "أَلَمۡ نَجۡعَلِ ٱلۡأَرۡضَ مِهَٰدٗا",
+      "sha256": "6077fcc776a9502cb3669b9af83d4921e67dc530e52125b59f77a3fcfc552d86",
+      "fatherAudio": "audio/father/078/078_006.wav",
+      "sonAudio": "audio/son/078/078_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَٱلۡجِبَالَ أَوۡتَادٗا",
+      "sha256": "5a9c77ef7d5b23b2a753f3751c8aa0c9112e6822653baee46731a9376ee5ee15",
+      "fatherAudio": "audio/father/078/078_007.wav",
+      "sonAudio": "audio/son/078/078_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَخَلَقۡنَٰكُمۡ أَزۡوَٰجٗا",
+      "sha256": "cc1b2e8514c9c25526b343aebe2bf143c64afb4d622babbe7af4aaa1ed308fd2",
+      "fatherAudio": "audio/father/078/078_008.wav",
+      "sonAudio": "audio/son/078/078_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "وَجَعَلۡنَا نَوۡمَكُمۡ سُبَاتٗا",
+      "sha256": "2ee54503c5ef27120cf20856e535d4c3627ffb9650e6c3d7e45b6ab9d06e1780",
+      "fatherAudio": "audio/father/078/078_009.wav",
+      "sonAudio": "audio/son/078/078_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَجَعَلۡنَا ٱلَّيۡلَ لِبَاسٗا",
+      "sha256": "ae1f56c1e20fa58cb49d9127d9d8faf18c89a3c8a4a32c5b3d106c3f82d5268b",
+      "fatherAudio": "audio/father/078/078_010.wav",
+      "sonAudio": "audio/son/078/078_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "وَجَعَلۡنَا ٱلنَّهَارَ مَعَاشٗا",
+      "sha256": "2bb4e7d558e56792f339d0adee2fa1d4f9b93aa2dd8b77f9717222fa10425089",
+      "fatherAudio": "audio/father/078/078_011.wav",
+      "sonAudio": "audio/son/078/078_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "وَبَنَيۡنَا فَوۡقَكُمۡ سَبۡعٗا شِدَادٗا",
+      "sha256": "edd7b802e091ed0a5dbd62ceee8aa17eb56487afdc553bf86eb68b04e8f9e853",
+      "fatherAudio": "audio/father/078/078_012.wav",
+      "sonAudio": "audio/son/078/078_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "وَجَعَلۡنَا سِرَاجٗا وَهَّاجٗا",
+      "sha256": "95f28323975dc8a31ade9b6112bf68c5278c5c3aa32226b806857b17abe3264f",
+      "fatherAudio": "audio/father/078/078_013.wav",
+      "sonAudio": "audio/son/078/078_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "وَأَنزَلۡنَا مِنَ ٱلۡمُعۡصِرَٰتِ مَآءٗ ثَجَّاجٗا",
+      "sha256": "3fa49eba6eb86848d4db461a0dbe2576e5672bb6a383f515a4864a80dd5dbad2",
+      "fatherAudio": "audio/father/078/078_014.wav",
+      "sonAudio": "audio/son/078/078_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "لِّنُخۡرِجَ بِهِۦ حَبّٗا وَنَبَاتٗا",
+      "sha256": "4dde27cc8ba1c5a2efddda90472f09bab9c2aa69ad71056ee598cece5f1c6a3b",
+      "fatherAudio": "audio/father/078/078_015.wav",
+      "sonAudio": "audio/son/078/078_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "وَجَنَّـٰتٍ أَلۡفَافًا",
+      "sha256": "ff2245170e176f7c64e61a69cebdf2a219d6d55dc50765b9a13f247ccb3c43b4",
+      "fatherAudio": "audio/father/078/078_016.wav",
+      "sonAudio": "audio/son/078/078_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "إِنَّ يَوۡمَ ٱلۡفَصۡلِ كَانَ مِيقَٰتٗا",
+      "sha256": "15fd202007221a35eb630960e79541696b763b521d5289b2f16932ebf7e96839",
+      "fatherAudio": "audio/father/078/078_017.wav",
+      "sonAudio": "audio/son/078/078_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "يَوۡمَ يُنفَخُ فِي ٱلصُّورِ فَتَأۡتُونَ أَفۡوَاجٗا",
+      "sha256": "9da4911f8ab923987ec1927e55c102df443aafc982e99d340bac6821d62174cc",
+      "fatherAudio": "audio/father/078/078_018.wav",
+      "sonAudio": "audio/son/078/078_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.56,
+        "sonDurationSec": 6.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتۡ أَبۡوَٰبٗا",
+      "sha256": "42305dc1a711166c13fb9539be32a7f6f771bd08a3dd7cf3b899c6eea1251d00",
+      "fatherAudio": "audio/father/078/078_019.wav",
+      "sonAudio": "audio/son/078/078_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "وَسُيِّرَتِ ٱلۡجِبَالُ فَكَانَتۡ سَرَابًا",
+      "sha256": "5e68cfa873c04d76470f06371b6d09c800eb76952646fc54c848827346476989",
+      "fatherAudio": "audio/father/078/078_020.wav",
+      "sonAudio": "audio/son/078/078_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "إِنَّ جَهَنَّمَ كَانَتۡ مِرۡصَادٗا",
+      "sha256": "9a7effe0650eb1f6d1f61a25e3a45c0dfd7dbef2cbc5ad89efebf196ad64d493",
+      "fatherAudio": "audio/father/078/078_021.wav",
+      "sonAudio": "audio/son/078/078_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "لِّلطَّـٰغِينَ مَـَٔابٗا",
+      "sha256": "e5b95a71c51b45806e25d10cb5925c8a4bac89f0de9cd3c7ba323443ff13115f",
+      "fatherAudio": "audio/father/078/078_022.wav",
+      "sonAudio": "audio/son/078/078_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "لَّـٰبِثِينَ فِيهَآ أَحۡقَابٗا",
+      "sha256": "d671ff0c199150e8f01a031b95cd6eca52f6126a50b9dba8f0bbb7430b5c13ba",
+      "fatherAudio": "audio/father/078/078_023.wav",
+      "sonAudio": "audio/son/078/078_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "لَّا يَذُوقُونَ فِيهَا بَرۡدٗا وَلَا شَرَابًا",
+      "sha256": "e6446b7b43f49ade6d919fef06dd3fea3a83ceec2e147cc5184d1cf82e403bfa",
+      "fatherAudio": "audio/father/078/078_024.wav",
+      "sonAudio": "audio/son/078/078_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "إِلَّا حَمِيمٗا وَغَسَّاقٗا",
+      "sha256": "f770caf1b44dd8af8e02751e831d013db6992bd1beceab962e0d4885c049546a",
+      "fatherAudio": "audio/father/078/078_025.wav",
+      "sonAudio": "audio/son/078/078_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "جَزَآءٗ وِفَاقًا",
+      "sha256": "259c275391229a5cf64ad8f1b5ad9323b438c16a7378631a2dccd1e9daf62978",
+      "fatherAudio": "audio/father/078/078_026.wav",
+      "sonAudio": "audio/son/078/078_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 27,
+      "verseNumberAr": "٢٧",
+      "textUthmani": "إِنَّهُمۡ كَانُواْ لَا يَرۡجُونَ حِسَابٗا",
+      "sha256": "951df347e9523b39aa2f6f2380da1c1c3a85bd0b07815b3a9253be8b1af81bfd",
+      "fatherAudio": "audio/father/078/078_027.wav",
+      "sonAudio": "audio/son/078/078_027.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 28,
+      "verseNumberAr": "٢٨",
+      "textUthmani": "وَكَذَّبُواْ بِـَٔايَٰتِنَا كِذَّابٗا",
+      "sha256": "91b3ed4afb3f9a605b3cec85a1e5de43e00aafa2f41351ae0ce2c8fa056dfb5f",
+      "fatherAudio": "audio/father/078/078_028.wav",
+      "sonAudio": "audio/son/078/078_028.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 29,
+      "verseNumberAr": "٢٩",
+      "textUthmani": "وَكُلَّ شَيۡءٍ أَحۡصَيۡنَٰهُ كِتَٰبٗا",
+      "sha256": "4d6f2aa9826f6d807c1d19e2a18bc0c7d781be110a89aee90bc1a4be7b7033b5",
+      "fatherAudio": "audio/father/078/078_029.wav",
+      "sonAudio": "audio/son/078/078_029.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 30,
+      "verseNumberAr": "٣٠",
+      "textUthmani": "فَذُوقُواْ فَلَن نَّزِيدَكُمۡ إِلَّا عَذَابًا",
+      "sha256": "ef0c7554b7c926f4f7a87e747d434b1d76e957051481be11d47c01f88f104cee",
+      "fatherAudio": "audio/father/078/078_030.wav",
+      "sonAudio": "audio/son/078/078_030.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.08,
+        "sonDurationSec": 5.59
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 31,
+      "verseNumberAr": "٣١",
+      "textUthmani": "إِنَّ لِلۡمُتَّقِينَ مَفَازًا",
+      "sha256": "34d16b21abe9726fb9fd6c46dd3178d3df94df52d542cf13f2329573d384978a",
+      "fatherAudio": "audio/father/078/078_031.wav",
+      "sonAudio": "audio/son/078/078_031.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 32,
+      "verseNumberAr": "٣٢",
+      "textUthmani": "حَدَآئِقَ وَأَعۡنَٰبٗا",
+      "sha256": "bb93d3b4516dbe3c3bfa5d9f2a55d767918bae8c2383581760054f61bce8acda",
+      "fatherAudio": "audio/father/078/078_032.wav",
+      "sonAudio": "audio/son/078/078_032.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 33,
+      "verseNumberAr": "٣٣",
+      "textUthmani": "وَكَوَاعِبَ أَتۡرَابٗا",
+      "sha256": "67066d0ea3e0413b2acb8dc4274ec3e0b6fbb7ff732542546fbb73fa93c7f774",
+      "fatherAudio": "audio/father/078/078_033.wav",
+      "sonAudio": "audio/son/078/078_033.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 34,
+      "verseNumberAr": "٣٤",
+      "textUthmani": "وَكَأۡسٗا دِهَاقٗا",
+      "sha256": "85b4b5a1cb57acdfb4238ffa7c409d291f3744679887a88c6159a23d8f92712d",
+      "fatherAudio": "audio/father/078/078_034.wav",
+      "sonAudio": "audio/son/078/078_034.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 35,
+      "verseNumberAr": "٣٥",
+      "textUthmani": "لَّا يَسۡمَعُونَ فِيهَا لَغۡوٗا وَلَا كِذَّـٰبٗا",
+      "sha256": "1199f41dfc7927ead11455d10e327224e88c2d8b18f0ffe0bfe58cb514f63c9e",
+      "fatherAudio": "audio/father/078/078_035.wav",
+      "sonAudio": "audio/son/078/078_035.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 36,
+      "verseNumberAr": "٣٦",
+      "textUthmani": "جَزَآءٗ مِّن رَّبِّكَ عَطَآءً حِسَابٗا",
+      "sha256": "41462062d253466391acfbf588def814348bc4fc9bb94584cf133b17240bb60f",
+      "fatherAudio": "audio/father/078/078_036.wav",
+      "sonAudio": "audio/son/078/078_036.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 37,
+      "verseNumberAr": "٣٧",
+      "textUthmani": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَمَا بَيۡنَهُمَا ٱلرَّحۡمَٰنِۖ لَا يَمۡلِكُونَ مِنۡهُ خِطَابٗا",
+      "sha256": "ace4d27b8de2d07834baba2c10415b7d920876c4355df69a7956854ac0551de8",
+      "fatherAudio": "audio/father/078/078_037.wav",
+      "sonAudio": "audio/son/078/078_037.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 8.6,
+        "sonDurationSec": 9.46
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 38,
+      "verseNumberAr": "٣٨",
+      "textUthmani": "يَوۡمَ يَقُومُ ٱلرُّوحُ وَٱلۡمَلَـٰٓئِكَةُ صَفّٗاۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنۡ أَذِنَ لَهُ ٱلرَّحۡمَٰنُ وَقَالَ صَوَابٗا",
+      "sha256": "6f672c3a89dfe8e6646fe254b7a7c953ef9b388894f729546e7a6c1c09ee207d",
+      "fatherAudio": "audio/father/078/078_038.wav",
+      "sonAudio": "audio/son/078/078_038.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 10.68,
+        "sonDurationSec": 11.75
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 39,
+      "verseNumberAr": "٣٩",
+      "textUthmani": "ذَٰلِكَ ٱلۡيَوۡمُ ٱلۡحَقُّۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+      "sha256": "960380c3fd8b2c1e1c49ee165566896ae7d6cafbb29acd5bfc7868608d167caf",
+      "fatherAudio": "audio/father/078/078_039.wav",
+      "sonAudio": "audio/son/078/078_039.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.68,
+        "sonDurationSec": 7.35
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 78,
+      "surahName": "النبإ",
+      "verseNumber": 40,
+      "verseNumberAr": "٤٠",
+      "textUthmani": "إِنَّآ أَنذَرۡنَٰكُمۡ عَذَابٗا قَرِيبٗا يَوۡمَ يَنظُرُ ٱلۡمَرۡءُ مَا قَدَّمَتۡ يَدَاهُ وَيَقُولُ ٱلۡكَافِرُ يَٰلَيۡتَنِي كُنتُ تُرَٰبَۢا",
+      "sha256": "af5ff9120d3d059a4f53787fc76d9287c29391d9d4f1d320ddd08af52a2f630f",
+      "fatherAudio": "audio/father/078/078_040.wav",
+      "sonAudio": "audio/son/078/078_040.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 11.96,
+        "sonDurationSec": 13.16
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

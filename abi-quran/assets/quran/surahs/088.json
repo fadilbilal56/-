@@ -1,0 +1,595 @@
+{
+  "episode": 27,
+  "surahNumber": 88,
+  "surahNameAr": "الغاشية",
+  "surahNameEn": "Al-Ghashiyah",
+  "revelation": "meccan",
+  "totalVerses": 26,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/088/088_000_basmala.wav",
+    "sonAudio": "audio/son/088/088_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡغَٰشِيَةِ",
+      "sha256": "4432d2441d2c680c8ee40e8a395050e31a363e3dedba100a8a3fc238fe5c7eb3",
+      "fatherAudio": "audio/father/088/088_001.wav",
+      "sonAudio": "audio/son/088/088_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وُجُوهٞ يَوۡمَئِذٍ خَٰشِعَةٌ",
+      "sha256": "aaadb64a7205a5eba978346265b02cc79bb9ef6c56f24bf783bd0a727e1def20",
+      "fatherAudio": "audio/father/088/088_002.wav",
+      "sonAudio": "audio/son/088/088_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "عَامِلَةٞ نَّاصِبَةٞ",
+      "sha256": "6b0f9bda19f45e63c9469ff984013efad4d4f087a8b687496ebb901fc4a426b0",
+      "fatherAudio": "audio/father/088/088_003.wav",
+      "sonAudio": "audio/son/088/088_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "تَصۡلَىٰ نَارًا حَامِيَةٗ",
+      "sha256": "722943739a97dc86304b40020c4644ee278c85b8b603c6ab40d21ce8c5c397d7",
+      "fatherAudio": "audio/father/088/088_004.wav",
+      "sonAudio": "audio/son/088/088_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "تُسۡقَىٰ مِنۡ عَيۡنٍ ءَانِيَةٖ",
+      "sha256": "e1b3acf37f449d6917d1c2d2d341363ceac1a31697a2fed25208c322ea8a020a",
+      "fatherAudio": "audio/father/088/088_005.wav",
+      "sonAudio": "audio/son/088/088_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "لَّيۡسَ لَهُمۡ طَعَامٌ إِلَّا مِن ضَرِيعٖ",
+      "sha256": "ba910a04174edd896a3f86d411cf7ef6761a715cd8439bf0c89310370ab5990d",
+      "fatherAudio": "audio/father/088/088_006.wav",
+      "sonAudio": "audio/son/088/088_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "لَّا يُسۡمِنُ وَلَا يُغۡنِي مِن جُوعٖ",
+      "sha256": "930058c8b18353b2a1d980e0913351b6944e3111428704d8d917877281ab87ed",
+      "fatherAudio": "audio/father/088/088_007.wav",
+      "sonAudio": "audio/son/088/088_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وُجُوهٞ يَوۡمَئِذٖ نَّاعِمَةٞ",
+      "sha256": "f3dac5c34111203c977c1434d845802ebfb628af2ee3300e503dd12445e84d1a",
+      "fatherAudio": "audio/father/088/088_008.wav",
+      "sonAudio": "audio/son/088/088_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "لِّسَعۡيِهَا رَاضِيَةٞ",
+      "sha256": "f512fa59c511616c8257e2591fa11c720d289b03a6b122673e76a942abfcd9f3",
+      "fatherAudio": "audio/father/088/088_009.wav",
+      "sonAudio": "audio/son/088/088_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "فِي جَنَّةٍ عَالِيَةٖ",
+      "sha256": "b1e4f73e2388f8829b104d42bfa1bc4927fd4e5ab5f7a182cd1673b862bc1491",
+      "fatherAudio": "audio/father/088/088_010.wav",
+      "sonAudio": "audio/son/088/088_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "لَّا تَسۡمَعُ فِيهَا لَٰغِيَةٗ",
+      "sha256": "cc3860cbeeedd9495ca45e1a149dab998d991877a7f85707f9ca44e1031be9ff",
+      "fatherAudio": "audio/father/088/088_011.wav",
+      "sonAudio": "audio/son/088/088_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "فِيهَا عَيۡنٞ جَارِيَةٞ",
+      "sha256": "5f1f87e41ef0f520451a9a9eb5fe0f2633047ed66b5f58dab1759e32af2c6870",
+      "fatherAudio": "audio/father/088/088_012.wav",
+      "sonAudio": "audio/son/088/088_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "فِيهَا سُرُرٞ مَّرۡفُوعَةٞ",
+      "sha256": "55bf028a4c1bb4cde602c23d97fe3509e8d9af36eb8a4d5bdc9466e02492e544",
+      "fatherAudio": "audio/father/088/088_013.wav",
+      "sonAudio": "audio/son/088/088_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "وَأَكۡوَابٞ مَّوۡضُوعَةٞ",
+      "sha256": "3da5b84d86184d3b0ce7a3b1a052aec69e8f5d2482d14c49c004c512a84fc5f7",
+      "fatherAudio": "audio/father/088/088_014.wav",
+      "sonAudio": "audio/son/088/088_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "وَنَمَارِقُ مَصۡفُوفَةٞ",
+      "sha256": "dde99fcfc694b4b0022314b9a723116f9405899d223b58b50c1aceb66ebad40b",
+      "fatherAudio": "audio/father/088/088_015.wav",
+      "sonAudio": "audio/son/088/088_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "وَزَرَابِيُّ مَبۡثُوثَةٌ",
+      "sha256": "ed111ab252c7af644938649281a9f1e71ce006e2142e4c745f75bd15e99c5125",
+      "fatherAudio": "audio/father/088/088_016.wav",
+      "sonAudio": "audio/son/088/088_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "أَفَلَا يَنظُرُونَ إِلَى ٱلۡإِبِلِ كَيۡفَ خُلِقَتۡ",
+      "sha256": "0246c1e3838079ddd0b2e392b61d7ce4f30f147ac4fd1fc4fee4f95bf84b8c5d",
+      "fatherAudio": "audio/father/088/088_017.wav",
+      "sonAudio": "audio/son/088/088_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "وَإِلَى ٱلسَّمَآءِ كَيۡفَ رُفِعَتۡ",
+      "sha256": "e3027ea7e3d3e9e22252bc587fbad61e88918ea9b48da70ff7f06bbad94d48da",
+      "fatherAudio": "audio/father/088/088_018.wav",
+      "sonAudio": "audio/son/088/088_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "وَإِلَى ٱلۡجِبَالِ كَيۡفَ نُصِبَتۡ",
+      "sha256": "090c0ba98d6c61d13537acf42fab3373be397eed7d8ebd5386f39b0851dd2f74",
+      "fatherAudio": "audio/father/088/088_019.wav",
+      "sonAudio": "audio/son/088/088_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "وَإِلَى ٱلۡأَرۡضِ كَيۡفَ سُطِحَتۡ",
+      "sha256": "c9d881ed8242f4bceab528c702147fbeded7623370d306fa1e198c6d329526e4",
+      "fatherAudio": "audio/father/088/088_020.wav",
+      "sonAudio": "audio/son/088/088_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "فَذَكِّرۡ إِنَّمَآ أَنتَ مُذَكِّرٞ",
+      "sha256": "2c516a67e53b7b634cd742a097b71652cc9bd9431e2bee9840f88d1f11bf739b",
+      "fatherAudio": "audio/father/088/088_021.wav",
+      "sonAudio": "audio/son/088/088_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "لَّسۡتَ عَلَيۡهِم بِمُصَيۡطِرٍ",
+      "sha256": "ca5d1bb01a015d2d1b8ea779b0a4eaf235c3aa22cc575b4bbb7d744933cb0add",
+      "fatherAudio": "audio/father/088/088_022.wav",
+      "sonAudio": "audio/son/088/088_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+      "sha256": "fcc04e739d1628727b4b596d3318a6ed1988701ef1e07cc5b24194670d3eed6c",
+      "fatherAudio": "audio/father/088/088_023.wav",
+      "sonAudio": "audio/son/088/088_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "فَيُعَذِّبُهُ ٱللَّهُ ٱلۡعَذَابَ ٱلۡأَكۡبَرَ",
+      "sha256": "61250bb678fa0c5e382efdd803fea7cbe73c0eb9de901cf94f6201a7b002593c",
+      "fatherAudio": "audio/father/088/088_024.wav",
+      "sonAudio": "audio/son/088/088_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "إِنَّ إِلَيۡنَآ إِيَابَهُمۡ",
+      "sha256": "b49dad4e1af99e8f6fe26b5cb04c56324d23088b38451d88ac8c8c6110ca1d2f",
+      "fatherAudio": "audio/father/088/088_025.wav",
+      "sonAudio": "audio/son/088/088_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 88,
+      "surahName": "الغاشية",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "ثُمَّ إِنَّ عَلَيۡنَا حِسَابَهُم",
+      "sha256": "dd6dad2f05edbd7dbb323846f2bec19b4ef44a10acd35c2c71526da26b011375",
+      "fatherAudio": "audio/father/088/088_026.wav",
+      "sonAudio": "audio/son/088/088_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

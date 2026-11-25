@@ -1,0 +1,37 @@
+{
+  "name": "abi-yuallimuni-al-quran",
+  "version": "0.1.0",
+  "private": true,
+  "description": "أبي يعلّمني القرآن — reusable Remotion production system for a 37-episode Juz' Amma memorization series",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "quran:extract": "node scripts/extract-quran.mjs",
+    "audio:sync": "node scripts/sync-audio.mjs",
+    "qa": "node scripts/qa-episode.mjs",
+    "render": "node scripts/render-episode.mjs",
+    "sheets": "node scripts/render-character-sheets.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.17.10",
+    "@remotion/cli": "^4.0.547",
+    "@remotion/fonts": "^4.0.547",
+    "@remotion/media-utils": "^4.0.547",
+    "@remotion/three": "^4.0.547",
+    "@remotion/zod-types": "^4.0.547",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.547",
+    "three": "^0.170.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@fontsource/amiri-quran": "^5.3.0",
+    "@fontsource/baloo-bhaijaan-2": "^5.3.0",
+    "@types/react": "^18.3.12",
+    "@types/three": "^0.170.0",
+    "quran-json": "^3.1.2",
+    "typescript": "^5.6.3"
+  }
+}

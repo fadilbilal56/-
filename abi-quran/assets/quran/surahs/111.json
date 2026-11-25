@@ -1,0 +1,133 @@
+{
+  "episode": 4,
+  "surahNumber": 111,
+  "surahNameAr": "المسد",
+  "surahNameEn": "Al-Masad",
+  "revelation": "meccan",
+  "totalVerses": 5,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/111/111_000_basmala.wav",
+    "sonAudio": "audio/son/111/111_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 111,
+      "surahName": "المسد",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+      "sha256": "e070e51fdee68a4131309e29296068b97bd94539fe1f93bd5b163bf475046212",
+      "fatherAudio": "audio/father/111/111_001.wav",
+      "sonAudio": "audio/son/111/111_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 111,
+      "surahName": "المسد",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+      "sha256": "0a14b7e472c1e338b4fb8c15dabbcbbe94a936d81395673be710bf191a8bec74",
+      "fatherAudio": "audio/father/111/111_002.wav",
+      "sonAudio": "audio/son/111/111_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 111,
+      "surahName": "المسد",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+      "sha256": "317a53e06cb77ab485c20d1f02c6775863938c436b3a0c82ae86da9683484496",
+      "fatherAudio": "audio/father/111/111_003.wav",
+      "sonAudio": "audio/son/111/111_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 111,
+      "surahName": "المسد",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+      "sha256": "0055df95f522289469a3b8c51da1a15352066e4ffb52ce4e460593b75c1f6cdb",
+      "fatherAudio": "audio/father/111/111_004.wav",
+      "sonAudio": "audio/son/111/111_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 111,
+      "surahName": "المسد",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+      "sha256": "9d1605a96e83be2266144e1a73eca32ae992cbf268fbe5d3e03d30afae9ba357",
+      "fatherAudio": "audio/father/111/111_005.wav",
+      "sonAudio": "audio/son/111/111_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

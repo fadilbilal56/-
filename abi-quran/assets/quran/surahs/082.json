@@ -1,0 +1,441 @@
+{
+  "episode": 33,
+  "surahNumber": 82,
+  "surahNameAr": "الإنفطار",
+  "surahNameEn": "Al-Infitar",
+  "revelation": "meccan",
+  "totalVerses": 19,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/082/082_000_basmala.wav",
+    "sonAudio": "audio/son/082/082_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتۡ",
+      "sha256": "bc50ba4d791f7476185112244f052a7b8bf5a670286692282e237b49ac04d269",
+      "fatherAudio": "audio/father/082/082_001.wav",
+      "sonAudio": "audio/son/082/082_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَإِذَا ٱلۡكَوَاكِبُ ٱنتَثَرَتۡ",
+      "sha256": "e2f1909bdaf0491feb6dae0c64c4c7967a01e8eccd69cb8f09dee6fc84588caf",
+      "fatherAudio": "audio/father/082/082_002.wav",
+      "sonAudio": "audio/son/082/082_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَإِذَا ٱلۡبِحَارُ فُجِّرَتۡ",
+      "sha256": "71b790c544b48fe9d8b685f722885f8f43c1f94415e260a203036355d980fe8d",
+      "fatherAudio": "audio/father/082/082_003.wav",
+      "sonAudio": "audio/son/082/082_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَإِذَا ٱلۡقُبُورُ بُعۡثِرَتۡ",
+      "sha256": "f1630cb59a0bf47ae091ede0e14ced4fa68e99629a33b1de611f746a3b65eac1",
+      "fatherAudio": "audio/father/082/082_004.wav",
+      "sonAudio": "audio/son/082/082_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "عَلِمَتۡ نَفۡسٞ مَّا قَدَّمَتۡ وَأَخَّرَتۡ",
+      "sha256": "950ebec6dbff2b4d3956ede8c9c5f09842fc7194990807903d8f8703ca6e62e1",
+      "fatherAudio": "audio/father/082/082_005.wav",
+      "sonAudio": "audio/son/082/082_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلۡكَرِيمِ",
+      "sha256": "ed23de42f54d593cd9cf3599ecf75989d019d4fc1e0dbd051582cc5cae9cc799",
+      "fatherAudio": "audio/father/082/082_006.wav",
+      "sonAudio": "audio/son/082/082_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.72,
+        "sonDurationSec": 6.29
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "ٱلَّذِي خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "sha256": "331af8faaf3d61a92762f2517ce6f8f85092c30f326aa39788e63900ecdf48ea",
+      "fatherAudio": "audio/father/082/082_007.wav",
+      "sonAudio": "audio/son/082/082_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "فِيٓ أَيِّ صُورَةٖ مَّا شَآءَ رَكَّبَكَ",
+      "sha256": "d034f94a148aaea6e89bf81710a9e4e3aefc1269fc973a5391268833cb2cca73",
+      "fatherAudio": "audio/father/082/082_008.wav",
+      "sonAudio": "audio/son/082/082_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "كَلَّا بَلۡ تُكَذِّبُونَ بِٱلدِّينِ",
+      "sha256": "a77ceffc6c28d33a6b090161f13774cdbd8cf1990a4f38c74cb6a395e808d64c",
+      "fatherAudio": "audio/father/082/082_009.wav",
+      "sonAudio": "audio/son/082/082_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَإِنَّ عَلَيۡكُمۡ لَحَٰفِظِينَ",
+      "sha256": "5846fe8ba17ccb49858ba61278a3ea654da9b43d0de0a2077edb451a3f54b245",
+      "fatherAudio": "audio/father/082/082_010.wav",
+      "sonAudio": "audio/son/082/082_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "كِرَامٗا كَٰتِبِينَ",
+      "sha256": "fd6b2a0dd5a810bc637e6bae96bf2f941c1b902f2148ecbc972cdd556506ef93",
+      "fatherAudio": "audio/father/082/082_011.wav",
+      "sonAudio": "audio/son/082/082_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "يَعۡلَمُونَ مَا تَفۡعَلُونَ",
+      "sha256": "b3c71ab5af1cfb3e7ba6c116ff32ac1c1e48e9376cd42b40a04be3c26ece6e3b",
+      "fatherAudio": "audio/father/082/082_012.wav",
+      "sonAudio": "audio/son/082/082_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٖ",
+      "sha256": "cf43e82fc7e3c3f6c56138e00142b5b80ce325b972465a30e96dabdeb44bcf8c",
+      "fatherAudio": "audio/father/082/082_013.wav",
+      "sonAudio": "audio/son/082/082_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "وَإِنَّ ٱلۡفُجَّارَ لَفِي جَحِيمٖ",
+      "sha256": "8f471b14b497e7c50fd34abc21164ba49e50206df26fb4e67f88bff5d0b929e8",
+      "fatherAudio": "audio/father/082/082_014.wav",
+      "sonAudio": "audio/son/082/082_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "يَصۡلَوۡنَهَا يَوۡمَ ٱلدِّينِ",
+      "sha256": "0e630f5488807db357b41d33338589635f075855a2e93eaebb7222323bcfe9e3",
+      "fatherAudio": "audio/father/082/082_015.wav",
+      "sonAudio": "audio/son/082/082_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "وَمَا هُمۡ عَنۡهَا بِغَآئِبِينَ",
+      "sha256": "e722d136c0d5854d6c0bb4c92eca5f6ce23e4760e34bef7b6c59cff80e64ffb4",
+      "fatherAudio": "audio/father/082/082_016.wav",
+      "sonAudio": "audio/son/082/082_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+      "sha256": "45a576ed14a986dc04c81d099c64acc2ec5e940e494925e3567c4acf30582711",
+      "fatherAudio": "audio/father/082/082_017.wav",
+      "sonAudio": "audio/son/082/082_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "ثُمَّ مَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+      "sha256": "1d88f1c2234c4100090f5384a496307a892fe132c93c446e1dc366692ab0a144",
+      "fatherAudio": "audio/father/082/082_018.wav",
+      "sonAudio": "audio/son/082/082_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 82,
+      "surahName": "الإنفطار",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "يَوۡمَ لَا تَمۡلِكُ نَفۡسٞ لِّنَفۡسٖ شَيۡـٔٗاۖ وَٱلۡأَمۡرُ يَوۡمَئِذٖ لِّلَّهِ",
+      "sha256": "6c8685f1ae5586ad6fe07bde16dfb5654da605425c4c0a93e890a50da7a80252",
+      "fatherAudio": "audio/father/082/082_019.wav",
+      "sonAudio": "audio/son/082/082_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.84,
+        "sonDurationSec": 7.52
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

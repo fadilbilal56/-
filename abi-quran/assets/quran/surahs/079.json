@@ -1,0 +1,1035 @@
+{
+  "episode": 36,
+  "surahNumber": 79,
+  "surahNameAr": "النازعات",
+  "surahNameEn": "An-Nazi'at",
+  "revelation": "meccan",
+  "totalVerses": 46,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/079/079_000_basmala.wav",
+    "sonAudio": "audio/son/079/079_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلنَّـٰزِعَٰتِ غَرۡقٗا",
+      "sha256": "b539dbcd443a490483eca698843d8ff3a53aac8758b294ed3e4582c5efbd12d4",
+      "fatherAudio": "audio/father/079/079_001.wav",
+      "sonAudio": "audio/son/079/079_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَٱلنَّـٰشِطَٰتِ نَشۡطٗا",
+      "sha256": "28feab07072cc21bb87d1fff2184f27983203e0334954221686a4dad4b2f1992",
+      "fatherAudio": "audio/father/079/079_002.wav",
+      "sonAudio": "audio/son/079/079_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَٱلسَّـٰبِحَٰتِ سَبۡحٗا",
+      "sha256": "0321538b6a8b599463e41f6927b8675c05140c26bc439e09592a29a8808b2b85",
+      "fatherAudio": "audio/father/079/079_003.wav",
+      "sonAudio": "audio/son/079/079_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "فَٱلسَّـٰبِقَٰتِ سَبۡقٗا",
+      "sha256": "a90054d875849742a001f0a8c2975070c62b6a0835f0cc8872f65bbefbe193ce",
+      "fatherAudio": "audio/father/079/079_004.wav",
+      "sonAudio": "audio/son/079/079_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "فَٱلۡمُدَبِّرَٰتِ أَمۡرٗا",
+      "sha256": "4e189522e2e3d41bceb7051f5aef5e28dabe20bd2a88a61fc750f98ca5ec7675",
+      "fatherAudio": "audio/father/079/079_005.wav",
+      "sonAudio": "audio/son/079/079_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "يَوۡمَ تَرۡجُفُ ٱلرَّاجِفَةُ",
+      "sha256": "07a311ea6cb0d9cdf6e59a7be16746a8cf3d1b1b80fdcf900170f479086dbb64",
+      "fatherAudio": "audio/father/079/079_006.wav",
+      "sonAudio": "audio/son/079/079_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "تَتۡبَعُهَا ٱلرَّادِفَةُ",
+      "sha256": "1ce55a563121df0a734a1d7ba07f4595b3d433ffc6ae075a6dc44bf761d654ec",
+      "fatherAudio": "audio/father/079/079_007.wav",
+      "sonAudio": "audio/son/079/079_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "قُلُوبٞ يَوۡمَئِذٖ وَاجِفَةٌ",
+      "sha256": "8b0085ced31f8c28388878efef61e702d966af560f57df3f64ba1902cb6c05d0",
+      "fatherAudio": "audio/father/079/079_008.wav",
+      "sonAudio": "audio/son/079/079_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "أَبۡصَٰرُهَا خَٰشِعَةٞ",
+      "sha256": "18b2aad0a4c9c2e18e79ec6dc4751de0952b550a600693ddb52075bfeef95f71",
+      "fatherAudio": "audio/father/079/079_009.wav",
+      "sonAudio": "audio/son/079/079_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "يَقُولُونَ أَءِنَّا لَمَرۡدُودُونَ فِي ٱلۡحَافِرَةِ",
+      "sha256": "af9f919f22f8b2a2fb14cfe46fc3b750ee651106c7bfb92e03c2f0ae7ef09957",
+      "fatherAudio": "audio/father/079/079_010.wav",
+      "sonAudio": "audio/son/079/079_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.72,
+        "sonDurationSec": 6.29
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "أَءِذَا كُنَّا عِظَٰمٗا نَّخِرَةٗ",
+      "sha256": "bd2a5087bcaec3f60b78e7c77672c9413de3a5fa32e96acf4bb072e2ac8f9014",
+      "fatherAudio": "audio/father/079/079_011.wav",
+      "sonAudio": "audio/son/079/079_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "قَالُواْ تِلۡكَ إِذٗا كَرَّةٌ خَاسِرَةٞ",
+      "sha256": "89956c690de85c818d212a194e018fde299cbc54314544da92da547b6fc3fd3c",
+      "fatherAudio": "audio/father/079/079_012.wav",
+      "sonAudio": "audio/son/079/079_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "فَإِنَّمَا هِيَ زَجۡرَةٞ وَٰحِدَةٞ",
+      "sha256": "b409ee8a4e70d0a4f3c0f85a43f6a9ea603f8281f0e702425b6ed7e115234a1f",
+      "fatherAudio": "audio/father/079/079_013.wav",
+      "sonAudio": "audio/son/079/079_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
+      "sha256": "b88e984942e007e7c97007f36da30f3888af75499df96e4da5180a102ebe6eed",
+      "fatherAudio": "audio/father/079/079_014.wav",
+      "sonAudio": "audio/son/079/079_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "هَلۡ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "sha256": "6a23cc14d46cabb908620a3c65ca05a544055d12ff80cb59ca809f58c282a588",
+      "fatherAudio": "audio/father/079/079_015.wav",
+      "sonAudio": "audio/son/079/079_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "إِذۡ نَادَىٰهُ رَبُّهُۥ بِٱلۡوَادِ ٱلۡمُقَدَّسِ طُوًى",
+      "sha256": "a1a1f6b5138c8305e2ccd786e6b741b7fbe9e4423020bfef78b778d44681fc49",
+      "fatherAudio": "audio/father/079/079_016.wav",
+      "sonAudio": "audio/son/079/079_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "ٱذۡهَبۡ إِلَىٰ فِرۡعَوۡنَ إِنَّهُۥ طَغَىٰ",
+      "sha256": "a435f1e1df17ad5194200869631d3f9d7c6ee5543e5788ee63640e76428bfc8f",
+      "fatherAudio": "audio/father/079/079_017.wav",
+      "sonAudio": "audio/son/079/079_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "فَقُلۡ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
+      "sha256": "41a6b3a4263893ff5e6122b152c6e5a4956c6dfa58e41c218d2ba0db2bc48f69",
+      "fatherAudio": "audio/father/079/079_018.wav",
+      "sonAudio": "audio/son/079/079_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "وَأَهۡدِيَكَ إِلَىٰ رَبِّكَ فَتَخۡشَىٰ",
+      "sha256": "65b23aa910ec4c3c2eb8526bcd96fb2de7d9870e0dee9a437bea267a1ffe149d",
+      "fatherAudio": "audio/father/079/079_019.wav",
+      "sonAudio": "audio/son/079/079_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "فَأَرَىٰهُ ٱلۡأٓيَةَ ٱلۡكُبۡرَىٰ",
+      "sha256": "1e56b558f5e121c4d94e4cd168bd42c94ca63fa5f3a9cd896795c2e5f1676485",
+      "fatherAudio": "audio/father/079/079_020.wav",
+      "sonAudio": "audio/son/079/079_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "فَكَذَّبَ وَعَصَىٰ",
+      "sha256": "2905906f7d2be8ec0679884a5f38fb79db08b6a524fdf9675bd8d1c6937d7e25",
+      "fatherAudio": "audio/father/079/079_021.wav",
+      "sonAudio": "audio/son/079/079_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "ثُمَّ أَدۡبَرَ يَسۡعَىٰ",
+      "sha256": "618f6d12ddf694a37780c0042b89ca54cd5bf3f7745ba6ea756315dd46f2fdf3",
+      "fatherAudio": "audio/father/079/079_022.wav",
+      "sonAudio": "audio/son/079/079_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "فَحَشَرَ فَنَادَىٰ",
+      "sha256": "22c7dc166d7d0bf64d83e94e3465afa1b32dc93d2401a3c016712e4ee8bf9716",
+      "fatherAudio": "audio/father/079/079_023.wav",
+      "sonAudio": "audio/son/079/079_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلۡأَعۡلَىٰ",
+      "sha256": "8ef964ebe2b21dbac41fdae69691dc64305f7040efafb1061d28bde4cf8f608c",
+      "fatherAudio": "audio/father/079/079_024.wav",
+      "sonAudio": "audio/son/079/079_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلۡأٓخِرَةِ وَٱلۡأُولَىٰٓ",
+      "sha256": "913550d84b6c0d732fe084bb82198742bb94a94ef757123983e66b26c8d74dd1",
+      "fatherAudio": "audio/father/079/079_025.wav",
+      "sonAudio": "audio/son/079/079_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.56,
+        "sonDurationSec": 6.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "إِنَّ فِي ذَٰلِكَ لَعِبۡرَةٗ لِّمَن يَخۡشَىٰٓ",
+      "sha256": "ea7e846f63883f330641b4b2a91e9bc1c5ee0815005e253814a69528f1eb2919",
+      "fatherAudio": "audio/father/079/079_026.wav",
+      "sonAudio": "audio/son/079/079_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 27,
+      "verseNumberAr": "٢٧",
+      "textUthmani": "ءَأَنتُمۡ أَشَدُّ خَلۡقًا أَمِ ٱلسَّمَآءُۚ بَنَىٰهَا",
+      "sha256": "ebbaf07c198cae2b2f25dc80ff475dba6e38d22b7e0ac1b877d328db9592343c",
+      "fatherAudio": "audio/father/079/079_027.wav",
+      "sonAudio": "audio/son/079/079_027.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 28,
+      "verseNumberAr": "٢٨",
+      "textUthmani": "رَفَعَ سَمۡكَهَا فَسَوَّىٰهَا",
+      "sha256": "8255e208fbab61b3d2e1baf281400dfc471e6e3a6158c52446916ed31b816c80",
+      "fatherAudio": "audio/father/079/079_028.wav",
+      "sonAudio": "audio/son/079/079_028.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 29,
+      "verseNumberAr": "٢٩",
+      "textUthmani": "وَأَغۡطَشَ لَيۡلَهَا وَأَخۡرَجَ ضُحَىٰهَا",
+      "sha256": "b63293b82320c078bb8b1df7c022bcde50863df5a04823ad768812c68eaaeb4e",
+      "fatherAudio": "audio/father/079/079_029.wav",
+      "sonAudio": "audio/son/079/079_029.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 30,
+      "verseNumberAr": "٣٠",
+      "textUthmani": "وَٱلۡأَرۡضَ بَعۡدَ ذَٰلِكَ دَحَىٰهَآ",
+      "sha256": "acd0112f8e200503d4219d09be7377ef065be51fb9d750ef4ab702a8c93f19fc",
+      "fatherAudio": "audio/father/079/079_030.wav",
+      "sonAudio": "audio/son/079/079_030.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 31,
+      "verseNumberAr": "٣١",
+      "textUthmani": "أَخۡرَجَ مِنۡهَا مَآءَهَا وَمَرۡعَىٰهَا",
+      "sha256": "f723b9227fe5326ec6b3cdc185d86b46d486c64653854568dd826c94d4b7698b",
+      "fatherAudio": "audio/father/079/079_031.wav",
+      "sonAudio": "audio/son/079/079_031.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 32,
+      "verseNumberAr": "٣٢",
+      "textUthmani": "وَٱلۡجِبَالَ أَرۡسَىٰهَا",
+      "sha256": "968efb450f61969afd4b1ce59b97cb5d0152003acd58963d827d37e526cc0710",
+      "fatherAudio": "audio/father/079/079_032.wav",
+      "sonAudio": "audio/son/079/079_032.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 33,
+      "verseNumberAr": "٣٣",
+      "textUthmani": "مَتَٰعٗا لَّكُمۡ وَلِأَنۡعَٰمِكُمۡ",
+      "sha256": "aefaaad7866153c0f238a9efd561e64a1f6635aa47b3946c935c48befb9c3ef8",
+      "fatherAudio": "audio/father/079/079_033.wav",
+      "sonAudio": "audio/son/079/079_033.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 34,
+      "verseNumberAr": "٣٤",
+      "textUthmani": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلۡكُبۡرَىٰ",
+      "sha256": "d8d9409eb355ed1f015d26ae52516186958a71aca8fc96e073a70fb5a69f5d8a",
+      "fatherAudio": "audio/father/079/079_034.wav",
+      "sonAudio": "audio/son/079/079_034.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 35,
+      "verseNumberAr": "٣٥",
+      "textUthmani": "يَوۡمَ يَتَذَكَّرُ ٱلۡإِنسَٰنُ مَا سَعَىٰ",
+      "sha256": "32010ebe44785f5ec9fb467978b5b8c74bb683c9e65471151dd784d61b8f75de",
+      "fatherAudio": "audio/father/079/079_035.wav",
+      "sonAudio": "audio/son/079/079_035.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 36,
+      "verseNumberAr": "٣٦",
+      "textUthmani": "وَبُرِّزَتِ ٱلۡجَحِيمُ لِمَن يَرَىٰ",
+      "sha256": "1309e4913ff7f42abf75ad1099e0abd8e6203a3136600bfafd29ae6a0fd540c6",
+      "fatherAudio": "audio/father/079/079_036.wav",
+      "sonAudio": "audio/son/079/079_036.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 37,
+      "verseNumberAr": "٣٧",
+      "textUthmani": "فَأَمَّا مَن طَغَىٰ",
+      "sha256": "41125f16495ff91923e00e908b506f4904ba1c930c81741bbbd230169a7a9a36",
+      "fatherAudio": "audio/father/079/079_037.wav",
+      "sonAudio": "audio/son/079/079_037.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 38,
+      "verseNumberAr": "٣٨",
+      "textUthmani": "وَءَاثَرَ ٱلۡحَيَوٰةَ ٱلدُّنۡيَا",
+      "sha256": "41b1191ed6a16baeba8510bfade7d2ea1980fd65000f421004a444c138f900a1",
+      "fatherAudio": "audio/father/079/079_038.wav",
+      "sonAudio": "audio/son/079/079_038.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 39,
+      "verseNumberAr": "٣٩",
+      "textUthmani": "فَإِنَّ ٱلۡجَحِيمَ هِيَ ٱلۡمَأۡوَىٰ",
+      "sha256": "0be1cd8fe50d9784e00ef91e13ec9b6378b34a59b2243afdc7c04588a49682c8",
+      "fatherAudio": "audio/father/079/079_039.wav",
+      "sonAudio": "audio/son/079/079_039.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 40,
+      "verseNumberAr": "٤٠",
+      "textUthmani": "وَأَمَّا مَنۡ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفۡسَ عَنِ ٱلۡهَوَىٰ",
+      "sha256": "b952123723ca3e635ccab52b2732e55f4b62f58ee768de07ec874762045ea0cc",
+      "fatherAudio": "audio/father/079/079_040.wav",
+      "sonAudio": "audio/son/079/079_040.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.52,
+        "sonDurationSec": 7.17
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 41,
+      "verseNumberAr": "٤١",
+      "textUthmani": "فَإِنَّ ٱلۡجَنَّةَ هِيَ ٱلۡمَأۡوَىٰ",
+      "sha256": "695267f2bab18c96c68476154cdb911bf3d202eb1816e5d52e099db28d4f23e0",
+      "fatherAudio": "audio/father/079/079_041.wav",
+      "sonAudio": "audio/son/079/079_041.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 42,
+      "verseNumberAr": "٤٢",
+      "textUthmani": "يَسۡـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرۡسَىٰهَا",
+      "sha256": "d131e0e93cb042f2b2170d50c2045ae7441e78ff5ccd13ae1fd96bfee2fdf084",
+      "fatherAudio": "audio/father/079/079_042.wav",
+      "sonAudio": "audio/son/079/079_042.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 43,
+      "verseNumberAr": "٤٣",
+      "textUthmani": "فِيمَ أَنتَ مِن ذِكۡرَىٰهَآ",
+      "sha256": "4d90abf847207979304f0834e61cded3a6ea3dec378ee49d37213f23db97be19",
+      "fatherAudio": "audio/father/079/079_043.wav",
+      "sonAudio": "audio/son/079/079_043.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 44,
+      "verseNumberAr": "٤٤",
+      "textUthmani": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+      "sha256": "705cd072c5a7e4cc8a7cec3e30a60ed15e1827d70242d0fabc8ecadafd8c027c",
+      "fatherAudio": "audio/father/079/079_044.wav",
+      "sonAudio": "audio/son/079/079_044.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 45,
+      "verseNumberAr": "٤٥",
+      "textUthmani": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخۡشَىٰهَا",
+      "sha256": "a3ee61881a1fec3cfa80b5d65a5946cf9884f7ca2dd04bbd95cc42c6888f4906",
+      "fatherAudio": "audio/father/079/079_045.wav",
+      "sonAudio": "audio/son/079/079_045.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 79,
+      "surahName": "النازعات",
+      "verseNumber": 46,
+      "verseNumberAr": "٤٦",
+      "textUthmani": "كَأَنَّهُمۡ يَوۡمَ يَرَوۡنَهَا لَمۡ يَلۡبَثُوٓاْ إِلَّا عَشِيَّةً أَوۡ ضُحَىٰهَا",
+      "sha256": "0c3dc148724923226da180898ddb5ac51112822a829a572ff153ca0b31cd5634",
+      "fatherAudio": "audio/father/079/079_046.wav",
+      "sonAudio": "audio/son/079/079_046.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.16,
+        "sonDurationSec": 7.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "episode": 12,
+  "surahNumber": 103,
+  "surahNameAr": "العصر",
+  "surahNameEn": "Al-'Asr",
+  "revelation": "meccan",
+  "totalVerses": 3,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/103/103_000_basmala.wav",
+    "sonAudio": "audio/son/103/103_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 103,
+      "surahName": "العصر",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلۡعَصۡرِ",
+      "sha256": "d9c8dbfa392d8be03db17cdaf5fa51f7fdc2721449e33a76f62e7d6a8fc51810",
+      "fatherAudio": "audio/father/103/103_001.wav",
+      "sonAudio": "audio/son/103/103_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.36,
+        "sonDurationSec": 2.6
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 103,
+      "surahName": "العصر",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+      "sha256": "9f6a1e796e3d0bfced74f2dddc98b424a44cedb6271361796d69fac79fb4210c",
+      "fatherAudio": "audio/father/103/103_002.wav",
+      "sonAudio": "audio/son/103/103_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 103,
+      "surahName": "العصر",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+      "sha256": "da1240011860d8acbcab4e5ee45816ef23d35c4068cfe4ea1f64f7be3c03acb9",
+      "fatherAudio": "audio/father/103/103_003.wav",
+      "sonAudio": "audio/son/103/103_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 9.72,
+        "sonDurationSec": 10.69
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

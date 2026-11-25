@@ -1,0 +1,199 @@
+{
+  "episode": 20,
+  "surahNumber": 95,
+  "surahNameAr": "التين",
+  "surahNameEn": "At-Tin",
+  "revelation": "meccan",
+  "totalVerses": 8,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/095/095_000_basmala.wav",
+    "sonAudio": "audio/son/095/095_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلتِّينِ وَٱلزَّيۡتُونِ",
+      "sha256": "108a03bab052b5ff338fd165803ff185aaeb6b019ad9f79da9c496e200d7d70c",
+      "fatherAudio": "audio/father/095/095_001.wav",
+      "sonAudio": "audio/son/095/095_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَطُورِ سِينِينَ",
+      "sha256": "890581bb591d4d003c13abc58b45e08b1e10d9170509b78805c40ae16f6b4192",
+      "fatherAudio": "audio/father/095/095_002.wav",
+      "sonAudio": "audio/son/095/095_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+      "sha256": "fe83adf20a38a82746c6db4630cf2e2d65235a07bb7a5d315f7acfc964ead268",
+      "fatherAudio": "audio/father/095/095_003.wav",
+      "sonAudio": "audio/son/095/095_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِيٓ أَحۡسَنِ تَقۡوِيمٖ",
+      "sha256": "b6b92a14e60b6da521ce247e3a5dc1a68200825096d1114d5911cc48c53036c0",
+      "fatherAudio": "audio/father/095/095_004.wav",
+      "sonAudio": "audio/son/095/095_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.4,
+        "sonDurationSec": 5.94
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "ثُمَّ رَدَدۡنَٰهُ أَسۡفَلَ سَٰفِلِينَ",
+      "sha256": "588b6aca2ea1dc057470eeb10de0c9ebfa3d52c69f5685273de180d5ce7cb5cd",
+      "fatherAudio": "audio/father/095/095_005.wav",
+      "sonAudio": "audio/son/095/095_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ",
+      "sha256": "2333febd81a65b7ca8d9705cff1319997237536226409f771110c16c353278d0",
+      "fatherAudio": "audio/father/095/095_006.wav",
+      "sonAudio": "audio/son/095/095_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 8.12,
+        "sonDurationSec": 8.93
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ",
+      "sha256": "82c8b8b6de08cdc3e2c4175dbacd2277303dac042f6a16db987d6bf29e282736",
+      "fatherAudio": "audio/father/095/095_007.wav",
+      "sonAudio": "audio/son/095/095_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 95,
+      "surahName": "التين",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَٰكِمِينَ",
+      "sha256": "ec5cad29ac07e9c8bd1bbf4b55e0a99a0ad09de2825bf4753f485b59160a8e3a",
+      "fatherAudio": "audio/father/095/095_008.wav",
+      "sonAudio": "audio/son/095/095_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

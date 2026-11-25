@@ -1,0 +1,111 @@
+{
+  "episode": 3,
+  "surahNumber": 112,
+  "surahNameAr": "الإخلاص",
+  "surahNameEn": "Al-Ikhlas",
+  "revelation": "meccan",
+  "totalVerses": 4,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/112/112_000_basmala.wav",
+    "sonAudio": "audio/son/112/112_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 112,
+      "surahName": "الإخلاص",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+      "sha256": "f578745163a95bf378c710b541fe5a9cc385320dc27fb909157af318cdfe5b64",
+      "fatherAudio": "audio/father/112/112_001.wav",
+      "sonAudio": "audio/son/112/112_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 112,
+      "surahName": "الإخلاص",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "ٱللَّهُ ٱلصَّمَدُ",
+      "sha256": "a30b680c0f56ff9a29c1384eac94f728f9cfd0e8f1d3798a2e4916d91e57f57e",
+      "fatherAudio": "audio/father/112/112_002.wav",
+      "sonAudio": "audio/son/112/112_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 112,
+      "surahName": "الإخلاص",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ",
+      "sha256": "fb51da03e0a9888508063f5be81b416da6d0b7149f2c75a3e771f06499925289",
+      "fatherAudio": "audio/father/112/112_003.wav",
+      "sonAudio": "audio/son/112/112_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 112,
+      "surahName": "الإخلاص",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+      "sha256": "2880126fcc56756ef85c57c0d7376b517d8c50dbe31e704002bb915b15ba13a1",
+      "fatherAudio": "audio/father/112/112_004.wav",
+      "sonAudio": "audio/son/112/112_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

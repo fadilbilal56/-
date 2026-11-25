@@ -1,0 +1,947 @@
+{
+  "episode": 35,
+  "surahNumber": 80,
+  "surahNameAr": "عبس",
+  "surahNameEn": "'Abasa",
+  "revelation": "meccan",
+  "totalVerses": 42,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/080/080_000_basmala.wav",
+    "sonAudio": "audio/son/080/080_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "عَبَسَ وَتَوَلَّىٰٓ",
+      "sha256": "6ee72269c50a6c3b913a1c8dfa0341dece6ec22d23985284241e4293948361ee",
+      "fatherAudio": "audio/father/080/080_001.wav",
+      "sonAudio": "audio/son/080/080_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "أَن جَآءَهُ ٱلۡأَعۡمَىٰ",
+      "sha256": "f3cee5a35bb6ae351a3a294bf3dc9944e2634c7abfd01b30af1a72512dd87603",
+      "fatherAudio": "audio/father/080/080_002.wav",
+      "sonAudio": "audio/son/080/080_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَمَا يُدۡرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "sha256": "8cbe6889dfae76dbf2355a5342b477258bd06eb58cc51d4ba7ad5760b817ff26",
+      "fatherAudio": "audio/father/080/080_003.wav",
+      "sonAudio": "audio/son/080/080_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "أَوۡ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكۡرَىٰٓ",
+      "sha256": "797fe5a94a0733b47bd65c96d8bd5c3fef1f93ec75612f4285277a869901d036",
+      "fatherAudio": "audio/father/080/080_004.wav",
+      "sonAudio": "audio/son/080/080_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "أَمَّا مَنِ ٱسۡتَغۡنَىٰ",
+      "sha256": "2ff5481b549f9533bb73da5f07b3e6485b1a9b3544038ec408dca5911b8e0d7b",
+      "fatherAudio": "audio/father/080/080_005.wav",
+      "sonAudio": "audio/son/080/080_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+      "sha256": "95f32a6e05ec31c7badf44825e59d31d574dfd995d6be187df3b59b69ffa5694",
+      "fatherAudio": "audio/father/080/080_006.wav",
+      "sonAudio": "audio/son/080/080_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَمَا عَلَيۡكَ أَلَّا يَزَّكَّىٰ",
+      "sha256": "07c70eb972bf18d6557d98148d4de2011e3b8c8ecfdfd9286b40bf7f08a95ea8",
+      "fatherAudio": "audio/father/080/080_007.wav",
+      "sonAudio": "audio/son/080/080_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَأَمَّا مَن جَآءَكَ يَسۡعَىٰ",
+      "sha256": "51e0d1a474cffffee33e5ba5950731d2e0b0fc87438cc9268b7be011aa43abe5",
+      "fatherAudio": "audio/father/080/080_008.wav",
+      "sonAudio": "audio/son/080/080_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "وَهُوَ يَخۡشَىٰ",
+      "sha256": "435a866bdccfbb786346b2f08382866a0a39d0c8b4916511ece1a9ffe7f6f0a9",
+      "fatherAudio": "audio/father/080/080_009.wav",
+      "sonAudio": "audio/son/080/080_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.52,
+        "sonDurationSec": 2.77
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "فَأَنتَ عَنۡهُ تَلَهَّىٰ",
+      "sha256": "7791d741f6366563ee36353fb6125f80cdd4a57d423adebf7c3097526d948f22",
+      "fatherAudio": "audio/father/080/080_010.wav",
+      "sonAudio": "audio/son/080/080_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "كَلَّآ إِنَّهَا تَذۡكِرَةٞ",
+      "sha256": "a2ef8e0605c69952bddb9985a11bb7668ee453bea50b39e4f4500fe4fba027d8",
+      "fatherAudio": "audio/father/080/080_011.wav",
+      "sonAudio": "audio/son/080/080_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "فَمَن شَآءَ ذَكَرَهُۥ",
+      "sha256": "cbffe735200bb584d8f72921d99bfed16bab94cca7f56351194d7a80349836d0",
+      "fatherAudio": "audio/father/080/080_012.wav",
+      "sonAudio": "audio/son/080/080_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "فِي صُحُفٖ مُّكَرَّمَةٖ",
+      "sha256": "088bae69c23d2e100a4bb1cb46a122f07efa80efa6533db2867048ba6b3a6fd3",
+      "fatherAudio": "audio/father/080/080_013.wav",
+      "sonAudio": "audio/son/080/080_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "مَّرۡفُوعَةٖ مُّطَهَّرَةِۭ",
+      "sha256": "f65853ef6f324eae0a70b61691d7f4adf2e0cb0f1c632374045ee061aa8c18de",
+      "fatherAudio": "audio/father/080/080_014.wav",
+      "sonAudio": "audio/son/080/080_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "بِأَيۡدِي سَفَرَةٖ",
+      "sha256": "33a6d83471110986b939878b086bdb769230e6a7e18c27e7a78660a79c8c2952",
+      "fatherAudio": "audio/father/080/080_015.wav",
+      "sonAudio": "audio/son/080/080_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "كِرَامِۭ بَرَرَةٖ",
+      "sha256": "b6340aaf35e7a79a2e2926278c2575abe071d38ee7acf1db3a9bb5dad634e490",
+      "fatherAudio": "audio/father/080/080_016.wav",
+      "sonAudio": "audio/son/080/080_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "قُتِلَ ٱلۡإِنسَٰنُ مَآ أَكۡفَرَهُۥ",
+      "sha256": "b003de7f7f3934747540b49e3b30534b84362fa9df69b060f49ecf269cd223ca",
+      "fatherAudio": "audio/father/080/080_017.wav",
+      "sonAudio": "audio/son/080/080_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "مِنۡ أَيِّ شَيۡءٍ خَلَقَهُۥ",
+      "sha256": "ff699663f6cdedc8c67943b695575c445151046a9e7db90406da495dd9118f70",
+      "fatherAudio": "audio/father/080/080_018.wav",
+      "sonAudio": "audio/son/080/080_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "مِن نُّطۡفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+      "sha256": "75bb33425f72efceb4abbae6cb0c1dd7355725f28be127dfc179769dc88a5014",
+      "fatherAudio": "audio/father/080/080_019.wav",
+      "sonAudio": "audio/son/080/080_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+      "sha256": "d5d6b1b46ec053155eeb08083b6fc3210dac2a9e29b6db6bccde810c8fb06774",
+      "fatherAudio": "audio/father/080/080_020.wav",
+      "sonAudio": "audio/son/080/080_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "ثُمَّ أَمَاتَهُۥ فَأَقۡبَرَهُۥ",
+      "sha256": "12c93147970d3f30e0763b271b193ea51018ca0191609446ed5ae212201a0edb",
+      "fatherAudio": "audio/father/080/080_021.wav",
+      "sonAudio": "audio/son/080/080_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+      "sha256": "b802b0a53a4e09bb9894456e66d09da242bd847f1c93f8183189171d96467aa8",
+      "fatherAudio": "audio/father/080/080_022.wav",
+      "sonAudio": "audio/son/080/080_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "كَلَّا لَمَّا يَقۡضِ مَآ أَمَرَهُۥ",
+      "sha256": "6d66b4f1e9a9123307ed72e7f7fd8b69af1f57deb188108abc44120e658dc852",
+      "fatherAudio": "audio/father/080/080_023.wav",
+      "sonAudio": "audio/son/080/080_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ إِلَىٰ طَعَامِهِۦٓ",
+      "sha256": "8ce0a5581215e76b7f1a6c732b56f940e023784919872096b729d7c2aa7f21eb",
+      "fatherAudio": "audio/father/080/080_024.wav",
+      "sonAudio": "audio/son/080/080_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "أَنَّا صَبَبۡنَا ٱلۡمَآءَ صَبّٗا",
+      "sha256": "b369a31663f514d8cd59942dedabda46cf2169a402e4e6edcf542ad4db1b64ee",
+      "fatherAudio": "audio/father/080/080_025.wav",
+      "sonAudio": "audio/son/080/080_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "ثُمَّ شَقَقۡنَا ٱلۡأَرۡضَ شَقّٗا",
+      "sha256": "eb98a76516c62e6510f15940af3fc8a75a9072fe90d6adc2c84c30272f48f997",
+      "fatherAudio": "audio/father/080/080_026.wav",
+      "sonAudio": "audio/son/080/080_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 27,
+      "verseNumberAr": "٢٧",
+      "textUthmani": "فَأَنۢبَتۡنَا فِيهَا حَبّٗا",
+      "sha256": "03d5d824d55dfedc8d1a294e5f0dc30aba49c140f5c15b7160f4378a1779de29",
+      "fatherAudio": "audio/father/080/080_027.wav",
+      "sonAudio": "audio/son/080/080_027.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 28,
+      "verseNumberAr": "٢٨",
+      "textUthmani": "وَعِنَبٗا وَقَضۡبٗا",
+      "sha256": "b35c90c9f25af907a783acc751593a7235e0907fe606b98a48c735a1b42bb281",
+      "fatherAudio": "audio/father/080/080_028.wav",
+      "sonAudio": "audio/son/080/080_028.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 29,
+      "verseNumberAr": "٢٩",
+      "textUthmani": "وَزَيۡتُونٗا وَنَخۡلٗا",
+      "sha256": "a3f98f6fe8b021933c71ba97ca73465624bd8801d3eaf7278d7e649afc6ebe9e",
+      "fatherAudio": "audio/father/080/080_029.wav",
+      "sonAudio": "audio/son/080/080_029.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 30,
+      "verseNumberAr": "٣٠",
+      "textUthmani": "وَحَدَآئِقَ غُلۡبٗا",
+      "sha256": "efac268ecb1e4a746a8acefe6788e9f74888354e57902e1f61bf4daf1f0d68b4",
+      "fatherAudio": "audio/father/080/080_030.wav",
+      "sonAudio": "audio/son/080/080_030.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 31,
+      "verseNumberAr": "٣١",
+      "textUthmani": "وَفَٰكِهَةٗ وَأَبّٗا",
+      "sha256": "269cd3746cf0e0b945b0accbfae0123862833da803cb8f80e251aff8d64cff1f",
+      "fatherAudio": "audio/father/080/080_031.wav",
+      "sonAudio": "audio/son/080/080_031.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 32,
+      "verseNumberAr": "٣٢",
+      "textUthmani": "مَّتَٰعٗا لَّكُمۡ وَلِأَنۡعَٰمِكُمۡ",
+      "sha256": "6704c738f5303492b1f47c5ec4c1ad7d4b49d5e59a0cc889a965dcf790b89d19",
+      "fatherAudio": "audio/father/080/080_032.wav",
+      "sonAudio": "audio/son/080/080_032.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 33,
+      "verseNumberAr": "٣٣",
+      "textUthmani": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+      "sha256": "8833cda00c8d1ae7606c91e547f02ad71b817c75d7c5bdefd730b96307e11463",
+      "fatherAudio": "audio/father/080/080_033.wav",
+      "sonAudio": "audio/son/080/080_033.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 34,
+      "verseNumberAr": "٣٤",
+      "textUthmani": "يَوۡمَ يَفِرُّ ٱلۡمَرۡءُ مِنۡ أَخِيهِ",
+      "sha256": "d30cb42ecc54189d5b85e07ae5bfd73f27230ba62fd1662c7fc42ecbbc7dd711",
+      "fatherAudio": "audio/father/080/080_034.wav",
+      "sonAudio": "audio/son/080/080_034.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 35,
+      "verseNumberAr": "٣٥",
+      "textUthmani": "وَأُمِّهِۦ وَأَبِيهِ",
+      "sha256": "653d61124df29542c3e14cf4a2c814719ddcd6037d94b5974d958d1941a89588",
+      "fatherAudio": "audio/father/080/080_035.wav",
+      "sonAudio": "audio/son/080/080_035.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 36,
+      "verseNumberAr": "٣٦",
+      "textUthmani": "وَصَٰحِبَتِهِۦ وَبَنِيهِ",
+      "sha256": "84742c39789e5719beffbbd36cf8a6126bd09d42c5a332c10e4f403d20ca9ea3",
+      "fatherAudio": "audio/father/080/080_036.wav",
+      "sonAudio": "audio/son/080/080_036.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 37,
+      "verseNumberAr": "٣٧",
+      "textUthmani": "لِكُلِّ ٱمۡرِيٕٖ مِّنۡهُمۡ يَوۡمَئِذٖ شَأۡنٞ يُغۡنِيهِ",
+      "sha256": "ac08f15bae52ceadb862e9eb38197124102fed4af484eaf09e40ff9068554d9a",
+      "fatherAudio": "audio/father/080/080_037.wav",
+      "sonAudio": "audio/son/080/080_037.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 38,
+      "verseNumberAr": "٣٨",
+      "textUthmani": "وُجُوهٞ يَوۡمَئِذٖ مُّسۡفِرَةٞ",
+      "sha256": "f4a872d8a12ae50d0d60af2507749f89069a418ddba2410fe2d12b4e64aeab19",
+      "fatherAudio": "audio/father/080/080_038.wav",
+      "sonAudio": "audio/son/080/080_038.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 39,
+      "verseNumberAr": "٣٩",
+      "textUthmani": "ضَاحِكَةٞ مُّسۡتَبۡشِرَةٞ",
+      "sha256": "b24513da2ee226e2cca617452aa345342c8c1e50ec31102a3b2dce4f956d3e1c",
+      "fatherAudio": "audio/father/080/080_039.wav",
+      "sonAudio": "audio/son/080/080_039.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 40,
+      "verseNumberAr": "٤٠",
+      "textUthmani": "وَوُجُوهٞ يَوۡمَئِذٍ عَلَيۡهَا غَبَرَةٞ",
+      "sha256": "d0e07b7673d54b49e7659d9d0a220295e8d537f7aa04907c101855df287a0148",
+      "fatherAudio": "audio/father/080/080_040.wav",
+      "sonAudio": "audio/son/080/080_040.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 41,
+      "verseNumberAr": "٤١",
+      "textUthmani": "تَرۡهَقُهَا قَتَرَةٌ",
+      "sha256": "6dd3b5e6ddf8b8e86ea7eb221d1b7e7143e4ed8feeec3a465850706a96e20c18",
+      "fatherAudio": "audio/father/080/080_041.wav",
+      "sonAudio": "audio/son/080/080_041.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 80,
+      "surahName": "عبس",
+      "verseNumber": 42,
+      "verseNumberAr": "٤٢",
+      "textUthmani": "أُوْلَـٰٓئِكَ هُمُ ٱلۡكَفَرَةُ ٱلۡفَجَرَةُ",
+      "sha256": "2c867115038638e27b1e2a821eddd5102fdbe5ce93fa81cc1bc61f355e0b012f",
+      "fatherAudio": "audio/father/080/080_042.wav",
+      "sonAudio": "audio/son/080/080_042.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

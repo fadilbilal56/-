@@ -1,0 +1,155 @@
+{
+  "episode": 6,
+  "surahNumber": 109,
+  "surahNameAr": "الكافرون",
+  "surahNameEn": "Al-Kafirun",
+  "revelation": "meccan",
+  "totalVerses": 6,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/109/109_000_basmala.wav",
+    "sonAudio": "audio/son/109/109_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 109,
+      "surahName": "الكافرون",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
+      "sha256": "56885a5df7c3c7be0f6df69c80522f34b8eb394b6c1a06dab7a4a7a2b0df3777",
+      "fatherAudio": "audio/father/109/109_001.wav",
+      "sonAudio": "audio/son/109/109_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 109,
+      "surahName": "الكافرون",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
+      "sha256": "31862983e3dc66eb68b2a0b54c3aed2158858fa18e3a6109166ac2cee23c020b",
+      "fatherAudio": "audio/father/109/109_002.wav",
+      "sonAudio": "audio/son/109/109_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 109,
+      "surahName": "الكافرون",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "sha256": "f61b2c6da17f66bd86a524e5c313a46d8dad805f9a37b9ea837689b8a215f69d",
+      "fatherAudio": "audio/father/109/109_003.wav",
+      "sonAudio": "audio/son/109/109_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 109,
+      "surahName": "الكافرون",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
+      "sha256": "a5b9a7d672e7a0ca0c74504a80f30f42c970a3c9a77e7a3869be755d5b2bf196",
+      "fatherAudio": "audio/father/109/109_004.wav",
+      "sonAudio": "audio/son/109/109_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 109,
+      "surahName": "الكافرون",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "sha256": "f61b2c6da17f66bd86a524e5c313a46d8dad805f9a37b9ea837689b8a215f69d",
+      "fatherAudio": "audio/father/109/109_005.wav",
+      "sonAudio": "audio/son/109/109_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 109,
+      "surahName": "الكافرون",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+      "sha256": "5b6eb9c77784bd4e8fef94d5389fb2c8557ebda794ef746dc901909fc8131be5",
+      "fatherAudio": "audio/father/109/109_006.wav",
+      "sonAudio": "audio/son/109/109_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

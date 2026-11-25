@@ -1,0 +1,199 @@
+{
+  "episode": 21,
+  "surahNumber": 94,
+  "surahNameAr": "الشرح",
+  "surahNameEn": "Ash-Sharh",
+  "revelation": "meccan",
+  "totalVerses": 8,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/094/094_000_basmala.wav",
+    "sonAudio": "audio/son/094/094_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ",
+      "sha256": "69b6a060dbaf451861f9cd7dfa8c69629a2ba4396266d86395227a2ffc4763f4",
+      "fatherAudio": "audio/father/094/094_001.wav",
+      "sonAudio": "audio/son/094/094_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ",
+      "sha256": "6133ad3b0518238aa6b3090587625caeacac69d4a9a939f949bfeccbb265ae91",
+      "fatherAudio": "audio/father/094/094_002.wav",
+      "sonAudio": "audio/son/094/094_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ",
+      "sha256": "ac344a62af52a0e95d1210dbd11351d9ca5664155723f2a3eb6d59cb26e4e201",
+      "fatherAudio": "audio/father/094/094_003.wav",
+      "sonAudio": "audio/son/094/094_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ",
+      "sha256": "db8986be04c6416def101bf99810fa2e1de03f3cee2a49775ee11558a526e076",
+      "fatherAudio": "audio/father/094/094_004.wav",
+      "sonAudio": "audio/son/094/094_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا",
+      "sha256": "deb01b04f3b4dfa55666d17acfffa40ec2b4e66e310e40429fdd0360332fff63",
+      "fatherAudio": "audio/father/094/094_005.wav",
+      "sonAudio": "audio/son/094/094_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا",
+      "sha256": "fb8c73b1a78f8e1cd444f927bad55a2ed68c5072a447096ec460e7618539c81a",
+      "fatherAudio": "audio/father/094/094_006.wav",
+      "sonAudio": "audio/son/094/094_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ",
+      "sha256": "a9120da95c1d587af007641b0ae0f2ae179ea340f5eb8e356a19f8ac924f2724",
+      "fatherAudio": "audio/father/094/094_007.wav",
+      "sonAudio": "audio/son/094/094_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 94,
+      "surahName": "الشرح",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب",
+      "sha256": "ddffaefe2b407b0906b69a1b00e3d2ecdc3dada680305112a28027cf99dc0c09",
+      "fatherAudio": "audio/father/094/094_008.wav",
+      "sonAudio": "audio/son/094/094_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "episode": 10,
+  "surahNumber": 105,
+  "surahNameAr": "الفيل",
+  "surahNameEn": "Al-Fil",
+  "revelation": "meccan",
+  "totalVerses": 5,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/105/105_000_basmala.wav",
+    "sonAudio": "audio/son/105/105_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 105,
+      "surahName": "الفيل",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
+      "sha256": "5970817b1d1b7837ab86e5f1aabe5e312bef0ae5584ad529514d7af839d597f1",
+      "fatherAudio": "audio/father/105/105_001.wav",
+      "sonAudio": "audio/son/105/105_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 105,
+      "surahName": "الفيل",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
+      "sha256": "8bb04873e3b5a58a1c76737bdc81cb6be29ec5498b017e0c7eca214275ec8b04",
+      "fatherAudio": "audio/father/105/105_002.wav",
+      "sonAudio": "audio/son/105/105_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 105,
+      "surahName": "الفيل",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+      "sha256": "a0050c8c27f636088e8280b5f88fe75bf6ed17cae0f0ff3e92fb28b2abf41be3",
+      "fatherAudio": "audio/father/105/105_003.wav",
+      "sonAudio": "audio/son/105/105_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 105,
+      "surahName": "الفيل",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
+      "sha256": "5ec55e803e958430772ddce910a71cb4d8092fd517181b667c4ab9064f70242e",
+      "fatherAudio": "audio/father/105/105_004.wav",
+      "sonAudio": "audio/son/105/105_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 105,
+      "surahName": "الفيل",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
+      "sha256": "92c1b118e14025759474093ab2fbb533e789093ef81be351f57443eb2cd40b04",
+      "fatherAudio": "audio/father/105/105_005.wav",
+      "sonAudio": "audio/son/105/105_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

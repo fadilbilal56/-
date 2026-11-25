@@ -1,0 +1,111 @@
+{
+  "episode": 9,
+  "surahNumber": 106,
+  "surahNameAr": "قريش",
+  "surahNameEn": "Quraysh",
+  "revelation": "meccan",
+  "totalVerses": 4,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/106/106_000_basmala.wav",
+    "sonAudio": "audio/son/106/106_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 106,
+      "surahName": "قريش",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "لِإِيلَٰفِ قُرَيۡشٍ",
+      "sha256": "c294d2ff33bdd22362949c7e12616b82c10ee7f3780ae8eb45307498e5ec66b7",
+      "fatherAudio": "audio/father/106/106_001.wav",
+      "sonAudio": "audio/son/106/106_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 106,
+      "surahName": "قريش",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+      "sha256": "dcfc13a262eeb0dc45f4fcacf3c1a9fa563ef3291fcbf258a1765940f0c6e35c",
+      "fatherAudio": "audio/father/106/106_002.wav",
+      "sonAudio": "audio/son/106/106_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 106,
+      "surahName": "قريش",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+      "sha256": "48ce5bbbefc6657dcd8f231ce9b97fb3f8dfec326feb26dd29d981f32980c21f",
+      "fatherAudio": "audio/father/106/106_003.wav",
+      "sonAudio": "audio/son/106/106_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 106,
+      "surahName": "قريش",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+      "sha256": "4e80a625a7a0f4963b064db679107a9a0c8616d175fae50681d58e487a3122bf",
+      "fatherAudio": "audio/father/106/106_004.wav",
+      "sonAudio": "audio/son/106/106_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.72,
+        "sonDurationSec": 6.29
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

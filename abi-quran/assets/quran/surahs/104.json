@@ -1,0 +1,221 @@
+{
+  "episode": 11,
+  "surahNumber": 104,
+  "surahNameAr": "الهمزة",
+  "surahNameEn": "Al-Humazah",
+  "revelation": "meccan",
+  "totalVerses": 9,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/104/104_000_basmala.wav",
+    "sonAudio": "audio/son/104/104_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ",
+      "sha256": "4fd78641b923e272b9c7f723defa13b34399eb495139d1d97cb2dd5c78878310",
+      "fatherAudio": "audio/father/104/104_001.wav",
+      "sonAudio": "audio/son/104/104_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "ٱلَّذِي جَمَعَ مَالٗا وَعَدَّدَهُۥ",
+      "sha256": "cb7b041575e5041b19a95a69f59f3c252cef27d755ac508b1db91e9ae5e12005",
+      "fatherAudio": "audio/father/104/104_002.wav",
+      "sonAudio": "audio/son/104/104_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ",
+      "sha256": "d9acda301f62b8d36b2fb0bcdff736682e2e30b69c213cbd85f072aae6ebc659",
+      "fatherAudio": "audio/father/104/104_003.wav",
+      "sonAudio": "audio/son/104/104_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "كَلَّاۖ لَيُنۢبَذَنَّ فِي ٱلۡحُطَمَةِ",
+      "sha256": "00740368a3ced3c96cf194df3cb84ceb41910586967c32911ed3b015360bd9e8",
+      "fatherAudio": "audio/father/104/104_004.wav",
+      "sonAudio": "audio/son/104/104_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ",
+      "sha256": "408f5610d4e7112eeadfeeace2b69bcf87dfda0c1e72a01ebe829ded7bf74954",
+      "fatherAudio": "audio/father/104/104_005.wav",
+      "sonAudio": "audio/son/104/104_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+      "sha256": "c3689fe9f731c214639bd014bb1ddc94960d6e83decde666eecd9ba75b6a2c07",
+      "fatherAudio": "audio/father/104/104_006.wav",
+      "sonAudio": "audio/son/104/104_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "ٱلَّتِي تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ",
+      "sha256": "e8b01f69479cc4288d992c337ef067c2deafae11d47353d1a07ca55e8afb0348",
+      "fatherAudio": "audio/father/104/104_007.wav",
+      "sonAudio": "audio/son/104/104_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "إِنَّهَا عَلَيۡهِم مُّؤۡصَدَةٞ",
+      "sha256": "b4420c88541153aeb95ecf2cfaed37ff0c4381ac11d9b3993abfdbe1b10c76f2",
+      "fatherAudio": "audio/father/104/104_008.wav",
+      "sonAudio": "audio/son/104/104_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 104,
+      "surahName": "الهمزة",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "فِي عَمَدٖ مُّمَدَّدَةِۭ",
+      "sha256": "f8fda8800680b307cdb74f2a7e1346b15f03aff1fd25553612a43ffca5884c4b",
+      "fatherAudio": "audio/father/104/104_009.wav",
+      "sonAudio": "audio/son/104/104_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

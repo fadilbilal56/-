@@ -1,0 +1,463 @@
+{
+  "episode": 25,
+  "surahNumber": 90,
+  "surahNameAr": "البلد",
+  "surahNameEn": "Al-Balad",
+  "revelation": "meccan",
+  "totalVerses": 20,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/090/090_000_basmala.wav",
+    "sonAudio": "audio/son/090/090_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "لَآ أُقۡسِمُ بِهَٰذَا ٱلۡبَلَدِ",
+      "sha256": "e39f8ae9f6c2c0ea47d02c9aacad89d311208f76e092d70a2376a714faa2a457",
+      "fatherAudio": "audio/father/090/090_001.wav",
+      "sonAudio": "audio/son/090/090_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَأَنتَ حِلُّۢ بِهَٰذَا ٱلۡبَلَدِ",
+      "sha256": "d8064be26601df5a16a19d001b213464b787f95bee9586c435ff0a40814fedf6",
+      "fatherAudio": "audio/father/090/090_002.wav",
+      "sonAudio": "audio/son/090/090_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَوَالِدٖ وَمَا وَلَدَ",
+      "sha256": "1cfb6a552b3532d8a67a5753d24c6e2e3b3f674ba7af526ca3453f918f9eb9a4",
+      "fatherAudio": "audio/father/090/090_003.wav",
+      "sonAudio": "audio/son/090/090_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِي كَبَدٍ",
+      "sha256": "4a550639927d40d2454c440f77ff34905561102098380d5891faa66c2d72409f",
+      "fatherAudio": "audio/father/090/090_004.wav",
+      "sonAudio": "audio/son/090/090_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "أَيَحۡسَبُ أَن لَّن يَقۡدِرَ عَلَيۡهِ أَحَدٞ",
+      "sha256": "bb676b9279466f289553710e57fd6f509fbcdac848d0f23f2629549b56d82371",
+      "fatherAudio": "audio/father/090/090_005.wav",
+      "sonAudio": "audio/son/090/090_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "يَقُولُ أَهۡلَكۡتُ مَالٗا لُّبَدًا",
+      "sha256": "cca3693a3851717977729fca8f9b270c872ef4bcb8514eb2d8e39d5542e9120b",
+      "fatherAudio": "audio/father/090/090_006.wav",
+      "sonAudio": "audio/son/090/090_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "أَيَحۡسَبُ أَن لَّمۡ يَرَهُۥٓ أَحَدٌ",
+      "sha256": "2d8bfe1d5e7ca8057c50414ff477988b8971bf0343801507ffc4b8c0785c0c24",
+      "fatherAudio": "audio/father/090/090_007.wav",
+      "sonAudio": "audio/son/090/090_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "أَلَمۡ نَجۡعَل لَّهُۥ عَيۡنَيۡنِ",
+      "sha256": "b09f9a2d8686713af07294c4444140e603fd0eae694fa68145b1fb9da8252d3d",
+      "fatherAudio": "audio/father/090/090_008.wav",
+      "sonAudio": "audio/son/090/090_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "وَلِسَانٗا وَشَفَتَيۡنِ",
+      "sha256": "9ba116ebf40aa3fbb9aa68a4266cf2739b22f45323d41ab6f09effeb29897571",
+      "fatherAudio": "audio/father/090/090_009.wav",
+      "sonAudio": "audio/son/090/090_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَهَدَيۡنَٰهُ ٱلنَّجۡدَيۡنِ",
+      "sha256": "0c6fadcc686cc8f8222878f70d27fe204aa59d147f6000c8b53b4e2f8934b9cc",
+      "fatherAudio": "audio/father/090/090_010.wav",
+      "sonAudio": "audio/son/090/090_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "فَلَا ٱقۡتَحَمَ ٱلۡعَقَبَةَ",
+      "sha256": "da0f36c4d7c421d15ccecffa13c58bddd994028f2783b9a912b453c976f485aa",
+      "fatherAudio": "audio/father/090/090_011.wav",
+      "sonAudio": "audio/son/090/090_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡعَقَبَةُ",
+      "sha256": "2519a5927da6ce52d277a95ea859a4e24c39b434eba7746a7dc5d0cd1c452032",
+      "fatherAudio": "audio/father/090/090_012.wav",
+      "sonAudio": "audio/son/090/090_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "فَكُّ رَقَبَةٍ",
+      "sha256": "aaa08ef1f34ff7b2c90207bd22e0ba26bb0a1f1cce5a87252f3ba4fb4cb4c3bf",
+      "fatherAudio": "audio/father/090/090_013.wav",
+      "sonAudio": "audio/son/090/090_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.36,
+        "sonDurationSec": 2.6
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "أَوۡ إِطۡعَٰمٞ فِي يَوۡمٖ ذِي مَسۡغَبَةٖ",
+      "sha256": "3852433217e72018f04d1f134a8f95aef172f1426e0afca81c61d8872a021ea2",
+      "fatherAudio": "audio/father/090/090_014.wav",
+      "sonAudio": "audio/son/090/090_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "يَتِيمٗا ذَا مَقۡرَبَةٍ",
+      "sha256": "20111228b32c0382954f9d72544fbe655201d91a62054a90595368a8306fd716",
+      "fatherAudio": "audio/father/090/090_015.wav",
+      "sonAudio": "audio/son/090/090_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "أَوۡ مِسۡكِينٗا ذَا مَتۡرَبَةٖ",
+      "sha256": "7cca52401de6b6523ac8a9fcbcb45200931bc3426c04a80afe0d6047d9a00d9d",
+      "fatherAudio": "audio/father/090/090_016.wav",
+      "sonAudio": "audio/son/090/090_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُواْ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ وَتَوَاصَوۡاْ بِٱلۡمَرۡحَمَةِ",
+      "sha256": "be4845ac4e493e52da08a82e7e664bf14945ca8df00d621a99baa627bd38e4f2",
+      "fatherAudio": "audio/father/090/090_017.wav",
+      "sonAudio": "audio/son/090/090_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 8.76,
+        "sonDurationSec": 9.64
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلۡمَيۡمَنَةِ",
+      "sha256": "01a7fcee7b863286ac7f5247c46e3801f6a811454c60ab54b0214c761fe479bd",
+      "fatherAudio": "audio/father/090/090_018.wav",
+      "sonAudio": "audio/son/090/090_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "وَٱلَّذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمۡ أَصۡحَٰبُ ٱلۡمَشۡـَٔمَةِ",
+      "sha256": "688f06c6851e73726435d3af7b5ef3b52955fce74460d748a6fe1f45886609d7",
+      "fatherAudio": "audio/father/090/090_019.wav",
+      "sonAudio": "audio/son/090/090_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.36,
+        "sonDurationSec": 7
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 90,
+      "surahName": "البلد",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "عَلَيۡهِمۡ نَارٞ مُّؤۡصَدَةُۢ",
+      "sha256": "3aa798dbb0d72021c3877f68fef573d42804c599b987f9d18343b52557a69d89",
+      "fatherAudio": "audio/father/090/090_020.wav",
+      "sonAudio": "audio/son/090/090_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

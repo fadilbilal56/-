@@ -1,0 +1,177 @@
+{
+  "episode": 8,
+  "surahNumber": 107,
+  "surahNameAr": "الماعون",
+  "surahNameEn": "Al-Ma'un",
+  "revelation": "meccan",
+  "totalVerses": 7,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/107/107_000_basmala.wav",
+    "sonAudio": "audio/son/107/107_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ",
+      "sha256": "51af29793b8c64ce86f90e503cc44f35262bba13a594037cd9b975e7500a17e1",
+      "fatherAudio": "audio/father/107/107_001.wav",
+      "sonAudio": "audio/son/107/107_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ",
+      "sha256": "a8c0c5410f60ce8ee52a5815d760d29eda095e00284b5928d4a47b69e8f6e3d0",
+      "fatherAudio": "audio/father/107/107_002.wav",
+      "sonAudio": "audio/son/107/107_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+      "sha256": "f72f2bd4ec0588ec8f606c24d9cfa221cf71a1e5fe90e4654430fc4d75cfcc52",
+      "fatherAudio": "audio/father/107/107_003.wav",
+      "sonAudio": "audio/son/107/107_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "فَوَيۡلٞ لِّلۡمُصَلِّينَ",
+      "sha256": "f38ea60335bd58aa9057f35fc5bf9a967d328e3d3ecf9c23a8af26250c89b82c",
+      "fatherAudio": "audio/father/107/107_004.wav",
+      "sonAudio": "audio/son/107/107_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+      "sha256": "7ec317ba5fdba8807cd12f4cde142119e9efe64798532ea3096ab617a617e065",
+      "fatherAudio": "audio/father/107/107_005.wav",
+      "sonAudio": "audio/son/107/107_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "ٱلَّذِينَ هُمۡ يُرَآءُونَ",
+      "sha256": "401b6a42f23b0b389c1d5490cd62a2bdcb1d37f699354abbd683749f1b613815",
+      "fatherAudio": "audio/father/107/107_006.wav",
+      "sonAudio": "audio/son/107/107_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 107,
+      "surahName": "الماعون",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَيَمۡنَعُونَ ٱلۡمَاعُونَ",
+      "sha256": "6f25c8075e5f3a8ce87322527d885500f08cf2d593a3fee249ca9d7d270edbca",
+      "fatherAudio": "audio/father/107/107_007.wav",
+      "sonAudio": "audio/son/107/107_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

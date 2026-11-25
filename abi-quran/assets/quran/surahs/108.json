@@ -1,0 +1,89 @@
+{
+  "episode": 7,
+  "surahNumber": 108,
+  "surahNameAr": "الكوثر",
+  "surahNameEn": "Al-Kawthar",
+  "revelation": "meccan",
+  "totalVerses": 3,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/108/108_000_basmala.wav",
+    "sonAudio": "audio/son/108/108_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 108,
+      "surahName": "الكوثر",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+      "sha256": "560f15ec8ffdd62f789ad428285f3e96b01c7fe7671f3cf528611ddecdc4ffe1",
+      "fatherAudio": "audio/father/108/108_001.wav",
+      "sonAudio": "audio/son/108/108_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 108,
+      "surahName": "الكوثر",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+      "sha256": "c7717510bbc79f116f3c320ffbf2eb306873058528c658eaa27cda03b0844506",
+      "fatherAudio": "audio/father/108/108_002.wav",
+      "sonAudio": "audio/son/108/108_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 108,
+      "surahName": "الكوثر",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+      "sha256": "7368cc85826fc5a482d7980b2609f188f8bf37486442bb9e3170a5177a79e816",
+      "fatherAudio": "audio/father/108/108_003.wav",
+      "sonAudio": "audio/son/108/108_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

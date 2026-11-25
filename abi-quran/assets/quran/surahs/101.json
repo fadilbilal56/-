@@ -1,0 +1,265 @@
+{
+  "episode": 14,
+  "surahNumber": 101,
+  "surahNameAr": "القارعة",
+  "surahNameEn": "Al-Qari'ah",
+  "revelation": "meccan",
+  "totalVerses": 11,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/101/101_000_basmala.wav",
+    "sonAudio": "audio/son/101/101_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "ٱلۡقَارِعَةُ",
+      "sha256": "49bc69aa3a9e00c6921b5866f35ae68e9f3a13d47ed2df1adc9e40db80ae8006",
+      "fatherAudio": "audio/father/101/101_001.wav",
+      "sonAudio": "audio/son/101/101_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.52,
+        "sonDurationSec": 2.77
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "مَا ٱلۡقَارِعَةُ",
+      "sha256": "be1380f13856994a865d1b49ebeee3e17f3ad1b914148688266ad9d39743943d",
+      "fatherAudio": "audio/father/101/101_002.wav",
+      "sonAudio": "audio/son/101/101_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ",
+      "sha256": "96fa35e2eadff100ce66dee0361c8e3f4d3253739ab0f35c9fed404d25e83041",
+      "fatherAudio": "audio/father/101/101_003.wav",
+      "sonAudio": "audio/son/101/101_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+      "sha256": "17452452e533d5032a3d537e1e6b4f16dc09376ed85c12e03884d474cd2f7541",
+      "fatherAudio": "audio/father/101/101_004.wav",
+      "sonAudio": "audio/son/101/101_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.56,
+        "sonDurationSec": 6.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+      "sha256": "5e8763c7a9fa64a6912fb9ad939cf15645fb1adcdb11ed69e98e2989baf4123f",
+      "fatherAudio": "audio/father/101/101_005.wav",
+      "sonAudio": "audio/son/101/101_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+      "sha256": "a9f830bc9b714ba2478a328816bd3aa0d09032cd87bcdb4c0a440acee133afec",
+      "fatherAudio": "audio/father/101/101_006.wav",
+      "sonAudio": "audio/son/101/101_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
+      "sha256": "67e6a1635cb4959edc29c2a9ca8aa6917ca92edc0e40e24f6989ee13ab7f9f1f",
+      "fatherAudio": "audio/father/101/101_007.wav",
+      "sonAudio": "audio/son/101/101_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+      "sha256": "8e37215680a8eeaf51934912c3191ec538a48c9ba98535ce5bf927429713fb99",
+      "fatherAudio": "audio/father/101/101_008.wav",
+      "sonAudio": "audio/son/101/101_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "فَأُمُّهُۥ هَاوِيَةٞ",
+      "sha256": "3a0d0433a5df9ef30ee050edf5e8def5d7afb093240ed96ab574570d9be7cc8b",
+      "fatherAudio": "audio/father/101/101_009.wav",
+      "sonAudio": "audio/son/101/101_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.84,
+        "sonDurationSec": 3.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ",
+      "sha256": "a7276b0ce99b075a0cc1c93f272595c74b2ada424b4a37969b0bee0c21174bfa",
+      "fatherAudio": "audio/father/101/101_010.wav",
+      "sonAudio": "audio/son/101/101_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 101,
+      "surahName": "القارعة",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "نَارٌ حَامِيَةُۢ",
+      "sha256": "c6d683994d6f8edaa599d4e2275461fe9656cbe943429facac007431a01c3d9c",
+      "fatherAudio": "audio/father/101/101_011.wav",
+      "sonAudio": "audio/son/101/101_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

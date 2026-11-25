@@ -1,0 +1,683 @@
+{
+  "episode": 26,
+  "surahNumber": 89,
+  "surahNameAr": "الفجر",
+  "surahNameEn": "Al-Fajr",
+  "revelation": "meccan",
+  "totalVerses": 30,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/089/089_000_basmala.wav",
+    "sonAudio": "audio/son/089/089_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلۡفَجۡرِ",
+      "sha256": "8b60b4ec94bce4974a19f2199d0dfb083aaefdeaaebdaa67e2545e6cbd4c17ec",
+      "fatherAudio": "audio/father/089/089_001.wav",
+      "sonAudio": "audio/son/089/089_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.36,
+        "sonDurationSec": 2.6
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَلَيَالٍ عَشۡرٖ",
+      "sha256": "60fbe67526ce3063ba76354feada76e99955fd4954fe774a2d809504931ad74c",
+      "fatherAudio": "audio/father/089/089_002.wav",
+      "sonAudio": "audio/son/089/089_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 2.68,
+        "sonDurationSec": 2.95
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَٱلشَّفۡعِ وَٱلۡوَتۡرِ",
+      "sha256": "9d3fd1171fb03fb1cdd92ff1dd1c30ba156a39253e6b22ff9b94cf96b1f4187e",
+      "fatherAudio": "audio/father/089/089_003.wav",
+      "sonAudio": "audio/son/089/089_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَٱلَّيۡلِ إِذَا يَسۡرِ",
+      "sha256": "cb8061895df99a0070beaccbb9260bf5446a0fc6f8d755c95ae819b054810aba",
+      "fatherAudio": "audio/father/089/089_004.wav",
+      "sonAudio": "audio/son/089/089_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "هَلۡ فِي ذَٰلِكَ قَسَمٞ لِّذِي حِجۡرٍ",
+      "sha256": "9d6a2f1df56e937fdd5163e03de778fe515e290ecd196019cbd59c35558c0962",
+      "fatherAudio": "audio/father/089/089_005.wav",
+      "sonAudio": "audio/son/089/089_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِعَادٍ",
+      "sha256": "e746e880786d36b8695caf545c295bb2d0e3c4f128b7a305b2dcaf0913ffadbb",
+      "fatherAudio": "audio/father/089/089_006.wav",
+      "sonAudio": "audio/son/089/089_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "إِرَمَ ذَاتِ ٱلۡعِمَادِ",
+      "sha256": "5c0f336cf294b6b1b14bb7a36d757003b4138518f128ae09a278dfedd9928133",
+      "fatherAudio": "audio/father/089/089_007.wav",
+      "sonAudio": "audio/son/089/089_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "ٱلَّتِي لَمۡ يُخۡلَقۡ مِثۡلُهَا فِي ٱلۡبِلَٰدِ",
+      "sha256": "18862df428eab32cef7c5c19070cc1618aceb6a8ecff94878119549d0643c0eb",
+      "fatherAudio": "audio/father/089/089_008.wav",
+      "sonAudio": "audio/son/089/089_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.92,
+        "sonDurationSec": 5.41
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "وَثَمُودَ ٱلَّذِينَ جَابُواْ ٱلصَّخۡرَ بِٱلۡوَادِ",
+      "sha256": "d9c3cf474c17990664b63eef5981e945403d51fca4ca198b8ec860ec2a336578",
+      "fatherAudio": "audio/father/089/089_009.wav",
+      "sonAudio": "audio/son/089/089_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.56,
+        "sonDurationSec": 6.12
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَفِرۡعَوۡنَ ذِي ٱلۡأَوۡتَادِ",
+      "sha256": "e2b7e91f9e5552a5fffab22c2c01285ec3dafd4866b9a6ad2e7ec8e58ad43d48",
+      "fatherAudio": "audio/father/089/089_010.wav",
+      "sonAudio": "audio/son/089/089_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "ٱلَّذِينَ طَغَوۡاْ فِي ٱلۡبِلَٰدِ",
+      "sha256": "02f4bf9efc7d4a81df739deff020393eb4f81c3faf2fa0f2213bd98eb7489a49",
+      "fatherAudio": "audio/father/089/089_011.wav",
+      "sonAudio": "audio/son/089/089_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "فَأَكۡثَرُواْ فِيهَا ٱلۡفَسَادَ",
+      "sha256": "25755ea71c952442d679d27b12ac07e27d381ca62987a210c66b636df9be7b3c",
+      "fatherAudio": "audio/father/089/089_012.wav",
+      "sonAudio": "audio/son/089/089_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "فَصَبَّ عَلَيۡهِمۡ رَبُّكَ سَوۡطَ عَذَابٍ",
+      "sha256": "7de920e7f9f63022c962c221b1f55c14a030ce39dc9d2fd546e0c6afea377f77",
+      "fatherAudio": "audio/father/089/089_013.wav",
+      "sonAudio": "audio/son/089/089_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.28,
+        "sonDurationSec": 4.71
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "إِنَّ رَبَّكَ لَبِٱلۡمِرۡصَادِ",
+      "sha256": "a95f240f44a8f5caa6e32ba9d93968b352bada00de79969a63d60fe202feeef0",
+      "fatherAudio": "audio/father/089/089_014.wav",
+      "sonAudio": "audio/son/089/089_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "فَأَمَّا ٱلۡإِنسَٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّيٓ أَكۡرَمَنِ",
+      "sha256": "f600ee4fd3a5818e174901b7c1306288b6be36aa7e85782354dd0f4da334cf2e",
+      "fatherAudio": "audio/father/089/089_015.wav",
+      "sonAudio": "audio/son/089/089_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 9.08,
+        "sonDurationSec": 9.99
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "وَأَمَّآ إِذَا مَا ٱبۡتَلَىٰهُ فَقَدَرَ عَلَيۡهِ رِزۡقَهُۥ فَيَقُولُ رَبِّيٓ أَهَٰنَنِ",
+      "sha256": "b744bb04baeb278bbe3cc15a5d9861a72028b3d56ce99f86dbf523b0895da1f6",
+      "fatherAudio": "audio/father/089/089_016.wav",
+      "sonAudio": "audio/son/089/089_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.64,
+        "sonDurationSec": 8.4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "كَلَّاۖ بَل لَّا تُكۡرِمُونَ ٱلۡيَتِيمَ",
+      "sha256": "44f79218647fae763b8bd612ce95122e01851433f568352a4ccf9f701a4f2a3a",
+      "fatherAudio": "audio/father/089/089_017.wav",
+      "sonAudio": "audio/son/089/089_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+      "sha256": "b78519e1e117ce515682fe1874cec388a175cbe4ee0d9fa7c4381566ded1c92a",
+      "fatherAudio": "audio/father/089/089_018.wav",
+      "sonAudio": "audio/son/089/089_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.08,
+        "sonDurationSec": 5.59
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "وَتَأۡكُلُونَ ٱلتُّرَاثَ أَكۡلٗا لَّمّٗا",
+      "sha256": "020b686ccec751e89eb2d34f6fe8564a173f577d66da3ed31d72e477c3dda1b2",
+      "fatherAudio": "audio/father/089/089_019.wav",
+      "sonAudio": "audio/son/089/089_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "وَتُحِبُّونَ ٱلۡمَالَ حُبّٗا جَمّٗا",
+      "sha256": "83bc664a67db6202f64dff5cbda98ed86a1a06d13e536a007ecf9c2e30ca6fea",
+      "fatherAudio": "audio/father/089/089_020.wav",
+      "sonAudio": "audio/son/089/089_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "كَلَّآۖ إِذَا دُكَّتِ ٱلۡأَرۡضُ دَكّٗا دَكّٗا",
+      "sha256": "1794698b2e4cf475d074fd5db953ffaff9d08128e2c2fed94f0e01eb8cec0c68",
+      "fatherAudio": "audio/father/089/089_021.wav",
+      "sonAudio": "audio/son/089/089_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "وَجَآءَ رَبُّكَ وَٱلۡمَلَكُ صَفّٗا صَفّٗا",
+      "sha256": "d71d2e804f07450c35463cda52952238d9b18d8a18391c2eb620a97ca51198f6",
+      "fatherAudio": "audio/father/089/089_022.wav",
+      "sonAudio": "audio/son/089/089_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 23,
+      "verseNumberAr": "٢٣",
+      "textUthmani": "وَجِاْيٓءَ يَوۡمَئِذِۭ بِجَهَنَّمَۚ يَوۡمَئِذٖ يَتَذَكَّرُ ٱلۡإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكۡرَىٰ",
+      "sha256": "1278255f82b25ed1dc25cab8009f993e42d9ec081c1c0ed42f48d4405da6115d",
+      "fatherAudio": "audio/father/089/089_023.wav",
+      "sonAudio": "audio/son/089/089_023.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 8.28,
+        "sonDurationSec": 9.11
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 24,
+      "verseNumberAr": "٢٤",
+      "textUthmani": "يَقُولُ يَٰلَيۡتَنِي قَدَّمۡتُ لِحَيَاتِي",
+      "sha256": "0df6d6806650cdd5736eea467f641f7881bf4977f887db84b93e0337024f12ce",
+      "fatherAudio": "audio/father/089/089_024.wav",
+      "sonAudio": "audio/son/089/089_024.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 25,
+      "verseNumberAr": "٢٥",
+      "textUthmani": "فَيَوۡمَئِذٖ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٞ",
+      "sha256": "fc6246b89dc035b0ae14f0c525f8f3f79dda62ab9ff5fd06878665b262f5e873",
+      "fatherAudio": "audio/father/089/089_025.wav",
+      "sonAudio": "audio/son/089/089_025.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 26,
+      "verseNumberAr": "٢٦",
+      "textUthmani": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٞ",
+      "sha256": "85661ffe87014ef60a444d9ec2eefc51fc161ce402872f76a23fe43348e44724",
+      "fatherAudio": "audio/father/089/089_026.wav",
+      "sonAudio": "audio/son/089/089_026.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 27,
+      "verseNumberAr": "٢٧",
+      "textUthmani": "يَـٰٓأَيَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَئِنَّةُ",
+      "sha256": "fbb646d7b787e0b327fe5f5987dc4d75f52e300122cf1d76ec786a46a87c26f0",
+      "fatherAudio": "audio/father/089/089_027.wav",
+      "sonAudio": "audio/son/089/089_027.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 28,
+      "verseNumberAr": "٢٨",
+      "textUthmani": "ٱرۡجِعِيٓ إِلَىٰ رَبِّكِ رَاضِيَةٗ مَّرۡضِيَّةٗ",
+      "sha256": "24ecca9728dd90367b7289dc9bc1099823ef58529257d45f73518853d291791f",
+      "fatherAudio": "audio/father/089/089_028.wav",
+      "sonAudio": "audio/son/089/089_028.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.76,
+        "sonDurationSec": 5.24
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 29,
+      "verseNumberAr": "٢٩",
+      "textUthmani": "فَٱدۡخُلِي فِي عِبَٰدِي",
+      "sha256": "45ce574363d22c38bc441fbf17b6941ebfcec900249302b2af094cb2ecc6dab0",
+      "fatherAudio": "audio/father/089/089_029.wav",
+      "sonAudio": "audio/son/089/089_029.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 89,
+      "surahName": "الفجر",
+      "verseNumber": 30,
+      "verseNumberAr": "٣٠",
+      "textUthmani": "وَٱدۡخُلِي جَنَّتِي",
+      "sha256": "e70acada778009a0cdd848abf3f70169a12af46cf31f0e8eb8530f7a2d2afea7",
+      "fatherAudio": "audio/father/089/089_030.wav",
+      "sonAudio": "audio/son/089/089_030.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

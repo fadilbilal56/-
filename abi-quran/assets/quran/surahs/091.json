@@ -1,0 +1,353 @@
+{
+  "episode": 24,
+  "surahNumber": 91,
+  "surahNameAr": "الشمس",
+  "surahNameEn": "Ash-Shams",
+  "revelation": "meccan",
+  "totalVerses": 15,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/091/091_000_basmala.wav",
+    "sonAudio": "audio/son/091/091_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلشَّمۡسِ وَضُحَىٰهَا",
+      "sha256": "fb9b37edb31bffcbb3e332bdf44dc46fa9af24fc0972c241f01478c719a18107",
+      "fatherAudio": "audio/father/091/091_001.wav",
+      "sonAudio": "audio/son/091/091_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَٱلۡقَمَرِ إِذَا تَلَىٰهَا",
+      "sha256": "a50e9daae9dacc22b6f5e2d6562ec571097530ac4c29c5fe5d02fbc57e7e8b44",
+      "fatherAudio": "audio/father/091/091_002.wav",
+      "sonAudio": "audio/son/091/091_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "sha256": "ab9e23473b78be8672207581fd5c98a164da4a01579cb0179444f139bb4da6e9",
+      "fatherAudio": "audio/father/091/091_003.wav",
+      "sonAudio": "audio/son/091/091_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَٱلَّيۡلِ إِذَا يَغۡشَىٰهَا",
+      "sha256": "4ac19da61acb69eb2d74d2e79899b4f6731d322357336095be65ca185c3ed72d",
+      "fatherAudio": "audio/father/091/091_004.wav",
+      "sonAudio": "audio/son/091/091_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "sha256": "0f871da71024e756d4a79316460868a7271b478d4698af9749f56b72c4b0a99e",
+      "fatherAudio": "audio/father/091/091_005.wav",
+      "sonAudio": "audio/son/091/091_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "وَٱلۡأَرۡضِ وَمَا طَحَىٰهَا",
+      "sha256": "095fa9abc0e1c092ddebb06a42852eb422eb58c5aade0396e126297262d055b3",
+      "fatherAudio": "audio/father/091/091_006.wav",
+      "sonAudio": "audio/son/091/091_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَنَفۡسٖ وَمَا سَوَّىٰهَا",
+      "sha256": "9f981a2ea7001c95309b5c11a77a9cb5cb794642ac1164583e2af030b79e8b38",
+      "fatherAudio": "audio/father/091/091_007.wav",
+      "sonAudio": "audio/son/091/091_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "فَأَلۡهَمَهَا فُجُورَهَا وَتَقۡوَىٰهَا",
+      "sha256": "eea2799a77ad6f57f60d963cdcbd1d3ffadeba187f3605ede3b6563d423552ca",
+      "fatherAudio": "audio/father/091/091_008.wav",
+      "sonAudio": "audio/son/091/091_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.6,
+        "sonDurationSec": 5.06
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "قَدۡ أَفۡلَحَ مَن زَكَّىٰهَا",
+      "sha256": "b037c67884bc1458cd854f38c0923cc6aa6a2151de8f60da4f6fc603ad51699e",
+      "fatherAudio": "audio/father/091/091_009.wav",
+      "sonAudio": "audio/son/091/091_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "وَقَدۡ خَابَ مَن دَسَّىٰهَا",
+      "sha256": "b5e6e095298ad778aa3f82934b04cb331efa8f7916d755b4fac2847c0a927a27",
+      "fatherAudio": "audio/father/091/091_010.wav",
+      "sonAudio": "audio/son/091/091_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "كَذَّبَتۡ ثَمُودُ بِطَغۡوَىٰهَآ",
+      "sha256": "703a476936045bb20ca1f73309acfb72d4baf34bcbaa7aae50bbbd452c6a8803",
+      "fatherAudio": "audio/father/091/091_011.wav",
+      "sonAudio": "audio/son/091/091_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "إِذِ ٱنۢبَعَثَ أَشۡقَىٰهَا",
+      "sha256": "dc89aa182d8e953fd159d0f715988bbf815df1e3b8522a3c74f951b78680a0fc",
+      "fatherAudio": "audio/father/091/091_012.wav",
+      "sonAudio": "audio/son/091/091_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "فَقَالَ لَهُمۡ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقۡيَٰهَا",
+      "sha256": "2c919628b06a362c14a10e76bd8b6f83865066bfa5f5f84d485ba8b5a696c9db",
+      "fatherAudio": "audio/father/091/091_013.wav",
+      "sonAudio": "audio/son/091/091_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.04,
+        "sonDurationSec": 6.64
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمۡدَمَ عَلَيۡهِمۡ رَبُّهُم بِذَنۢبِهِمۡ فَسَوَّىٰهَا",
+      "sha256": "57b5a103e544b4251b70bbe1491d6c7d57fda549379ecc758fd3cf6b177c3f2c",
+      "fatherAudio": "audio/father/091/091_014.wav",
+      "sonAudio": "audio/son/091/091_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.64,
+        "sonDurationSec": 8.4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 91,
+      "surahName": "الشمس",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "وَلَا يَخَافُ عُقۡبَٰهَا",
+      "sha256": "c8c8c13815b5076024dacdd98a56d4c0ada7fde9ea69b5d729c6b9dd62b9d549",
+      "fatherAudio": "audio/father/091/091_015.wav",
+      "sonAudio": "audio/son/091/091_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.32,
+        "sonDurationSec": 3.65
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

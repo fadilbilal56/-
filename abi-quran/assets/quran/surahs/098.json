@@ -1,0 +1,199 @@
+{
+  "episode": 17,
+  "surahNumber": 98,
+  "surahNameAr": "البينة",
+  "surahNameEn": "Al-Bayyinah",
+  "revelation": "medinan",
+  "totalVerses": 8,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/098/098_000_basmala.wav",
+    "sonAudio": "audio/son/098/098_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ",
+      "sha256": "476a5b3eba8dd12f62548707acdb86565cabf0a65849232dbdd4cec00ab4fee7",
+      "fatherAudio": "audio/father/098/098_001.wav",
+      "sonAudio": "audio/son/098/098_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 10.2,
+        "sonDurationSec": 11.22
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "رَسُولٞ مِّنَ ٱللَّهِ يَتۡلُواْ صُحُفٗا مُّطَهَّرَةٗ",
+      "sha256": "b10b32567cc4ca033250a3e51b24b2bfa54882cb1def55c46d6b9503539f1308",
+      "fatherAudio": "audio/father/098/098_002.wav",
+      "sonAudio": "audio/son/098/098_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.24,
+        "sonDurationSec": 5.76
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "فِيهَا كُتُبٞ قَيِّمَةٞ",
+      "sha256": "6dba983484fbe62299dd90664526770e32bcdd56135b57b931485ca18312d497",
+      "fatherAudio": "audio/father/098/098_003.wav",
+      "sonAudio": "audio/son/098/098_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ إِلَّا مِنۢ بَعۡدِ مَا جَآءَتۡهُمُ ٱلۡبَيِّنَةُ",
+      "sha256": "48a8ce1a961e5e34bd8d9155d7a329913af1e9dec02c44e55b261325d2ea4095",
+      "fatherAudio": "audio/father/098/098_004.wav",
+      "sonAudio": "audio/son/098/098_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 8.44,
+        "sonDurationSec": 9.28
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "وَمَآ أُمِرُوٓاْ إِلَّا لِيَعۡبُدُواْ ٱللَّهَ مُخۡلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُواْ ٱلصَّلَوٰةَ وَيُؤۡتُواْ ٱلزَّكَوٰةَۚ وَذَٰلِكَ دِينُ ٱلۡقَيِّمَةِ",
+      "sha256": "9e2e919714e4b46e7fd0ff16f11e6a5b60fcaddb3bc778d7783d70797743cbba",
+      "fatherAudio": "audio/father/098/098_005.wav",
+      "sonAudio": "audio/son/098/098_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 13.88,
+        "sonDurationSec": 15.27
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَـٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ",
+      "sha256": "32f2a04533ea4ddb5d7013fad122fd82fe7b25823345cbf48ac862ce59c93c15",
+      "fatherAudio": "audio/father/098/098_006.wav",
+      "sonAudio": "audio/son/098/098_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 11.8,
+        "sonDurationSec": 12.98
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ أُوْلَـٰٓئِكَ هُمۡ خَيۡرُ ٱلۡبَرِيَّةِ",
+      "sha256": "d04bb987ee70a48be23e5dcffb48d8bfaea7a90a471ab67b635aa75771f889a4",
+      "fatherAudio": "audio/father/098/098_007.wav",
+      "sonAudio": "audio/son/098/098_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 8.28,
+        "sonDurationSec": 9.11
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 98,
+      "surahName": "البينة",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "جَزَآؤُهُمۡ عِندَ رَبِّهِمۡ جَنَّـٰتُ عَدۡنٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ لِمَنۡ خَشِيَ رَبَّهُۥ",
+      "sha256": "c3fa61bd2a117f60eafe3ef31cd95a702fe776e25b95f19a12395015cea50ada",
+      "fatherAudio": "audio/father/098/098_008.wav",
+      "sonAudio": "audio/son/098/098_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 14.36,
+        "sonDurationSec": 15.8
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

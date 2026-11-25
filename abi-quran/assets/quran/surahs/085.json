@@ -1,0 +1,507 @@
+{
+  "episode": 30,
+  "surahNumber": 85,
+  "surahNameAr": "البروج",
+  "surahNameEn": "Al-Buruj",
+  "revelation": "meccan",
+  "totalVerses": 22,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/085/085_000_basmala.wav",
+    "sonAudio": "audio/son/085/085_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلۡبُرُوجِ",
+      "sha256": "7001d2522b7a0344571cd2765d0db70e1c01c8445fa625d1a2af8eace78e40f8",
+      "fatherAudio": "audio/father/085/085_001.wav",
+      "sonAudio": "audio/son/085/085_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَٱلۡيَوۡمِ ٱلۡمَوۡعُودِ",
+      "sha256": "3cc00cc4d2ba92221d42b1fb4891bbc4a397ca4641c05712815b0c4ab58d576c",
+      "fatherAudio": "audio/father/085/085_002.wav",
+      "sonAudio": "audio/son/085/085_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "وَشَاهِدٖ وَمَشۡهُودٖ",
+      "sha256": "80da1ef5b291d13ea1125ed181b2b5ad554e2b1f09695035732f96d3c6804b55",
+      "fatherAudio": "audio/father/085/085_003.wav",
+      "sonAudio": "audio/son/085/085_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 4,
+      "verseNumberAr": "٤",
+      "textUthmani": "قُتِلَ أَصۡحَٰبُ ٱلۡأُخۡدُودِ",
+      "sha256": "7086b9c39e2be41c5ed429019fd295761576482284fccdd4a61e637c28bda3e2",
+      "fatherAudio": "audio/father/085/085_004.wav",
+      "sonAudio": "audio/son/085/085_004.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 5,
+      "verseNumberAr": "٥",
+      "textUthmani": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
+      "sha256": "aa2339cde05d96b5b86b3580e000091e5483778ac012674c992b98a23014376a",
+      "fatherAudio": "audio/father/085/085_005.wav",
+      "sonAudio": "audio/son/085/085_005.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 6,
+      "verseNumberAr": "٦",
+      "textUthmani": "إِذۡ هُمۡ عَلَيۡهَا قُعُودٞ",
+      "sha256": "e767b1cfd2e3cdbb7059eb6e32e8812e0fe0f9cbed24898d4c6d3d76701f80ef",
+      "fatherAudio": "audio/father/085/085_006.wav",
+      "sonAudio": "audio/son/085/085_006.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 7,
+      "verseNumberAr": "٧",
+      "textUthmani": "وَهُمۡ عَلَىٰ مَا يَفۡعَلُونَ بِٱلۡمُؤۡمِنِينَ شُهُودٞ",
+      "sha256": "f973a7c50a41c76e438ea35c1bd9e82e0fb803692dbaa0917b068ed725ac9067",
+      "fatherAudio": "audio/father/085/085_007.wav",
+      "sonAudio": "audio/son/085/085_007.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 5.72,
+        "sonDurationSec": 6.29
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 8,
+      "verseNumberAr": "٨",
+      "textUthmani": "وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ",
+      "sha256": "58eac960b218805a43a32af3721dc15c47f76aa8078c92d59ce7d3c402a612f1",
+      "fatherAudio": "audio/father/085/085_008.wav",
+      "sonAudio": "audio/son/085/085_008.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.8,
+        "sonDurationSec": 8.58
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 9,
+      "verseNumberAr": "٩",
+      "textUthmani": "ٱلَّذِي لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ شَهِيدٌ",
+      "sha256": "96ca979942fb17ff1ca81d1475021915fa7e500be4d12c104bb3de70a01a9e49",
+      "fatherAudio": "audio/father/085/085_009.wav",
+      "sonAudio": "audio/son/085/085_009.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 7.48,
+        "sonDurationSec": 8.23
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 10,
+      "verseNumberAr": "١٠",
+      "textUthmani": "إِنَّ ٱلَّذِينَ فَتَنُواْ ٱلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِ ثُمَّ لَمۡ يَتُوبُواْ فَلَهُمۡ عَذَابُ جَهَنَّمَ وَلَهُمۡ عَذَابُ ٱلۡحَرِيقِ",
+      "sha256": "ae9e47949113e1a8970af33df0d8e55090e7763b4be4af5425eb719b7170b86b",
+      "fatherAudio": "audio/father/085/085_010.wav",
+      "sonAudio": "audio/son/085/085_010.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 11.64,
+        "sonDurationSec": 12.8
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 11,
+      "verseNumberAr": "١١",
+      "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ جَنَّـٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡكَبِيرُ",
+      "sha256": "56f08b1eb00f89fbc39b29b6a0454719eae6dea0a649a393f22204bb09a166e4",
+      "fatherAudio": "audio/father/085/085_011.wav",
+      "sonAudio": "audio/son/085/085_011.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 11.64,
+        "sonDurationSec": 12.8
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 12,
+      "verseNumberAr": "١٢",
+      "textUthmani": "إِنَّ بَطۡشَ رَبِّكَ لَشَدِيدٌ",
+      "sha256": "21289e6ddeffc47bc407d7ab9fd1aeebc4a64dac12b4a1c91f7f2bc271869a69",
+      "fatherAudio": "audio/father/085/085_012.wav",
+      "sonAudio": "audio/son/085/085_012.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 13,
+      "verseNumberAr": "١٣",
+      "textUthmani": "إِنَّهُۥ هُوَ يُبۡدِئُ وَيُعِيدُ",
+      "sha256": "5a109160d6594c34108507c37fcdf1ed6e925f8464473833cfdc1f219b48d390",
+      "fatherAudio": "audio/father/085/085_013.wav",
+      "sonAudio": "audio/son/085/085_013.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.64,
+        "sonDurationSec": 4
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 14,
+      "verseNumberAr": "١٤",
+      "textUthmani": "وَهُوَ ٱلۡغَفُورُ ٱلۡوَدُودُ",
+      "sha256": "cd640a6d99e87e58153c8db689a23cbc95cee53f16ab0d5e4815326b37df9f4e",
+      "fatherAudio": "audio/father/085/085_014.wav",
+      "sonAudio": "audio/son/085/085_014.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.8,
+        "sonDurationSec": 4.18
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 15,
+      "verseNumberAr": "١٥",
+      "textUthmani": "ذُو ٱلۡعَرۡشِ ٱلۡمَجِيدُ",
+      "sha256": "a088b2d19ee3854809f3d65973fee299fb083afa720cfa693cf4c62e2924db3a",
+      "fatherAudio": "audio/father/085/085_015.wav",
+      "sonAudio": "audio/son/085/085_015.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 16,
+      "verseNumberAr": "١٦",
+      "textUthmani": "فَعَّالٞ لِّمَا يُرِيدُ",
+      "sha256": "c8ecc840a16245e595218b5f39adcf68cdb8b93cdead5c26ca9f05543db5fbde",
+      "fatherAudio": "audio/father/085/085_016.wav",
+      "sonAudio": "audio/son/085/085_016.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.16,
+        "sonDurationSec": 3.48
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 17,
+      "verseNumberAr": "١٧",
+      "textUthmani": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡجُنُودِ",
+      "sha256": "44692ea9dd6b135560afa6fa74e1c263f42b876ce30c40aceb7c4ef355de3775",
+      "fatherAudio": "audio/father/085/085_017.wav",
+      "sonAudio": "audio/son/085/085_017.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.96,
+        "sonDurationSec": 4.36
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 18,
+      "verseNumberAr": "١٨",
+      "textUthmani": "فِرۡعَوۡنَ وَثَمُودَ",
+      "sha256": "b866c9435dd9f80d78141c67c1f0eb0aae3f910ab91b34b95ff29e39c72db41d",
+      "fatherAudio": "audio/father/085/085_018.wav",
+      "sonAudio": "audio/son/085/085_018.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 19,
+      "verseNumberAr": "١٩",
+      "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي تَكۡذِيبٖ",
+      "sha256": "4230ad9c841f56c36faf482c196fd9d8c51475e04bcaa6cd8081e154467b0dfa",
+      "fatherAudio": "audio/father/085/085_019.wav",
+      "sonAudio": "audio/son/085/085_019.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 20,
+      "verseNumberAr": "٢٠",
+      "textUthmani": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ",
+      "sha256": "001b5445d0650afd18cbc696528f39d6aff79c50d5612f9a376824a8e76d6eff",
+      "fatherAudio": "audio/father/085/085_020.wav",
+      "sonAudio": "audio/son/085/085_020.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.12,
+        "sonDurationSec": 4.53
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 21,
+      "verseNumberAr": "٢١",
+      "textUthmani": "بَلۡ هُوَ قُرۡءَانٞ مَّجِيدٞ",
+      "sha256": "4e954e4769367c5ec26198b6c377833443bf4aa3e25713102da012480077a4ed",
+      "fatherAudio": "audio/father/085/085_021.wav",
+      "sonAudio": "audio/son/085/085_021.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3.48,
+        "sonDurationSec": 3.83
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 85,
+      "surahName": "البروج",
+      "verseNumber": 22,
+      "verseNumberAr": "٢٢",
+      "textUthmani": "فِي لَوۡحٖ مَّحۡفُوظِۭ",
+      "sha256": "33d9cb97de0c11087657bc0a9aa5d7a471c0929f83a0a16e70f99c2205151bf7",
+      "fatherAudio": "audio/father/085/085_022.wav",
+      "sonAudio": "audio/son/085/085_022.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 3,
+        "sonDurationSec": 3.3
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}

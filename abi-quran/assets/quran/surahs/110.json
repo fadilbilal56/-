@@ -1,0 +1,89 @@
+{
+  "episode": 5,
+  "surahNumber": 110,
+  "surahNameAr": "النصر",
+  "surahNameEn": "An-Nasr",
+  "revelation": "medinan",
+  "totalVerses": 3,
+  "includeBasmala": true,
+  "textSource": "quran-json@3.1.2",
+  "basmala": {
+    "textUthmani": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+    "sha256": "803dee27b5a9ddf866112eac2f8a34e5bd83ca08015ec4acaaffeba25a378352",
+    "fatherAudio": "audio/father/110/110_000_basmala.wav",
+    "sonAudio": "audio/son/110/110_000_basmala.wav",
+    "timing": {
+      "source": "placeholder-estimate",
+      "fatherDurationSec": 4.44,
+      "sonDurationSec": 4.88
+    }
+  },
+  "verses": [
+    {
+      "surahNumber": 110,
+      "surahName": "النصر",
+      "verseNumber": 1,
+      "verseNumberAr": "١",
+      "textUthmani": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
+      "sha256": "e34b42f9921fc3b087579803712f404f6db54dbae3739392b0428435daba4893",
+      "fatherAudio": "audio/father/110/110_001.wav",
+      "sonAudio": "audio/son/110/110_001.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 4.44,
+        "sonDurationSec": 4.88
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 110,
+      "surahName": "النصر",
+      "verseNumber": 2,
+      "verseNumberAr": "٢",
+      "textUthmani": "وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِي دِينِ ٱللَّهِ أَفۡوَاجٗا",
+      "sha256": "d1feb5dc6e75d5b247809d37028e5d8db4cf61f3050ed421cd859503afcf88ea",
+      "fatherAudio": "audio/father/110/110_002.wav",
+      "sonAudio": "audio/son/110/110_002.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.36,
+        "sonDurationSec": 7
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    },
+    {
+      "surahNumber": 110,
+      "surahName": "النصر",
+      "verseNumber": 3,
+      "verseNumberAr": "٣",
+      "textUthmani": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا",
+      "sha256": "4faf2a97db85d75a58464f0a5d27fdaf28f8e7baca8f137cdacc0d0e8055f38b",
+      "fatherAudio": "audio/father/110/110_003.wav",
+      "sonAudio": "audio/son/110/110_003.wav",
+      "timing": {
+        "source": "placeholder-estimate",
+        "fatherDurationSec": 6.2,
+        "sonDurationSec": 6.82
+      },
+      "review": {
+        "textCheckedAgainstMushaf": false,
+        "fatherAudioApproved": false,
+        "sonAudioApproved": false,
+        "reviewer": null,
+        "date": null
+      }
+    }
+  ]
+}
