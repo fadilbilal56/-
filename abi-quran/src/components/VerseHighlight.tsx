@@ -46,6 +46,9 @@ export const VerseHighlight: React.FC<{text: string; activeIndex: number; accent
                 background: active ? accent! : 'transparent',
                 borderRadius: '0.35em',
                 padding: '0 0.12em',
+                // tight highlight box: Amiri's tall ascent would otherwise cover the label above
+                display: 'inline-block',
+                lineHeight: 1.45,
                 boxShadow: active ? `0 0 0.6em ${accent}88` : 'none',
                 transition: 'none',
               }}
